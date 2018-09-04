@@ -45,4 +45,4 @@ Current Technical Projects are listed below.
 
 # Join the conversation
 
-You can follow the TAC discussions by signing up for the [TAC email list](https://lists.aswf.io/g/tac).
+You can follow the TAC discussions by signing up for the [TAC email list](https://lists.aswf.io/g/tac). You can also review [past meeting notes](meetings).
