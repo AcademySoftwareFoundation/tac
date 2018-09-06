@@ -41,7 +41,7 @@ To be advance to an Adopted stage, a project must meet the Incubation stage requ
 * Demonstrate a substantial ongoing flow of commits and merged contributions*.
 * Document current project owners and current and emeritus committers in a COMMITTER file or similarly visible system.  A copy of the project’s charter (or other authorized governance document) will be included or linked to in visible location.
 * Have a technical lead appointed for representation of the project to the TAC.
-* A have completed and presented to the TAC an initial license scan of the project’s codebase.
+* Have a completed and presented to the TAC an initial license scan of the project’s codebase.
 * Obtain an affirmative vote of both the TAC and the Governing Board.
 
 *Since these metrics can vary significantly depending on the type, scope and size of a project, the TAC has final judgment over the level of activity that is adequate to meet these criteria.
