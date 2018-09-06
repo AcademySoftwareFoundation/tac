@@ -39,6 +39,8 @@ Current Technical Projects are listed below.
 
 ## Incubation
 
+- [OpenVDB](https://github.com/AcademySoftwareFoundation/openvdb)
+
 ## Active
 
 ## Archived
