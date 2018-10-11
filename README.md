@@ -28,7 +28,7 @@ Current TAC Members are:
 | Matt Kuhlenschmidt | Lead Tools Programmer | Epic Games, Inc. |
 | Brian Cipriano | Software Engineer | Google |
 | Jim Jeffers | Sr. Principal Engineer, Sr. Director, Visualization Solutions in DCG Digital Transformation | Intel Corporation |
-| Steve May | CTO at Pixar Animation Studios | The Walt Disney Studios |
+| Cory Omand | Supervising Lead Software Engineer | The Walt Disney Studios |
 | Kimball Thurston | Senior Imaging Researcher | Weta Digital Limited |
 
 # Current Technical Projects
