@@ -33,7 +33,7 @@ Current TAC Members are:
 
 # Current Technical Projects
 
-Technical Projects are approved by TAC Members per the AWSF Project Lifecycle guidelines. You can submit your project for inclusion as an AWSF Technical Project by completing the Project Contribution Proposal Template and emailing it to tac@lists.awsf.io.
+Technical Projects are approved by TAC Members per the [AWSF Project Lifecycle guidelines](https://github.com/AcademySoftwareFoundation/tac/blob/master/process/lifecycle.md). You can submit your project for inclusion as an AWSF Technical Project by completing the [Project Contribution Proposal Template](https://github.com/AcademySoftwareFoundation/tac/blob/master/process/proposal_template.md) and emailing it to tac@lists.awsf.io.
 
 Current Technical Projects are listed below.
 
