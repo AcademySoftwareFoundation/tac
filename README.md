@@ -29,7 +29,7 @@ Current TAC Members are:
 | Brian Cipriano | Software Engineer | Google |
 | Jim Jeffers | Sr. Principal Engineer, Sr. Director, Visualization Solutions in DCG Digital Transformation | Intel Corporation |
 | Larry Gritz | Software Engineering Architect | Sony Pictures Imageworks |
-| JF Panisset | Industry representative | VES Technology Committee |
+| JF Panisset | Industry Representative | VES Technology Committee |
 | Cory Omand | Supervising Lead Software Engineer | The Walt Disney Studios |
 | Kimball Thurston | Senior Imaging Researcher | Weta Digital Limited |
 | Ken Museth - OpenVDB Representative | Head of Simulation R & D | Weta Digital Limited |
