@@ -10,7 +10,7 @@ Within open source there are multiple approaches to contribution and licensing, 
 
 Generally net new open source projects at The Linux Foundation leverage the [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0) for their codebase. This license is widely used and understood by both developers and organizations alike, providing flexibility for downstream usage and patent protection for those contributing code.
 
-ASWF recommends the use of [SPDX short-form license identifiers](https://spdx.org/ids) in source code files, which vastly reduces errors in copy and pasting license text and enables the headers to be machine readable.
+ASWF recommends the use of [SPDX short-form license identifiers](https://spdx.org/ids) in source code files, which vastly reduces errors in copy and pasting license text and enables the headers to be machine readable. Example of the use of SPDX short-form license identifiers can be found at https://spdx.org/ids.
 
 ### Copyright Notice Format
 
@@ -26,9 +26,15 @@ Ensuring a clean code pedigree and lineage is critical to downstream adoption of
 
 ASWF requires the use of the [Developer’s Certificate of Origin 1.1 (DCO)](https://developercertificate.org/), which is the same mechanism that the [Linux® Kernel](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/process/submitting-patches.rst#n416) and many other communities use to manage code contributions. The DCO is considered one of the simplest tools for sign offs from contributors as the representations are meant to be easy to read and indicating signoff is done as a part of the commit message.
 
+Here is an example Signed-off-by line, which indicates that the submitter accepts the DCO:
+
+<code>Signed-off-by: John Doe <john.doe@hisdomain.com></code>
+
+You can include this automatically when you commit a change to your local git repository using <code>git commit -s</code>. You might also want to leverage this [command line tool](https://github.com/coderanger/dco) for automatically adding the signoff message on commits.
+
 ### Contributor License Agreement (CLA)
 
-Some projects might either have used a Contributor License Agreement (CLA) in the past or have considered using it. The use of a CLA is not required for open source projects and many of the use cases for CLAs are handled through the lighter weight DCO or by having an independent entity in place like the ASWF makes available.
+Some projects might either have used a Contributor License Agreement (CLA) in the past ( either in the form of a Corporate Contributor License Agreement (CCLA) or Individual Contributior License Agreement (ICLA) ) or have considered using it. The use of a CLA is not required for open source projects and many of the use cases for CLAs are handled through the lighter weight DCO or by having an independent entity in place like the ASWF makes available.
 
 If your project does have this requirement, ASWF recommends reaching out to The Linux Foundation in advance to discuss before proposing your project to the community.  Where a CLA is required, the ASWF recommends usage of the [Linux Foundation minimal CCLA template](ccla_template.md).
 
