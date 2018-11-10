@@ -10,7 +10,11 @@ Within open source there are multiple approaches to contribution and licensing, 
 
 Generally net new open source projects at The Linux Foundation leverage the [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0) for their codebase. This license is widely used and understood by both developers and organizations alike, providing flexibility for downstream usage and patent protection for those contributing code.
 
-ASWF recommends the use of [SPDX short-form license identifiers](https://spdx.org/ids) in source code files, which vastly reduces errors in copy and pasting license text and enables the headers to be machine readable. Example of the use of SPDX short-form license identifiers can be found at https://spdx.org/ids.
+### Code License identificiation
+
+Each repository must contain a license file. Include the plain-text version of the license as a LICENSE file in the top-level directory of the repostiory.
+
+All source files need to include a header to clearly show the license. ASWF recommends the use of [SPDX short-form license identifiers](https://spdx.org/ids) in source code files, which vastly reduces errors in copy and pasting license text and enables the headers to be machine readable. Example of the use of SPDX short-form license identifiers can be found at https://spdx.org/ids.
 
 ### Copyright Notice Format
 
@@ -19,6 +23,13 @@ We have been recommending that contributors to a new project establish a common 
 Copyright Contributors to the __________ Project.
 
 For clarity, we would not recommend removing a third party’s license or copyright notice in any circumstance. If a third party dependency is added to a repository, its license and copyright notices should be preserved and should not be modified or removed.
+
+### Example of the SPDX short-form license identifiers and copyright notice in a source filed
+
+```
+# SPDX-License-Identifier: Apache-2.0
+# Copyright Contributors to the BananaBoat Project.
+```
 
 ## Contribution sign off
 
