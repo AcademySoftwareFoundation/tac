@@ -32,7 +32,7 @@ Current TAC Members are:
 | Jean-Francois Panisset | Industry Representative | VES Technology Committee |
 | Cory Omand | Supervising Lead Software Engineer | The Walt Disney Studios |
 | Kimball Thurston | Senior Imaging Researcher | Weta Digital Limited |
-| Ken Museth - OpenVDB Representative | Head of Simulation R & D | Weta Digital Limited |
+| Ken Museth | OpenVDB Representative | |
 
 # Current Technical Projects
 
