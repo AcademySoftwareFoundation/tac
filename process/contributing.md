@@ -26,9 +26,11 @@ For clarity, we would not recommend removing a third party’s license or copyri
 
 ### Example of the SPDX short-form license identifiers and copyright notice in a source filed
 
+Assumes Apache License, Version 2.0 and Foo project name.
+
 ```
 # SPDX-License-Identifier: Apache-2.0
-# Copyright Contributors to the BananaBoat Project.
+# Copyright Contributors to the Foo Project.
 ```
 
 ## Contribution sign off
