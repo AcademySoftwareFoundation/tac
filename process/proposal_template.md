@@ -18,7 +18,7 @@ Please answer each of the below questions to the best of your ability and submit
 
 
 
-* What is the project’s license for code contributions?
+* What is the project’s license for code contributions and methodology for code contributions. ASWF maintains [recommendations](contributing.md) for contribution and licensing for hosted projects.
 
 
 
