@@ -48,6 +48,16 @@ Current Technical Projects are listed below.
 
 ## Archived
 
+# Current Working Groups
+
+Working groups may be formed by the TAC to focus on specific areas of technical interest or need within the ASWF.  They report to the TAC which remains responsible for any formal decisions or voting matters.
+
+## Active
+
+- [CI Working Group](meetings/CI-workinggroup)
+
+## Archived
+
 # Join the conversation
 
 You can follow the TAC discussions by signing up for the [TAC email list](https://lists.aswf.io/g/tac). You can also review [past meeting notes](meetings).
