@@ -9,10 +9,10 @@ The role of the Technical Advisory Committee (TAC) of the Academy Software Found
 
 # TAC Members
 
-All members of the broad AWSF community are welcome to participate in TAC activities, such as meetings or online discussion. For voting matters such as project inclusion or graduation, TAC members are composed of:
+All members of the broad ASWF community are welcome to participate in TAC activities, such as meetings or online discussion. For voting matters such as project inclusion or graduation, TAC members are composed of:
 
 * One representative appointed by each Premier Member;
-* One representative appointed by the technical oversight body(e.g., a technical steering committee) of each TAC Project; and
+* One representative appointed by the technical oversight body (e.g., a technical steering committee) of each TAC Project; and
 * Up to three experts from the broader motion picture industry (who serve for one-year terms)
 
 Current TAC Members are:
@@ -36,7 +36,7 @@ Current TAC Members are:
 
 # Current Technical Projects
 
-Technical Projects are approved by TAC Members per the [AWSF Project Lifecycle guidelines](https://github.com/AcademySoftwareFoundation/tac/blob/master/process/lifecycle.md). You can submit your project for inclusion as an AWSF Technical Project by completing the [Project Contribution Proposal Template](https://github.com/AcademySoftwareFoundation/tac/blob/master/process/proposal_template.md) and emailing it to tac@lists.awsf.io.
+Technical Projects are approved by TAC Members per the [ASWF Project Lifecycle guidelines](https://github.com/AcademySoftwareFoundation/tac/blob/master/process/lifecycle.md). You can submit your project for inclusion as an ASWF Technical Project by completing the [Project Contribution Proposal Template](https://github.com/AcademySoftwareFoundation/tac/blob/master/process/proposal_template.md) and emailing it to tac@lists.awsf.io.
 
 Current Technical Projects are listed below.
 
