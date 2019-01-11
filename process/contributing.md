@@ -4,7 +4,7 @@
 
 This document is intended to outline the recommended licensing and contribution standards for any project intended for being hosted by the ASWF.
 
-Within open source there are multiple approaches to contribution and licensing, and ASWF recognizes that there is no single strategy that fits all project communities and consumers. This document is not intended to provide an endorsement to any particular license or contribution strategy, but instead to provide guidance on best practices based on experiences with other projects ( both ASWF hosted and others within the industry ). Please consult your legal counsel for specific guidance for your situation.
+Within open source there are multiple approaches to contribution and licensing, and ASWF recognizes that there is no single strategy that fits all project communities and consumers. This document is not intended to provide an endorsement to any particular license or contribution strategy, but instead to provide guidance on best practices based on experiences with other projects (both ASWF hosted and others within the industry). Please consult your legal counsel for specific guidance for your situation.
 
 ## License
 
@@ -24,7 +24,7 @@ Copyright Contributors to the __________ Project.
 
 For clarity, we would not recommend removing a third party’s license or copyright notice in any circumstance. If a third party dependency is added to a repository, its license and copyright notices should be preserved and should not be modified or removed.
 
-### Example of the SPDX short-form license identifiers and copyright notice in a source filed
+### Example of the SPDX short-form license identifiers and copyright notice in a source file
 
 Assumes Apache License, Version 2.0 and Foo project name.
 
@@ -47,7 +47,7 @@ You can include this automatically when you commit a change to your local git re
 
 ### Contributor License Agreement (CLA)
 
-Some projects might either have used a Contributor License Agreement (CLA) in the past ( either in the form of a Corporate Contributor License Agreement (CCLA) or Individual Contributior License Agreement (ICLA) ) or have considered using it. The use of a CLA is not required for open source projects and many of the use cases for CLAs are handled through the lighter weight DCO or by having an independent entity in place like the ASWF makes available.
+Some projects might either have used a Contributor License Agreement (CLA) in the past (either in the form of a Corporate Contributor License Agreement (CCLA) or Individual Contributior License Agreement (ICLA)) or have considered using it. The use of a CLA is not required for open source projects and many of the use cases for CLAs are handled through the lighter weight DCO or by having an independent entity in place like the ASWF makes available.
 
 If your project does have this requirement, ASWF recommends reaching out to The Linux Foundation in advance to discuss before proposing your project to the community.  Where a CLA is required, the ASWF recommends usage of the [Linux Foundation minimal CCLA template](ccla_template.md).
 
@@ -69,8 +69,8 @@ Q: Can umbrella CLAs be established where contributors and their organizations g
 
 A: The ASWF TAC sees value in lowering the friction to contribution, and is investigating this as an option as the number of hosted projects grows. In the meantime, projects aligning around the [Linux Foundation minimal CCLA template](ccla_template.md) will ensure that the legal review for signing a CCLA is minimal.
 
-Q: When a project uses a CLA with the [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0), it is common for the [Apache CCLA](https://www.apache.org/licenses/cla-corporate.txt) to be employed?  Should ASWF projects that require a CLA and use the Apache License, Version 2.0 employ the Apache CLA or the LF minimal CLA?
+Q: When a project uses a CLA with the [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0), is it common for the [Apache CCLA](https://www.apache.org/licenses/cla-corporate.txt) to be employed?  Should ASWF projects that require a CLA and use the Apache License, Version 2.0 employ the Apache CLA or the LF minimal CLA?
 
-A: There is no requirement for a project to adopt an Apache CCLA with code licensed under the Apache License, Version 2.0. Many open source projects leverage the Apache License, Version 2.0 without using the Apache CCLA or sometimes without a CLA in general ( in many cases use of the [DCO](https://developercertificate.org/) alone is sufficent for project communities ).
+A: There is no requirement for a project to adopt an Apache CCLA with code licensed under the Apache License, Version 2.0. Many open source projects leverage the Apache License, Version 2.0 without using the Apache CCLA or sometimes without a CLA in general (in many cases use of the [DCO](https://developercertificate.org/) alone is sufficent for project communities).
 
 The ASWF community is aiming to align around the [Linux Foundation minimal CCLA template](ccla_template.md) in cases where use of a CLA is required.
