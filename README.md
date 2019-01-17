@@ -43,6 +43,7 @@ Current Technical Projects are listed below.
 ## Incubation
 
 - [OpenVDB](https://github.com/AcademySoftwareFoundation/openvdb)
+- [OpenColorIO](http://opencolorio.org/)
 
 ## Active
 
