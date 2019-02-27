@@ -45,6 +45,19 @@ Here is an example Signed-off-by line, which indicates that the submitter accept
 
 You can include this automatically when you commit a change to your local git repository using <code>git commit -s</code>. You might also want to leverage this [command line tool](https://github.com/coderanger/dco) for automatically adding the signoff message on commits.
 
+### Signoff for commits where the DCO signoff was missed
+
+When bringing in a code repository for the first time, or commits done before the DCO checks are enabled, there would be a series of commits that don't include the sign-off statement. You can retroactively signoff commits you've made by make a commit with your DCO signoff that contains a new text file ( suggested name is past_commits.txt ) with the following contents:
+
+````
+The following commits were made pursuant to the Developer Certificate of Origin, even though a Signed-off-by: was not included in the commit message.
+
+<COMMIT HASH> <COMMIT MSG>
+...
+````
+
+Each user who has made the past commits should have thier own <code>Signed-off-by:</code> line in the commit message.
+
 ### Contributor License Agreement (CLA)
 
 Some projects might either have used a Contributor License Agreement (CLA) in the past (either in the form of a Corporate Contributor License Agreement (CCLA) or Individual Contributior License Agreement (ICLA)) or have considered using it. The use of a CLA is not required for open source projects and many of the use cases for CLAs are handled through the lighter weight DCO or by having an independent entity in place like the ASWF makes available.
