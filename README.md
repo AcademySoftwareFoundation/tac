@@ -33,6 +33,7 @@ Current TAC Members are:
 | Cory Omand | Supervising Lead Software Engineer | The Walt Disney Studios |
 | Kimball Thurston | Senior Imaging Researcher | Weta Digital Limited |
 | Ken Museth | OpenVDB Representative | |
+| Michael Dolan | OpenColorIO Representative | |
 
 # Current Technical Projects
 
@@ -42,7 +43,7 @@ Current Technical Projects are listed below.
 
 ## Incubation
 
-- [OpenVDB](https://github.com/AcademySoftwareFoundation/openvdb)
+- [OpenVDB](https://openvdb.org)
 - [OpenColorIO](http://opencolorio.org/)
 
 ## Active
