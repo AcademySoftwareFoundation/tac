@@ -28,6 +28,7 @@ Current TAC Members are:
 | Matt Kuhlenschmidt | Lead Tools Programmer | Epic Games, Inc. |
 | Brian Cipriano | Software Engineer | Google |
 | Jim Jeffers | Sr. Principal Engineer, Sr. Director, Visualization Solutions in DCG Digital Transformation | Intel Corporation |
+| Eric Enderton | Director of Film Rendering Technology | NVIDIA |
 | Larry Gritz | Software Engineering Architect | Sony Pictures Imageworks |
 | Jean-Francois Panisset | Industry Representative | VES Technology Committee |
 | Cory Omand | Supervising Lead Software Engineer | The Walt Disney Studios |
