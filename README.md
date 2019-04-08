@@ -46,6 +46,7 @@ Current Technical Projects are listed below.
 
 - [OpenVDB](https://openvdb.org)
 - [OpenColorIO](http://opencolorio.org/)
+- [OpenCue](https://github.com/imageworks/OpenCue)
 
 ## Active
 
