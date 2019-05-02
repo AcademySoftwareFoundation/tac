@@ -24,7 +24,7 @@ To be accepted at the Incubation stage, a project must:
 * Submit a completed [Project Contribution Proposal Template](proposal_template.md) to the TAC, or the TAC’s designated recipient for contribution proposals.
 * Provide such additional information as the TAC may reasonably request.
 * Be available to present to the TAC with respect to the project’s proposal and inclusion in ASWF. Project teams should be prepared to present a detailed (20-30 minutes in length) overview on the project in addition to speaking to the information contained in the project contribution proposal.
-* Be deemed by the TAC to add potential or value to the mission of ASWF.
+* Be deemed by the TAC to add potential value or value to the mission of ASWF.
 * Have a technical charter that provides for inbound and outbound licensing of code under an OSI-approved license approved by the Governing Board of ASWF for projects. The ASWF maintains a [template](charter_template.md) for projects to use.
 * Agree to transfer any relevant trademarks to an LF entity to hold for the project. In the case of projects with established trademarks where a trademark transfer is commercially difficult, we generally recommend the project use a new name upon incubation.
 * Obtain an affirmative vote of the TAC.
