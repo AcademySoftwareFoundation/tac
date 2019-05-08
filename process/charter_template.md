@@ -20,7 +20,7 @@ This charter (the &quot;Charter&quot;) sets forth the responsibilities and proce
   * **g.** Responsibilities: The TSC will be responsible for all aspects of oversight relating to the Project, which may include:
     * **i.** coordinating the technical direction of the Project;
     * **ii.** approving project or system proposals (including, but not limited to, incubation, deprecation, and changes to a sub-project&#39;s scope);
-    * **iii.** rganizing sub-projects and removing projects;
+    * **iii.** organizing sub-projects and removing projects;
     * **ii.** creating sub-committees or working groups to focus on cross-project technical issues and requirements;
     * **v.** appointing representatives to work with other open source or open standards communities;
     * **vi.** establishing community norms, workflows, issuing releases, and security issue reporting policies;
