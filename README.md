@@ -35,6 +35,8 @@ Current TAC Members are:
 | Kimball Thurston | Senior Imaging Researcher | Weta Digital Limited |
 | Ken Museth | OpenVDB Representative | |
 | Michael Dolan | OpenColorIO Representative | |
+| Cary Phillips | OpenEXR Representative | |
+| Brian Cipriano | OpenVDB Representative | *(non-voting due Brian also being the Google voting rep)* |
 
 # Current Technical Projects
 
