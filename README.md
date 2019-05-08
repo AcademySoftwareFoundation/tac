@@ -71,3 +71,11 @@ Working groups may be formed by the TAC to focus on specific areas of technical 
 # Join the conversation
 
 You can follow the TAC discussions by signing up for the [TAC email list](https://lists.aswf.io/g/tac). You can also review [past meeting notes](meetings).
+
+## Participate in ASWF projects
+
+Each of the ASWF projects are open to participation by anyone subject to the governance each project has adopted.
+
+If you are looking for a way to contribute to a project, many ASWF projects maintain a list of "good first issues".
+
+- [OpenColorIO good first issue](https://github.com/imageworks/OpenColorIO/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
