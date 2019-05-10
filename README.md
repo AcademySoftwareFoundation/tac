@@ -35,6 +35,8 @@ Current TAC Members are:
 | Kimball Thurston | Senior Imaging Researcher | Weta Digital Limited |
 | Ken Museth | OpenVDB Representative | |
 | Michael Dolan | OpenColorIO Representative | |
+| Cary Phillips | OpenEXR Representative | |
+| Brian Cipriano | OpenCue Representative | *(non-voting due Brian also being the Google voting rep)* |
 
 # Current Technical Projects
 
@@ -44,10 +46,13 @@ Current Technical Projects are listed below.
 
 ## Incubation
 
-- [OpenVDB](https://openvdb.org)
-- [OpenColorIO](http://opencolorio.org/)
+- [OpenVDB](https://openvdb.org) 
+  - [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2774/badge)](https://bestpractices.coreinfrastructure.org/projects/2774)
+- [OpenColorIO](http://opencolorio.org/) 
+  - [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2612/badge)](https://bestpractices.coreinfrastructure.org/projects/2612)
 - [OpenCue](https://github.com/imageworks/OpenCue)
 - [OpenEXR](http://www.openexr.com/)
+  - [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2799/badge)](https://bestpractices.coreinfrastructure.org/projects/2799)
 
 ## Active
 
