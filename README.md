@@ -36,7 +36,7 @@ Current TAC Members are:
 | Ken Museth | OpenVDB Representative | |
 | Michael Dolan | OpenColorIO Representative | |
 | Cary Phillips | OpenEXR Representative | |
-| Brian Cipriano | OpenVDB Representative | *(non-voting due Brian also being the Google voting rep)* |
+| Brian Cipriano | OpenCue Representative | *(non-voting due Brian also being the Google voting rep)* |
 
 # Current Technical Projects
 
