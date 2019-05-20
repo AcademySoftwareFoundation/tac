@@ -1,7 +1,27 @@
 Individual Contributor License Agreement ("Agreement")
 
-Thank you for your interest in the [COMMON NAME] Project (hereinafter “Project”) which has selected the [PROJECT LICENSE] license for its inbound contributions. The terms You, Contributor and Contribution are used here as defined in the [PROJECT LICENSE] license.
+Thank you for your interest in the [COMMON NAME] (hereinafter "Project"). In order to clarify the intellectual
+property licenses granted with Contributions from any corporate entity to the Project, [SERIES ENTITY] is required 
+to have an Individual Contributor License Agreement (ICLA) on file that has been signed by each contributing
+individual. (For legal entities, please use the Corporate Contributor License Agreement (CCLA).)
 
-The Project is required to have a Contributor License Agreement (CLA) on file that binds each Contributor.
+Each contributing individual ("You") must accept and agree that, for any Contribution (as defined below), 
+You are bound by the licenses granted and representations made herein.
 
-You agree that all Contributions to the Project made by You shall be submitted pursuant to the Developer Certificate of Origin Version (DCO, current version available at https://developercertificate.org) accompanying the contribution and licensed to the project under the [PROJECT LICENSE], and that You agree to, and shall be bound by, the terms of the [PROJECT LICENSE].
+"Contribution" means any code, documentation or other original work of authorship that is submitted to 
+[SERIES ENTITY] for inclusion in the Project by You or by another person authorized to make the submission
+on Your behalf.
+
+You accept and agree that all of Your present and future Contributions to the Project shall be:
+
+Submitted under a Developer's Certificate of Origin v. 1.1 (DCO); and Licensed under the [PROJECT LICENSE].
+
+
+
+Signature: __________________________________________
+
+
+Name: _______________________________________________
+
+
+Date: _______________________________________________
