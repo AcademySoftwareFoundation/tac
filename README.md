@@ -51,6 +51,7 @@ Current Technical Projects are listed below.
 - [OpenColorIO](http://opencolorio.org/) 
   - [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2612/badge)](https://bestpractices.coreinfrastructure.org/projects/2612)
 - [OpenCue](https://github.com/imageworks/OpenCue)
+  - [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2837/badge)](https://bestpractices.coreinfrastructure.org/projects/2837)
 - [OpenEXR](http://www.openexr.com/)
   - [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2799/badge)](https://bestpractices.coreinfrastructure.org/projects/2799)
 
