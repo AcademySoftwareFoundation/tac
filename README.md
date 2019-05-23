@@ -26,7 +26,7 @@ Current TAC Members are:
 | Henry Vera | Head of Production Technology | Double Negative |
 | Bill Ballew | VP Research and Development | DreamWorks Animation |
 | Matt Kuhlenschmidt | Lead Tools Programmer | Epic Games, Inc. |
-| Brian Cipriano | Software Engineer | Google |
+| Brian Cipriano | Senior Software Engineer | Google |
 | Jim Jeffers | Sr. Principal Engineer, Sr. Director, Visualization Solutions in DCG Digital Transformation | Intel Corporation |
 | Eric Enderton | Director of Film Rendering Technology | NVIDIA |
 | Larry Gritz | Software Engineering Architect | Sony Pictures Imageworks |
