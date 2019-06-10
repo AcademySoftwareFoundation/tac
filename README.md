@@ -26,7 +26,7 @@ Current TAC Members are:
 | Henry Vera | Head of Production Technology | Double Negative |
 | Bill Ballew | VP Research and Development | DreamWorks Animation |
 | Matt Kuhlenschmidt | Lead Tools Programmer | Epic Games, Inc. |
-| Brian Cipriano | Software Engineer | Google |
+| Brian Cipriano | Senior Software Engineer | Google |
 | Jim Jeffers | Sr. Principal Engineer, Sr. Director, Visualization Solutions in DCG Digital Transformation | Intel Corporation |
 | Eric Enderton | Director of Film Rendering Technology | NVIDIA |
 | Larry Gritz | Software Engineering Architect | Sony Pictures Imageworks |
@@ -35,6 +35,8 @@ Current TAC Members are:
 | Kimball Thurston | Senior Imaging Researcher | Weta Digital Limited |
 | Ken Museth | OpenVDB Representative | |
 | Michael Dolan | OpenColorIO Representative | |
+| Cary Phillips | OpenEXR Representative | |
+| Brian Cipriano | OpenCue Representative | *(non-voting due Brian also being the Google voting rep)* |
 
 # Current Technical Projects
 
@@ -44,10 +46,14 @@ Current Technical Projects are listed below.
 
 ## Incubation
 
-- [OpenVDB](https://openvdb.org)
-- [OpenColorIO](http://opencolorio.org/)
+- [OpenVDB](https://openvdb.org) 
+  - [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2774/badge)](https://bestpractices.coreinfrastructure.org/projects/2774)
+- [OpenColorIO](http://opencolorio.org/) 
+  - [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2612/badge)](https://bestpractices.coreinfrastructure.org/projects/2612)
 - [OpenCue](https://github.com/imageworks/OpenCue)
+  - [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2837/badge)](https://bestpractices.coreinfrastructure.org/projects/2837)
 - [OpenEXR](http://www.openexr.com/)
+  - [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2799/badge)](https://bestpractices.coreinfrastructure.org/projects/2799)
 
 ## Active
 
@@ -66,3 +72,11 @@ Working groups may be formed by the TAC to focus on specific areas of technical 
 # Join the conversation
 
 You can follow the TAC discussions by signing up for the [TAC email list](https://lists.aswf.io/g/tac). You can also review [past meeting notes](meetings).
+
+## Participate in ASWF projects
+
+Each of the ASWF projects are open to participation by anyone subject to the governance each project has adopted.
+
+If you are looking for a way to contribute to a project, many ASWF projects maintain a list of "good first issues".
+
+- [OpenColorIO good first issue](https://github.com/imageworks/OpenColorIO/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
