@@ -10,7 +10,7 @@ Please answer each of the below questions to the best of your ability and submit
 
 
 
-* Project description (please describe the purpose and function of the project, its origin and its significance to the ecyosystem):
+* Project description (please describe the purpose and function of the project, its origin and its significance to the ecosystem):
 
 
 
