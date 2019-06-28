@@ -1,6 +1,6 @@
 # Project Contribution Proposal Template
 
-Please answer each of the below questions to the best of your ability and submit to tac@lists.aswf.io for consideration.
+Please answer each of the questions below to the best of your ability and submit to tac@lists.aswf.io for consideration.
 
 * Name of the project (existing or proposed):
 
@@ -22,7 +22,7 @@ Please answer each of the below questions to the best of your ability and submit
 
 
 
-* What tool or platform is utlized for source control (GitHub, etc.) and what is the location (e.g. URL)?
+* What tool or platform is utilized for source control (GitHub, etc.) and what is the location (e.g. URL)?
 
 
 
@@ -46,7 +46,7 @@ Please answer each of the below questions to the best of your ability and submit
 
 
 
-* What is the projects website? Is there a wiki?
+* What is the project's website? Is there a wiki?
 
 
 
