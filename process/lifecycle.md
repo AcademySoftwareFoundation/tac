@@ -15,7 +15,7 @@ This document provides for three lifecycle stages for contributed projects:
 * Adopted; and
 * Archived
 
-All projects must meet the Incubation stage requirements and following a successful Graduation Review, progress to Adopted. It is possible that some projects may be approved as Incubation and pass a Graduation Review at the same time to advance directly to Adopted. A project that does not pass a Graduation Review remains at the Incubation stage unless the TAC votes to transition the project to Archive status.
+All projects must meet the Incubation stage requirements and following a successful Graduation Review, progress to Adopted. It is possible that some projects may be approved as Incubation and pass a Graduation Review at the same time to advance directly to Adopted. A project that does not pass a Graduation Review remains at the Incubation stage unless the TAC votes to transition the project to Archive status.  Alternatively, the TAC or the project TSC may vote to exit the lifecycle under specific terms for transfer of trademarks and other key assets.
 
 ## Incubation Stage Requirements
 
@@ -24,7 +24,7 @@ To be accepted at the Incubation stage, a project must:
 * Submit a completed [Project Contribution Proposal Template](proposal_template.md) to the TAC, or the TAC’s designated recipient for contribution proposals.
 * Provide such additional information as the TAC may reasonably request.
 * Be available to present to the TAC with respect to the project’s proposal and inclusion in ASWF. Project teams should be prepared to present a detailed (20-30 minutes in length) overview on the project in addition to speaking to the information contained in the project contribution proposal.
-* Be deemed by the TAC to add value to the mission of ASWF.
+* Be deemed by the TAC to add potential value or value to the mission of ASWF.
 * Have a technical charter that provides for inbound and outbound licensing of code under an OSI-approved license approved by the Governing Board of ASWF for projects. The ASWF maintains a [template](charter_template.md) for projects to use.
 * Agree to transfer any relevant trademarks to an LF entity to hold for the project. In the case of projects with established trademarks where a trademark transfer is commercially difficult, we generally recommend the project use a new name upon incubation.
 * Obtain an affirmative vote of the TAC.
@@ -42,6 +42,7 @@ To be advance to an Adopted stage, a project must meet the Incubation stage requ
 * Document current project owners and current and emeritus committers in a COMMITTER file or similarly visible system.  A copy of the project’s charter (or other authorized governance document) will be included or linked to in visible location.
 * Have a technical lead appointed for representation of the project to the TAC.
 * Have a completed and presented to the TAC an initial license scan of the project’s codebase.
+* Be deemed by the TAC to add value to the mission of ASWF
 * Obtain an affirmative vote of both the TAC and the Governing Board.
 
 *Since these metrics can vary significantly depending on the type, scope and size of a project, the TAC has final judgment over the level of activity that is adequate to meet these criteria.
