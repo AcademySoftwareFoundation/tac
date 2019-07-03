@@ -21,6 +21,15 @@ You accept and agree that all of Your present and future Contributions to the Pr
 
 Submitted under a Developer's Certificate of Origin v. 1.1 (DCO); and Licensed under the [PROJECT LICENSE].
 
+You agree that You shall be bound by the terms of the [PROJECT LICENSE]
+for all contributions made by You and Your employees. Your designated
+employees are those listed by Your CLA Manager(s) on the system of record
+for the Project. You agree to identify Your initial CLA Manager below and
+thereafter maintain current CLA Manager records in the Project’s system of record.
+
+
+Initial CLA Manager (Name and Email): ______________________________________
+
 
 Corporate Signature:
 
