@@ -9,15 +9,16 @@
 [ ] Henry Vera, Double Negative
 [ ] Bill Ballew, DreamWorks Animation
 [ ] Matt Kuhlenschmidt, Epic Games, Inc.
-[ ] Brian Cipriano, Google
+[ ] Brian Cipriano, Google & OpenCue Representative
 [ ] Jim Jeffers, Intel Corporation
 [ ] Larry Gritz, Sony Pictures Imageworks
 [ ] Jean-Francois Panisset, VES Technology Committee
 [ ] Cory Omand, The Walt Disney Studios
 [ ] Kimball Thurston, Weta Digital Limited
+[ ] Eric Enderton, NVIDIA
 [ ] Ken Museth, OpenVDB Representative
 [ ] Michael Dolan, OpenColorIO Representative
-[ ] Eric Enderton, NVIDIA
+[ ] Cary Phillips, OpenEXR Representative
 
 # Agenda
 
