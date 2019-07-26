@@ -52,6 +52,7 @@ Current Technical Projects are listed below.
   - [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2837/badge)](https://bestpractices.coreinfrastructure.org/projects/2837)
 - [OpenEXR](http://www.openexr.com/)
   - [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2799/badge)](https://bestpractices.coreinfrastructure.org/projects/2799)
+- [OpenTimelineIO](http://opentimeline.io/)
 
 ## Active
 
