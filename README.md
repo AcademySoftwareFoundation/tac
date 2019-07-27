@@ -46,16 +46,18 @@ Current Technical Projects are listed below.
 
 ## Incubation
 
-- [OpenVDB](https://openvdb.org) 
-  - [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2774/badge)](https://bestpractices.coreinfrastructure.org/projects/2774)
 - [OpenColorIO](http://opencolorio.org/) 
   - [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2612/badge)](https://bestpractices.coreinfrastructure.org/projects/2612)
 - [OpenCue](https://github.com/imageworks/OpenCue)
   - [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2837/badge)](https://bestpractices.coreinfrastructure.org/projects/2837)
 - [OpenEXR](http://www.openexr.com/)
   - [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2799/badge)](https://bestpractices.coreinfrastructure.org/projects/2799)
+- [OpenTimelineIO](http://opentimeline.io/)
 
 ## Active
+
+- [OpenVDB](https://openvdb.org) 
+  - [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2774/badge)](https://bestpractices.coreinfrastructure.org/projects/2774)
 
 ## Archived
 
