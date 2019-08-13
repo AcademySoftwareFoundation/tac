@@ -21,7 +21,7 @@ Current TAC Members are:
 | -------------- | ----- | ------------ |
 | Daniel Heckenberg - Chairperson | R & D | Animal Logic Pty Ltd |
 | Gordon Bradley | Senior Software Architect | Autodesk |
-| Mark McGuire | Head of Production Technology | Blue Sky Studios, Inc. |
+| Pilar Molina Lopez | Senior Software Engineer | Blue Sky Studios, Inc. |
 | Michael O’Gorman | Distinguished Engineer | Cisco Systems Inc. |
 | Henry Vera | Head of Production Technology | Double Negative |
 | Bill Ballew | VP Research and Development | DreamWorks Animation |
