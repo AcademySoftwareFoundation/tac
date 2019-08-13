@@ -27,7 +27,7 @@ Current TAC Members are:
 | Bill Ballew | VP Research and Development | DreamWorks Animation |
 | Matt Kuhlenschmidt | Lead Tools Programmer | Epic Games, Inc. |
 | Brian Cipriano | Senior Software Engineer | Google |
-| Jim Jeffers | Sr. Principal Engineer, Sr. Director, Visualization Solutions in DCG Digital Transformation | Intel Corporation |
+| Sean C McDuffee | Graphics Software Engineer | Intel Corporation |
 | Eric Enderton | Director of Film Rendering Technology | NVIDIA |
 | Larry Gritz | Software Engineering Architect | Sony Pictures Imageworks |
 | Jean-Francois Panisset | Industry Representative | VES Technology Committee |
