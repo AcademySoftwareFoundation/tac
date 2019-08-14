@@ -21,13 +21,13 @@ Current TAC Members are:
 | -------------- | ----- | ------------ |
 | Daniel Heckenberg - Chairperson | R & D | Animal Logic Pty Ltd |
 | Gordon Bradley | Senior Software Architect | Autodesk |
-| Mark McGuire | Head of Production Technology | Blue Sky Studios, Inc. |
+| Pilar Molina Lopez | Senior Software Engineer | Blue Sky Studios, Inc. |
 | Michael O’Gorman | Distinguished Engineer | Cisco Systems Inc. |
 | Henry Vera | Head of Production Technology | Double Negative |
 | Bill Ballew | VP Research and Development | DreamWorks Animation |
 | Matt Kuhlenschmidt | Lead Tools Programmer | Epic Games, Inc. |
 | Brian Cipriano | Senior Software Engineer | Google |
-| Jim Jeffers | Sr. Principal Engineer, Sr. Director, Visualization Solutions in DCG Digital Transformation | Intel Corporation |
+| Sean C McDuffee | Graphics Software Engineer | Intel Corporation |
 | Eric Enderton | Director of Film Rendering Technology | NVIDIA |
 | Larry Gritz | Software Engineering Architect | Sony Pictures Imageworks |
 | Jean-Francois Panisset | Industry Representative | VES Technology Committee |
