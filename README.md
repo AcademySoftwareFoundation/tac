@@ -20,6 +20,7 @@ Current TAC Members are:
 | Representative | Title | Organization |
 | -------------- | ----- | ------------ |
 | Daniel Heckenberg - Chairperson | R & D | Animal Logic Pty Ltd |
+| Sean Looper | Senior Solutions Architect | Amazon Web Services |
 | Gordon Bradley | Senior Software Architect | Autodesk |
 | Pilar Molina Lopez | Senior Software Engineer | Blue Sky Studios, Inc. |
 | Michael O’Gorman | Distinguished Engineer | Cisco Systems Inc. |
