@@ -21,6 +21,7 @@ Current TAC Members are:
 | -------------- | ----- | ------------ |
 | Daniel Heckenberg - Chairperson | R & D | Animal Logic Pty Ltd |
 | Sean Looper | Senior Solutions Architect | Amazon Web Services |
+| Dr. Michael B. Johnson | Pro Workflow Architect, Systems Architecture & Design | Apple |
 | Gordon Bradley | Senior Software Architect | Autodesk |
 | Pilar Molina Lopez | Senior Software Engineer | Blue Sky Studios, Inc. |
 | Michael O’Gorman | Distinguished Engineer | Cisco Systems Inc. |
@@ -29,6 +30,8 @@ Current TAC Members are:
 | Matt Kuhlenschmidt | Lead Tools Programmer | Epic Games, Inc. |
 | Brian Cipriano | Senior Software Engineer | Google |
 | Sean C McDuffee | Graphics Software Engineer | Intel Corporation |
+| Gerald Tiu | Director, Azure M&E | Microsoft |
+| Michael Min | Manager, VFX Workflows, Creative Technologies | Netflix
 | Eric Enderton | Director of Film Rendering Technology | NVIDIA |
 | Larry Gritz | Software Engineering Architect | Sony Pictures Imageworks |
 | Jean-Francois Panisset | Industry Representative | VES Technology Committee |
@@ -38,6 +41,7 @@ Current TAC Members are:
 | Michael Dolan | OpenColorIO Representative | |
 | Cary Phillips | OpenEXR Representative | |
 | Brian Cipriano | OpenCue Representative | *(non-voting due Brian also being the Google voting rep)* |
+| Joshua Minor | OpenTimelineIO Representative | |
 
 # Current Technical Projects
 
@@ -47,16 +51,16 @@ Current Technical Projects are listed below.
 
 ## Incubation
 
-- [OpenColorIO](http://opencolorio.org/) 
-  - [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2612/badge)](https://bestpractices.coreinfrastructure.org/projects/2612)
 - [OpenCue](https://github.com/imageworks/OpenCue)
   - [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2837/badge)](https://bestpractices.coreinfrastructure.org/projects/2837)
 - [OpenEXR](http://www.openexr.com/)
   - [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2799/badge)](https://bestpractices.coreinfrastructure.org/projects/2799)
 - [OpenTimelineIO](http://opentimeline.io/)
 
-## Active
+## Adopted
 
+- [OpenColorIO](http://opencolorio.org/) 
+  - [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2612/badge)](https://bestpractices.coreinfrastructure.org/projects/2612)
 - [OpenVDB](https://openvdb.org) 
   - [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2774/badge)](https://bestpractices.coreinfrastructure.org/projects/2774)
 
