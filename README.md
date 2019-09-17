@@ -49,22 +49,21 @@ Technical Projects are approved by TAC Members per the [ASWF Project Lifecycle g
 
 Current Technical Projects are listed below.
 
-## Incubation
+## Incubation 
 
-- [OpenCue](https://github.com/imageworks/OpenCue)
-  - [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2837/badge)](https://bestpractices.coreinfrastructure.org/projects/2837)
-- [OpenEXR](http://www.openexr.com/)
-  - [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2799/badge)](https://bestpractices.coreinfrastructure.org/projects/2799)
-- [OpenTimelineIO](http://opentimeline.io/)
+|  |  |  |  |
+|--|--|--|--|
+| [OpenCue](https://github.com/imageworks/OpenCue) | [![License](https://img.shields.io/github/license/AcademySoftwareFoundation/OpenCue)](https://github.com/imageworks/OpenCue/LICENSE.md) | [![GitHub Stars](https://img.shields.io/github/stars/AcademySoftwareFoundation/OpenCue?style=plastic)](https://github.com/imageworks/OpenCue) | [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2837/badge)](https://bestpractices.coreinfrastructure.org/projects/2837) |
+| [OpenEXR](http://www.openexr.com/) | [![License](https://img.shields.io/github/license/openexr/openexr)](https://github.com/openexr/openexr/LICENSE.md) | [![GitHub Stars](https://img.shields.io/github/stars/openexr/openexr?style=plastic)](https://github.com/openexr/openexr) | [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2799/badge)](https://bestpractices.coreinfrastructure.org/projects/2799) | 
+| [OpenTimelineIO](http://opentimeline.io/) | [![License](https://img.shields.io/github/license/PixarAnimationStudios/OpenTimelineIO)](https://github.com/PixarAnimationStudios/OpenTimelineIO/LICENSE.md) | [![GitHub Stars](https://img.shields.io/github/stars/PixarAnimationStudios/OpenTimelineIO?style=plastic)](https://github.com/PixarAnimationStudios/OpenTimelineIO) | [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2288/badge)](https://bestpractices.coreinfrastructure.org/projects/2288) | 
 
 ## Adopted
+|  |  |  |  |  |  |
+|--|--|--|--|--|--|
+| [OpenColorIO](http://opencolorio.org/) | [![License](https://img.shields.io/github/license/imageworks/OpenColorIO)](https://github.com/imageworks/OpenColorIO/LICENSE.md) | [![GitHub Stars](https://img.shields.io/github/stars/imageworks/OpenColorIO?style=plastic)](https://github.com/imageworks/OpenColorIO) |  [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2612/badge)](https://bestpractices.coreinfrastructure.org/projects/2612) | [![Build Status](https://dev.azure.com/imageworks/OpenColorIO/_apis/build/status/imageworks.OpenColorIO?branchName=master)](https://dev.azure.com/imageworks/OpenColorIO/_build/latest?definitionId=1&branchName=master) | [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=imageworks_OpenColorIO&metric=alert_status)](https://sonarcloud.io/dashboard?id=imageworks_OpenColorIO)
+| [OpenVDB](https://openvdb.org) | [![License](https://img.shields.io/github/license/AcademySoftwareFoundation/OpenVDB)](https://github.com/AcademySoftwareFoundation/OpenVDB/LICENSE.md) | [![GitHub Stars](https://img.shields.io/github/stars/AcademySoftwareFoundation/OpenVDB?style=plastic)](https://github.com/AcademySoftwareFoundation/OpenVDB) |   [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2774/badge)](https://bestpractices.coreinfrastructure.org/projects/2774)
 
-- [OpenColorIO](http://opencolorio.org/) 
-  - [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2612/badge)](https://bestpractices.coreinfrastructure.org/projects/2612)
-- [OpenVDB](https://openvdb.org) 
-  - [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2774/badge)](https://bestpractices.coreinfrastructure.org/projects/2774)
-
-## Archived
+## Archived 
 
 # Current Working Groups
 
