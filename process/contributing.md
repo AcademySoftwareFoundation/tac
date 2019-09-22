@@ -8,7 +8,7 @@ Within open source there are multiple approaches to contribution and licensing, 
 
 ## License
 
-Generally net new open source projects at The Linux Foundation leverage the [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0) for their codebase and the [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/) for all documentation and non-code assets. These licenses is widely used and understood by both developers and organizations alike, providing flexibility for downstream usage and patent protection for those contributing code.
+Generally net new open source projects at The Linux Foundation leverage the [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0) for their codebase, a [CDLA license](https://cdla.io/) for any data sets, and the [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/) for all documentation and non-code assets. These licenses is widely used and understood by both developers and organizations alike, providing flexibility for downstream usage and patent protection for those contributing code.
 
 ### Code License identificiation
 
@@ -66,9 +66,9 @@ If your project does have this requirement, ASWF recommends reaching out to The 
 
 # Frequently Asked Questions
 
-Q: What if the project I want to propose is not under an Apache 2 license or Creative Commons Attribution 4.0 International License?
+Q: What if the project I want to propose is not under an Apache 2 license, CDLA license or Creative Commons Attribution 4.0 International License?
 
-A: Some projects may be able to relicense to [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0) for their codebase and the [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/) for all documentation and non-code assets. If this can be easily done by one entity with the appropriate rights, this is our preferred approach. Projects with a history of contributions from multiple parties may not be able to easily relicense. Where another OSI-approved license is in place, the project may be proposed under its existing license and may be accepted without license change.  Use of a license not approved by the ASWF does not preclude you from making a proposal but be sure in your project proposal to address the anticipated challenges relicensing the project.
+A: Some projects may be able to relicense to the [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0) for their codebase, a [CDLA license](https://cdla.io/) for any data sets, and the [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/) for all documentation and non-code assets. If this can be easily done by one entity with the appropriate rights, this is our preferred approach. Projects with a history of contributions from multiple parties may not be able to easily relicense. Where another OSI-approved license is in place, the project may be proposed under its existing license and may be accepted without license change.  Use of a license not approved by the ASWF does not preclude you from making a proposal but be sure in your project proposal to address the anticipated challenges relicensing the project.
 
 Q: Does the use of a particular open source license require the use of a CLA?
 
