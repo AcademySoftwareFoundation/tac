@@ -30,7 +30,7 @@ Current TAC Members are:
 | Matt Kuhlenschmidt | Lead Tools Programmer | Epic Games, Inc. |
 | Brian Cipriano | Senior Software Engineer | Google |
 | Sean C McDuffee | Graphics Software Engineer | Intel Corporation |
-| Gerald Tiu | Director, Azure M&E | Microsoft |
+| Dave Fellows | Principal Software Engineering Manager, Azure | Microsoft |
 | Michael Min | Manager, VFX Workflows, Creative Technologies | Netflix
 | Eric Enderton | Director of Film Rendering Technology | NVIDIA |
 | Larry Gritz | Software Engineering Architect | Sony Pictures Imageworks |
