@@ -18,13 +18,16 @@
 [ ] Eric Enderton, NVIDIA
 [ ] Sean Looper, Amazon Web Services
 [ ] Michael Min, Netflix
+[ ] Michael B. Johnson, Apple
+[ ] Dave Fellows, Microsoft
 [ ] Ken Museth, OpenVDB Representative
 [ ] Michael Dolan, OpenColorIO Representative
 [ ] Cary Phillips, OpenEXR Representative
+[ ] Joshua Minor, OpenTimelineIO Representative
 
 # Agenda
 
-- Goals for TAC: Year 1
+- Goals for TAC: Year 2
 
 - Technical Project updates
   - OpenVDB
