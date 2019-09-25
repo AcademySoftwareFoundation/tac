@@ -30,7 +30,7 @@ Current TAC Members are:
 | Matt Kuhlenschmidt | Lead Tools Programmer | Epic Games, Inc. |
 | Brian Cipriano | Senior Software Engineer | Google |
 | Sean C McDuffee | Graphics Software Engineer | Intel Corporation |
-| Gerald Tiu | Director, Azure M&E | Microsoft |
+| Dave Fellows | Principal Software Engineering Manager, Azure | Microsoft |
 | Michael Min | Manager, VFX Workflows, Creative Technologies | Netflix
 | Eric Enderton | Director of Film Rendering Technology | NVIDIA |
 | Larry Gritz | Software Engineering Architect | Sony Pictures Imageworks |
@@ -47,24 +47,25 @@ Current TAC Members are:
 
 Technical Projects are approved by TAC Members per the [ASWF Project Lifecycle guidelines](https://github.com/AcademySoftwareFoundation/tac/blob/master/process/lifecycle.md). You can submit your project for inclusion as an ASWF Technical Project by completing the [Project Contribution Proposal Template](https://github.com/AcademySoftwareFoundation/tac/blob/master/process/proposal_template.md) and emailing it to tac@lists.awsf.io.
 
+Each of the ASWF projects are open to participation by anyone subject to the governance each project has adopted. If you are looking for a way to contribute to a project, many ASWF projects maintain a list of "good first issues" ( linked to below ).
+
 Current Technical Projects are listed below.
 
-## Incubation
+## Incubation 
 
-- [OpenCue](https://github.com/imageworks/OpenCue)
-  - [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2837/badge)](https://bestpractices.coreinfrastructure.org/projects/2837)
-- [OpenEXR](http://www.openexr.com/)
-  - [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2799/badge)](https://bestpractices.coreinfrastructure.org/projects/2799)
-- [OpenTimelineIO](http://opentimeline.io/)
+|  |  |  |
+|--|--|--|
+| [OpenCue](https://github.com/imageworks/OpenCue) [![License](https://img.shields.io/github/license/AcademySoftwareFoundation/OpenCue)](https://github.com/imageworks/OpenCue/LICENSE.md) | [![GitHub Stars](https://img.shields.io/github/stars/AcademySoftwareFoundation/OpenCue)](https://github.com/imageworks/OpenCue) [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2837/badge)](https://bestpractices.coreinfrastructure.org/projects/2837) [![GitHub issues by-label](https://img.shields.io/github/issues/AcademySoftwareFoundation/OpenCue/good%20first%20issue)](https://github.com/AcademySoftwareFoundation/OpenCue/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) |
+| [OpenEXR](http://www.openexr.com/) [![License](https://img.shields.io/github/license/openexr/openexr)](https://github.com/openexr/openexr/LICENSE.md) | [![GitHub Stars](https://img.shields.io/github/stars/openexr/openexr)](https://github.com/openexr/openexr) [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2799/badge)](https://bestpractices.coreinfrastructure.org/projects/2799) [![GitHub issues by-label](https://img.shields.io/github/issues/openexr/openexr/good%20first%20issue)](https://github.com/openexr/openexr/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) | [![Build Status](https://dev.azure.com/openexr/OpenEXR/_apis/build/status/openexr.openexr?branchName=master)](https://dev.azure.com/openexr/OpenEXR/_build/latest?definitionId=1&branchName=master) [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=openexr_openexr&metric=alert_status)](https://sonarcloud.io/dashboard?id=openexr_openexr) |
+| [OpenTimelineIO](http://opentimeline.io/) [![License](https://img.shields.io/github/license/PixarAnimationStudios/OpenTimelineIO)](https://github.com/PixarAnimationStudios/OpenTimelineIO/LICENSE.md) | [![GitHub Stars](https://img.shields.io/github/stars/PixarAnimationStudios/OpenTimelineIO)](https://github.com/PixarAnimationStudios/OpenTimelineIO) [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2288/badge)](https://bestpractices.coreinfrastructure.org/projects/2288) [![GitHub issues by-label](https://img.shields.io/github/issues/PixarAnimationStudios/OpenTimelineIO/good%20first%20issue)](https://github.com/PixarAnimationStudios/OpenTimelineIO/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) | 
 
 ## Adopted
+|  |  |  |
+|--|--|--|
+| [OpenColorIO](http://opencolorio.org/) [![License](https://img.shields.io/github/license/imageworks/OpenColorIO)](https://github.com/imageworks/OpenColorIO/LICENSE.md) | [![GitHub Stars](https://img.shields.io/github/stars/imageworks/OpenColorIO)](https://github.com/imageworks/OpenColorIO) [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2612/badge)](https://bestpractices.coreinfrastructure.org/projects/2612) [![GitHub issues by-label](https://img.shields.io/github/issues/imageworks/OpenColorIO/good%20first%20issue)](https://github.com/imageworks/OpenColorIO/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) | [![Build Status](https://dev.azure.com/imageworks/OpenColorIO/_apis/build/status/imageworks.OpenColorIO?branchName=master)](https://dev.azure.com/imageworks/OpenColorIO/_build/latest?definitionId=1&branchName=master)[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=imageworks_OpenColorIO&metric=alert_status)](https://sonarcloud.io/dashboard?id=imageworks_OpenColorIO) |
+| [OpenVDB](https://openvdb.org) [![License](https://img.shields.io/github/license/AcademySoftwareFoundation/OpenVDB)](https://github.com/AcademySoftwareFoundation/OpenVDB/LICENSE.md) | [![GitHub Stars](https://img.shields.io/github/stars/AcademySoftwareFoundation/OpenVDB)](https://github.com/AcademySoftwareFoundation/OpenVDB) [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2774/badge)](https://bestpractices.coreinfrastructure.org/projects/2774) [![GitHub issues by-label](https://img.shields.io/github/issues/AcademySoftwareFoundation/OpenVDB/good%20first%20issue)](https://github.com/AcademySoftwareFoundation/OpenVDB/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) | [![Azure](https://dev.azure.com/academysoftwarefoundation/Academy%20Software%20Foundation/_apis/build/status/academysoftwarefoundation.openvdb)](https://dev.azure.com/academysoftwarefoundation/Academy%20Software%20Foundation/_build?definitionId=1&_a=summary) |
 
-- [OpenColorIO](http://opencolorio.org/) 
-  - [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2612/badge)](https://bestpractices.coreinfrastructure.org/projects/2612)
-- [OpenVDB](https://openvdb.org) 
-  - [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2774/badge)](https://bestpractices.coreinfrastructure.org/projects/2774)
-
-## Archived
+## Archived 
 
 # Current Working Groups
 
@@ -79,11 +80,3 @@ Working groups may be formed by the TAC to focus on specific areas of technical 
 # Join the conversation
 
 You can follow the TAC discussions by signing up for the [TAC email list](https://lists.aswf.io/g/tac). You can also review [past meeting notes](meetings).
-
-## Participate in ASWF projects
-
-Each of the ASWF projects are open to participation by anyone subject to the governance each project has adopted.
-
-If you are looking for a way to contribute to a project, many ASWF projects maintain a list of "good first issues".
-
-- [OpenColorIO good first issue](https://github.com/imageworks/OpenColorIO/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
