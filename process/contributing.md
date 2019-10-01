@@ -10,7 +10,7 @@ Within open source there are multiple approaches to contribution and licensing, 
 
 Generally net new open source projects at The Linux Foundation leverage the [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0) for their codebase, a [CDLA license](https://cdla.io/) for any data sets, and the [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/) for all documentation and non-code assets. These licenses is widely used and understood by both developers and organizations alike, providing flexibility for downstream usage and patent protection for those contributing code.
 
-### Code License identificiation
+### Code License identification
 
 Each repository must contain a license file. Include the plain-text version of the license as a LICENSE file in the top-level directory of the repostiory.
 
@@ -41,7 +41,7 @@ ASWF requires the use of the [Developer’s Certificate of Origin 1.1 (DCO)](htt
 
 Here is an example Signed-off-by line, which indicates that the submitter accepts the DCO:
 
-<code>Signed-off-by: John Doe <john.doe@hisdomain.com></code>
+<code>Signed-off-by: John Doe <john.doe@example.com></code>
 
 You can include this automatically when you commit a change to your local git repository using <code>git commit -s</code>. You might also want to leverage this [command line tool](https://github.com/coderanger/dco) for automatically adding the signoff message on commits.
 
