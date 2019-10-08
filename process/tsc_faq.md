@@ -7,7 +7,7 @@ The Technical Steering Committee (TSC) is the leadership of the project. This co
 - Resolve any issues within the project community
 - Provide project updates to the TAC
 
-Typically the TSC is comprised of the primary committers or maintainers in a project. To start there may be an appointed list, but over time more individuals may join the TSC according to the policies the TSC set for how new members are added. Irregardless, TSC meetings are generally open to anyone interested unless there are sensitive issues to discuss which necessitate a private meeting.
+Typically the TSC is comprised of the primary committers or maintainers in a project. To start there may be an appointed list, but over time more individuals may join the TSC according to the policies the TSC set for how new members are added. Regardless, TSC meetings are generally open to anyone interested unless there are sensitive issues to discuss which necessitate a private meeting.
 
 ## FAQs about TSCs
 
