@@ -21,7 +21,7 @@ This charter (the &quot;Charter&quot;) sets forth the responsibilities and proce
     * **i.** coordinating the technical direction of the Project;
     * **ii.** approving project or system proposals (including, but not limited to, incubation, deprecation, and changes to a sub-project&#39;s scope);
     * **iii.** organizing sub-projects and removing projects;
-    * **ii.** creating sub-committees or working groups to focus on cross-project technical issues and requirements;
+    * **iv.** creating sub-committees or working groups to focus on cross-project technical issues and requirements;
     * **v.** appointing representatives to work with other open source or open standards communities;
     * **vi.** establishing community norms, workflows, issuing releases, and security issue reporting policies;
     * **vii.** approving and implementing policies and processes for contributing (to be published in the CONTRIBUTING file) and coordinating with the Series Manager to resolve matters or concerns that may arise as set forth in Section 7 of this Charter;
