@@ -5,9 +5,25 @@ The Technical Steering Committee (TSC) is the leadership of the project. This co
 - Set the overall direction of the project
 - Ensure the project community has the needed resources and infrastructure to succeed
 - Resolve any issues within the project community
-- Provide project updates to the TAC
+- Provide project updates to the TAC and the community at large
 
 Typically the TSC is comprised of the primary committers or maintainers in a project. To start there may be an appointed list, but over time more individuals may join the TSC according to the policies the TSC set for how new members are added. Regardless, TSC meetings are generally open to anyone interested unless there are sensitive issues to discuss which necessitate a private meeting.
+
+## TSC Roles
+
+Generally TSCs have a few roles to faciliate the operations of the TSC. Roles are elected by TSC voting members and term lengths are determined by the TSC.
+
+### Chairperson
+
+The TSC Chairperson is the figure head of the project. The TSC Chairperson's primary role is to:
+
+- Lead all meetings of the TSC, setting the agenda with consultation of other TSC members.
+- Be the public spokesperson for the project at events and in public communications ( such as PR/AR meetings, articles, blog posts )
+- Serve as a representative of the project to the TAC and other projects and entities.
+
+### Secretary
+
+The Secretary records all meeting notes for TSC members and ensures they are distributed to the project community after the meeting in a timely manner. Often projects have a rotating secretary role instead of a permanent role.
 
 ## FAQs about TSCs
 
