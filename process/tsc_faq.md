@@ -25,6 +25,20 @@ The TSC Chairperson is the figure head of the project. The TSC Chairperson's pri
 
 The Secretary records all meeting notes for TSC members and ensures they are distributed to the project community after the meeting in a timely manner. Often projects have a rotating secretary role instead of a permanent role.
 
+## TSC Meetings
+
+TSC meetings are opportunities for the project community to come together to share updates and discuss issues and future plans. All TSC meetings are considered open to the public unless there is a sensitive issue to discuss ( Linux Foundation staff should be present on such meetings ).
+
+It's recommend to schedule meetings on a regular cadence ( for example, every other week at 2pm US Pacific Time ). Many project communities alternate TSC meeting times if project members are globally dispursed ( for example, one time that is US Eastern/Europe friendly and another that is US Pacific/Asia/Australia friendly ).
+
+### Scheduling logistics
+
+Each project has access to a Zoom conference account and the ability to leverage groups.io for meeting scheduling. It's recommended that the TSC Chairperson send a meeting invite with each TSC voting member as an attendee, adding the general project discussion/developer/user list ( for example, otio-discussion@lists.aswf.io ) which will automaticaly add the meeting to the calendar for those on the project email lists.
+
+### Agenda
+
+The TSC Chairperson should share an agenda at least 24 hours prior to the meeting if possible, with an ask to share additional agenda items. Projects can share via the public discussion lists or using a pull request on GitHub.
+
 ## FAQs about TSCs
 
 Q: Does a person lose their membership in a TSC if they leave or change employers?
