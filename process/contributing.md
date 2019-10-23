@@ -41,7 +41,7 @@ ASWF requires the use of the [Developer’s Certificate of Origin 1.1 (DCO)](htt
 
 Here is an example Signed-off-by line, which indicates that the submitter accepts the DCO:
 
-<code>Signed-off-by: John Doe <john.doe@example.com></code>
+`Signed-off-by: John Doe <john.doe@example.com>`
 
 You can include this automatically when you commit a change to your local git repository using <code>git commit -s</code>. You might also want to leverage this [command line tool](https://github.com/coderanger/dco) for automatically adding the signoff message on commits.
 
