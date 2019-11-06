@@ -15,13 +15,13 @@ This charter (the &quot;Charter&quot;) sets forth the responsibilities and proce
     * **ii.** Committers are Contributors who have earned the ability to modify (&quot;commit&quot;) source code, documentation or other technical artifacts in a project&#39;s repository; and
     * **iii.** A Contributor may become a Committer by a majority approval of the existing Committers. A Committer may be removed by a majority approval of the other existing Committers.
   * **d.** Participation in the Project through becoming a Contributor and Committer is open to anyone so long as they abide by the terms of this Charter.
-  * **e.** The TSC may (1) establish work flow procedures for the submission, approval, and closure/archiving of projects, (2) set requirements for the promotion of Contributors to Committer status, as applicable, and (3) amend, adjust, refine and/or eliminate the roles of Contributors, and Committers, and create new roles, and publicly document any TSC roles, as it sees fit.
-  * **f.** The TSC may elect a TSC Chair, who will preside over meetings of the TSC and will serve until their resignation or replacement by the TSC. ** ** The TSC Chair, or any other TSC member so designated by the TSC, will serve as the primary communication contact between the Project and the Technical Advisory Council of the Academy Software Foundation of The Linux Foundation.
+  * **e.** The TSC may (1) establish workflow procedures for the submission, approval, and closure/archiving of projects, (2) set requirements for the promotion of Contributors to Committer status, as applicable, and (3) amend, adjust, refine and/or eliminate the roles of Contributors, and Committers, and create new roles, and publicly document any TSC roles, as it sees fit.
+  * **f.** The TSC may elect a TSC Chair, who will preside over meetings of the TSC and will serve until their resignation or replacement by the TSC. The TSC Chair, or any other TSC member so designated by the TSC, will serve as the primary communication contact between the Project and the Technical Advisory Council of the Academy Software Foundation of The Linux Foundation.
   * **g.** Responsibilities: The TSC will be responsible for all aspects of oversight relating to the Project, which may include:
     * **i.** coordinating the technical direction of the Project;
     * **ii.** approving project or system proposals (including, but not limited to, incubation, deprecation, and changes to a sub-project&#39;s scope);
     * **iii.** organizing sub-projects and removing projects;
-    * **ii.** creating sub-committees or working groups to focus on cross-project technical issues and requirements;
+    * **iv.** creating sub-committees or working groups to focus on cross-project technical issues and requirements;
     * **v.** appointing representatives to work with other open source or open standards communities;
     * **vi.** establishing community norms, workflows, issuing releases, and security issue reporting policies;
     * **vii.** approving and implementing policies and processes for contributing (to be published in the CONTRIBUTING file) and coordinating with the Series Manager to resolve matters or concerns that may arise as set forth in Section 7 of this Charter;
