@@ -46,7 +46,7 @@ To be advance to an Adopted stage, a project must meet the Incubation stage requ
 * Be deemed by the TAC to add value to the mission of ASWF.
 * Obtain an affirmative vote of both the TAC and the Governing Board.
 
-*Since these metrics can vary significantly depending on the type, scope and size of a project, the TAC has final judgment over the level of activity that is adequate to meet these criteria.
+*Since these metrics can vary significantly depending on the type, scope and size of a project, the TAC has final judgment over the level of activity that is adequate to meet these criteria. In general it will be necessary to (at least) demonstrate that the project is not overly reliant on any one individual or company, and can remain healthy in the event of a departure.
 
 # Project Benefits Associated with Each Lifecycle Stage
 
