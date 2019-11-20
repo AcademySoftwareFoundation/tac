@@ -36,16 +36,17 @@ If the project is an existing open source project proposed to join ASWF, it is o
 
 To be advance to an Adopted stage, a project must meet the Incubation stage requirements plus:
 
-* Demonstrate having a healthy number of committers from a diverse contributor base *. A committer is defined in the technical charter but is often used to describe the core contributors who can accept contributions to the project, or a portion thereof.
+* Demonstrate having a healthy number of committers from a diverse contributor base*.
+  * A committer is defined in the technical charter but is often used to describe the core contributors who can accept contributions to the project, or a portion thereof.
+* Demonstrate a substantial ongoing flow of commits and merged contributions, authored by a healthy number of diverse contributors*.
+* Document current project owners and current and emeritus committers in a COMMITTER file or similarly visible system. A copy of the project’s charter (or other authorized governance document) will be included or linked to in visible location.
 * Have achieved and maintained a Core Infrastructure Initiative Best Practices Badge.
-* Demonstrate a substantial ongoing flow of commits and merged contributions*.
-* Document current project owners and current and emeritus committers in a COMMITTER file or similarly visible system.  A copy of the project’s charter (or other authorized governance document) will be included or linked to in visible location.
 * Have a technical lead appointed for representation of the project to the TAC.
 * Have a completed and presented to the TAC an initial license scan of the project’s codebase.
-* Be deemed by the TAC to add value to the mission of ASWF
+* Be deemed by the TAC to add value to the mission of ASWF.
 * Obtain an affirmative vote of both the TAC and the Governing Board.
 
-*Since these metrics can vary significantly depending on the type, scope and size of a project, the TAC has final judgment over the level of activity that is adequate to meet these criteria.
+*Since these metrics can vary significantly depending on the type, scope and size of a project, the TAC has final judgment over the level of activity that is adequate to meet these criteria. In general it will be necessary to (at least) demonstrate that the project is not overly reliant on any one individual or company, and can remain healthy in the event of a departure.
 
 # Project Benefits Associated with Each Lifecycle Stage
 
