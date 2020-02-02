@@ -111,18 +111,50 @@ Skills/knowledge relevant to the project: C++11, CMake, color science
 
 **Project Ideas**:
 
-* Extend the turboencabulator to 4D operation
-    - We have a complete TE implementation for 2D and 3D cases. But users
-      have long wanted a 4D version. etc etc
-    - Mentor suggestion: Amy Doe
-    - Special skills: must be familiar with Fredholm integrals of the 2nd kind.
+* Add Metal, Vulcan, or CUDA language support to GPU renderer
+    - The OCIO Processor currently supports rendering color transforms on a GPU 
+      with GLSL (OpenGL), HLSL (DirectX), or CG. With Apple deprecating OpenGL 
+      support and the availability of several additional high-performance GPU 
+      computing platforms, we desire to add shader language support for one or 
+      more of these to expand the capability and reach of OCIO. This will also 
+      be a critical need for OCIO to maintain full cross-platform support.
+    - Mentor suggestion: Patrick Hodoul
+    - Special skills: Familiar with C++, shader development, and implementing 
+      graphics APIs.
 
-* Another project
-    - Description
-    - Mentor Suggestion: Pat Smith
-    - Special skills:
+* Restore Java bindings
+    - The OCIO Java language bindings have not yet been updated to support the
+      newly developed OCIO v2 API. Java provides additional Android platform 
+      support, but needs some effort to revive. Additionally, adding Java unit
+      test support to OCIO's CI infrastructure would help maintain the 
+      functionality as OCIO continues to evolve.
+    - Mentor suggestion: Michael Dolan
+    - Special skills: Comfortable with Java, with some knowledge of wrapping a 
+      C++ library with the JNI.
+    
+* Add OCIO support to FFmpeg or another FOSS project
+    - An important effort for OCIO is expanding the libraries and applications 
+      where OCIO is implemented. Users have specifically called out FFmpeg as 
+      a library and command-line tool where they would like to see OCIO 
+      support, but any other FOSS project leveraged by ditial artists or 
+      production pipelines could be considered. This could also include 
+      upgrading an existing implementation to support the OCIO v2 API and 
+      leverage new functionality.
+    - Mentor suggestion: Doug Walker
+    - Special skills: Familiarity with prospective host library or tool, 
+      and knowledge of working with image buffers and authoring plugins.
 
-
+* Develop GUI for interactive OCIO config authoring and visualization
+    - OCIO is an incredibly visual software package, but the visual results 
+      of a OCIO config author's decisions are not visible until the config is 
+      built and loaded into a host application. Learning and using OCIO could 
+      be greatky aided with a GUI which provides interactive visual feedback 
+      and validation while a config is being authored. This could be a 
+      standalone Qt or PySide application, or an expanded plugin within an 
+      existing graphics application like Foundry's Nuke.
+    - Mentor suggestion: Michael Dolan
+    - Special skills: Experience with GUI and graphics programming in C++ or 
+      Python, understanding of UX, and interest in data visualization.
 
 ### OpenCue
 
