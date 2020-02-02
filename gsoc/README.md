@@ -136,7 +136,7 @@ Skills/knowledge relevant to the project: C++11, CMake, color science
     - An important effort for OCIO is expanding the libraries and applications 
       where OCIO is implemented. Users have specifically called out FFmpeg as 
       a library and command-line tool where they would like to see OCIO 
-      support, but any other FOSS project leveraged by ditial artists or 
+      support, but any other FOSS project leveraged by digital artists or 
       production pipelines could be considered. This could also include 
       upgrading an existing implementation to support the OCIO v2 API and 
       leverage new functionality.
@@ -145,13 +145,13 @@ Skills/knowledge relevant to the project: C++11, CMake, color science
       and knowledge of working with image buffers and authoring plugins.
 
 * Develop GUI for interactive OCIO config authoring and visualization
-    - OCIO is an incredibly visual software package, but the visual results 
-      of a OCIO config author's decisions are not visible until the config is 
-      built and loaded into a host application. Learning and using OCIO could 
-      be greatky aided with a GUI which provides interactive visual feedback 
-      and validation while a config is being authored. This could be a 
-      standalone Qt or PySide application, or an expanded plugin within an 
-      existing graphics application like Foundry's Nuke.
+    - OCIO is all about color management, but the visual results of a config 
+      author's decisions are not verifiable until the config is generated and 
+      loaded into a host application. Learning and using OCIO could be greatky
+      aided with a GUI which provides interactive visual feedback and 
+      validation while a config is being authored. This could be a standalone 
+      Qt or PySide application, or an expanded plugin within an existing 
+      graphics application like Foundry's Nuke.
     - Mentor suggestion: Michael Dolan
     - Special skills: Experience with GUI and graphics programming in C++ or 
       Python, understanding of UX, and interest in data visualization.
