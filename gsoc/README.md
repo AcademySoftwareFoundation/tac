@@ -1,11 +1,20 @@
 # ASWF Google Summer of Code 2020
 
-The mission of the Academy Software Foundation (ASWF) is to increase the
-quality and quantity of contributions to the content creation industry's
-open source software base; to provide a neutral forum to coordinate
-cross-project efforts; to provide a common build and test infrastructure;
-and to provide individuals and organizations a clear path to participation
-in advancing our open source ecosystem.
+The Academy Software Foundation (ASWF) is collaboration between the Linux
+Foundation and the Academy of Motion Picture Arts and Sciences, serving as
+an umbrella organization that is the home to several key open source
+software projects used by the film industry (primarily visual effects and
+animation production). The projects we manage are some of the most
+high-profile and widely used open source projects originating and used in
+film production studios. It's a great opportunity for students to get
+involved with projects that will be used professionally on films!
+
+The mission of the ASWF is to increase the quality and quantity of
+contributions to the content creation industry's open source software base;
+to provide a neutral forum to coordinate cross-project efforts; to provide a
+common build and test infrastructure; and to provide individuals and
+organizations a clear path to participation in advancing our open source
+ecosystem.
 
 Member projects are focused primarily on visual effects and animation
 production, and at present include 5 distinct software packages. Student
@@ -62,7 +71,7 @@ project, build it, make a change, submit a PR, and interact with the
 community for code review.
 
 In addition to ideas listed below, the GitHub "Issues" page for each project
-will have issues tagged "GSoC" if they seem like an appropriate size for a a
+will have issues tagged "GSoC" if they seem like an appropriate size for a
 GSoC summer project. You will also see many issues tagged "good first
 issue", those might be ideal candidates for your small trial PR to qualify
 for application.
@@ -177,13 +186,55 @@ Home page:  https://www.openexr.com/ <br>
 GitHub:     https://github.com/AcademySoftwareFoundation/openexr <br>
 Skills/knowledge relevant to the project:
 
+Mentor suggestions: Kimball Thurston, Cary Phillips, Larry Gritz
+
 **Project Ideas**:
 
-* Another project
-    - Description
-    - Mentor Suggestion: Pat Smith
-    - Special skills:
+* New python bindings for Imath using pybind11.
+    - Our core C++ library for vector and matrix types, which is widely
+      used by other projects, needs an overhaul of its Python bindings
+      to switch to using [pybind11](https://github.com/pybind/pybind11)
 
+* Split Imath into a separate project and modernize
+    - The main library is for dealing with OpenEXR image files. But several
+      helper libraries are bundled, including a widely used vector, matrix,
+      and math library known as Imath. We would like to split this off into
+      a separate repository (which will then be a dependency of the image
+      file library). There are several possible sub-tasks:
+        - actually splitting the library into separate repo and adjusting
+          all the CMake build scripts
+        - make almost all of it exception-free and marked properly as `noexcept`
+        - mark `const` and `constexpr` as widely as possible.
+
+* Explore and benchmark compression methods
+   - Design a methodology for assessing compression and decompression speed
+     and file sizes.
+   - Benchmark the currently supported set of compression techniques across
+     a variety of represenative images and document the performance and
+     compression ratio tradeoffs among the choices.
+   - Speculatively implement additional compression techniques such as
+     [zfp](https://computing.llnl.gov/projects/floating-point-compression)
+     or [zstd](https://github.com/facebook/zstd) (and possibly others) to
+     find out if they offer advantages over our current set of compression
+     methods.
+
+* Performance evaluation and regression detection
+   - We currently have a test suite to verify correctness, but not performance.
+   - Design and implement performance tests as part of our testing framework.
+     This should probably cover a variety of image file scenarios and settings.
+   - Extend our build and CI system to automatically detect performance
+     regressions or improvements for submitted code changes and proposed
+     releases.
+
+* Expand "Simple" API
+  - Update the IlmImfRGBAFile interface
+  - Expose a pure "C" interface to the DSO
+  - Write a sample python binding using this C api
+
+* Amend test suite to get closer to 100% coverage
+  - Current tests cover about 75% of the C++ code base, as reported by
+    SonarCloud.
+  - Implement tests that validate the behavior of the uncovered components.
 
 
 
