@@ -258,15 +258,79 @@ Skills/knowledge relevant to the project:
 
 Home page:  https://www.openvdb.org/ <br>
 GitHub:     https://github.com/AcademySoftwareFoundation/openvdb <br>
-Skills/knowledge relevant to the project:
+Skills/knowledge relevant to the project: C++14, Git, CMake,
+(Knowledge of Houdini is also useful)
+
+Mentor suggestions: Ken Museth, Dan Bailey, Nick Avramoussis
 
 **Project Ideas**:
 
-* Another project
-    - Description
-    - Mentor Suggestion: Pat Smith
-    - Special skills:
+* Delayed Loading on Windows
+  - Introduce support for delayed-loading on Windows by modifying the temporary
+    file implementation in the core OpenVDB library to make use of the Windows-
+    specific std::fopen flags for temporary files (“TD”).
+  - Help to improve the Windows-related build, CI and documentation.
+  - Background Info: OpenVDB can generate very large files and even with the
+    fastest solid state drives, I/O performance is still a common bottleneck.
+    Delayed-loading (sometimes referred to as lazy-loading) is about reading
+    only the VDB data that is absolutely needed. An example use case is being
+    able to clip or delete voxel data from the VDB before the data has been read
+    from disk resulting in an overall increase in performance when visualizing
+    data.
 
+* Improved Level Set Rebuilding
+  - Modify the rebuilding of VDB level sets to improve the flood-filling
+    operation that can eliminate desirable features.
+  - Background Info: Constructive Solid Geometry (CSG) operations include union,
+    difference and intersection compositing of two or more level sets that will
+    result in a new level set. An example could be subtracting some level set
+    spheres from a level set of a cube to generate a “Swiss cheese” level set.
+    If the narrow band or transform of the source level sets does not match the
+    target level set, they must be completely rebuilt before they can be
+    composited which can result in eliminating desirable features of the source
+    level set. In particular, the rebuilding algorithm converts to polygons and
+    back, which will cause holes in the geometry to be filled. The Polygon ->
+    VDB rasterization could be special cased to use the original VDB to
+    determine sign, thus avoiding collapsing holes.
+
+* Multi-thread Sequential Algorithms
+  - Introduce new multi-threaded algorithms that use leaf and tile traversal to
+    replicate existing single-threaded tree algorithms (such as
+    tree::activeVoxelCount).
+  - Introduce new extrema and statistics tools (such as tools::extrema) that are
+    multi-threaded using leaf and tile traversal.
+  - Background info: Investigations carried out using the existing sequential
+    tree-based algorithms in OpenVDB have demonstrated a large performance
+    improvement by multi-threading across different levels of the tree data
+    structure. In addition, OpenVDB provides general purpose leaf and tile
+    traversal for computing extrema and statistics, however the most intuitive
+    way to use these is by calling them with a tree iterator which is very slow.
+    Both of these performance improvements would use Intel’s TBB and OpenVDB
+    convenience classes such as tree::LeafManager and tree::NodeManager to
+    introduce multi-threading.
+
+* Improve Filter Operations to Densify Tiles and Optionally Dilate
+  - Automatically densify specific VDB tiles required to perform different
+    filtering operations such as gaussian smoothing and handle all edge cases.
+  - Provide an option to automatically dilate level set VDBs as required when
+    filtering based on filter and voxel sizes.
+  - Background info: OpenVDB tiles are constant-value nodes designed to optimize
+    storage space and improve performance. However not all algorithms, such as
+    gaussian smoothing turn these tiles into dense nodes (often called
+    densifying) when required so as to generate the correct result. In addition,
+    it is left up to the user to specify the correct amount of dilation to
+    perform prior to any filtering based on their filter size and the voxel
+    size. A beneficial feature would be allowing the user to opt-in to dilate
+    automatically up to some threshold.
+
+* Optimization using SSE/AVX Intrinsics
+  - Investigate opportunities to improve VDB performance using vectorization and
+    SSE and AVX intrinsics.
+  - Background info: OpenVDB already has optional SSE/AVX build flags, but
+    minimal use of any of these intrinsics. There are lots of potential
+    operations such as bit-counting, finding least significant bit, SSE/AVX
+    operation on floating-point values (e.g. math::Vec3) and integer operations
+    (e.g. math::Coord) that would benefit performance.
 
 
 ### Cross-project infrastructure
