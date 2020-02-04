@@ -268,6 +268,8 @@ Home page:  http://opentimeline.io <br>
 GitHub:     https://github.com/PixarAnimationStudios/OpenTimelineIO <br>
 Skills/knowledge relevant to the project: C++, Python, CMake, knowledge of how NLEs and DCCs are used, knowledge of EDLs a bonus
 
+Mentor suggestions: Josh Minor, Stephan Steinbach, Nick Porcino, Eric Reinecke
+
 **Project Ideas**:
 
 * Progress Callback API
