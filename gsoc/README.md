@@ -169,15 +169,39 @@ Skills/knowledge relevant to the project: C++11, CMake, color science
 
 Home page:  https://www.opencue.io <br>
 GitHub:     https://github.com/AcademySoftwareFoundation/OpenCue <br>
-Skills/knowledge relevant to the project:
+Skills/knowledge relevant to the project: Python, Java
+
+Mentor suggestion: Brian Cipriano
 
 **Project Ideas**:
 
-* Another project
-    - Description
-    - Mentor Suggestion: Pat Smith
-    - Special skills:
+* Create a Web GUI
+    - Design and begin implementation on a new, web-based GUI to eventually
+      replace OpenCue's existing PySide2 application GUI. This will consist
+      mostly of front-end work; the new GUI should use the existing OpenCue
+      API on the back-end. Design, including tech stack to be used, will be
+      done in collaboration with the project leads.
+    - Special skills: UI/UX design, front-end development
 
+* Create a REST API
+    - Create a REST API to complement OpenCue's existing gRPC API. Backend
+      should be mostly shared between the two.
+    - Special skills: REST API design
+
+* Create a Cloud Management Plugin
+    - Extend the OpenCue GUI to add a plugin for scaling the pool of OpenCue
+      workers running in the cloud. The plugin should use at least
+      one of the major cloud providers (Google Cloud, Microsoft Azure, or
+      Amazon Web Services) but should be designed in way where other cloud
+      providers can be easily added.
+    - Special skills: Cloud development and APIs
+
+* Create Installers/Launchers
+    - Create installers (.exe, .msi, .dmg, etc.) and/or
+      click-to-launch wrappers for existing OpenCue components. To goal
+      is to make OpenCue more user friendly by reducing reliance on the command
+      line and providing an intuitive click-to-install/-launch experience.
+    - Special skills: Desktop application development
 
 
 ### OpenEXR
