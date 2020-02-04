@@ -210,7 +210,7 @@ Home page:  https://www.openexr.com/ <br>
 GitHub:     https://github.com/AcademySoftwareFoundation/openexr <br>
 Skills/knowledge relevant to the project:
 
-Mentor suggestions: Kimball Thurston, Cary Phillips, Larry Gritz
+Mentor suggestions: Kimball Thurston, Cary Phillips, Larry Gritz, Nick Porcino
 
 **Project Ideas**:
 
@@ -266,16 +266,49 @@ Mentor suggestions: Kimball Thurston, Cary Phillips, Larry Gritz
 
 Home page:  http://opentimeline.io <br>
 GitHub:     https://github.com/PixarAnimationStudios/OpenTimelineIO <br>
-Skills/knowledge relevant to the project:
+Skills/knowledge relevant to the project: C++, Python, CMake, knowledge of how NLEs and DCCs are used, knowledge of EDLs a bonus
+
+Mentor suggestions: Josh Minor, Stephan Steinbach, Nick Porcino, Eric Reinecke
 
 **Project Ideas**:
 
-* Another project
-    - Description
-    - Mentor Suggestion: Pat Smith
-    - Special skills:
+* Progress Callback API
+    - Some import and export operations are time consuming, and tool authors would like to provide progress estimations. A progress callback, presumably with a percentage or other measure would enable this.
+    - OTIO file format adaptors are written in Python, so this would be a Python-available API
 
+* Javascript Language binding
+    - Use emscripten’s WebIDL or Embind to provide Javascript bindings for OpenTimelineio
+    - An open question is whether the adaptors, such as for AAF, would be available under Javascript. The adaptors are implemented in Python.
 
+* Otioview as a web app
+
+* Otioview track and timeline metadata viewing
+    - Add metadata introspection and navigation on timelines and tracks
+
+* C Language binding
+    - A C foreign function interface (ffi) would enable bindings for languages other than Js and Python.
+    - Example applications would be Lua bindings, and remote procedure calls.
+    
+* Reusable timeline display widgets
+    - Otioview has a widget for Qt. Having the widget separately available for other apps would be great
+    - An ImGui variant
+    - A generic widget assuming only the availability of mouse interaction data and simple draw calls
+
+* C++ and Python operators for time ranges
+    - Functions such as "meets", "overlaps", and so on.
+
+* C++ and Python time coordinate system class
+    - Coordinate system implementation and operators to enable operations such as local to parent, world to local, and so on.
+
+* opentime_clock for std::chrono
+    - bindings to allow meaningful interoperation with std templates that have time arguments
+
+* Add OTIO to another ASWF project
+    - Identify another ASWF project that might meaningfully interoperate with OTIO and implement it
+
+* Add OTIO support to an NLE or DCC
+    - As an example, the generic widget project could be used to build OTIO support into Blender
+    - An OTIO adapter could support time based media, such as Grease Pencil storyboards in Blender
 
 
 ### OpenVDB
