@@ -1,11 +1,20 @@
 # ASWF Google Summer of Code 2020
 
-The mission of the Academy Software Foundation (ASWF) is to increase the
-quality and quantity of contributions to the content creation industry's
-open source software base; to provide a neutral forum to coordinate
-cross-project efforts; to provide a common build and test infrastructure;
-and to provide individuals and organizations a clear path to participation
-in advancing our open source ecosystem.
+The Academy Software Foundation (ASWF) is collaboration between the Linux
+Foundation and the Academy of Motion Picture Arts and Sciences, serving as
+an umbrella organization that is the home to several key open source
+software projects used by the film industry (primarily visual effects and
+animation production). The projects we manage are some of the most
+high-profile and widely used open source projects originating and used in
+film production studios. It's a great opportunity for students to get
+involved with projects that will be used professionally on films!
+
+The mission of the ASWF is to increase the quality and quantity of
+contributions to the content creation industry's open source software base;
+to provide a neutral forum to coordinate cross-project efforts; to provide a
+common build and test infrastructure; and to provide individuals and
+organizations a clear path to participation in advancing our open source
+ecosystem.
 
 Member projects are focused primarily on visual effects and animation
 production, and at present include 5 distinct software packages. Student
@@ -62,7 +71,7 @@ project, build it, make a change, submit a PR, and interact with the
 community for code review.
 
 In addition to ideas listed below, the GitHub "Issues" page for each project
-will have issues tagged "GSoC" if they seem like an appropriate size for a a
+will have issues tagged "GSoC" if they seem like an appropriate size for a
 GSoC summer project. You will also see many issues tagged "good first
 issue", those might be ideal candidates for your small trial PR to qualify
 for application.
@@ -160,15 +169,39 @@ Skills/knowledge relevant to the project: C++11, CMake, color science
 
 Home page:  https://www.opencue.io <br>
 GitHub:     https://github.com/AcademySoftwareFoundation/OpenCue <br>
-Skills/knowledge relevant to the project:
+Skills/knowledge relevant to the project: Python, Java
+
+Mentor suggestion: Brian Cipriano
 
 **Project Ideas**:
 
-* Another project
-    - Description
-    - Mentor Suggestion: Pat Smith
-    - Special skills:
+* Create a Web GUI
+    - Design and begin implementation on a new, web-based GUI to eventually
+      replace OpenCue's existing PySide2 application GUI. This will consist
+      mostly of front-end work; the new GUI should use the existing OpenCue
+      API on the back-end. Design, including tech stack to be used, will be
+      done in collaboration with the project leads.
+    - Special skills: UI/UX design, front-end development
 
+* Create a REST API
+    - Create a REST API to complement OpenCue's existing gRPC API. Backend
+      should be mostly shared between the two.
+    - Special skills: REST API design
+
+* Create a Cloud Management Plugin
+    - Extend the OpenCue GUI to add a plugin for scaling the pool of OpenCue
+      workers running in the cloud. The plugin should use at least
+      one of the major cloud providers (Google Cloud, Microsoft Azure, or
+      Amazon Web Services) but should be designed in way where other cloud
+      providers can be easily added.
+    - Special skills: Cloud development and APIs
+
+* Create Installers/Launchers
+    - Create installers (.exe, .msi, .dmg, etc.) and/or
+      click-to-launch wrappers for existing OpenCue components. To goal
+      is to make OpenCue more user friendly by reducing reliance on the command
+      line and providing an intuitive click-to-install/-launch experience.
+    - Special skills: Desktop application development
 
 
 ### OpenEXR
@@ -177,13 +210,55 @@ Home page:  https://www.openexr.com/ <br>
 GitHub:     https://github.com/AcademySoftwareFoundation/openexr <br>
 Skills/knowledge relevant to the project:
 
+Mentor suggestions: Kimball Thurston, Cary Phillips, Larry Gritz, Nick Porcino
+
 **Project Ideas**:
 
-* Another project
-    - Description
-    - Mentor Suggestion: Pat Smith
-    - Special skills:
+* New python bindings for Imath using pybind11.
+    - Our core C++ library for vector and matrix types, which is widely
+      used by other projects, needs an overhaul of its Python bindings
+      to switch to using [pybind11](https://github.com/pybind/pybind11)
 
+* Split Imath into a separate project and modernize
+    - The main library is for dealing with OpenEXR image files. But several
+      helper libraries are bundled, including a widely used vector, matrix,
+      and math library known as Imath. We would like to split this off into
+      a separate repository (which will then be a dependency of the image
+      file library). There are several possible sub-tasks:
+        - actually splitting the library into separate repo and adjusting
+          all the CMake build scripts
+        - make almost all of it exception-free and marked properly as `noexcept`
+        - mark `const` and `constexpr` as widely as possible.
+
+* Explore and benchmark compression methods
+   - Design a methodology for assessing compression and decompression speed
+     and file sizes.
+   - Benchmark the currently supported set of compression techniques across
+     a variety of represenative images and document the performance and
+     compression ratio tradeoffs among the choices.
+   - Speculatively implement additional compression techniques such as
+     [zfp](https://computing.llnl.gov/projects/floating-point-compression)
+     or [zstd](https://github.com/facebook/zstd) (and possibly others) to
+     find out if they offer advantages over our current set of compression
+     methods.
+
+* Performance evaluation and regression detection
+   - We currently have a test suite to verify correctness, but not performance.
+   - Design and implement performance tests as part of our testing framework.
+     This should probably cover a variety of image file scenarios and settings.
+   - Extend our build and CI system to automatically detect performance
+     regressions or improvements for submitted code changes and proposed
+     releases.
+
+* Expand "Simple" API
+  - Update the IlmImfRGBAFile interface
+  - Expose a pure "C" interface to the DSO
+  - Write a sample python binding using this C api
+
+* Amend test suite to get closer to 100% coverage
+  - Current tests cover about 75% of the C++ code base, as reported by
+    SonarCloud.
+  - Implement tests that validate the behavior of the uncovered components.
 
 
 
@@ -191,31 +266,128 @@ Skills/knowledge relevant to the project:
 
 Home page:  http://opentimeline.io <br>
 GitHub:     https://github.com/PixarAnimationStudios/OpenTimelineIO <br>
-Skills/knowledge relevant to the project:
+Skills/knowledge relevant to the project: C++, Python, CMake, knowledge of how NLEs and DCCs are used, knowledge of EDLs a bonus
+
+Mentor suggestions: Josh Minor, Stephan Steinbach, Nick Porcino, Eric Reinecke
 
 **Project Ideas**:
 
-* Another project
-    - Description
-    - Mentor Suggestion: Pat Smith
-    - Special skills:
+* Progress Callback API
+    - Some import and export operations are time consuming, and tool authors would like to provide progress estimations. A progress callback, presumably with a percentage or other measure would enable this.
+    - OTIO file format adaptors are written in Python, so this would be a Python-available API
 
+* Javascript Language binding
+    - Use emscripten’s WebIDL or Embind to provide Javascript bindings for OpenTimelineio
+    - An open question is whether the adaptors, such as for AAF, would be available under Javascript. The adaptors are implemented in Python.
 
+* Otioview as a web app
+
+* Otioview track and timeline metadata viewing
+    - Add metadata introspection and navigation on timelines and tracks
+
+* C Language binding
+    - A C foreign function interface (ffi) would enable bindings for languages other than Js and Python.
+    - Example applications would be Lua bindings, and remote procedure calls.
+    
+* Reusable timeline display widgets
+    - Otioview has a widget for Qt. Having the widget separately available for other apps would be great
+    - An ImGui variant
+    - A generic widget assuming only the availability of mouse interaction data and simple draw calls
+
+* C++ and Python operators for time ranges
+    - Functions such as "meets", "overlaps", and so on.
+
+* C++ and Python time coordinate system class
+    - Coordinate system implementation and operators to enable operations such as local to parent, world to local, and so on.
+
+* opentime_clock for std::chrono
+    - bindings to allow meaningful interoperation with std templates that have time arguments
+
+* Add OTIO to another ASWF project
+    - Identify another ASWF project that might meaningfully interoperate with OTIO and implement it
+
+* Add OTIO support to an NLE or DCC
+    - As an example, the generic widget project could be used to build OTIO support into Blender
+    - An OTIO adapter could support time based media, such as Grease Pencil storyboards in Blender
 
 
 ### OpenVDB
 
 Home page:  https://www.openvdb.org/ <br>
 GitHub:     https://github.com/AcademySoftwareFoundation/openvdb <br>
-Skills/knowledge relevant to the project:
+Skills/knowledge relevant to the project: C++14, Git, CMake,
+(Knowledge of Houdini is also useful)
+
+Mentor suggestions: Ken Museth, Dan Bailey, Nick Avramoussis
 
 **Project Ideas**:
 
-* Another project
-    - Description
-    - Mentor Suggestion: Pat Smith
-    - Special skills:
+* Delayed Loading on Windows
+  - Introduce support for delayed-loading on Windows by modifying the temporary
+    file implementation in the core OpenVDB library to make use of the Windows-
+    specific std::fopen flags for temporary files (“TD”).
+  - Help to improve the Windows-related build, CI and documentation.
+  - Background Info: OpenVDB can generate very large files and even with the
+    fastest solid state drives, I/O performance is still a common bottleneck.
+    Delayed-loading (sometimes referred to as lazy-loading) is about reading
+    only the VDB data that is absolutely needed. An example use case is being
+    able to clip or delete voxel data from the VDB before the data has been read
+    from disk resulting in an overall increase in performance when visualizing
+    data.
 
+* Improved Level Set Rebuilding
+  - Modify the rebuilding of VDB level sets to improve the flood-filling
+    operation that can eliminate desirable features.
+  - Background Info: Constructive Solid Geometry (CSG) operations include union,
+    difference and intersection compositing of two or more level sets that will
+    result in a new level set. An example could be subtracting some level set
+    spheres from a level set of a cube to generate a “Swiss cheese” level set.
+    If the narrow band or transform of the source level sets does not match the
+    target level set, they must be completely rebuilt before they can be
+    composited which can result in eliminating desirable features of the source
+    level set. In particular, the rebuilding algorithm converts to polygons and
+    back, which will cause holes in the geometry to be filled. The Polygon ->
+    VDB rasterization could be special cased to use the original VDB to
+    determine sign, thus avoiding collapsing holes.
+
+* Multi-thread Sequential Algorithms
+  - Introduce new multi-threaded algorithms that use leaf and tile traversal to
+    replicate existing single-threaded tree algorithms (such as
+    tree::activeVoxelCount).
+  - Introduce new extrema and statistics tools (such as tools::extrema) that are
+    multi-threaded using leaf and tile traversal.
+  - Background info: Investigations carried out using the existing sequential
+    tree-based algorithms in OpenVDB have demonstrated a large performance
+    improvement by multi-threading across different levels of the tree data
+    structure. In addition, OpenVDB provides general purpose leaf and tile
+    traversal for computing extrema and statistics, however the most intuitive
+    way to use these is by calling them with a tree iterator which is very slow.
+    Both of these performance improvements would use Intel’s TBB and OpenVDB
+    convenience classes such as tree::LeafManager and tree::NodeManager to
+    introduce multi-threading.
+
+* Improve Filter Operations to Densify Tiles and Optionally Dilate
+  - Automatically densify specific VDB tiles required to perform different
+    filtering operations such as gaussian smoothing and handle all edge cases.
+  - Provide an option to automatically dilate level set VDBs as required when
+    filtering based on filter and voxel sizes.
+  - Background info: OpenVDB tiles are constant-value nodes designed to optimize
+    storage space and improve performance. However not all algorithms, such as
+    gaussian smoothing turn these tiles into dense nodes (often called
+    densifying) when required so as to generate the correct result. In addition,
+    it is left up to the user to specify the correct amount of dilation to
+    perform prior to any filtering based on their filter size and the voxel
+    size. A beneficial feature would be allowing the user to opt-in to dilate
+    automatically up to some threshold.
+
+* Optimization using SSE/AVX Intrinsics
+  - Investigate opportunities to improve VDB performance using vectorization and
+    SSE and AVX intrinsics.
+  - Background info: OpenVDB already has optional SSE/AVX build flags, but
+    minimal use of any of these intrinsics. There are lots of potential
+    operations such as bit-counting, finding least significant bit, SSE/AVX
+    operation on floating-point values (e.g. math::Vec3) and integer operations
+    (e.g. math::Coord) that would benefit performance.
 
 
 ### Cross-project infrastructure
