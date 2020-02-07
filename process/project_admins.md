@@ -1,11 +1,19 @@
 # Project Admins
 
-A project admin is a TSC committer that has been granted GitHub administrative
-permissions. This gives the individual the right to change certain repository
-settings without needing to submit Linux Foundation Service Desk tickets. By
-default TSC committers have GitHub write permissions.
+A project admin is a project committer that has been granted GitHub
+Admin privilege level. This gives the individual the right to change
+certain repository settings without needing to submit
+[Linux Foundation Release Engineering Service Desk]
+(https://docs.releng.linuxfoundation.org/en/latest/helpdesk.html) tickets. By
+default project committers have GitHub Write privilege level.
 
-As GitHub admininstrative permissions provide full access, project admins agree
+GitHub also supports the concept of a Maintain privilege level which allows
+designated users a significant subset of the privileges of a user with the Admin
+privilege level. Projects are encouraged to consider whether full Admin
+privileges are required for certain designated users, or if Maintain level
+privileges would be sufficient.
+
+As GitHub Admin privilege level provides full access, project admins agree
 not to perform these sensitive and destructive actions:
 
 * Delete or archive the repository
