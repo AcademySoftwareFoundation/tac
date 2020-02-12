@@ -118,16 +118,17 @@ Home page:  https://opencolorio.org/ <br>
 GitHub:     https://github.com/AcademySoftwareFoundation/OpenColorIO <br>
 Skills/knowledge relevant to the project: C++11, CMake, color science
 
+Mentor suggestions: Patrick Hodoul, Doug Walker, Michael Dolan
+
 **Project Ideas**:
 
-* Add Metal, Vulcan, or CUDA language support to GPU renderer
+* Add Metal, Vulkan, or CUDA language support to GPU renderer
     - The OCIO Processor currently supports rendering color transforms on a GPU 
       with GLSL (OpenGL), HLSL (DirectX), or CG. With Apple deprecating OpenGL 
       support and the availability of several additional high-performance GPU 
       computing platforms, we desire to add shader language support for one or 
       more of these to expand the capability and reach of OCIO. This will also 
       be a critical need for OCIO to maintain full cross-platform support.
-    - Mentor suggestion: Patrick Hodoul
     - Special skills: Familiar with C++, shader development, and implementing 
       graphics APIs.
 
@@ -137,7 +138,6 @@ Skills/knowledge relevant to the project: C++11, CMake, color science
       support, but needs some effort to revive. Additionally, adding Java unit
       test support to OCIO's CI infrastructure would help maintain the 
       functionality as OCIO continues to evolve.
-    - Mentor suggestion: Michael Dolan
     - Special skills: Comfortable with Java, with some knowledge of wrapping a 
       C++ library with the JNI.
     
@@ -149,7 +149,6 @@ Skills/knowledge relevant to the project: C++11, CMake, color science
       production pipelines could be considered. This could also include 
       upgrading an existing implementation to support the OCIO v2 API and 
       leverage new functionality.
-    - Mentor suggestion: Doug Walker
     - Special skills: Familiarity with prospective host library or tool, 
       and knowledge of working with image buffers and authoring plugins.
 
@@ -161,7 +160,6 @@ Skills/knowledge relevant to the project: C++11, CMake, color science
       validation while a config is being authored. This could be a standalone 
       Qt or PySide application, or an expanded plugin within an existing 
       graphics application like Foundry's Nuke.
-    - Mentor suggestion: Michael Dolan
     - Special skills: Experience with GUI and graphics programming in C++ or 
       Python, understanding of UX, and interest in data visualization.
 
