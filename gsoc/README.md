@@ -34,6 +34,9 @@ member projects are:
   file format, the professional-grade image storage format of the motion
   picture industry.
 
+* **Open Shading Language** : The de facto standard shading and pattern
+  language of physically-based renderers used for film VFX and animation.
+
 * **OpenTimelineIO** : API and interchange format for editorial timeline
   information.
 
@@ -90,22 +93,36 @@ The applications will be judged both by the individual leadership teams of
 the software project you propose to work on, as well as representatives of
 the ASWF technical advisory council.
 
-    Name:
+    Student name:
 
     School / year / area of study:
 
-    Relevant courses, materials studied, or skills:
+    Relevant courses, materials studied, jobs, programming projects, skills,
+    other open source projects you've contributed to. Go ahead and tell us
+    anything about your background that you think we will find interesting
+    for our projects.
 
     ASWF project you are interested in:
 
     Project proposal:
 
+    What would you like to do for your summer project?  Please explain in
+    detail what it is, why it is important, how it fits into the ASWF
+    project's overall design and goals.  Give specifics on acceptance
+    criteria -- how we can measure your success, how we can test your code.
+    Give a week-by-week timeline for expected progress and how it can be
+    measured.
+
     Tell us about your interest in this project, what you hope to
     contribute, and what you hope to get from this experience:
 
-    Please tell us any other relevant information, including interesting
-    programming projects you have done, other open source projects you have
-    participated in and what you did in those projects:
+    We will not review applications from students who have not contributed a
+    patch to ASWF by the application deadline.  It doesn't have to be
+    big -- a short bug fix, a new test case for a unit test, an improved
+    error message, fixing unclear documentation.  But you must prove that
+    you can check out the project, build it, find something to improve, make
+    the change, communicate with the other developers, and survive our
+    rigorous code review.  Please tell us below which fix you contributed:
 
 
 
