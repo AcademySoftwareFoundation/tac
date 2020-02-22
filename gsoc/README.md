@@ -407,6 +407,23 @@ Mentor suggestions: Ken Museth, Dan Bailey, Nick Avramoussis
 
 ### Cross-project infrastructure
 
-... ideas go here ...
+#### ASWF-Docker
+
+GitHub:     https://github.com/AcademySoftwareFoundation/aswf-docker <br>
+Skills/knowledge relevant to the project: Python, Docker, Bash, CMake
+
+Mentor suggestions: Aloys Baillet, JF Panisset
+
+**Project Ideas**:
+
+* Better docker image discovery via automatic readme uploads to DockerHub overviews on image push (modern Python 3 development, dockerhub rest API).
+These readme files would populate the "overview" tab on the docker hub pages such as this one: https://hub.docker.com/r/aswf/ci-openexr.
+* Investigate RPM (yum packages) generation from docker ci-packages such as https://hub.docker.com/r/aswf/ci-package-openexr.
+These RPMs would potentially be hosted on an artifactory yum repo which would enable any RHEL or CentOS user to very easily install many VFX packages.
+* Create a prototype of a windows docker image equivalent to the linux `ci-common` and `ci-base` images to be able to compile VFX packages such as OpenEXR.
+Many details on the windows version of our CI docker images are still yet to be defined and discovered.
+
+
+... more ideas go here ...
 
 
