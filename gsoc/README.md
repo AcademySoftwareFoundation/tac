@@ -188,6 +188,10 @@ Skills/knowledge relevant to the project: Python, Java
 
 Mentor suggestion: Brian Cipriano
 
+**Getting Started**:
+
+Contact Brian Cipriano <cipriano@google.com> and join the [opencue-dev list](https://lists.aswf.io/g/opencue-dev).
+
 **Project Ideas**:
 
 * Create a Web GUI
