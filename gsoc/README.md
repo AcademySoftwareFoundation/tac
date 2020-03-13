@@ -34,6 +34,9 @@ member projects are:
   file format, the professional-grade image storage format of the motion
   picture industry.
 
+* **Open Shading Language** : The de facto standard shading and pattern
+  language of physically-based renderers used for film VFX and animation.
+
 * **OpenTimelineIO** : API and interchange format for editorial timeline
   information.
 
@@ -90,22 +93,36 @@ The applications will be judged both by the individual leadership teams of
 the software project you propose to work on, as well as representatives of
 the ASWF technical advisory council.
 
-    Name:
+    Student name:
 
     School / year / area of study:
 
-    Relevant courses, materials studied, or skills:
+    Relevant courses, materials studied, jobs, programming projects, skills,
+    other open source projects you've contributed to. Go ahead and tell us
+    anything about your background that you think we will find interesting
+    for our projects.
 
     ASWF project you are interested in:
 
     Project proposal:
 
+    What would you like to do for your summer project?  Please explain in
+    detail what it is, why it is important, how it fits into the ASWF
+    project's overall design and goals.  Give specifics on acceptance
+    criteria -- how we can measure your success, how we can test your code.
+    Give a week-by-week timeline for expected progress and how it can be
+    measured.
+
     Tell us about your interest in this project, what you hope to
     contribute, and what you hope to get from this experience:
 
-    Please tell us any other relevant information, including interesting
-    programming projects you have done, other open source projects you have
-    participated in and what you did in those projects:
+    We will not review applications from students who have not contributed a
+    patch to ASWF by the application deadline.  It doesn't have to be
+    big -- a short bug fix, a new test case for a unit test, an improved
+    error message, fixing unclear documentation.  But you must prove that
+    you can check out the project, build it, find something to improve, make
+    the change, communicate with the other developers, and survive our
+    rigorous code review.  Please tell us below which fix you contributed:
 
 
 
@@ -118,16 +135,17 @@ Home page:  https://opencolorio.org/ <br>
 GitHub:     https://github.com/AcademySoftwareFoundation/OpenColorIO <br>
 Skills/knowledge relevant to the project: C++11, CMake, color science
 
+Mentor suggestions: Patrick Hodoul, Doug Walker, Michael Dolan
+
 **Project Ideas**:
 
-* Add Metal, Vulcan, or CUDA language support to GPU renderer
+* Add Metal, Vulkan, or CUDA language support to GPU renderer
     - The OCIO Processor currently supports rendering color transforms on a GPU 
       with GLSL (OpenGL), HLSL (DirectX), or CG. With Apple deprecating OpenGL 
       support and the availability of several additional high-performance GPU 
       computing platforms, we desire to add shader language support for one or 
       more of these to expand the capability and reach of OCIO. This will also 
       be a critical need for OCIO to maintain full cross-platform support.
-    - Mentor suggestion: Patrick Hodoul
     - Special skills: Familiar with C++, shader development, and implementing 
       graphics APIs.
 
@@ -137,7 +155,6 @@ Skills/knowledge relevant to the project: C++11, CMake, color science
       support, but needs some effort to revive. Additionally, adding Java unit
       test support to OCIO's CI infrastructure would help maintain the 
       functionality as OCIO continues to evolve.
-    - Mentor suggestion: Michael Dolan
     - Special skills: Comfortable with Java, with some knowledge of wrapping a 
       C++ library with the JNI.
     
@@ -149,7 +166,6 @@ Skills/knowledge relevant to the project: C++11, CMake, color science
       production pipelines could be considered. This could also include 
       upgrading an existing implementation to support the OCIO v2 API and 
       leverage new functionality.
-    - Mentor suggestion: Doug Walker
     - Special skills: Familiarity with prospective host library or tool, 
       and knowledge of working with image buffers and authoring plugins.
 
@@ -161,7 +177,6 @@ Skills/knowledge relevant to the project: C++11, CMake, color science
       validation while a config is being authored. This could be a standalone 
       Qt or PySide application, or an expanded plugin within an existing 
       graphics application like Foundry's Nuke.
-    - Mentor suggestion: Michael Dolan
     - Special skills: Experience with GUI and graphics programming in C++ or 
       Python, understanding of UX, and interest in data visualization.
 
@@ -172,6 +187,10 @@ GitHub:     https://github.com/AcademySoftwareFoundation/OpenCue <br>
 Skills/knowledge relevant to the project: Python, Java
 
 Mentor suggestion: Brian Cipriano
+
+**Getting Started**:
+
+Contact Brian Cipriano <<cipriano@google.com>> and join the [opencue-dev list](https://lists.aswf.io/g/opencue-dev).
 
 **Project Ideas**:
 
@@ -392,6 +411,23 @@ Mentor suggestions: Ken Museth, Dan Bailey, Nick Avramoussis
 
 ### Cross-project infrastructure
 
-... ideas go here ...
+#### ASWF-Docker
+
+GitHub:     https://github.com/AcademySoftwareFoundation/aswf-docker <br>
+Skills/knowledge relevant to the project: Python, Docker, Bash, CMake
+
+Mentor suggestions: Aloys Baillet, JF Panisset
+
+**Project Ideas**:
+
+* Better docker image discovery via automatic readme uploads to DockerHub overviews on image push (modern Python 3 development, dockerhub rest API).
+These readme files would populate the "overview" tab on the docker hub pages such as this one: https://hub.docker.com/r/aswf/ci-openexr.
+* Investigate RPM (yum packages) generation from docker ci-packages such as https://hub.docker.com/r/aswf/ci-package-openexr.
+These RPMs would potentially be hosted on an artifactory yum repo which would enable any RHEL or CentOS user to very easily install many VFX packages.
+* Create a prototype of a windows docker image equivalent to the linux `ci-common` and `ci-base` images to be able to compile VFX packages such as OpenEXR.
+Many details on the windows version of our CI docker images are still yet to be defined and discovered.
+
+
+... more ideas go here ...
 
 
