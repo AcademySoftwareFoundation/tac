@@ -93,6 +93,7 @@ What about an integrated headset and microphone? This totally depends on the typ
 
 ### Pro-tips
 
+- If you join the meeting via the desktop or web client, [make sure your name is set correctly](https://support.zoom.us/hc/en-us/articles/200941109-Attendee-Controls-in-a-Meeting) so other attendees know who you are ( especially the person taking meeting notes! ).
 - [Join on muted audio and video] in order to prevent noise to those already in a call.
 - If you don't have anything to say at that moment, **MUTE**. This is a common problem. You can help out a teammate by mentioning it on Zoom chat or asking them to mute on the call itself. The meeting co-host can help with muting noisly attendees before it becomes too disruptive. Don't feel bad if this happens to you, it's a common occurrence.
 - Try to find a quiet meeting place to join from; some coworking spaces and coffee shops have a ton of ambient noise that won't be obvious to you but will be to other people in the meeting. When presenting to large groups consider delegating to another person who is in a quieter environment.
