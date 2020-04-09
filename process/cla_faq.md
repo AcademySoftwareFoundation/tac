@@ -23,3 +23,17 @@ A: A CLA Manager is the person or are the persons in your organization that are 
 Q: Do I need to have my employer sign the CCLA if I am making contributions on my own time and using my own equipment?
 
 A: This varies depending on where you live and work, and your employer's policies and agreements. If you have any questions then you should discuss with your manager and/or your employer's legal team before contributing.
+
+Q: I submitted a PR before I signed the CLA, so the PR is now marked with
+the red CommunityBridge "NOT COVERED" error. What do I do to get the error
+to go away?
+
+A: Refer to the EasyCLA documentation on making your first contribution to a EasyCLA managed repository at https://docs.linuxfoundation.org/easycla/contributors/sign-a-cla-as-an-individual-contributor-to-github for more details, but generally it should go away on it's own after a few minutes. If you still have issues, please file a support request at https://jira.linuxfoundation.org/servicedesk/customer/portals
+
+Q: My company has a corporate CLA for another ASWF project, doesn't that cover this project, too?
+
+A: Each ASWF project leverages a seperate CLA for contributions to thier project. You can follow the guide at https://docs.linuxfoundation.org/easycla/contributors/contribute-to-a-github-company-project to automatically notify your organization's CLA manager for the given project and authorize you under the CCLA.
+
+Q: My corporate CLA manager says I should be on the approved list, but my PR is still blocked. What gives?
+
+A: Confirm that you are selecting the proper company name as there may be multiple corporate entities registered. If you still have issues, please file a support request at https://jira.linuxfoundation.org/servicedesk/customer/portals
