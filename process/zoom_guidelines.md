@@ -56,7 +56,7 @@ Issues that cannot be handle via normal moderation, or with the assistance of th
 
 ## Meeting recordings
 
-Chairs and TLs are responsible for posting all meetings recordings to the project repository. If a violation has been addressed by a host and it has been recorded by Zoom, the video should be edited before being posted.
+Project chairs are responsible for posting all meetings recordings to the project repository. If a violation has been addressed by a host and it has been recorded by Zoom, the video should be edited before being posted.
 
 Contact [ASWF Program Manager] if you need help to edit a video before posting it to the public.
 
