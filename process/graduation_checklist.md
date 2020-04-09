@@ -34,7 +34,7 @@ questions.
     of the project’s charter (or other authorized governance document)
     will be included or linked to in visible location.**
   
-    _Link to GOVERNAME.md, COMMITTERS.md, and TSC Charter_
+    _Link to GOVERNANCE.md, COMMITTERS.md, and TSC Charter_
 
   - **Have achieved and maintained a Core Infrastructure Initiative
     Best Practices Badge.**
