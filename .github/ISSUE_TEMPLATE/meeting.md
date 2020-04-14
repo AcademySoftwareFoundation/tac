@@ -1,4 +1,4 @@
-# AWSF TAC Meeting - <%= date.toFormat("Month d, yyyy") %>
+# AWSF TAC Meeting - <%= date.toFormat("MMMM d, yyyy") %>
 
 ## Voting member attendance
 
