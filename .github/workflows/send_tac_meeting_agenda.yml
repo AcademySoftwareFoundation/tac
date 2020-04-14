@@ -12,7 +12,7 @@ jobs:
       env:
         SENDGRID_API_KEY: ${{ secrets.SENDGRID_API_KEY }}
       with:
-        fromMailAddress: 'omp-technical@lists.openmainframeproject.org'
-        toMailAddress: 'omp-technical@lists.openmainframeproject.org'
+        fromMailAddress: 'tac@lists.aswf.io'
+        toMailAddress: 'tac@lists.aswf.io'
         subject: 'TAC meeting agenda for today'
         labelsToMonitor: 'meeting'
