@@ -30,8 +30,8 @@ jobs:
 
             [1]: https://github.com/peter-evans/create-pull-request
           labels: report, automated pr
-          assignees: peter-evans
-          reviewers: peter-evans
+          assignees: jmertic
+          reviewers: jmertic
           team-reviewers: owners, maintainers
           milestone: 1
           project: Example Project
