@@ -33,9 +33,6 @@ jobs:
           assignees: jmertic
           reviewers: jmertic
           team-reviewers: owners, maintainers
-          milestone: 1
-          project: Example Project
-          project-column: To do
           draft: false
           request-to-parent: false
       - name: Check outputs
