@@ -1,0 +1,16 @@
+name: Schedule monthly TAC meetings
+on:
+  issues:
+    types: [labeled, unlabeled]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: wesleytodd/meeting-maker@v0
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        schedules: 2020-04-22T16:00:00.0Z/P2W
+        createWithin: P10D
+        issueTitle: "TAC Meeting <%= date.toFormat('yyyy-MM-dd') %>"
+        labels: meeting
+        agendaLabel: meeting-agenda
