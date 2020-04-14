@@ -1,0 +1,18 @@
+name: Send TAC meeting agenda to email list
+on:
+  issues:
+    types: [labeled]
+  pull_request:
+    types: [labeled]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: timheuer/issue-notifier@v1
+      env:
+        SENDGRID_API_KEY: ${{ secrets.SENDGRID_API_KEY }}
+      with:
+        fromMailAddress: 'omp-technical@lists.openmainframeproject.org'
+        toMailAddress: 'omp-technical@lists.openmainframeproject.org'
+        subject: 'TAC meeting agenda for today'
+        labelsToMonitor: 'meeting'
