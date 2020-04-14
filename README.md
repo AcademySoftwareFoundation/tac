@@ -88,19 +88,16 @@ _None_
 
 # Meetings and Conversation
 
-Meetings are scheduled every other Wednesday at 1pm US Pacific Time and are open to anyone interested in participating in the project. You can follow the TAC discussions by signing up for the [TAC email list](https://lists.aswf.io/g/tac).
+Meetings are scheduled every other Wednesday at 1pm US Pacific Time and are open to anyone interested in participating in the project; the current schedule is available on the [TAC calendar](https://lists.aswf.io/g/tac/calendar). You can follow the TAC discussions by signing up for the [TAC email list](https://lists.aswf.io/g/tac).
 
-You can review [past meeting notes](/meetings) and the [calendar of meetings](https://lists.aswf.io/calendar).
+You can propose a topic for the TAC by either creating an open [issue tagged 'meeting-agenda'](https://github.com/AcademySoftwareFoundation/tac/issues/new?labels=meeting-agenda) or [pull request tagged 'meeting-agenda'](https://github.com/AcademySoftwareFoundation/tac/pulls?q=label%3Ameeting-agenda) up until the day before the meeting. The agenda for the meeting is available shortly after midnight GMT on the day of the meeting as an [issue for review and comment](https://github.com/AcademySoftwareFoundation/tac/labels/meeting) and is sent via email to the TAC email list.
 
-For the next TAC meeting, you can propose agenda items either [via email to the TAC](mailto:tac@lists.aswf.io), or as a pull request against [those meeting notes](/meetings).
+[Meeting notes](/meetings) are posted soon after each meeting, along with recordings.
 
 ## Conference call details
 
-Join from PC, Mac, Linux, iOS or Android: https://zoom.us/j/757849640
+Join the meeting at https://zoom.us/j/757849640 or dial in using a phone number below
 
-* iPhone one-tap: US: +16465588656,,757849640#  or +16699006833,,757849640#
-Or Telephone:
-    Dial(for higher quality, dial a number based on your current location):
-        US: +1 646 558 8656  or +1 669 900 6833  or +1 855 880 1246 (Toll Free) or +1 877 369 0926 (Toll Free)
-    Meeting ID: 757 849 640
-    International numbers available: https://zoom.us/u/bHi4eTbaK
+* US: +16465588656,,757849640#
+* US: +16699006833,,757849640#
+* International numbers available: https://zoom.us/u/bHi4eTbaK
