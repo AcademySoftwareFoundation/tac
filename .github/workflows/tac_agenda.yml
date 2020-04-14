@@ -13,7 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Create report file
-        run: python --version > report.txt
+        run: python3 --version > report.txt
       - name: Create Pull Request
         id: cpr
         uses: peter-evans/create-pull-request@v2
