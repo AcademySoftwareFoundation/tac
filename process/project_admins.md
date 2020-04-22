@@ -31,5 +31,4 @@ Foundation Release Engineering team.
 
 ## List of Project Admins
 
-* Name, Project
-* Name, Project
+* Dan Bailey, OpenVDB
