@@ -42,6 +42,7 @@ Current TAC Members are:
 | Cary Phillips | OpenEXR Representative | |
 | Brian Cipriano | OpenCue Representative | *(non-voting due Brian also being the Google voting rep)* |
 | Joshua Minor | OpenTimelineIO Representative | |
+| Chris Kulla | Open Shading Language Representative | |
 
 # Current Technical Projects
 

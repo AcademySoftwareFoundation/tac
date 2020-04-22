@@ -24,6 +24,7 @@
 [ ] Michael Dolan, OpenColorIO Representative
 [ ] Cary Phillips, OpenEXR Representative
 [ ] Joshua Minor, OpenTimelineIO Representative
+[ ] Christopher Kulla, OpenShadingLanguage Representative
 
 # Agenda
 
@@ -35,7 +36,7 @@
   - OpenEXR
   - OpenCue
   - OpenTimelineIO
-
+  - OpenShadingLanguage
 - CI updates
   - Working group
 
