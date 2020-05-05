@@ -43,7 +43,16 @@ Here is an example Signed-off-by line, which indicates that the submitter accept
 
 `Signed-off-by: John Doe <john.doe@example.com>`
 
-You can include this automatically when you commit a change to your local git repository using <code>git commit -s</code>. You might also want to leverage this [command line tool](https://github.com/coderanger/dco) for automatically adding the signoff message on commits.
+You can include this automatically when you commit a change to your local git repository using <code>git commit -s</code>.
+
+### Useful tools to make doing DCO signoffs easier
+
+There are a number of great tools out there to manage DCO signoffs for developers to make it much easier to do signoffs.
+
+- DCO command line tool, which let's you do a single signoff for an entire repo ( https://github.com/coderanger/dco )
+- GitHub UI integrations for adding the signoff automatically ( https://github.com/scottrigby/dco-gh-ui )
+  - Chrome - https://chrome.google.com/webstore/detail/dco-github-ui/onhgmjhnaeipfgacbglaphlmllkpoijo
+  - Firefox - https://addons.mozilla.org/en-US/firefox/addon/scott-rigby/?src=search
 
 ### Signoff for commits where the DCO signoff was missed
 
