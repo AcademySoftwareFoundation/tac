@@ -82,6 +82,7 @@ Working groups may be formed by the TAC to focus on specific areas of technical 
 ## Active
 
 - [CI Working Group](meetings/CI-workinggroup)
+- [Universal Scene Description Working Group (USDWG)](https://github.com/AcademySoftwareFoundation/wg-usd)
 
 ## Archived
 
