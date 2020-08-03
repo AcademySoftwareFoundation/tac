@@ -1,5 +1,5 @@
-Project Name: [PROJECT NAME]
-Project Entity: [PROJECT ENTITY NAME]
+Project Name: [COMMOM NAME]
+Project Entity: [SERIES ENTITY]
 
 If emailing signed PDF, send to: [CLA CONTACT EMAIL]
 
