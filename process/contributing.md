@@ -8,7 +8,7 @@ Within open source there are multiple approaches to contribution and licensing, 
 
 ## License
 
-Generally net new open source projects at The Linux Foundation leverage the [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0) for their codebase, a [Community Data License Agreement (CDLA) license](https://cdla.io/) for any data sets, and the [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/) for all documentation and non-code assets. These licenses are widely used and understood by both developers and organizations alike, providing flexibility for downstream usage and patent protection for those contributing code.
+Generally net new open source projects at The Linux Foundation leverage the [Apache License, Version 2.0] for their codebase, a [Community Data License Agreement (CDLA) license] for any data sets, and the [Creative Commons Attribution 4.0 International License] for all documentation and non-code assets. These licenses are widely used and understood by both developers and organizations alike, providing flexibility for downstream usage and patent protection for those contributing code.
 
 ### Code License identification
 
@@ -26,7 +26,7 @@ For clarity, we would not recommend removing a third party’s license or copyri
 
 ### Example of the SPDX short-form license identifiers and copyright notice in a source file
 
-Assumes Apache License, Version 2.0 and Foo project name.
+Assumes [Apache License, Version 2.0] and Foo project name.
 
 ```
 # SPDX-License-Identifier: Apache-2.0
@@ -71,13 +71,13 @@ Each user who has made the past commits should have thier own <code>Signed-off-b
 
 Some projects might either have used a Contributor License Agreement (CLA) in the past (either in the form of a Corporate Contributor License Agreement (CCLA) or Individual Contributior License Agreement (ICLA)) or have considered using it. The use of a CLA is not required for open source projects and many of the use cases for CLAs are handled through the lighter weight DCO or by having an independent entity in place like the ASWF makes available.
 
-If your project does have this requirement, ASWF recommends reaching out to The Linux Foundation in advance to discuss before proposing your project to the community.  Where a CLA is required, the ASWF recommends usage of the [Linux Foundation minimal CCLA template](ccla_template.md).
+If your project does have this requirement, ASWF recommends reaching out to The Linux Foundation in advance to discuss before proposing your project to the community.  Where a CLA is required, the ASWF recommends usage of a [Apache Style CCLA template] and [Apache Style ICLA template].
 
 # Frequently Asked Questions
 
-Q: What if the project I want to propose is not under an Apache 2 license, CDLA license or Creative Commons Attribution 4.0 International License?
+Q: What if the project I want to propose is not under an [Apache License, Version 2.0], [Community Data License Agreement (CDLA) license] or [Creative Commons Attribution 4.0 International License]?
 
-A: Some projects may be able to relicense to the [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0) for their codebase, a [Community Data License Agreement (CDLA) license](https://cdla.io/) for any data sets, and the [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/) for all documentation and non-code assets. If this can be easily done by one entity with the appropriate rights, this is our preferred approach. Projects with a history of contributions from multiple parties may not be able to easily relicense. Where another OSI-approved license is in place, the project may be proposed under its existing license and may be accepted without license change.  Use of a license not approved by the ASWF does not preclude you from making a proposal but be sure in your project proposal to address the anticipated challenges relicensing the project.
+A: Some projects may be able to relicense to the [Apache License, Version 2.0] for their codebase, a [Community Data License Agreement (CDLA) license] for any data sets, and the [Creative Commons Attribution 4.0 International License] for all documentation and non-code assets. If this can be easily done by one entity with the appropriate rights, this is our preferred approach. Projects with a history of contributions from multiple parties may not be able to easily relicense. Where another OSI-approved license is in place, the project may be proposed under its existing license and may be accepted without license change.  Use of a license not approved by the ASWF does not preclude you from making a proposal but be sure in your project proposal to address the anticipated challenges relicensing the project.
 
 Q: Does the use of a particular open source license require the use of a CLA?
 
@@ -89,10 +89,18 @@ A: Yes.
 
 Q: Can umbrella CLAs be established where contributors and their organizations grant rights to all ASWF projects?
 
-A: The ASWF TAC sees value in lowering the friction to contribution, and is investigating this as an option as the number of hosted projects grows. In the meantime, projects aligning around the [Linux Foundation minimal CCLA template](ccla_template.md) will ensure that the legal review for signing a CCLA is minimal.
+A: The ASWF TAC sees value in lowering the friction to contribution, and is investigating this as an option as the number of hosted projects grows. In the meantime, projects aligning around the [Apache Style CCLA template] and [Apache Style ICLA template] will ensure that the legal review for signing a CCLA and/or ICLA is minimal.
 
-Q: When a project uses a CLA with the [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0), is it common for the [Apache CCLA](https://www.apache.org/licenses/cla-corporate.txt) to be employed?  Should ASWF projects that require a CLA and use the Apache License, Version 2.0 employ the Apache CLA or the LF minimal CLA?
+Q: When a project uses a CLA with the [Apache License, Version 2.0], is it common for the [Apache Style CCLA template] and [Apache Style ICLA template] to be employed?  Should ASWF projects that require a CLA and use the [Apache License, Version 2.0] employ the Apache CLA or the LF minimal CLA?
 
-A: There is no requirement for a project to adopt an Apache CCLA with code licensed under the Apache License, Version 2.0. Many open source projects leverage the Apache License, Version 2.0 without using the Apache CCLA or sometimes without a CLA in general (in many cases use of the [DCO](https://developercertificate.org/) alone is sufficent for project communities).
+A: There is no requirement for a project to adopt an [Apache Style CCLA template] and [Apache Style ICLA template] with code licensed under the [Apache License, Version 2.0]. Many open source projects leverage the [Apache License, Version 2.0] without using the [Apache Style CCLA template] and [Apache Style ICLA template] or sometimes without a CLA in general (in many cases use of the [DCO](https://developercertificate.org/) alone is sufficent for project communities).
 
-The ASWF community is aiming to align around the [Linux Foundation minimal CCLA template](ccla_template.md) in cases where use of a CLA is required.
+The ASWF community is aiming to align around the [Apache Style CCLA template] and [Apache Style ICLA template] in cases where use of a CLA is required. Projects may also use the [Linux Foundation minimal CCLA template] and [Linux Foundation minimal ICLA template].
+
+[Apache License, Version 2.0]: http://www.apache.org/licenses/LICENSE-2.0
+[Apache Style CCLA template]: ccla_template_apachestyle.md
+[Apache Style ICLA template]: icla_template_apachestyle.md
+[Community Data License Agreement (CDLA) license]: https://cdla.io/
+[Creative Commons Attribution 4.0 International License]: http://creativecommons.org/licenses/by/4.0/
+[Linux Foundation minimal CCLA template]: ccla_template_lfshortform.md
+[Linux Foundation minimal ICLA template]: icla_template_lfshortform.md
