@@ -71,7 +71,7 @@ Each user who has made the past commits should have thier own <code>Signed-off-b
 
 Some projects might either have used a Contributor License Agreement (CLA) in the past (either in the form of a Corporate Contributor License Agreement (CCLA) or Individual Contributior License Agreement (ICLA)) or have considered using it. The use of a CLA is not required for open source projects and many of the use cases for CLAs are handled through the lighter weight DCO or by having an independent entity in place like the ASWF makes available.
 
-If your project does have this requirement, ASWF recommends reaching out to The Linux Foundation in advance to discuss before proposing your project to the community.  Where a CLA is required, the ASWF recommends usage of a [Apache Style CCLA template] and [Apache Style ICLA template].
+If your project does have this requirement, ASWF recommends reaching out to The Linux Foundation in advance to discuss before proposing your project to the community. The CLA templates recommended by the ASWF's Legal Committee presently are the [ASWF 2020 CCLA template] and [ASWF 2020 ICLA template]. These are derived from the Apache Software Foundation's CCLA and ICLA template, and contain substantively the same scope of license grants and requirements. The changes are intended to reflect ASWF entities rather than Apache Software Foundation as the project host, and to include administrative changes for ASWF's use of the EasyCLA tool to manage authorized contributors under signed CLAs.
 
 # Frequently Asked Questions
 
@@ -89,17 +89,18 @@ A: Yes.
 
 Q: Can umbrella CLAs be established where contributors and their organizations grant rights to all ASWF projects?
 
-A: The ASWF TAC sees value in lowering the friction to contribution, and is investigating this as an option as the number of hosted projects grows. In the meantime, projects aligning around the [Apache Style CCLA template] and [Apache Style ICLA template] will ensure that the legal review for signing a CCLA and/or ICLA is minimal.
+A: The ASWF TAC sees value in lowering the friction to contribution, and is investigating this as an option as the number of hosted projects grows. In the meantime, projects aligning around the [ASWF 2020 CCLA template] and [ASWF 2020 ICLA template] will ensure that the legal review for signing a CCLA and/or ICLA is minimal.
 
-Q: When a project uses a CLA with the [Apache License, Version 2.0], is it common for the [Apache Style CCLA template] and [Apache Style ICLA template] to be employed?  Should ASWF projects that require a CLA and use the [Apache License, Version 2.0] employ the Apache CLA or the LF minimal CLA?
+Q: When a project uses a CLA with the [Apache License, Version 2.0], is it common for [ASF Contributor Agreements] to be employed?  Should ASWF projects that require a CLA and use the [Apache License, Version 2.0] employ the Apache CLA or the LF minimal CLA?
 
-A: There is no requirement for a project to adopt an [Apache Style CCLA template] and [Apache Style ICLA template] with code licensed under the [Apache License, Version 2.0]. Many open source projects leverage the [Apache License, Version 2.0] without using the [Apache Style CCLA template] and [Apache Style ICLA template] or sometimes without a CLA in general (in many cases use of the [DCO](https://developercertificate.org/) alone is sufficent for project communities).
+A: There is no requirement for a project to adopt [ASF Contributor Agreements] with code licensed under the [Apache License, Version 2.0]. Many open source projects leverage the [Apache License, Version 2.0] without using [ASF Contributor Agreements] or sometimes without a CLA in general (in many cases use of the [DCO](https://developercertificate.org/) alone is sufficent for project communities).
 
-The ASWF community is aiming to align around the [Apache Style CCLA template] and [Apache Style ICLA template] in cases where use of a CLA is required. Projects may also use the [Linux Foundation minimal CCLA template] and [Linux Foundation minimal ICLA template].
+The ASWF community is aiming to align around the [ASWF 2020 CCLA template] and [ASWF 2020 ICLA template] in cases where use of a CLA is required. Projects may also use the [Linux Foundation minimal CCLA template] and [Linux Foundation minimal ICLA template].
 
 [Apache License, Version 2.0]: http://www.apache.org/licenses/LICENSE-2.0
-[Apache Style CCLA template]: ccla_template_apachestyle.md
-[Apache Style ICLA template]: icla_template_apachestyle.md
+[ASF Contributor Agreements]: https://www.apache.org/licenses/contributor-agreements.html
+[ASWF 2020 template]: ccla_template_aswf2020.md
+[ASWF 2020 template]: icla_template_aswf2020.md
 [Community Data License Agreement (CDLA) license]: https://cdla.io/
 [Creative Commons Attribution 4.0 International License]: http://creativecommons.org/licenses/by/4.0/
 [Linux Foundation minimal CCLA template]: ccla_template_lfshortform.md
