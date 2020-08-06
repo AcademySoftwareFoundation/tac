@@ -8,7 +8,7 @@ Within open source there are multiple approaches to contribution and licensing, 
 
 ## License
 
-Generally net new open source projects at The Linux Foundation leverage the [Apache License, Version 2.0] for their codebase, a [Community Data License Agreement (CDLA) license] for any data sets, and the [Creative Commons Attribution 4.0 International License] for all documentation and non-code assets. These licenses are widely used and understood by both developers and organizations alike, providing flexibility for downstream usage and patent protection for those contributing code.
+Generally open source projects at The Linux Foundation that have not previously selected a license leverage the [Apache License, Version 2.0] for their codebase, a [Community Data License Agreement (CDLA) license] for any data sets, and the [Creative Commons Attribution 4.0 International License] for all documentation and non-code assets. These licenses are widely used and understood by both developers and organizations alike, providing flexibility for downstream usage and patent protection for those contributing code.
 
 ### Code License identification
 
