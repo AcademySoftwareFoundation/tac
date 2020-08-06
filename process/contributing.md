@@ -99,8 +99,8 @@ The ASWF community is aiming to align around the [ASWF 2020 CCLA template] and [
 
 [Apache License, Version 2.0]: http://www.apache.org/licenses/LICENSE-2.0
 [ASF Contributor Agreements]: https://www.apache.org/licenses/contributor-agreements.html
-[ASWF 2020 template]: ccla_template_aswf2020.md
-[ASWF 2020 template]: icla_template_aswf2020.md
+[ASWF 2020 CCLA template]: ccla_template_aswf2020.md
+[ASWF 2020 ICLA template]: icla_template_aswf2020.md
 [Community Data License Agreement (CDLA) license]: https://cdla.io/
 [Creative Commons Attribution 4.0 International License]: http://creativecommons.org/licenses/by/4.0/
 [Linux Foundation minimal CCLA template]: ccla_template_lfshortform.md
