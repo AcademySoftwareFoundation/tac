@@ -37,6 +37,7 @@ Current TAC Members are:
 | Larry Gritz | Software Engineering Architect | Sony Pictures Imageworks |
 | Jean-Francois Panisset | Industry Representative | VES Technology Committee |
 | Cory Omand | Supervising Lead Software Engineer | The Walt Disney Studios |
+| Laurent Ruel | Sr. Director Engineering, Verticals | Unity Technologies |
 | Kimball Thurston | Senior Imaging Researcher | Weta Digital Limited |
 | Ken Museth | OpenVDB Representative | |
 | Michael Dolan | OpenColorIO Representative | |
