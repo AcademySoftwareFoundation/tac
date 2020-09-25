@@ -11,13 +11,13 @@ If you would like to submit a working group proposal, please submit the [templat
 
 ## FAQs
 
-Q: Who can propose a new working group?
+### Q: Who can propose a new working group?
 A: Anyone can propose a new working group ( whether from an ASWF member organization or not ), but it must be sponsored by a [TAC member].
 
-Q: Can working groups have infrastructure during formation to enable collaboration?
+### Q: Can working groups have infrastructure during formation to enable collaboration?
 A: Yes! Please submit a [request on the foundation repo](https://github.com/AcademySoftwareFoundation/foundation/issues/new) and we can provide a mailing list, Slack channel, and GitHub repo.
 
-Q: What if the goals or mission of the working group change?
+### Q: What if the goals or mission of the working group change?
 A: The TAC recognizes that in the lifecycle of a working group goals or mission may change. In those cases, the working group must present to the TAC an updated version of their [template] for approval.
 
 [TAC member]: https://github.com/AcademySoftwareFoundation/tac#tac-members
