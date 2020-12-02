@@ -36,7 +36,7 @@ Current TAC Members are:
 | Eric Enderton | Director of Film Rendering Technology | NVIDIA |
 | Larry Gritz | Software Engineering Architect | Sony Pictures Imageworks |
 | Jean-Francois Panisset | Industry Representative | VES Technology Committee |
-| Cory Omand | Supervising Lead Software Engineer | The Walt Disney Studios |
+| Cory Omand | Director of Engineering, Pixar Software R&D | The Walt Disney Studios |
 | Mark Visser | SR. Development Manager, M&E | Unity Technologies |
 | Kimball Thurston | Senior Imaging Researcher | Weta Digital Limited |
 | Ken Museth | OpenVDB Representative | |
