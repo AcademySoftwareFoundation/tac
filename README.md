@@ -17,34 +17,31 @@ All members of the broad ASWF community are welcome to participate in TAC activi
 
 Current TAC Members are:
 
-| Representative | Title | Organization |
+| Representative | Appointed By | Role | Organization | Title |
 | -------------- | ----- | ------------ |
-| Daniel Heckenberg - Chairperson | R & D | Animal Logic Pty Ltd |
-| Sean O'Connell | Member of Technical Staff Software Engineer | Advanced Micro Devices |
-| Sean Looper | Senior Solutions Architect | Amazon Web Services |
-| Dr. Michael B. Johnson | Pro Workflow Architect, Systems Architecture & Design | Apple |
-| Gordon Bradley | Senior Software Architect | Autodesk |
-| Pilar Molina Lopez | Senior Software Engineer | Blue Sky Studios, Inc. |
-| Michael O’Gorman | Distinguished Engineer | Cisco Systems Inc. |
-| Henry Vera | Head of Production Technology | Double Negative |
-| Bill Ballew | VP Research and Development | DreamWorks Animation |
-| Matt Kuhlenschmidt | Lead Tools Programmer | Epic Games, Inc. |
-| Brian Cipriano | Senior Software Engineer | Google |
-| Sean C McDuffee | Graphics Software Engineer | Intel Corporation |
-| Dave Fellows | Principal Software Engineering Manager, Azure | Microsoft |
-| Michael Min | Manager, VFX Workflows, Creative Technologies | Netflix
-| Eric Enderton | Director of Film Rendering Technology | NVIDIA |
-| Larry Gritz | Software Engineering Architect | Sony Pictures Imageworks |
-| Jean-Francois Panisset | Industry Representative | VES Technology Committee |
-| Cory Omand | Supervising Lead Software Engineer | The Walt Disney Studios |
-| Mark Visser | SR. Development Manager, M&E | Unity Technologies |
-| Kimball Thurston | Senior Imaging Researcher | Weta Digital Limited |
-| Ken Museth | OpenVDB Representative | |
-| Michael Dolan | OpenColorIO Representative | |
-| Cary Phillips | OpenEXR Representative | |
-| Brian Cipriano | OpenCue Representative | *(non-voting due Brian also being the Google voting rep)* |
-| Joshua Minor | OpenTimelineIO Representative | |
-| Chris Kulla | Open Shading Language Representative | |
+|  Sean O'Connell | Membership Entitlement | Voting Rep | None | Advanced Micro Devices, Inc. | Member of Technical Staff Software Engineer |
+|  Sean Looper | Membership Entitlement | Voting Rep | None | Amazon Web Services, Inc. |  |
+|  Michael B. Johnson | Membership Entitlement | Voting Rep | None | Apple | Pro Workflow Architect |
+|  Gordon Bradley | Membership Entitlement | Voting Rep | None | Autodesk | Senior Software Architect |
+|  Henry Vera | Membership Entitlement | Voting Rep | None | DNEG | Head of Production Technology |
+|  Bill Ballew | Membership Entitlement | Voting Rep | None | DreamWorks Animation | VP Research & Development |
+|  Matt Kuhlenschmidt | Membership Entitlement | Voting Rep | None | Epic Games, Inc. | Lead Tools Programmer |
+|  Brian Cipriano | Membership Entitlement | Voting Rep | None | Google | Senior Software Engineer / TSC Lead |
+|  Sean McDuffee | Membership Entitlement | Voting Rep | None | Intel Corporation | Graphics Software Engineer |
+|  Dave Fellows | Membership Entitlement | Voting Rep | None | Microsoft Corporation | Principal Group Engineering Manager, AKS |
+|  Michael Min | Membership Entitlement | Voting Rep | None | Netflix | Manager, VFX Workflows, Creative Technologies |
+|  Eric Enderton | Membership Entitlement | Voting Rep | None | NVIDIA Corporation | Director, Film Rendering Technology |
+|  Larry Gritz | Membership Entitlement | Voting Rep | None | Sony Pictures Imageworks | Software Engineering Architect |
+|  Cory Omand | Membership Entitlement | Voting Rep | None | The Walt Disney Studios | Lead Software Engineer |
+|  Mark Visser | Membership Entitlement | Voting Rep | None | Unity Technologies | Sr. Manager Engineering, M&E |
+|  Kimball Thurston | Membership Entitlement | Voting Rep | None | Weta Digital  Limited | Head of Engineering |
+|  Michael Dolan | Vote of TSC Committee - OpenColorIO | Voting Rep | None | Epic Games, Inc. | Senior Pipeline Developer |
+|  Cary Phillips | Vote of TSC Committee - OpenEXR | Voting Rep | None | The Walt Disney Studios | R&D Supervisor |
+|  Chris Kulla | Vote of TSC Committee - Open Shading Language | Voting Rep | None | Epic Games, Inc. |  |
+|  Joshua Minor | Vote of TSC Committee - OpenTimelineIO | Voting Rep | None | Pixar Animation Studios | Technical Lead |
+|  Ken Museth | Vote of TSC Committee - OpenVDB | Voting Rep | None | NVIDIA Corporation | Senior Director, Simulation Technology |
+|  Jean-Francois Panisset | Vote of TAC Committee - Industry Representative | Voting Rep | None |  | Consulting Engineeer |
+|  Daniel Heckenberg | Vote of TAC Committee - Industry Representative | Voting Rep | None | Animal Logic Pty Ltd | R&D Supervisor - Graphics |
 
 # Current Technical Projects
 
