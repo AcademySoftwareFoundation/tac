@@ -1,8 +1,7 @@
-**The Linux Foundation**
+# The Linux Foundation
+# License Scanning and Analysis Support Program for LF projects
 
-**License Scanning and Analysis Support Program for LF projects**
-
-**Support plan summary for 2021: Academy Software Foundation**
+## Support plan summary for 2021: Academy Software Foundation
 
 Support to be provided by: Steve Winslow
 &lt;<swinslow@linuxfoundation.org>&gt;
@@ -54,8 +53,9 @@ performed:
         describe the requested exceptions and facilitate approvals under
         the charter
 
-Stretch goals: will perform where feasible, subject to available
-resources and time:
+### Stretch goals
+
+Will perform where feasible, subject to available resources and time:
 
 1.  Run “red flag” pre-intake scans, for net new projects:
 
@@ -83,11 +83,11 @@ resources and time:
     4.  work towards providing vulnerability findings as part of
         results.
 
-> Note that WhiteSource has recently been incorporated into the license
-> scanning workflow, so some of this functionality will be subject to
-> continued development of the scanning workflow automation.
+Note that WhiteSource has recently been incorporated into the license
+scanning workflow, so some of this functionality will be subject to
+continued development of the scanning workflow automation.
 
-Notes:
+### Notes
 
 -   The Linux Foundation is not able to provide legal advice to project
     community members. The support program is focused on providing
@@ -103,7 +103,7 @@ Notes:
     scanning results, and does not guarantee that all possible license
     issues in a scanned codebase will be identified.
 
-Dependencies on other LF and project teams:
+### Dependencies on other LF and project teams
 
 -   Will periodically need assistance from project manager or similar
     project staff support, to coordinate on preferred methods for
@@ -114,34 +114,31 @@ Dependencies on other LF and project teams:
     managed by LF IT (none presently anticipated for current projects /
     scan types)
 
-Pricing: $30,000 USD total for 2021; invoiced in equal parts monthly
-($2,500 / month)
+## Covered projects and schedule of scans
 
-Covered projects and schedule of scans:
-
-> **<u>Cycle 1</u>**: **January, April, July, October**:
+### January, April, July, October
 
 -   OpenColorIO
 
 -   OpenCue
 
-> **<u>Cycle 2</u>**: **February, May, August, November**:
+### February, May, August, November
 
 -   OpenEXR
 
 -   OpenShadingLanguage
 
-> **<u>Cycle 3</u>**: **March, June, September, December**:
+### March, June, September, December
 
 -   OpenTimelineIO
 
 -   OpenVDB
 
-> Anticipate up to approximately 3 new projects to come in during 2021.
-> Will perform pre-intake scans and allocate to cycles based on project
-> sizing.
+Anticipate up to approximately 3 new projects to come in during 2021.
+Will perform pre-intake scans and allocate to cycles based on project
+sizing.
 
-Exhibits:
+## Exhibits
 
 1.  Screenshots from example SPDX document
 
@@ -149,31 +146,31 @@ Exhibits:
 
 3.  Screenshots from example board decks
 
-**Exhibit 1**
+### Exhibit 1
 
 **Screenshots from example SPDX document**
 
-<img src="media/media/image1.png" style="width:3.40084in;height:3.86239in" alt="Graphical user interface, text, application Description automatically generated" />
-<img src="media/media/image2.png" style="width:3.4in;height:3.86in" alt="Text Description automatically generated" />
+<img src="media/license_scanning_image1.png" style="width:3.40084in;height:3.86239in" alt="Graphical user interface, text, application Description automatically generated" />
+<img src="media/license_scanning_image2.png" style="width:3.4in;height:3.86in" alt="Text Description automatically generated" />
 
-**Exhibit 2**
+### Exhibit 2
 
 **Screenshots from example scan report for developers**
 
 Key findings and recommended actions:
 
-<img src="media/media/image3.png" style="width:5.01835in;height:3.62088in" alt="Graphical user interface, text, application, email Description automatically generated" />
+<img src="media/license_scanning_image3.png" style="width:5.01835in;height:3.62088in" alt="Graphical user interface, text, application, email Description automatically generated" />
 
 Summary of findings:
 
-<img src="media/media/image4.png" style="width:2.34972in;height:3.53211in" alt="A picture containing graphical user interface Description automatically generated" />
+<img src="media/license_scanning_image4.png" style="width:2.34972in;height:3.53211in" alt="A picture containing graphical user interface Description automatically generated" />
 
 Spreadsheet with detailed findings:
 
-<img src="media/media/image5.png" style="width:5.33061in;height:1.63303in" alt="Graphical user interface, table Description automatically generated" />
+<img src="media/license_scanning_image5.png" style="width:5.33061in;height:1.63303in" alt="Graphical user interface, table Description automatically generated" />
 
-**Exhibit 3**
+### Exhibit 3
 
 **Screenshots from example board decks**
 
-<img src="media/media/image6.png" style="width:7in;height:4.04444in" alt="Graphical user interface, application Description automatically generated" />
+<img src="media/license_scanning_image6.png" style="width:7in;height:4.04444in" alt="Graphical user interface, application Description automatically generated" />
