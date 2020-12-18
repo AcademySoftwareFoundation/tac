@@ -18,7 +18,7 @@ All members of the broad ASWF community are welcome to participate in TAC activi
 Current TAC Members are:
 
 | Representative | Appointed By | Role | Organization | Title |
-| -------------- | ----- | ------------ |
+| -------------- | ----- | ------------ | --- | --- |
 |  Sean O'Connell | Membership Entitlement | Voting Rep | None | Advanced Micro Devices, Inc. | Member of Technical Staff Software Engineer |
 |  Sean Looper | Membership Entitlement | Voting Rep | None | Amazon Web Services, Inc. |  |
 |  Michael B. Johnson | Membership Entitlement | Voting Rep | None | Apple | Pro Workflow Architect |
