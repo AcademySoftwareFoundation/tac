@@ -36,7 +36,7 @@ Current TAC Members are:
 |  Cory Omand | Membership Entitlement | Voting Rep | None | The Walt Disney Studios | Director of Engineering, Pixar Software R&D |
 |  Mark Visser | Membership Entitlement | Voting Rep | None | Unity Technologies | Sr. Manager Engineering, M&E |
 |  Kimball Thurston | Membership Entitlement | Voting Rep | Chair | Weta Digital  Limited | Head of Engineering |
-|  Daniel Heckenberg | Vote of TAC Committee - Industry Representative | Voting Rep | Chair | Animal Logic Pty Ltd | R&D Supervisor - Graphics,  TAC Chair |
+|  Daniel Heckenberg | Vote of TAC Committee - Industry Representative | Voting Rep | None | Animal Logic Pty Ltd | R&D Supervisor - Graphics,  TAC Chair |
 |  Jean-Francois Panisset | Vote of TAC Committee - Industry Representative | Voting Rep | None | Visual Effects Society | Consulting Engineeer |
 |  Chris Kulla | Vote of TSC Committee - Open Shading Language | Voting Rep | None | Epic Games, Inc. |  |
 |  Michael Dolan | Vote of TSC Committee - OpenColorIO | Voting Rep | None | Epic Games, Inc. | Senior Pipeline Developer |
