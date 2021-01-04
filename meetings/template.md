@@ -2,35 +2,40 @@
 
 ## Voting member attendance
 
-[ ] Daniel Heckenberg - Chairperson, Animal Logic Pty Ltd
-[ ] Gordon Bradley, Autodesk
-[ ] Pilar Molina Lopez, Blue Sky Studios, Inc.
-[ ] Michael O’Gorman, Cisco Systems Inc.
-[ ] Henry Vera, Double Negative
-[ ] Bill Ballew, DreamWorks Animation
-[ ] Matt Kuhlenschmidt, Epic Games, Inc.
-[ ] Brian Cipriano, Google & OpenCue Representative
-[ ] Sean C McDuffee, Intel Corporation
-[ ] Larry Gritz, Sony Pictures Imageworks
-[ ] Jean-Francois Panisset, VES Technology Committee
-[ ] Cory Omand, The Walt Disney Studios
-[ ] Kimball Thurston, Weta Digital Limited
-[ ] Eric Enderton, NVIDIA
-[ ] Sean Looper, Amazon Web Services
-[ ] Michael Min, Netflix
-[ ] Michael B. Johnson, Apple
-[ ] Dave Fellows, Microsoft
-[ ] Sean O'Connell, Advanced Micro Devices
-[ ] Mark Visser, Unity Technologies
-[ ] Ken Museth, OpenVDB Representative
-[ ] Michael Dolan, OpenColorIO Representative
-[ ] Cary Phillips, OpenEXR Representative
-[ ] Joshua Minor, OpenTimelineIO Representative
-[ ] Christopher Kulla, OpenShadingLanguage Representative
+### Premier member representatives
+
+- [ ] Bill Roberts, Adobe Systems, Inc.
+- [ ] Sean O'Connell, Advanced Micro Devices, Inc.
+- [ ] Sean Looper, Amazon Web Services, Inc.
+- [ ] Michael B. Johnson, Apple
+- [ ] Gordon Bradley, Autodesk
+- [ ] Henry Vera, DNEG
+- [ ] Bill Ballew, DreamWorks Animation
+- [ ] Matt Kuhlenschmidt, Epic Games, Inc.
+- [ ] Brian Cipriano, Google 
+- [ ] Sean McDuffee, Intel Corporation
+- [ ] Greg Denton, Microsoft Corporation
+- [ ] Michael Min, Netflix
+- [ ] Eric Enderton, NVIDIA Corporation
+- [ ] Larry Gritz, Sony Pictures Imageworks
+- [ ] Cory Omand, The Walt Disney Studios
+- [ ] Mark Visser, Unity Technologies
+- [ ] Kimball Thurston, Weta Digital  Limited
+
+### Project Representatives
+
+- [ ] Christopher Kulla, Open Shading Language
+- [ ] Michael Dolan, OpenColorIO 
+- [ ] Cary Phillips, OpenEXR 
+- [ ] Joshua Minor, OpenTimelineIO 
+- [ ] Ken Museth, OpenVDB 
+
+### Industry Representatives
+
+- [ ] Daniel Heckenberg
+- [ ] Jean-Francois Panisset
 
 # Agenda
-
-- Goals for TAC: Year 2
 
 - Technical Project updates
   - OpenVDB
