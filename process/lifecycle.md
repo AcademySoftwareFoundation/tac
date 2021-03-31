@@ -10,16 +10,16 @@ ASWF may adopt or amend this document by votes of its Technical Advisory Council
 
 # Proposal Process
 
-Projects must be submitted to [tac@lists.aswf.io](mailto:tac@lists.aswf.io) for consideration. Project proposals submitted to the ASWF TAC must provide the following information to the best of thier ability.
+Projects must be submitted to [tac@lists.aswf.io](mailto:tac@lists.aswf.io) for consideration. Project proposals submitted to the ASWF TAC must provide the following information to the best of their ability.
 
 * Name of the project (existing or proposed)
 * Requested project maturity level (select one): Adopted, Incubation, and Sandbox
 * Project description (please describe the purpose and function of the project, its origin and its significance to the ecosystem)
-* Please explain how this project is aligned with the mission of ASWF?
+* Please explain how this project is aligned with the mission of ASWF
 * What is the project’s license for code contributions and methodology for code contributions. ASWF maintains recommendations for contribution and licensing for hosted projects.
 * What tool or platform is utilized for source control (GitHub, etc.) and what is the location (e.g. URL)?
 * What are the external dependencies of the project, and what are the licenses of those dependencies?
-* What roles does the project have (e.g. maintainers, committers?) Who are the current core committers of the project, or which can a list of committers be found?
+* What roles does the project have (e.g. maintainers, committers?) Who are the current core committers of the project, or where can a list of committers be found?
 * What mailing lists are currently used by the project?
 * What tool or platform is leveraged by the project for issue tracking?
 * Does the project have a Core Infrastructure Initiative security best practices badge? Do you foresee any challenges obtaining one? (See: https://bestpractices.coreinfrastructure.org)
@@ -36,9 +36,9 @@ Proposed projects will receive a 30-45 minute presentation slot at an upcoming T
 
 *   Overview of the project and its purpose
     *  If a project is a new project, it’s often helpful to share the vision for the project, the anticipated structure and benefits.
-    *  If the project is an existing open source project proposed to join ASWF, it is often helpful to schedule a project walkthrough for the community to better understand the project, including the architecture, structure and how to get starting using the project. This often helps progress reviews more efficiently.
+    *  If the project is an existing open source project proposed to join ASWF, it is often helpful to schedule a project walkthrough for the community to better understand the project, including the architecture, structure and how to get started using the project. This often helps reviews progress more efficiently.
 *   How does this submission support the ASWF Mission and Vision Statements?
-*   Does the solution have any users? 
+*   Does the project have any users? 
     *   How do you plan to attract users if accepted?
 *   How many committers are you planning to have upfront, and from which companies? 
     *   How do you plan to attract committers and contributors if accepted?
@@ -47,7 +47,7 @@ Proposed projects will receive a 30-45 minute presentation slot at an upcoming T
 
 An initial review of a proposal submitted to the TAC should be conducted within two to four weeks following acceptance of a project contribution proposal. 
 
-The TAC may consider the project for approval at the proposed stage during the meeting it is presented at, provided there is a quorum of TAC voting members present. If there is not a quorum of TAC voting members present or if the TAC is not ready to consider the project for approval during the meeting, the TAC may consider discussing and/or voting on the project proposal via email or postpone the vote to a future meeting. An affirmative vote majority vote of the TAC is required to accept a new TAC Project.
+The TAC may consider the project for approval at the proposed stage during the meeting it is presented at, provided there is a quorum of TAC voting members present. If there is not a quorum of TAC voting members present or if the TAC is not ready to consider the project for approval during the meeting, the TAC may consider discussing and/or voting on the project proposal via email or postpone the vote to a future meeting. An affirmative majority vote of the TAC is required to accept a new TAC Project.
 
 # Stages
 
@@ -72,7 +72,7 @@ Projects being submitted to the ASWF at the sandbox level are intended to be the
 
 ### Requirements
 
-To be accepted at the Incubation stage, a project must:
+To be accepted at the Sandbox stage, a project must:
 
 * Submit a completed [Project Contribution Proposal Template](proposal_template.md) to the TAC, or the TAC’s designated recipient for contribution proposals.
 * Provide such additional information as the TAC may reasonably request.
@@ -102,7 +102,7 @@ A project at the Incubation Stage has begun to form a community and develop its 
 
 ### Requirements
 
-To be accepted at the Incubation stage, a project must meeting the Sandbox requirements plus:
+To be accepted at the Incubation stage, a project must meet the Sandbox requirements plus:
 
 *   Have completed and approved the Technical Charter and agree to transfer any relevant trademarks to The Linux Foundation or its affiliate, LF Projects, LLC, and to assist in filing for any relevant unregistered ones. The ASWF maintains a [template](charter_template.md) for projects to use.
 *   Have defined its technical governance, including:
@@ -110,11 +110,11 @@ To be accepted at the Incubation stage, a project must meeting the Sandbox requi
     *   A README file welcoming new community members to the project and explaining why the project is useful and how to get started.
     *   A CONTRIBUTING file explaining to other developers and your community of users how to contribute to the project. The file should explain what types of contributions are needed and how the process works.
     *   A CODEOWNERS or COMMITTERS file to define individuals or teams that are responsible for code in a repository; document current project owners and current and emeritus committers. 
-    *   A CODE_OF_CONDUCT file that sets the ground rules for participants’ behavior associated and helps to facilitate a friendly, welcoming environment. By default, projects should leverage the Linux Foundation Code of Conduct unless an alternate Code of Conduct is approved prior.
+    *   A CODE_OF_CONDUCT file that sets the ground rules for participants’ behavior associated and helps to facilitate a friendly, welcoming environment. By default, projects should leverage the Linux Foundation Code of Conduct unless an alternate Code of Conduct was previously approved.
     *   A RELEASE file that provides documentation on the release methodology, cadence, criteria, etc.
     *   A GOVERNANCE file that documents the project’s technical governance.
     *   A SUPPORT file to let users and developers know about ways to get help with your project.
-*   Have achieved and maintained a Core Infrastructure Initiative [Best Practices Badge](https://bestpractices.coreinfrastructure.org/). 
+*   Have achieved and maintained a Core Infrastructure Initiative [Best Practices Badge](https://bestpractices.coreinfrastructure.org/) at the passing level. 
 *   Have had a successful license scan with any critical issues remedied.
 *   Have a defined project mission and scope
 *   An overview of the project’s architecture and features defined.
@@ -125,7 +125,7 @@ To be accepted at the Incubation stage, a project must meeting the Sandbox requi
     *   The current number of contributors and committers, and the number of different organizations contributing to the project. 
     *   Demonstrate a sustained flow of commits / merged contributions
     *   A credible plan for developing a thriving user community, in particular expanding the number of committers and contributors?
-    *   Outline of the plan for the project to complete the requirements for Active Stage
+    *   Outline of the plan for the project to complete the requirements for Adopted Stage
 * Obtain an affirmative vote of the TAC.
 
 Sandbox Projects may propose to be reviewed to move to the Incubation Stage at any time by adding the review to a future TAC meeting agenda ( minimum two weeks notice required ) or may be moved to the Incubation Stage during its annual review. Projects should prepare a presentation outlining how it has completed the Incubation Stage requirements.
@@ -143,9 +143,9 @@ Incubation stage projects are eligible to receive the following benefits:
 
 ### Expectations
 
-Incubation Stage projects should provide a quarterly report to the TAC outlining its progress on completing the requirements for the Active Stage. 
+Incubation Stage projects should provide a quarterly report to the TAC outlining its progress on completing the requirements for the Adopted Stage. 
 
-Every 12 months, each Incubation Stage project will be reviewed by the TAC to assess its progress towards graduating to the Active Stage. If the project has not met the requirements for graduating to the Active Stage, the TAC may renew the project at the Incubation Stage for another 12 months with a majority vote of the TAC. 
+Every 12 months, each Incubation Stage project will be reviewed by the TAC to assess its progress towards graduating to the Adopted Stage. If the project has not met the requirements for graduating to the Adopted Stage, the TAC may renew the project at the Incubation Stage for another 12 months with a majority vote of the TAC. 
 
 It is expected that Incubation Stage projects graduate to the Adopted Stage within 2 years from moving to the Incubation Stage. In the case of an Incubation Stage project that is not renewed with ASWF, the trademark and any assets will be returned to the project maintainers or an organization they designate.
 
@@ -159,15 +159,15 @@ To be advance to an Adopted stage, a project must meet the Incubation stage requ
 
 * Demonstrate a substantial ongoing flow of commits and merged contributions, authored by a healthy number of diverse contributors*.
 * Demonstrable roadmap progress.
-* A healthy number of public adopters, identified within the project ( using an ADOPTERS.md page or having showcased on the project’s website )
+* A healthy number of public adopters that are identified within the project ( using an ADOPTERS file or showcased on the project’s website ).
 * Have achieved and maintained a Core Infrastructure Initiative [Best Practices Gold Level Badge](https://bestpractices.coreinfrastructure.org/)
-* Have a technical lead appointed for representation of the project to the TAC.
+* Have a technical lead appointed for voting representation of the project to the TAC.
 * Be deemed by the TAC to add value to the mission of ASWF.
-* Obtain both a ⅔ supermajority vote of the TAC and an affirmative majority vote of the Governing Board
+* Obtain both a 2/3 supermajority vote of the TAC and an affirmative majority vote of the Governing Board
 
 *Since these metrics can vary significantly depending on the type, scope and size of a project, the TAC has final judgment over the level of activity that is adequate to meet these criteria. In general it will be necessary to (at least) demonstrate that the project is not overly reliant on any one individual or company, and can remain healthy in the event of a departure.
 
-Incubation Projects may propose to be reviewed to graduate to the Active Stage at any time by creating a GitHub Issue to add to a future TAC meeting agenda ( minimum two weeks notice required ) or may graduate to the Active Stage during its annual review. Projects should prepare a presentation outlining how it has completed the Active Stage requirements.
+Incubation Projects may propose to be reviewed to graduate to the Adopted Stage at any time by creating a GitHub Issue to add to a future TAC meeting agenda ( minimum two weeks notice required ) or may graduate to the Adopted Stage during its annual review. Projects should prepare a presentation outlining how it has completed the Adopted Stage requirements.
 
 ### Benefits
 
@@ -185,7 +185,7 @@ Projects like products have lifecycles, and often in open source, the relevance 
 Projects only can enter the Archive Stage by either:
 
 *   On request from the project itself, requiring a ⅔ supermajority vote of all active project committers.
-*   By a ⅔ supermajority vote of the TAC if there has been insufficient activity in the project over the course of 6 months or if the project fails to move to the next stage within the expected time indicated in this document.
+*   By a 2/3 supermajority vote of the TAC if there has been insufficient activity in the project over the course of 6 months or if the project fails to move to the next stage within the expected time indicated in this document.
 
 When in the Archive Stage, the project’s code repository administration is transferred to a designated individual by the TAC. No new features or bug fixes will be addressed unless it is deemed a security issue. ASWF will hold all assets in perpetuity. Archive stage projects will be considered “Technical Projects” under the ASWF charter and may receive support as determined by the Governing Board.
 
@@ -200,7 +200,7 @@ The purpose of the TAC Review is to gauge whether the project is still at the co
 Projects will schedule their annual review as part of the next TAC meeting following their anniversary of the project’s acceptance. Projects should prepare a short presentation that covers the following points, which the TAC will use in its review of the project:
 
 *   The current activity of the project, including releases, adoption, and committer/contribution growth and diversity.
-*   Assessment of whether the project is fulfilling the requirements for the project to remain at its current stage, or be considered for a different stage
+*   Assessment of whether the project is fulfilling the requirements for the project to remain at its current stage, or be considered for a different stage.
 *   Feedback on its experience as an ASWF project, including benefits from being an ASWF project and areas that the TAC and ASWF staff can better support the project.
 
 Annual reviews require a majority affirmative vote of the TAC for the project to continue at the current stage or the appropriate number of votes as outlined for each stage in this document to move to the next stage. If the TAC deems the project to not be currently meeting the requirements of the current stage, it may vote to move the project to the appropriate stage or Archived stage. The project may choose to move outside of the ASWF at any time.
