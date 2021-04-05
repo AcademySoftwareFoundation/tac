@@ -31,6 +31,7 @@ Current TAC Members are:
         <th>Organization</th>
     </tr>
 {%- for member in site.data.tacmembers -%}
+{%- if member["Appointed By"] == "Membership Entitlement" -%}
     <tr>
         <td>{{ member["Full Name"] }}</td>
         <td>{{ member["Appointed By"] }}</td>
@@ -38,6 +39,29 @@ Current TAC Members are:
         <td>{{ member["Special Role"] }}</td>
         <td>{{ member["Account Name: Account Name"] }}</td>
     </tr>
+{%- endif -%}
+{%- endfor -%}
+{%- for member in site.data.tacmembers -%}
+{%- if member["Appointed By"] == "Vote of TSC Committee" -%}
+    <tr>
+        <td>{{ member["Full Name"] }}</td>
+        <td>{{ member["Appointed By"] }}</td>
+        <td>{{ member["Voting Status"] }}</td>
+        <td>{{ member["Special Role"] }}</td>
+        <td>{{ member["Account Name: Account Name"] }}</td>
+    </tr>
+{%- endif -%}
+{%- endfor -%}
+{%- for member in site.data.tacmembers -%}
+{%- if member["Appointed By"] == "Vote of TAC Committee" -%}
+    <tr>
+        <td>{{ member["Full Name"] }}</td>
+        <td>{{ member["Appointed By"] }}</td>
+        <td>{{ member["Voting Status"] }}</td>
+        <td>{{ member["Special Role"] }}</td>
+        <td>{{ member["Account Name: Account Name"] }}</td>
+    </tr>
+{%- endif -%}
 {%- endfor -%}
 </table>
 
