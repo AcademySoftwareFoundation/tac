@@ -9,6 +9,8 @@ You can review past meeting notes below and the [calendar of meetings](https://l
 
 For the next TAC meeting, you can propose agenda items either [via email to the TAC](mailto:tac@lists.aswf.io), or as a pull request against [those meeting notes](/meetings).
 
+There is a [template](template.md) file in here for creating the upcoming meeting agenda.
+
 ## Conference call details
 
 Join from PC, Mac, Linux, iOS or Android: https://zoom.us/j/757849640
@@ -19,4 +21,3 @@ Or Telephone:
         US: +1 646 558 8656  or +1 669 900 6833  or +1 855 880 1246 (Toll Free) or +1 877 369 0926 (Toll Free)
     Meeting ID: 757 849 640
     International numbers available: https://zoom.us/u/bHi4eTbaK
-
