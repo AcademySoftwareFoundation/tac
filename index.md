@@ -65,6 +65,7 @@ Working groups may be formed by the TAC to focus on specific areas of technical 
 ## Active
 
 - [CI Working Group](meetings/CI-workinggroup)
+- [Diversity and Inclusion Working Group]()
 - [Python 3 Working Group](https://github.com/AcademySoftwareFoundation/wg-python3)
 - [Rust Working Group](https://github.com/vfx-rs/organization)
 - [Universal Scene Description Working Group (USDWG)](https://github.com/AcademySoftwareFoundation/wg-usd)
