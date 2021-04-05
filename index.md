@@ -49,7 +49,7 @@ Each of the ASWF projects are open to participation by anyone subject to the gov
 
 Current Technical Projects are listed below.
 
-<!-- Embed list of all Open Mainframe Project members -->  
+<!-- Embed list of all ASWF members -->  
 <iframe src="https://landscape.aswf.io/pages/hosted-projects" frameborder="0" id="landscape" scrolling="no" style="width: 1px; min-width: 100%; opacity: 1; visibility: visible; overflow: hidden; height: 1717px;"></iframe>
 <script src="https://landscape.aswf.io/iframeResizer.js"></script>
 
@@ -65,6 +65,7 @@ Working groups may be formed by the TAC to focus on specific areas of technical 
 ## Active
 
 - [CI Working Group](meetings/CI-workinggroup)
+- [Diversity and Inclusion Working Group]()
 - [Python 3 Working Group](https://github.com/AcademySoftwareFoundation/wg-python3)
 - [Rust Working Group](https://github.com/vfx-rs/organization)
 - [Universal Scene Description Working Group (USDWG)](https://github.com/AcademySoftwareFoundation/wg-usd)
