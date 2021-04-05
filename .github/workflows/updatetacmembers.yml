@@ -12,15 +12,24 @@ jobs:
     - name: Grab latest TAC member list
       uses: gautemo/fetch-api-data-action@1.0.2
       with:
-         url: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vRZnU6dlt-5jIdwfyv1H30S7irc9u1LS1VO0qgxrU7kEUCJBeh9Rk-5EeIZfCq_PUGdAzSe_gMxNycF/pub?gid=2056721984&single=true&output=csv'
-         file: '_data/tacmembers.csv'
+        url: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vRZnU6dlt-5jIdwfyv1H30S7irc9u1LS1VO0qgxrU7kEUCJBeh9Rk-5EeIZfCq_PUGdAzSe_gMxNycF/pub?gid=2056721984&single=true&output=csv'
+        file: '_data/tacmembers-new.csv'
+    - name: Set up Python 3.x
+      uses: actions/setup-python@v2
+      with:
+         python-version: '3.x'
+    - name: Strip email column
+      run: |
+        python -m pip install --upgrade pip
+        pip install csvtool
+        csvtool -c 1-6 _data/tacmembers-new.csv > _data/tacmembers.csv
     - name: Create Pull Request
       uses: peter-evans/create-pull-request@v3
       with:
-         token: ${{ secrets.PAT }}
-         branch-suffix: timestamp
-         path: .
-         title: Update TAC members
-         labels: automated-build
-         commit-message: Update TAC members
+        token: ${{ secrets.PAT }}
+        branch-suffix: timestamp
+        path: .
+        title: Update TAC members
+        labels: automated-build
+        commit-message: Update TAC members
 
