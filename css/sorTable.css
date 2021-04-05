@@ -1,0 +1,14 @@
+/* テーブルソート用CSS */
+table.sortable thead tr  .order-asc {
+    background-image: url(./img/asc.png);
+}
+table.sortable thead tr .order-desc {
+    background-image: url(./img/desc.png);
+}
+
+table.sortable thead tr th {
+    background-repeat: no-repeat;
+    background-position: center right;
+    cursor: pointer;
+    background-image: url(./img/bg.png);
+}

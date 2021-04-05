@@ -22,7 +22,8 @@ All members of the broad ASWF community are welcome to participate in TAC activi
 
 Current TAC Members are:
 
-<table>
+<table class="sortable">
+<thead>
     <tr>
         <th>Representative</th>
         <th>Appointed By</th>
@@ -30,6 +31,8 @@ Current TAC Members are:
         <th>Special Role</th>
         <th>Organization</th>
     </tr>
+</thead>
+<tbody>
 {%- for member in site.data.tacmembers -%}
 {%- if member["Appointed By"] == "Membership Entitlement" -%}
     <tr>
@@ -63,7 +66,10 @@ Current TAC Members are:
     </tr>
 {%- endif -%}
 {%- endfor -%}
+</tbody>
 </table>
+<link rel="stylesheet" href="css/sorTable.css">
+<script src="js/sorTable.js"></script>
 
 # Technical Projects
 
