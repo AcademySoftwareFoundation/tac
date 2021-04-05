@@ -49,7 +49,7 @@ Each of the ASWF projects are open to participation by anyone subject to the gov
 
 Current Technical Projects are listed below.
 
-<!-- Embed list of all Open Mainframe Project members -->  
+<!-- Embed list of all ASWF members -->  
 <iframe src="https://landscape.aswf.io/pages/hosted-projects" frameborder="0" id="landscape" scrolling="no" style="width: 1px; min-width: 100%; opacity: 1; visibility: visible; overflow: hidden; height: 1717px;"></iframe>
 <script src="https://landscape.aswf.io/iframeResizer.js"></script>
 
