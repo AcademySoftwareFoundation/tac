@@ -37,7 +37,7 @@ Current TAC Members are:
 {%- if member["Appointed By"] == "Membership Entitlement" -%}
     <tr>
         <td>{{ member["Full Name"] }}</td>
-        <td>{{ member["Appointed By"] }}</td>
+        <td>Premier Member representative</td>
         <td>{{ member["Voting Status"] }}</td>
         <td>{{ member["Special Role"] }}</td>
         <td>{{ member["Account Name: Account Name"] }}</td>
@@ -59,7 +59,7 @@ Current TAC Members are:
 {%- if member["Appointed By"] == "Vote of TAC Committee" -%}
     <tr>
         <td>{{ member["Full Name"] }}</td>
-        <td>{{ member["Appointed By"] }}</td>
+        <td>Industry Representative</td>
         <td>{{ member["Voting Status"] }}</td>
         <td>{{ member["Special Role"] }}</td>
         <td>{{ member["Account Name: Account Name"] }}</td>
