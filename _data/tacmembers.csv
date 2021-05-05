@@ -1,5 +1,4 @@
 Full Name,Account Name: Account Name,Appointed By,Voting Status,Special Role,Title
-Joshua Minor,Academy Software Foundation,Vote of TSC Committee,Voting Rep,None,Sr Lead Software Engineer
 Bill Roberts,"Adobe Systems, Inc.",Membership Entitlement,Voting Rep,None,Sr Director of Strategy
 Sean O'Connell,"Advanced Micro Devices, Inc.",Membership Entitlement,Voting Rep,None,Member of Technical Staff Software Engineer
 Sean Looper,"Amazon Web Services, Inc.",Membership Entitlement,Voting Rep,None,Software Development Manager
@@ -17,6 +16,7 @@ Greg Denton,Microsoft Corporation,Membership Entitlement,Voting Rep,None,Senior 
 Michael Min,Netflix,Membership Entitlement,Voting Rep,None,"Manager, VFX Workflows, Creative Technologies"
 Eric Enderton,NVIDIA Corporation,Membership Entitlement,Voting Rep,None,Dir. Film Rendering Tech.
 Ken Museth,NVIDIA Corporation,Vote of TSC Committee,Voting Rep,None,"Senior Director, Simulation Technology"
+Joshua Minor,Pixar Animation Studios,Vote of TSC Committee,Voting Rep,None,Sr Lead Software Engineer
 Larry Gritz,Sony Pictures Imageworks,Membership Entitlement,Voting Rep,None,Software Engineering Architect
 Cary Phillips,The Walt Disney Studios,Vote of TSC Committee,Voting Rep,None,R&D Supervisor
 Cory Omand,The Walt Disney Studios,Membership Entitlement,Voting Rep,None,"Director of Engineering, Pixar Software R&D"
