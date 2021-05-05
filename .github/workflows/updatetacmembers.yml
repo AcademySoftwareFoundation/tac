@@ -23,4 +23,4 @@ jobs:
         title: Update TAC members
         labels: automated-build
         commit-message: Update TAC members
-
+        signoff: true
