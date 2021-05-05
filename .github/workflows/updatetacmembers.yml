@@ -21,6 +21,6 @@ jobs:
         branch-suffix: timestamp
         path: .
         title: Update TAC members
-        labels: automated-build
+        labels: automerge
         commit-message: Update TAC members
         signoff: true
