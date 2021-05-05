@@ -1,10 +1,16 @@
+---
+grand_parent: Processes
+title: ASWF 2020 v2 CCLA
+parent: CLA Templates
+---
 Project Name: \[COMMON NAME\]
 
 Project Entity: \[SERIES ENTITY\]
 
 If emailing signed PDF, send to: \[CLA CONTACT EMAIL\]
 
-**Individual Contributor License Agreement ("Agreement") v2.0**
+**Software Grant and Corporate Contributor License Agreement
+("Agreement") v2.0**
 
 Thank you for your interest in the project specified above (the
 "Project"). In order to clarify the intellectual property license
@@ -14,6 +20,11 @@ by each Contributor, indicating agreement to the license terms below.
 This license is for your protection as a Contributor as well as the
 protection of the Project and its users; it does not change your rights
 to use your own Contributions for any other purpose.
+
+This version of the Agreement allows an entity (the "Corporation") to
+submit Contributions to the Project, to authorize Contributions
+submitted by its designated employees to the Project, and to grant
+copyright and patent licenses thereto.
 
 If you have not already done so, please complete and sign this Agreement
 using the electronic signature portal made available to you by the
@@ -58,44 +69,41 @@ right, title, and interest in and to Your Contributions.
 
 2.  Grant of Copyright License. Subject to the terms and conditions of
     this Agreement, You hereby grant to the Project and to recipients of
-    software distributed by the Project a perpetual, worldwide,
-    nonexclusive, no-charge, royalty-free, irrevocable copyright license
-    to reproduce, prepare derivative works of, publicly display,
-    publicly perform, sublicense, and distribute Your Contributions and
-    such derivative works.
+    software distributed by the Project a perpetual, worldwide, non-
+    exclusive, no-charge, royalty-free, irrevocable copyright license to
+    reproduce, prepare derivative works of, publicly display, publicly
+    perform, sublicense, and distribute Your Contributions and such
+    derivative works.
 
 3.  Grant of Patent License. Subject to the terms and conditions of this
     Agreement, You hereby grant to the Project and to recipients of
-    software distributed by the Project a perpetual, worldwide,
-    nonexclusive, no-charge, royalty-free, irrevocable (except as stated
-    in this section) patent license to make, have made, use, offer to
-    sell, sell, import, and otherwise transfer the Work, where such
-    license applies only to those patent claims licensable by You that
-    are necessarily infringed by Your Contribution(s) alone or by
+    software distributed by the Project a perpetual, worldwide, non-
+    exclusive, no-charge, royalty-free, irrevocable (except as stated in
+    this section) patent license to make, have made, use, offer to sell,
+    sell, import, and otherwise transfer the Work, where such license
+    applies only to those patent claims licensable by You that are
+    necessarily infringed by Your Contribution(s) alone or by
     combination of Your Contribution(s) with the Work to which such
     Contribution(s) were submitted. If any entity institutes patent
-    litigation against You or any other entity (including a crossclaim
+    litigation against You or any other entity (including a cross- claim
     or counterclaim in a lawsuit) alleging that your Contribution, or
     the Work to which you have contributed, constitutes direct or
     contributory patent infringement, then any patent licenses granted
     to that entity under this Agreement for that Contribution or Work
     shall terminate as of the date such litigation is filed.
 
-4.  You represent that you are legally entitled to grant the above
-    license. If your employer(s) has rights to intellectual property
-    that you create that includes your Contributions, you represent that
-    you have received permission to make Contributions on behalf of that
-    employer, that your employer has waived such rights for your
-    Contributions to the Project, or that your employer has executed a
-    separate Corporate CLA with the Project.
+4.  You represent that You are legally entitled to grant the above
+    license. You represent further that the employee of the Corporation
+    designated as the Initial CLA Manager below (and each who is
+    designated in a subsequent written modification to the list of CLA
+    Managers) (each, a "CLA Manager") is authorized to maintain (1) the
+    list of employees of the Corporation who are authorized to submit
+    Contributions on behalf of the Corporation, and (2) the list of CLA
+    Managers; in each case, using the designated system for managing
+    such lists (the "CLA Tool").
 
 5.  You represent that each of Your Contributions is Your original
-    creation (see section 7 for submissions on behalf of others). You
-    represent that Your Contribution submissions include complete
-    details of any third-party license or other restriction (including,
-    but not limited to, related patents and trademarks) of which you are
-    personally aware and which are associated with any part of Your
-    Contributions.
+    creation (see section 7 for submissions on behalf of others).
 
 6.  You are not expected to provide support for Your Contributions,
     except to the extent You desire to provide support. You may provide
@@ -114,9 +122,10 @@ right, title, and interest in and to Your Contributions.
     aware, and conspicuously marking the work as "Submitted on behalf of
     a third-party: \[named here\]".
 
-8.  You agree to notify the Project of any facts or circumstances of
-    which you become aware that would make these representations
-    inaccurate in any respect.
+8.  It is your responsibility to use the CLA Tool when any change is
+    required to the list of designated employees authorized to submit
+    Contributions on behalf of the Corporation, or to the list of the
+    CLA Managers.
 
 \[Please complete and sign on the next page.\]
 
@@ -127,21 +136,30 @@ right, title, and interest in and to Your Contributions.
 :::
 
 Please sign:
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
-Date: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ Date:
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-Full name:
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+Signatory Name:
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-Mailing Address:
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+Signatory E-mail:
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-------------------------------------------------------------------------
+Signatory Title:
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-------------------------------------------------------------------------
+Corporation Name:
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-Country:
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+Corporation Address:
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-E-Mail:
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+Initial CLA Manager Name:
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+Initial CLA Manager E-Mail:
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_

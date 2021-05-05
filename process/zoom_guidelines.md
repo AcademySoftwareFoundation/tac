@@ -1,3 +1,7 @@
+---
+parent: Processes
+---
+
 # Zoom guidelines
 
 Zoom is the main video communication platform for ASWF. It is used for running the both techincal community and member meetings, along with many other ASWF online events. Since the Zoom meetings are open to the general public, a Zoom host or co-host has to moderate a meeting in all senses of the word from starting and stopping the meeting, to acting on [ASWF Code of Conduct] issues.
