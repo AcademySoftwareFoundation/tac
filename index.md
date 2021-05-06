@@ -37,7 +37,7 @@ Current TAC Members are:
     <tr>
         <td>{{ member["Full Name"] }}</td>
         <td>Premier Member representative</td>
-        <td>{%- if member["Special Role"] == "Chair" -%}Chairperson - {%- endif -%}{{ member["Voting Status"] }}</td>
+        <td>{% if member["Special Role"] == "Chair" %}Chairperson - {% endif %}{{ member["Voting Status"] }}</td>
         <td>{{ member["Account Name: Account Name"] }}</td>
     </tr>
 {%- endif -%}
@@ -47,7 +47,7 @@ Current TAC Members are:
     <tr>
         <td>{{ member["Full Name"] }}</td>
         <td>{{ member["Appointed By"] }}</td>
-        <td>{%- if member["Special Role"] == "Chair" -%}Chairperson - {%- endif -%}{{ member["Voting Status"] }}</td>
+        <td>{% if member["Special Role"] == "Chair" %}Chairperson - {% endif %}{{ member["Voting Status"] }}</td>
         <td>{{ member["Account Name: Account Name"] }}</td>
     </tr>
 {%- endif -%}
@@ -57,7 +57,7 @@ Current TAC Members are:
     <tr>
         <td>{{ member["Full Name"] }}</td>
         <td>Industry Representative</td>
-        <td>{%- if member["Special Role"] == "Chair" -%}Chairperson - {%- endif -%}{{ member["Voting Status"] }}</td>
+        <td>{% if member["Special Role"] == "Chair" %}Chairperson - {% endif %}{{ member["Voting Status"] }}</td>
         <td>{{ member["Account Name: Account Name"] }}</td>
     </tr>
 {%- endif -%}
