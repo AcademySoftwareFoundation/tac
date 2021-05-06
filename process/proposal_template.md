@@ -1,3 +1,7 @@
+---
+parent: Processes
+---
+
 # Project Contribution Proposal Template
 
 Please answer each of the questions below to the best of your ability and submit to tac@lists.aswf.io for consideration.

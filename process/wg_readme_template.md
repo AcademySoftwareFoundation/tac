@@ -1,3 +1,8 @@
+---
+title: Working Group Charter Template
+parent: Processes
+---
+
 _This document is intended to be a template for working groups established by the TAC, to be used as the README.md file in its repository. All items in italics are descriptions of what context should be there; it is intended to be replaced by content. It is modeled off the [CNCF Serverless WG](https://github.com/cncf/wg-serverless)._
 
 _The intention is that each WG has its own GitHub repo under the [ASWF organization](https://github.com/AcademySoftwareFoundation)._
