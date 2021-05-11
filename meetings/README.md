@@ -9,7 +9,7 @@ You can review past meeting notes below and the [calendar of meetings](https://l
 
 For the next TAC meeting, you can propose agenda items either [via email to the TAC](mailto:tac@lists.aswf.io), or as a pull request against [those meeting notes](/meetings).
 
-There is a [template](template.md) file in here for creating the upcoming meeting agenda.
+There is a [template](template.md) file in here for creating the upcoming meeting agenda. Note that there is a required metadata section at the top that must be present in order the meeting notes to show in the right place.
 
 ## Conference call details
 
