@@ -4,6 +4,14 @@ title: yyyy-mm-dd
 nav_exclude: true
 ---
 
+<pre>
+---
+parent: Meetings
+title: yyyy-mm-dd
+nav_exclude: true
+---
+</pre>
+
 # AWSF TAC Meeting - Month DD, Year
 
 ## Voting member attendance
