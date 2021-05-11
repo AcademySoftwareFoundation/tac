@@ -17,26 +17,26 @@ title: yyyy-mm-dd
 ### Premier member representatives
 
 {%- for member in site.data.tacmembers -%}
-{%- if member["Appointed By"] == "Membership Entitlement" -%}
+{% if member["Appointed By"] == "Membership Entitlement" %}
 - [  ] {{ member["Full Name"] }} - {{ member["Account Name: Account Name"] }}
-{% endif %}
-{%- endfor -%}
+{%- endif -%}
+{% endfor %}
 
 ### Project Representatives
 
 {%- for member in site.data.tacmembers -%}
-{%- if member["Appointed By"] == "Vote of TSC Committee" -%}
+{% if member["Appointed By"] == "Vote of TSC Committee" %}
 - [  ] {{ member["Full Name"] }} - {{ member["Account Name: Account Name"] }}
-{% endif %}
-{%- endfor -%}
+{%- endif -%}
+{% endfor %}
 
 ### Industry Representatives
 
 {%- for member in site.data.tacmembers -%}
-{%- if member["Appointed By"] == "Vote of TAC Committee" -%}
+{% if member["Appointed By"] == "Vote of TAC Committee" %}
 - [  ] {{ member["Full Name"] }} - {{ member["Account Name: Account Name"] }}
-{% endif %}
-{%- endfor -%}
+{%- endif -%}
+{% endfor %}
 
 # Agenda
 
