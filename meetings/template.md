@@ -16,37 +16,33 @@ title: yyyy-mm-dd
 
 ### Premier member representatives
 
-{% for member in site.data.tacmembers %}
-{% if member["Appointed By"] == "Membership Entitlement" %}
+{%- for member in site.data.tacmembers -%}
+{%- if member["Appointed By"] == "Membership Entitlement" -%}
 - [  ] {{ member["Full Name"] }} - {{ member["Account Name: Account Name"] }}
-{% endif %}
-{% endfor %}
+{%- endif -%}
+{%- endfor -%}
 
 ### Project Representatives
 
-
-{% for member in site.data.tacmembers %}
-{% if member["Appointed By"] == "Vote of TSC Committee" %}
+{%- for member in site.data.tacmembers -%}
+{%- if member["Appointed By"] == "Vote of TSC Committee" -%}
 - [  ] {{ member["Full Name"] }} - {{ member["Account Name: Account Name"] }}
-{% endif %}
-{% endfor %}
+{%- endif -%}
+{%- endfor -%}
 
 ### Industry Representatives
 
-{% for member in site.data.tacmembers %}
-{% if member["Appointed By"] == "Vote of TAC Committee" %}
+{%- for member in site.data.tacmembers -%}
+{%- if member["Appointed By"] == "Vote of TAC Committee" -%}
 - [  ] {{ member["Full Name"] }} - {{ member["Account Name: Account Name"] }}
-{% endif %}
-{% endfor %}
+{%- endif -%}
+{%- endfor -%}
 
 # Agenda
 
 - Technical Project updates
-
 - Working Groups
-  
 - Update on candidate projects
-
 - Next meeting
 
 # Action Items (AIs)
