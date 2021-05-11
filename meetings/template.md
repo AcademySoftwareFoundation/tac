@@ -8,9 +8,7 @@ nav_exclude: true
 ---
 parent: Meetings
 title: yyyy-mm-dd
-nav_exclude: true
 ---
-</pre>
 
 # AWSF TAC Meeting - Month DD, Year
 
@@ -44,20 +42,8 @@ nav_exclude: true
 # Agenda
 
 - Technical Project updates
-  - OpenVDB
-  - OpenColorIO
-  - OpenEXR
-  - OpenCue
-  - OpenTimelineIO
-  - OpenShadingLanguage
 
 - Working Groups
-  - CI 
-  - Diversity & Inclusion
-  - Python 3
-  - USD
-  - Review & Approval
-  - Asset Repository 
   
 - Update on candidate projects
 
@@ -68,4 +54,6 @@ nav_exclude: true
 # Notes
 
 # Chat
+
+</pre>
 
