@@ -19,7 +19,7 @@ title: yyyy-mm-dd
 {%- for member in site.data.tacmembers -%}
 {%- if member["Appointed By"] == "Membership Entitlement" -%}
 - [  ] {{ member["Full Name"] }} - {{ member["Account Name: Account Name"] }}
-{%- endif -%}
+{% endif %}
 {%- endfor -%}
 
 ### Project Representatives
@@ -27,7 +27,7 @@ title: yyyy-mm-dd
 {%- for member in site.data.tacmembers -%}
 {%- if member["Appointed By"] == "Vote of TSC Committee" -%}
 - [  ] {{ member["Full Name"] }} - {{ member["Account Name: Account Name"] }}
-{%- endif -%}
+{% endif %}
 {%- endfor -%}
 
 ### Industry Representatives
@@ -35,7 +35,7 @@ title: yyyy-mm-dd
 {%- for member in site.data.tacmembers -%}
 {%- if member["Appointed By"] == "Vote of TAC Committee" -%}
 - [  ] {{ member["Full Name"] }} - {{ member["Account Name: Account Name"] }}
-{%- endif -%}
+{% endif %}
 {%- endfor -%}
 
 # Agenda
