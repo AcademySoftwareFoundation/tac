@@ -1,3 +1,8 @@
+---
+parent: Processes
+title: Project Lifecycle
+---
+
 # The Academy Software Foundation
 # Project Lifecycle Document
 

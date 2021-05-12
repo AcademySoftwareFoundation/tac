@@ -1,3 +1,7 @@
+---
+parent: Processes
+---
+
 # Project Admins
 
 A project admin is a project committer that has been granted GitHub
