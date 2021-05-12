@@ -1,6 +1,6 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/a76820ec-1092-49fb-8538-a82900b711b0/deploy-status)](https://app.netlify.com/sites/aswf-tac/deploys)
 
-# Academy Software Foundation Techincal Advisory Council (TAC)
+# Academy Software Foundation Technical Advisory Council (TAC)
 
 This repo contains materials, meeting materials, and process documents for the Academy Software Foundation TAC.
 
