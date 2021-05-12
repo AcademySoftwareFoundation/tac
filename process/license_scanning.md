@@ -1,3 +1,8 @@
+---
+title: License Scanning
+parent: Processes
+---
+
 # The Linux Foundation
 # License Scanning and Analysis Support Program for LF projects
 
