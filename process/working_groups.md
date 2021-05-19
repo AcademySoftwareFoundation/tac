@@ -1,3 +1,8 @@
+---
+title: Working Groups
+parent: Processes
+---
+
 # ASWF Working Groups
 _Modeled off of CNCF Working Group model ( https://github.com/cncf/toc/blob/master/workinggroups/README.md )_
 

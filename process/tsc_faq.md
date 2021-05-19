@@ -1,3 +1,7 @@
+---
+parent: Processes
+---
+
 # Technical Steering Committee (TSC) FAQ
 
 The Technical Steering Committee (TSC) is the leadership of the project. This committee's primary role is to:
