@@ -1,3 +1,8 @@
+---
+title: Contribution Guidelines
+parent: Processes
+---
+
 # Contribution Guidelines recommendations for projects hosted by ASWF
 
 ## Overview

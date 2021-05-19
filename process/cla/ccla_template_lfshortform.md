@@ -1,3 +1,8 @@
+---
+grand_parent: Processes
+title: LF Shortform CCLA
+parent: CLA Templates
+---
 Corporate Contributor License Agreement ("Agreement")
 
 Thank you for your interest in the [COMMON NAME] (hereinafter "Project"). In order to clarify the intellectual

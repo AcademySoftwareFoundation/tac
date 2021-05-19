@@ -1,3 +1,8 @@
+---
+grand_parent: Processes
+title: ASWF 2020 v2.1 ICLA
+parent: CLA Templates
+---
 Project Name:	\[COMMON NAME\]
 
 Project Entity:	\[SERIES ENTITY\]

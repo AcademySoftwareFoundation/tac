@@ -1,4 +1,10 @@
+---
+parent: Processes
+title: Project Lifecycle
+---
+
 # The Academy Software Foundation Project Lifecycle Document
+
 
 This lifecycle document is maintained by The Academy Software Foundation (“ASWF”), and its purpose is to:
 
