@@ -37,21 +37,32 @@ To be accepted at the Incubation stage, a project must:
 An initial review of a proposal submitted to the TAC should be conducted within two to four weeks following acceptance of a project contribution proposal. If a project is a new project, it’s often helpful to share the vision for the project, the anticipated structure and benefits.
 If the project is an existing open source project proposed to join ASWF, it is often helpful to schedule a project walkthrough for the community to better understand the project, including the architecture, structure and how to get starting using the project. This often helps progress reviews more efficiently.
 
-## Graduation Review
+## Adopted Stage
+
+Adopted Stage projects are considered mature projects that generally are ready for production use. Projects at this stage are focused on growing an ecosystem of users and are often being leveraged in vendor products or being used by end-users.
+
+### Requirements
 
 To be advance to an Adopted stage, a project must meet the Incubation stage requirements plus:
 
-* Demonstrate having a healthy number of committers from a diverse contributor base*.
-  * A committer is defined in the technical charter but is often used to describe the core contributors who can accept contributions to the project, or a portion thereof.
 * Demonstrate a substantial ongoing flow of commits and merged contributions, authored by a healthy number of diverse contributors*.
-* Document current project owners and current and emeritus committers in a COMMITTER file or similarly visible system. A copy of the project’s charter (or other authorized governance document) will be included or linked to in visible location.
-* Have achieved and maintained a Core Infrastructure Initiative Best Practices Badge.
-* Have a technical lead appointed for representation of the project to the TAC.
-* Have a completed and presented to the TAC an initial license scan of the project’s codebase.
+* Demonstrable roadmap progress.
+* A healthy number of public adopters that are identified within the project ( using an ADOPTERS file or showcased on the project’s website ).
+* Have achieved and maintained a Core Infrastructure Initiative [Best Practices Gold Level Badge](https://bestpractices.coreinfrastructure.org/)
+* Have a technical lead appointed for voting representation of the project to the TAC.
 * Be deemed by the TAC to add value to the mission of ASWF.
-* Obtain an affirmative vote of both the TAC and the Governing Board.
+* Obtain both a 2/3 supermajority vote of the TAC and an affirmative majority vote of the Governing Board
 
 *Since these metrics can vary significantly depending on the type, scope and size of a project, the TAC has final judgment over the level of activity that is adequate to meet these criteria. In general it will be necessary to (at least) demonstrate that the project is not overly reliant on any one individual or company, and can remain healthy in the event of a departure.
+
+### Benefits
+
+Adopted stage projects are eligible to receive the following benefits:
+
+* Be considered as one of the “TAC Projects” under the [ASWF Charter](https://github.com/AcademySoftwareFoundation/foundation/blob/master/CHARTER.md). 
+ and may receive additional resources or support as determined by the Governing Board.
+* Right to refer to the project as an officially adopted project of ASWF, and receive highest priority for participating in events and other collaborative activities sponsored by ASWF.
+* A blog announcement or similar communication announcing the graduation of the project.
 
 # Project Benefits Associated with Each Lifecycle Stage
 
@@ -65,13 +76,6 @@ Incubation stage projects are eligible to receive the following benefits:
 * Subject to applicable trademark usage guidelines, to display ASWF’s logo on the project’s code repository.
 
 Incubation stage projects are expected to leverage third-party public code repositories.
-
-Adopted stage projects are eligible to receive the following benefits:
-
-* Will become an official “Technical Project” under the ASWF charter and may receive additional resources or support as determined by the Governing Board.
-* Right to refer to the project as an officially adopted project of ASWF, and receive highest priority for participating in events and other collaborative activities sponsored by ASWF.
-* A blog announcement or similar communication announcing the graduation of the project.
-* Graduation stage projects that receive the approval of the Governing Board constitute “TAC Projects” under the ASWF charter.
 
 ## Archive Stage
 
