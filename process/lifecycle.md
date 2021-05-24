@@ -14,6 +14,49 @@ This lifecycle document is maintained by The Academy Software Foundation (“ASW
 
 ASWF may adopt or amend this document by votes of its Technical Advisory Council (“TAC”) and Governing Board.
 
+# Proposal Process
+
+Projects must be submitted to [tac@lists.aswf.io](mailto:tac@lists.aswf.io) for consideration. Project proposals submitted to the ASWF TAC must provide the following information to the best of their ability.
+
+* Name of the project (existing or proposed)
+* Requested project maturity level (select one): Adopted, Incubation, and Sandbox
+* Project description (please describe the purpose and function of the project, its origin and its significance to the ecosystem)
+* Please explain how this project is aligned with the mission of ASWF
+* What is the project’s license for code contributions and methodology for code contributions. ASWF maintains recommendations for contribution and licensing for hosted projects.
+* What tool or platform is utilized for source control (GitHub, etc.) and what is the location (e.g. URL)?
+* What are the external dependencies of the project, and what are the licenses of those dependencies?
+* What roles does the project have (e.g. maintainers, committers?) Who are the current core committers of the project, or where can a list of committers be found?
+* What mailing lists are currently used by the project?
+* What tool or platform is leveraged by the project for issue tracking?
+* Does the project have a Core Infrastructure Initiative security best practices badge? Do you foresee any challenges obtaining one? (See: https://bestpractices.coreinfrastructure.org)
+* What is the project's website? Is there a wiki?
+* What social media accounts are used by the project?
+* What is the project’s release methodology and cadence?
+* Are any trademarks, registered or unregistered, leveraged by the project? Have any trademark registrations been filed by the project or any third party anywhere in the world?
+
+# TAC presentation
+
+Projects will present at the next TAC meeting no sooner than two weeks after their submission date.
+
+Proposed projects will receive a 30-45 minute presentation slot at an upcoming TAC meeting as the schedule allows. The project proposal must include a presentation that conforms to the presentation structure below to ensure uniform and complete submissions.
+
+*   Overview of the project and its purpose
+    *  If a project is a new project, it’s often helpful to share the vision for the project, the anticipated structure and benefits.
+    *  If the project is an existing open source project proposed to join ASWF, it is often helpful to schedule a project walkthrough for the community to better understand the project, including the architecture, structure and how to get started using the project. This often helps reviews progress more efficiently.
+*   How does this submission support the ASWF Mission and Vision Statements?
+*   Does the project have any users? 
+    *   How do you plan to attract users if accepted?
+*   How many committers are you planning to have upfront, and from which companies? 
+    *   How do you plan to attract committers and contributors if accepted?
+*   Architecture (functional / non-functional aspects), design, feature overview
+*   Demo and/or walk through of the project
+
+An initial review of a proposal submitted to the TAC should be conducted within two to four weeks following acceptance of a project contribution proposal. 
+
+The TAC may consider the project for approval at the proposed stage during the meeting it is presented at, provided there is a quorum of TAC voting members present. If there is not a quorum of TAC voting members present or if the TAC is not ready to consider the project for approval during the meeting, the TAC may consider discussing and/or voting on the project proposal via email or postpone the vote to a future meeting. An affirmative majority vote of the TAC is required to accept a new TAC Project.
+
+# Stages
+
 This document provides for three lifecycle stages for contributed projects:
 
 * Incubation;
@@ -79,4 +122,14 @@ Adopted stage projects are eligible to receive the following benefits:
 
 # Annual Review
 
-The TAC may undertake periodic reviews of all projects (i.e., annual). Such review will include an assessment as to whether each Incubation stage project is making adequate progress towards the Graduation stage. Any Adopted project may be moved to Archive stage by affirmative vote of the TAC.
+The TAC will review on an annual basis all projects within this lifecycle. Additionally, Sandbox Stage projects will be required to submit quarterly reports of progress towards the Incubation Stage.
+
+The purpose of the TAC Review is to gauge whether the project is still at the correct maturity stage based on the criteria for the current stage, as well as identify any concerns or feedback from the project's TSC that the ASWF can help address.
+
+Projects will schedule their annual review as part of the next TAC meeting following their anniversary of the project’s acceptance. Projects should prepare a short presentation that covers the following points, which the TAC will use in its review of the project:
+
+*   The current activity of the project, including releases, adoption, and committer/contribution growth and diversity.
+*   Assessment of whether the project is fulfilling the requirements for the project to remain at its current stage, or be considered for a different stage.
+*   Feedback on its experience as an ASWF project, including benefits from being an ASWF project and areas that the TAC and ASWF staff can better support the project.
+
+Annual reviews require a majority affirmative vote of the TAC for the project to continue at the current stage or the appropriate number of votes as outlined for each stage in this document to move to the next stage. If the TAC deems the project to not be currently meeting the requirements of the current stage, it may vote to move the project to the appropriate stage or Archived stage. The project may choose to move outside of the ASWF at any time.
