@@ -130,17 +130,6 @@ To be advance to an Adopted stage, a project must meet the Incubation stage requ
 
 # Project Benefits Associated with Each Lifecycle Stage
 
-Incubation stage projects are eligible to receive the following benefits:
-
-* Incubation stage projects will constitute “Technical Projects” under the ASWF charter and may receive support as determined by the Governing Board.
-* Neutral hosting of the project’s community and any key assets (e.g. trademark, domain, etc.)
-* Assistance from the ASWF TAC to facilitate collaboration with other project communities.
-* Blog announcement or similar communication announcing the inclusion of the project.
-* Right to refer to the project as an incubation project of ASWF, and an opportunity to participate in events and other collaborative activities sponsored by ASWF.
-* Subject to applicable trademark usage guidelines, to display ASWF’s logo on the project’s code repository.
-
-Incubation stage projects are expected to leverage third-party public code repositories.
-
 Adopted stage projects are eligible to receive the following benefits:
 
 * Will become an official “Technical Project” under the ASWF charter and may receive additional resources or support as determined by the Governing Board.
