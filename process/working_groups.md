@@ -22,7 +22,11 @@ Working groups should operate within the scope of the mission, goals, non-goals,
 
 Working Groups will present to the TAC it's progress towards the mission, goals, non-goals, and deliverables listed in the approved charter after 6 months from when the working group was formally approved. This is an opportunity for the working group to elevate any concerns or needs from the TAC to complete it's mission, goals, non-goals, and deliverables. If there is insufficent progress within the working group, the TAC may opt to close the working group with a 2/3 majority vote of [TAC member]s.
 
-After one year, the working group is expected to have completed the mission, goals, non-goals, and deliverables listed in the approved charter. If the working group has not completed it's mission, goals, non-goals, and deliverables, and it's of the opinion of the TAC that it can be completed, the TAC may opt to extend the working group for up to 1 year with a 2/3 majority vote of [TAC member]s.
+After one year, the working group is expected to have completed the mission, goals, non-goals, and deliverables listed in the approved charter. If the working group has not completed it's mission, goals, non-goals, and deliverables, and it's of the opinion of the TAC that it can be completed, the TAC may opt to extend the working group for up to 1 year with a 2/3 majority vote of [TAC member]s. 
+
+## Long-term working group
+
+The TAC may also opt to establish the working group as a long-term working group after it's 1 year anniversary with a 2/3 majority vote of [TAC member]s, if it is deemed that such a working group is essential for the sustainability of the Academy Software Foundation. It is expected that a long-term working group has it's charter reviewed and revisted annually with the approval of the TAC.
 
 [TAC member]: https://github.com/AcademySoftwareFoundation/tac#tac-members
 [charter template]: https://github.com/AcademySoftwareFoundation/tac/blob/master/process/wg_readme_template.md
