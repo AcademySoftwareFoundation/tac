@@ -10,7 +10,7 @@ The purpose of working groups are to study and report on a particular question a
 
 ## Forming a working group
 
-Interested parties in forming a working groups should align with the interested parties on the [charter template]. Once the working group charter is agreed upon, and a [TAC member] is identified as a sponsor, it should be shared with the [TAC email list] to be added to the agenda for the next TAC meeting for review and approval. A working group will not be designated and recognized as an official ASWF Working Group until the TAC approves the charter.
+Parties interested in forming a working group should use the [charter template] to define a charter to be proposed to the TAC. Once the working group charter is agreed upon, and a [TAC member] is identified as a sponsor, it should be shared with the [TAC email list] to be added to the agenda for the next TAC meeting for review and approval. A working group will not be designated and recognized as an official ASWF Working Group until the TAC approves the charter.
 
 ## Working Group activities and collaboration
 
