@@ -80,7 +80,7 @@ Projects like products have lifecycles, and often in open source, the relevance 
 Projects only can enter the Archive Stage by either:
 
 *   On request from the project itself, requiring a ⅔ supermajority vote of all active project committers.
-*   By a 2/3 supermajority vote of the TAC if there has been insufficient activity in the project over the course of 6 months or if the project fails to move to the next stage within the expected time indicated in this document.
+*   By a 2/3 supermajority vote of the TAC if it deemed no longer relevant within the industry.
 
 When in the Archive Stage, the project’s code repository administration is transferred to a designated individual by the TAC. No new features or bug fixes will be addressed unless it is deemed a security issue. ASWF will hold all assets in perpetuity. Archive stage projects will be considered “Technical Projects” under the ASWF charter and may receive support as determined by the Governing Board.
 
