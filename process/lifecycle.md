@@ -118,7 +118,16 @@ Adopted stage projects are eligible to receive the following benefits:
 
 ## Archive Stage
 
-* Archive stage projects will constitute “Technical Projects” under the ASWF charter and may receive support as determined by the Governing Board.
+Projects like products have lifecycles, and often in open source, the relevance for a given project over time can diminish. Nonetheless, having a home for projects that are no longer relevant within the industry is crucial for long-term sustainability and asset management.
+
+Projects only can enter the Archive Stage by either:
+
+*   On request from the project itself, requiring a ⅔ supermajority vote of all active project committers.
+*   By a 2/3 supermajority vote of the TAC if it is deemed no longer relevant within the industry.
+
+When in the Archive Stage, the project’s code repository administration is transferred to a designated individual by the TAC. No new features or bug fixes will be addressed unless it is deemed a security issue. ASWF will hold all assets in perpetuity. Archive stage projects will be considered “Technical Projects” under the ASWF charter and may receive support as determined by the Governing Board.
+
+A project can move back to Adopted Stage following the guidelines for a project being accepted at the Adopted Stage above.
 
 # Annual Review
 
