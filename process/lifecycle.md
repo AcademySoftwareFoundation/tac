@@ -75,7 +75,7 @@ Adopted stage projects are eligible to receive the following benefits:
 
 ## Archive Stage
 
-Projects like products have lifecycles, and often in open source, the relevance for a given project over time can diminish. Nonetheless, having a home for projects no longer receiving active development is crucial for long-term sustainability and asset management.
+Projects like products have lifecycles, and often in open source, the relevance for a given project over time can diminish. Nonetheless, having a home for projects that are no longer relevant within the industry is crucial for long-term sustainability and asset management.
 
 Projects only can enter the Archive Stage by either:
 
