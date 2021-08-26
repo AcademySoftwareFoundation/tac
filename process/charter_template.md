@@ -8,7 +8,7 @@ parent: Processes
 This charter (the "Charter") sets forth the responsibilities and procedures for technical contribution to, and oversight of, the [COMMUNITY NAME] project, which has been established as [COMMUNITY NAME] a Series of LF Projects, LLC (the "Project").  LF Projects, LLC ("LF Projects") is a Delaware series limited liability company. All Contributors to the Project must comply with the terms of this Charter.
 
 ## 1. Mission and Scope of the Project
-  * **a.** The mission of the Project is to develop an open source project with the goals indicated in the "README" file within the Project's code repository.
+  * **a.** The mission of the Project is to develop an open source project that [MISSION STATEMENT].
   * **b.** The scope of the Project includes software development under an OSI-approved open source license supporting the mission, including documentation, testing, integration and the creation of other artifacts that aid the development, deployment, operation or adoption of the open source software project.
 
 ## 2. Technical Steering Committee
@@ -46,8 +46,8 @@ This charter (the "Charter") sets forth the responsibilities and procedures for 
   * **e.** The Project will operate in a transparent, open, collaborative, and ethical manner at all times. The output of all Project discussions, proposals, timelines, decisions, and status should be made open and easily visible to all. Any potential violations of this requirement should be reported immediately to the LF Projects Manager.
 
 ## 5. Community Assets
-  * **a.** LF Projects shall hold title to all trade or service marks used by the Project ("Project Trademarks"), whether based on common law or registered rights. Project Trademarks shall be transferred and assigned to LF Projects to hold on behalf of the Project. Any use of any Project Trademarks by participants in the Project shall be in accordance with the license from LF Projects and inure to the benefit of LF Projects.
-  * **b.** The Project shall, as permitted and in accordance with such license from LF Projects, develop and own all Project GitHub and social media accounts, and domain name registrations created by the Project community.
+  * **a.** LF Projects shall hold title to all trade or service marks created expressly for the Project ("Project Trademarks"), whether based on common law or registered rights. Project Trademarks shall be transferred and assigned to LF Projects to hold on behalf of the Project. Any use of any Project Trademarks by participants in the Project shall be in accordance with the license from LF Projects and inure to the benefit of LF Projects.
+  * **b.** The Project shall, as permitted and in accordance with such license from LF Projects, develop and own all Project GitHub and social media accounts, and domain name registrations created expressly for the Project by the Project community.
   * **c.** Under no circumstances shall LF Projects be expected or required to undertake any action on behalf of the Project that is inconsistent with the tax-exempt status or purpose, as applicable, of LFP, Inc. or LF Projects, LLC.
 
 ## 6. General Rules and Operations.
@@ -69,4 +69,4 @@ This charter (the "Charter") sets forth the responsibilities and procedures for 
   * **d.** Contributed files should contain license information, such as SPDX short form identifiers, indicating the open source license or licenses pertaining to the file.
 
 ## 8. Amendments
-  * **a.** This charter may be amended by a two-thirds vote of the entire TSC and is subject to approval by LF Projects.
+  * **a.** This charter may be amended by a two-thirds vote of the entire TSC and is subject to approval by LF Projects, which will not be unreasonably withheld.
