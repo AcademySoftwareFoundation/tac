@@ -93,12 +93,12 @@ Working groups may be formed by the TAC to focus on specific areas of technical 
 - [Assets WG](https://wiki.aswf.io/display/ARW)
 - [CI Working Group](meetings/CI-workinggroup)
 - [Diversity and Inclusion Working Group](https://lists.aswf.io/g/diversity)
-- [Python 3 Working Group](https://github.com/AcademySoftwareFoundation/wg-python3)
 - [Rust Working Group](https://github.com/vfx-rs/organization)
 - [Universal Scene Description Working Group (USD WG)](https://wiki.aswf.io/display/WGUSD/USD+Working+Group)
 
 ## Archived
 
-_None_
+- [Python 3 Working Group](https://github.com/AcademySoftwareFoundation/wg-python3)
+
 
 
