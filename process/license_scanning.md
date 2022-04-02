@@ -6,10 +6,9 @@ parent: Processes
 # The Linux Foundation
 # License Scanning and Analysis Support Program for LF projects
 
-## Support plan summary for 2021: Academy Software Foundation
+## Support plan summary for 2022: Academy Software Foundation
 
-Support to be provided by: Steve Winslow
-&lt;<swinslow@linuxfoundation.org>&gt;
+Support to be provided by: Jeff Shapiro &lt;<jshapiro@linuxfoundation.org>&gt;
 
 For the projects described below, the following actions will be
 performed:
@@ -21,7 +20,7 @@ performed:
     contained in the project codebases
 
 3.  Publish SPDX documents with the license conclusions and copyright
-    statements at <https://github.com/lfscanning> (or a similar public
+    statements at <https://github.com/lfscanning/spdx-aswf> (or a similar public
     location), for broader community use in their own compliance
     processes
 
@@ -123,21 +122,7 @@ continued development of the scanning workflow automation.
 
 ### January, April, July, October
 
--   OpenColorIO
-
--   OpenCue
-
-### February, May, August, November
-
--   OpenEXR
-
--   OpenShadingLanguage
-
-### March, June, September, December
-
--   OpenTimelineIO
-
--   OpenVDB
+-   All Projects
 
 Anticipate up to approximately 3 new projects to come in during 2021.
 Will perform pre-intake scans and allocate to cycles based on project
