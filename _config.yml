@@ -24,5 +24,9 @@ gh_edit_repository: "https://github.com/AcademySoftwareFoundation/tac" # the git
 gh_edit_branch: "main" # the branch that your docs is served from
 gh_edit_view_mode: "tree"
 
+aux_links:
+  "Need help or have a question? Contact us here":
+    - "//servicedesk.aswf.io"
+
 readme_index:
   with_frontmatter: true
