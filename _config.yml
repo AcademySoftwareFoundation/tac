@@ -1,0 +1,32 @@
+title: Academy Software Foundation TAC
+description: Materials and processes for the Academy Software Foundation TAC
+logo: "https://artwork.aswf.io/other/aswf/logo/aqua/aswf-logo-aqua.svg"
+theme: just-the-docs
+
+exclude: [
+  "README.md",
+  "completed.md",
+  "dco-signoffs/",
+  "Gemfile", 
+  "Gemfile.lock", 
+  "package.json", 
+  "package-lock.json",
+  "CODE_OF_CONDUCT.md",
+  "LICENSE"
+]
+
+back_to_top: true
+back_to_top_text: "Back to top"
+
+gh_edit_link: true # show or hide edit this page link
+gh_edit_link_text: "Edit this page on GitHub"
+gh_edit_repository: "https://github.com/AcademySoftwareFoundation/tac" # the github URL for your repo
+gh_edit_branch: "main" # the branch that your docs is served from
+gh_edit_view_mode: "tree"
+
+aux_links:
+  "Need help or have a question? Contact us here":
+    - "//servicedesk.aswf.io"
+
+readme_index:
+  with_frontmatter: true
