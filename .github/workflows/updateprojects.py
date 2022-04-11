@@ -16,11 +16,6 @@ landscapeBaseURL = 'https://landscape.aswf.io'
 landscapeHostedProjects = landscapeBaseURL+'/data/exports/projects-hosted.json'
 landscapeSingleItem = landscapeBaseURL+'/data/items/{}.json'
 
-# map landscape ID to slug
-keyMapping = {
-    'open-mainframe-education': 'mainframe-open-education' 
-}
-
 csvRows = []
 
 with urllib.request.urlopen(landscapeHostedProjects) as hostedProjectsResponse:
