@@ -11,6 +11,10 @@ For the next TAC meeting, you can propose agenda items either [via email to the 
 
 There is a [template](template.md) file in here for creating the upcoming meeting agenda. Note that there is a required metadata section at the top that must be present in order the meeting notes to show in the right place.
 
+## Meeting Agenda
+
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSupkBl5UHNCZULw7uGCLrI95kjGa7978wdtgx9hE-6f3waPo2s1K8QAoyhvQUniYhIYpkBjCuIhz_2/pubhtml?gid=0&single=true" frameborder="0" id="landscape" scrolling="no" style="width: 1px; min-width: 100%; opacity: 1; visibility: visible; overflow: hidden; height: 1717px;"></iframe>
+
 ## Conference call details
 
 Join from PC, Mac, Linux, iOS or Android: https://zoom.us/j/757849640
