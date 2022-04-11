@@ -16,7 +16,7 @@ Learn more about joining the public meetings of the Technical Advisory Council (
 
 Each project hosted at the Academy Software Foundation collaborates on open channels that are welcome for anyone in the community to participate in. See the below list of channels for each project.
 
-All Slack channels referenced below are part of the [Academy Software Foundation Slack organization](https://slack.aswf.io)
+All Slack channels referenced below are part of the [Academy Software Foundation Slack organization](https://slack.aswf.io) unless otherwise noted.
 
 <table>
 <tbody>
@@ -37,7 +37,9 @@ All Slack channels referenced below are part of the [Academy Software Foundation
             {%- if project["Mailing List"] -%}
             Mailing List: <a href="{{ project["Mailing List"] }}">{{ project["Mailing List"] }}</a><br />
             {%- endif -%}
-            {%- if project["Slack"] -%}
+            {%- if project["Slug"] == "open-color-io" %}
+            Slack: <a href="https://slack.opencolorio.org/">slack.opencolorio.org</a><br />
+            {%- elsif project["Slack"] -%}
             Slack: <a href="https://slack.aswf.io">{{ project["Slack"] }}</a><br />
             {%- endif -%}
             {%- if project["Leads"] -%}
