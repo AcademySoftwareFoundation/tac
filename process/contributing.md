@@ -103,6 +103,40 @@ A: There is no requirement for a project to adopt [ASF Contributor Agreements] w
 
 The ASWF community is aiming to align around the [ASWF 2020 CCLA template] and [ASWF 2020 ICLA template] in cases where use of a CLA is required. Projects may also use the [Linux Foundation minimal CCLA template] and [Linux Foundation minimal ICLA template].
 
+Q: Why does the project require me to sign a CLA?
+
+A: It depends from project to project. Typically, projects that use CLAs do so because the project community wants to ensure that there is a signed agreement explicitly stating the legal terms governing the contribution to the project. CLAs can also be used by organizations in connection with specifying which of their employees are permitted to contribute code on their behalf, under that CLA.
+
+Q: What is the difference between a Corporate and Individual CLA?
+
+A: The Corporate CLA is designed for an organization to authorize contributors that have permission to contribute on behalf of the organization. The Individual CLA is specific for an individual contributor, including those not affliated with an organization.
+
+Q: Who needs to sign the Corporate CLA?
+
+A: The Corporate CLA should be signed by someone in your organization who has sufficient authority to execute the CLA on its behalf. Each company or other organization has its own internal controls to determine who has this authority, so the project can't determine this for you; for example, it might be an executive or other member of your leadership, but you should always consult your organization's leadership to confirm.
+
+Q: What is a CLA Manager?
+
+A: A CLA Manager is the person or are the persons in your organization that are authorized by the signatory of the Corporate CLA to authorize contributors from your organization. This often is a development manager or team lead who is overseeing the contributions being made to a given project.
+
+Q: Do I need to have my employer sign the CCLA if I am making contributions on my own time and using my own equipment?
+
+A: This varies depending on where you live and work, and your employer's policies and agreements. If you have any questions then you should discuss with your manager and/or your employer's legal team before contributing.
+
+Q: I submitted a PR before I signed the CLA, so the PR is now marked with
+the red EasyCLA "NOT COVERED" error. What do I do to get the error
+to go away?
+
+A: Refer to the [EasyCLA documentation](https://docs.linuxfoundation.org/lfx/easycla/v2-current/getting-started) on making your first contribution to a EasyCLA managed repository, but generally it should go away on it's own after a few minutes. If you still have issues, please file a [support request].
+
+Q: My company has a corporate CLA for another ASWF project, doesn't that cover this project, too?
+
+A: Each ASWF project leverages a seperate CLA for contributions to thier project. You can follow the [guide](https://docs.linuxfoundation.org/lfx/easycla/v2-current/contributors/corporate-contributor) to automatically notify your organization's CLA manager for the given project and authorize you under the CCLA.
+
+Q: My corporate CLA manager says I should be on the approved list, but my PR is still blocked. What gives?
+
+A: Confirm that you are selecting the proper company name as there may be multiple corporate entities registered. If you still have issues, please file a [support request].
+
 [Apache License, Version 2.0]: http://www.apache.org/licenses/LICENSE-2.0
 [ASF Contributor Agreements]: https://www.apache.org/licenses/contributor-agreements.html
 [ASWF 2020 CCLA template]: cla/ccla_template_aswf2020_v2.1.md
@@ -111,3 +145,4 @@ The ASWF community is aiming to align around the [ASWF 2020 CCLA template] and [
 [Creative Commons Attribution 4.0 International License]: http://creativecommons.org/licenses/by/4.0/
 [Linux Foundation minimal CCLA template]: ccla_template_lfshortform.md
 [Linux Foundation minimal ICLA template]: icla_template_lfshortform.md
+[support request]: https://support.linuxfoundation.org
