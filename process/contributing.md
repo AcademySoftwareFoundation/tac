@@ -127,13 +127,13 @@ Q: I submitted a PR before I signed the CLA, so the PR is now marked with
 the red EasyCLA "NOT COVERED" error. What do I do to get the error
 to go away?
 
-A: Refer to the [EasyCLA documentation](https://docs.linuxfoundation.org/lfx/easycla/v2-current/getting-started) on making your first contribution to a EasyCLA managed repository, but generally it should go away on it's own after a few minutes. If you still have issues, please file a [support request].
+A: Refer to the [EasyCLA documentation](https://docs.linuxfoundation.org/lfx/easycla/v2-current/getting-started) on making your first contribution to a EasyCLA managed repository, but generally it should go away on its own after a few minutes. If you still have issues, please file a [support request].
 
-Q: My company has a corporate CLA for another ASWF project, doesn't that cover this project, too?
+Q: Myself or my company has a CLA for another ASWF project, doesn't that cover this project, too?
 
-A: Each ASWF project leverages a seperate CLA for contributions to thier project. You can follow the [guide](https://docs.linuxfoundation.org/lfx/easycla/v2-current/contributors/corporate-contributor) to automatically notify your organization's CLA manager for the given project and authorize you under the CCLA.
+A: Each ASWF project leverages a seperate CLA for contributions to their project. You can follow the [guide](https://docs.linuxfoundation.org/lfx/easycla/v2-current/contributors/corporate-contributor) to automatically notify your organization's CLA manager for the given project and authorize you under their Corporate CLA.
 
-Q: My corporate CLA manager says I should be on the approved list, but my PR is still blocked. What gives?
+Q: My Corporate CLA manager says I should be on the approved list, but my PR is still blocked. What gives?
 
 A: Confirm that you are selecting the proper company name as there may be multiple corporate entities registered. If you still have issues, please file a [support request].
 
