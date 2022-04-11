@@ -1,6 +1,6 @@
 ---
 title: Collaboration Tools
-parent: Processes
+parent: Tools
 ---
 
 

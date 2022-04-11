@@ -1,6 +1,7 @@
 ---
 title: Contribution Guidelines
 parent: Processes
+has_children: true
 ---
 
 # Contribution Guidelines recommendations for projects hosted by ASWF
