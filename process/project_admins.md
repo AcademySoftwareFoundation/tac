@@ -1,5 +1,6 @@
 ---
-parent: Processes
+parent: Project Lifecycle
+grand_parent: Processes
 ---
 
 # Project Admins

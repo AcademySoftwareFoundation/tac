@@ -2,6 +2,7 @@
 grand_parent: Processes
 title: ASWF 2020 v2.1 ICLA
 parent: Contribution Guidelines
+nav_order: 2
 ---
 Project Name:	\[COMMON NAME\]
 
