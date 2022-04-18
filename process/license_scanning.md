@@ -1,6 +1,6 @@
 ---
 title: License Scanning
-parent: Processes
+parent: Programs
 ---
 
 # The Linux Foundation

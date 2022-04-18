@@ -1,6 +1,7 @@
 ---
 title: Working Groups
 parent: Processes
+has_children: true
 ---
 
 # ASWF Working Groups

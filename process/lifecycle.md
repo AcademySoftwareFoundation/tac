@@ -1,6 +1,7 @@
 ---
 parent: Processes
 title: Project Lifecycle
+has_children: true``
 ---
 
 # The Academy Software Foundation

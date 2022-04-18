@@ -1,7 +1,7 @@
 ---
 grand_parent: Processes
 title: LF Shortform CCLA
-parent: CLA Templates
+parent: Contribution Guidelines
 ---
 Corporate Contributor License Agreement ("Agreement")
 

@@ -1,7 +1,7 @@
 ---
 grand_parent: Processes
 title: LF Shortform ICLA
-parent: CLA Templates
+parent: Contribution Guidelines
 ---
 Individual Contributor License Agreement ("Agreement")
 

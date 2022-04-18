@@ -1,5 +1,5 @@
 ---
-parent: Processes
+parent: Tools
 ---
 
 # Zoom guidelines
