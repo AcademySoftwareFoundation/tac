@@ -1,5 +1,5 @@
 Name,Level,Logo URL,Slug,Website,Leads,Meeting Cadence,LFX Insights URL,Accepted Date,Last Review Date,Next Review Date,Slack,Mailing List,User Mailing List,Dev Mailing List,Primary Github Repo,Github Org
-OpenColorIO,graduated,https://landscape.aswf.io/logos/open-color-io.svg,open-color-io,https://opencolorio.org/,,,,,,,#osd_opencolorio,,https://lists.aswf.io/g/ocio-user,,,https://github.com/AcademySoftwareFoundation/OpenColorIO
+OpenColorIO,graduated,https://landscape.aswf.io/logos/open-color-io.svg,open-color-io,https://opencolorio.org/,,,,,,,,,https://lists.aswf.io/g/ocio-user,,,https://github.com/AcademySoftwareFoundation/OpenColorIO
 OpenCue,graduated,https://landscape.aswf.io/logos/open-cue.svg,open-cue,https://www.opencue.io/,,,,,,,#opencue,,https://lists.aswf.io/g/opencue-user,,,https://github.com/AcademySoftwareFoundation/OpenCue
 OpenEXR,graduated,https://landscape.aswf.io/logos/open-exr.svg,open-exr,https://www.openexr.com/,,,,,,,#openexr,,https://lists.aswf.io/g/openexr-dev,,,https://github.com/AcademySoftwareFoundation/openexr
 OpenVDB,graduated,https://landscape.aswf.io/logos/open-vdb.svg,open-vdb,https://www.openvdb.org/,,,,,,,#openvdb,,https://lists.aswf.io/g/openvdb-user,,,https://github.com/AcademySoftwareFoundation/openvdb
