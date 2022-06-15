@@ -1,7 +1,7 @@
 ---
 parent: Processes
 title: Project Lifecycle
-has_children: true``
+has_children: true
 ---
 
 # The Academy Software Foundation
@@ -121,7 +121,7 @@ To be accepted at the Incubation stage, a project must meet the Sandbox requirem
     *   A RELEASE file that provides documentation on the release methodology, cadence, criteria, etc.
     *   A GOVERNANCE file that documents the project’s technical governance.
     *   A SUPPORT file to let users and developers know about ways to get help with your project.
-*   Have achieved and maintained a Core Infrastructure Initiative [Best Practices Badge](https://bestpractices.coreinfrastructure.org/) at the passing level. 
+*   Have achieved and maintained an OpenSSF Best Practices Badge at the [passing level]([https://bestpractices.coreinfrastructure.org/](https://bestpractices.coreinfrastructure.org/en/criteria). 
 *   Have had a successful license scan with any critical issues remedied.
 *   Have a defined project mission and scope
 *   An overview of the project’s architecture and features defined.
@@ -131,6 +131,7 @@ To be accepted at the Incubation stage, a project must meet the Sandbox requirem
 *   Community and contributor growth assessment
     *   The current number of contributors and committers, and the number of different organizations contributing to the project. 
     *   Demonstrate a sustained flow of commits / merged contributions
+    *   A healthy number of end-users within the visual effects and motion picture industries that have adopted the project and that are identified within the project ( using an ADOPTERS file or showcased on the project’s website ).
     *   A credible plan for developing a thriving user community, in particular expanding the number of committers and contributors?
     *   Outline of the plan for the project to complete the requirements for Adopted Stage
 * Obtain an affirmative vote of the TAC.
@@ -166,8 +167,8 @@ To be advance to an Adopted stage, a project must meet the Incubation stage requ
 
 * Demonstrate a substantial ongoing flow of commits and merged contributions, authored by a healthy number of diverse contributors*.
 * Demonstrable roadmap progress.
-* A healthy number of public adopters that are identified within the project ( using an ADOPTERS file or showcased on the project’s website ).
-* Have achieved and maintained a Core Infrastructure Initiative [Best Practices Gold Level Badge](https://bestpractices.coreinfrastructure.org/)
+* A significant number of end-users within the visual effects and motion picture industries that have adopted the project and that are identified within the project ( using an ADOPTERS file or showcased on the project’s website ).
+* Have achieved and maintained an OpenSSF Best Practices Badge at the [gold level](https://bestpractices.coreinfrastructure.org/en/criteria/2).
 * Have a technical lead appointed for voting representation of the project to the TAC.
 * Be deemed by the TAC to add value to the mission of ASWF.
 * Obtain both a 2/3 supermajority vote of the TAC and an affirmative majority vote of the Governing Board
