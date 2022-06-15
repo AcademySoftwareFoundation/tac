@@ -181,6 +181,7 @@ Adopted stage projects are eligible to receive the following benefits:
 
 * Be considered as one of the “TAC Projects” under the [ASWF Charter](https://github.com/AcademySoftwareFoundation/foundation/blob/master/CHARTER.md). 
  and may receive additional resources or support as determined by the Governing Board.
+* Have a voting representative on the TAC.
 * Right to refer to the project as an officially adopted project of ASWF, and receive highest priority for participating in events and other collaborative activities sponsored by ASWF.
 * A blog announcement or similar communication announcing the graduation of the project.
 
