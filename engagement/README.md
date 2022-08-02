@@ -23,7 +23,7 @@ All Slack channels referenced below are part of the [Academy Software Foundation
 {%- for project in site.data.projects -%}
     {%- if project["Level"] != 'emeritus' -%}
     <tr>
-        <td><img src="{{ project["Logo URL"] }}" /></td>
+        <td><img id="{{ project["Name"] }}" src="{{ project["Logo URL"] }}" /></td>
         <td>
             {%- if project["Website"] -%}
             Website: <a href="{{ project["Website"] }}">{{ project["Website"] }}</a><br />
