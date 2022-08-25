@@ -32,3 +32,8 @@ readme_index:
   with_frontmatter: true
 plugins:
   - jekyll-toc
+defaults:
+  - scope:
+      path: ""
+    values:
+      toc: true
