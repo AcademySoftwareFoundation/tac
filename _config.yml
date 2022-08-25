@@ -30,3 +30,4 @@ aux_links:
 
 readme_index:
   with_frontmatter: true
+markdown: kramdown
