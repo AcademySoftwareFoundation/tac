@@ -1,10 +1,12 @@
 ---
 parent: Project Lifecycle
 grand_parent: Processes
+toc: true
 ---
 
 # Technical Steering Committee (TSC) FAQ
-{:toc}
+
+{% toc %}
 
 The Technical Steering Committee (TSC) is the leadership of the project. This committee's primary role is to:
 
