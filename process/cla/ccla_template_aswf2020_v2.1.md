@@ -1,7 +1,8 @@
 ---
 grand_parent: Processes
 title: ASWF 2020 v2.1 CCLA
-parent: CLA Templates
+parent: Contribution Guidelines
+nav_order: 1
 ---
 Project Name: \[COMMON NAME\]
 

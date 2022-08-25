@@ -1,10 +1,27 @@
 ---
 parent: Processes
 title: Project Lifecycle
+has_children: true
 ---
 
-# The Academy Software Foundation
-# Project Lifecycle Document
+# Academy Software Foundation - Project Lifecycle
+
+- [Proposal Process](#proposal-process)
+  - [TAC presentation](#tac-presentation)
+- [Stages](#stages)
+  - [Sandbox Stage](#sandbox-stage)
+    - [Requirements](#requirements)
+    - [Benefits](#benefits)
+    - [Expectations](#expectations)
+  - [Incubation Stage](#incubation-stage)
+    - [Requirements](#requirements-1)
+    - [Benefits](#benefits-1)
+    - [Expectations](#expectations-1)
+  - [Adopted Stage](#adopted-stage)
+    - [Requirements](#requirements-2)
+    - [Benefits](#benefits-2)
+  - [Archive Stage](#archive-stage)
+- [Annual Review](#annual-review)
 
 This lifecycle document is maintained by The Academy Software Foundation (“ASWF”), and its purpose is to:
 
@@ -34,7 +51,7 @@ Projects must be submitted to [tac@lists.aswf.io](mailto:tac@lists.aswf.io) for 
 * What is the project’s release methodology and cadence?
 * Are any trademarks, registered or unregistered, leveraged by the project? Have any trademark registrations been filed by the project or any third party anywhere in the world?
 
-# TAC presentation
+## TAC presentation
 
 Projects will present at the next TAC meeting no sooner than two weeks after their submission date.
 
@@ -181,15 +198,6 @@ Adopted stage projects are eligible to receive the following benefits:
  and may receive additional resources or support as determined by the Governing Board.
 * Right to refer to the project as an officially adopted project of ASWF, and receive highest priority for participating in events and other collaborative activities sponsored by ASWF.
 * A blog announcement or similar communication announcing the graduation of the project.
-
-# Project Benefits Associated with Each Lifecycle Stage
-
-Adopted stage projects are eligible to receive the following benefits:
-
-* Will become an official “Technical Project” under the ASWF charter and may receive additional resources or support as determined by the Governing Board.
-* Right to refer to the project as an officially adopted project of ASWF, and receive highest priority for participating in events and other collaborative activities sponsored by ASWF.
-* A blog announcement or similar communication announcing the graduation of the project.
-* Graduation stage projects that receive the approval of the Governing Board constitute “TAC Projects” under the ASWF charter.
 
 ## Archive Stage
 
