@@ -30,10 +30,8 @@ aux_links:
 
 readme_index:
   with_frontmatter: true
-plugins:
-  - jekyll-toc
-defaults:
-  - scope:
-      path: ""
-    values:
-      toc: true
+
+kramdown:
+  parse_block_html: true
+  toc_levels: 2..6
+

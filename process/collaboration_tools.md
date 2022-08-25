@@ -6,6 +6,9 @@ parent: Tools
 
 # Academy Software Foundation community collaboration tools
 
+* TOC
+{:toc}
+
 Academy Software Foundation maintains a number of tools to enable collaboration amongst community participants. To help navigate these tools, this document provides a brief outline of how to use them and best practices.
 
 ## Slack

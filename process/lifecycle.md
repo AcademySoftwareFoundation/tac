@@ -6,22 +6,8 @@ has_children: true
 
 # Academy Software Foundation - Project Lifecycle
 
-- [Proposal Process](#proposal-process)
-  - [TAC presentation](#tac-presentation)
-- [Stages](#stages)
-  - [Sandbox Stage](#sandbox-stage)
-    - [Requirements](#requirements)
-    - [Benefits](#benefits)
-    - [Expectations](#expectations)
-  - [Incubation Stage](#incubation-stage)
-    - [Requirements](#requirements-1)
-    - [Benefits](#benefits-1)
-    - [Expectations](#expectations-1)
-  - [Adopted Stage](#adopted-stage)
-    - [Requirements](#requirements-2)
-    - [Benefits](#benefits-2)
-  - [Archive Stage](#archive-stage)
-- [Annual Review](#annual-review)
+* TOC
+{:toc}
 
 This lifecycle document is maintained by The Academy Software Foundation (“ASWF”), and its purpose is to:
 
