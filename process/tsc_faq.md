@@ -1,7 +1,6 @@
 ---
 parent: Project Lifecycle
 grand_parent: Processes
-toc: true
 ---
 
 # Technical Steering Committee (TSC) FAQ
