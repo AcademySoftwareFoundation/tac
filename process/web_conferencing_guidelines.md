@@ -7,8 +7,6 @@ parent: Tools
 * TOC
 {:toc}
 
-Since the Zoom meetings are open to the general public, a Zoom host or co-host has to moderate a meeting in all senses of the word from starting and stopping the meeting, to acting on [Code of Conduct] issues.
-
 These guidelines are meant as a tool to help Academy Software Foundation community members manage their meetings using web conferencing tools provided by the Academy Software Foundation.
 
 ## Setting up your meeting and moderation
@@ -54,7 +52,7 @@ What about an integrated headset and microphone? This totally depends on the typ
 
 ### Conduct and Moderation
 
-The Academy Software Foundation adheres to it's [Code of Conduct] or the relevant project code of conduct throughout all platforms and includes all communication mediums.
+Since the Zoom meetings are open to the general public, a Zoom host or co-host has to moderate a meeting in all senses of the word from starting and stopping the meeting, to acting on [Code of Conduct] issues. The Academy Software Foundation adheres to it's [Code of Conduct] or the relevant project code of conduct throughout all platforms and includes all communication mediums.
 
 If you're dealing with a troll or bad actor:
 
