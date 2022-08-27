@@ -30,3 +30,8 @@ aux_links:
 
 readme_index:
   with_frontmatter: true
+
+kramdown:
+  parse_block_html: true
+  toc_levels: 2..6
+

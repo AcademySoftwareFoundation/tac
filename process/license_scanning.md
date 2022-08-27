@@ -3,8 +3,11 @@ title: License Scanning
 parent: Programs
 ---
 
-# The Linux Foundation
-# License Scanning and Analysis Support Program for LF projects
+# The Linux Foundation - License Scanning and Analysis Support Program for LF projects
+
+* TOC
+{:toc}
+
 
 ## Support plan summary for 2022: Academy Software Foundation
 
