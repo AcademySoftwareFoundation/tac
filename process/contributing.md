@@ -6,6 +6,9 @@ has_children: true
 
 # Contribution Guidelines recommendations for projects hosted by ASWF
 
+* TOC
+{:toc}
+
 ## Overview
 
 This document is intended to outline the recommended licensing and contribution standards for any project intended for being hosted by the ASWF.

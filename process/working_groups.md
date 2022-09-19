@@ -6,6 +6,8 @@ has_children: true
 
 # ASWF Working Groups
 _Modeled off of CNCF Working Group model ( https://github.com/cncf/toc/blob/master/workinggroups/README.md )_
+* TOC
+{:toc}
 
 The purpose of working groups are to study and report on a particular question and make recommendations based on its findings. The end result of a working group may be a new project proposal, landscape, whitepaper or even a report detailing its findings. The intention of working groups is not to host a full project or specification. Working Groups can be formed at any time but must be sponsored by a [TAC member] and with an affirmative vote of the ASWF TAC. The TAC can also shut down a working group with a super majority vote.
 
