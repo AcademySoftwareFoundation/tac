@@ -42,6 +42,15 @@ All Slack channels referenced below are part of the [Academy Software Foundation
             {%- elsif project["Slack"] -%}
             Slack: <a href="https://slack.aswf.io">{{ project["Slack"] }}</a><br />
             {%- endif -%}
+            {%- if project["LFX Insights URL"] -%}
+            LFX Insights: <a href="{{ project["LFX Insights URL"] }}">{{ project["LFX Insights URL"] }}</a><br />
+            {%- endif -%}
+            {%- if project["LFX Security URL"] -%}
+            LFX Security: <a href="{{ project["LFX Security URL"] }}">{{ project["LFX Security URL"] }}</a><br />
+            {%- endif -%}
+            {%- if project["Documentation"] -%}
+            Documentation: <a href="{{ project["Documentation"] }}">{{ project["Documentation"] }}</a><br />
+            {%- endif -%}
             {%- if project["Leads"] -%}
             Leads: {{ project["Leads"] }}<br />
             {%- endif -%}
