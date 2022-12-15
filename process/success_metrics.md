@@ -134,4 +134,4 @@ Some good KPI's to consider at the start of your project include:
 
 ## Tools for measursing Project Success
 
-All projects have thier metrics posted on [LFX Insights](https://insights-v2.lfx.linuxfoundation.org/aswf/trends).
+All projects have their metrics posted on [LFX Insights](https://insights-v2.lfx.linuxfoundation.org/aswf/trends).
