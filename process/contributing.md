@@ -1,4 +1,13 @@
+---
+title: Contribution Guidelines
+parent: Processes
+has_children: true
+---
+
 # Contribution Guidelines recommendations for projects hosted by ASWF
+
+* TOC
+{:toc}
 
 ## Overview
 
@@ -8,7 +17,7 @@ Within open source there are multiple approaches to contribution and licensing, 
 
 ## License
 
-Generally net new open source projects at The Linux Foundation leverage the [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0) for their codebase, a [Community Data License Agreement (CDLA) license](https://cdla.io/) for any data sets, and the [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/) for all documentation and non-code assets. These licenses are widely used and understood by both developers and organizations alike, providing flexibility for downstream usage and patent protection for those contributing code.
+Generally open source projects at The Linux Foundation that have not previously selected a license leverage the [Apache License, Version 2.0] for their codebase, a [Community Data License Agreement (CDLA) license] for any data sets, and the [Creative Commons Attribution 4.0 International License] for all documentation and non-code assets. These licenses are widely used and understood by both developers and organizations alike, providing flexibility for downstream usage and patent protection for those contributing code.
 
 ### Code License identification
 
@@ -26,7 +35,7 @@ For clarity, we would not recommend removing a third party’s license or copyri
 
 ### Example of the SPDX short-form license identifiers and copyright notice in a source file
 
-Assumes Apache License, Version 2.0 and Foo project name.
+Assumes [Apache License, Version 2.0] and Foo project name.
 
 ```
 # SPDX-License-Identifier: Apache-2.0
@@ -43,7 +52,16 @@ Here is an example Signed-off-by line, which indicates that the submitter accept
 
 `Signed-off-by: John Doe <john.doe@example.com>`
 
-You can include this automatically when you commit a change to your local git repository using <code>git commit -s</code>. You might also want to leverage this [command line tool](https://github.com/coderanger/dco) for automatically adding the signoff message on commits.
+You can include this automatically when you commit a change to your local git repository using <code>git commit -s</code>.
+
+### Useful tools to make doing DCO signoffs easier
+
+There are a number of great tools out there to manage DCO signoffs for developers to make it much easier to do signoffs.
+
+- DCO command line tool, which let's you do a single signoff for an entire repo ( https://github.com/coderanger/dco )
+- GitHub UI integrations for adding the signoff automatically ( https://github.com/scottrigby/dco-gh-ui )
+  - Chrome - https://chrome.google.com/webstore/detail/dco-github-ui/onhgmjhnaeipfgacbglaphlmllkpoijo
+  - Firefox - https://addons.mozilla.org/en-US/firefox/addon/scott-rigby/?src=search
 
 ### Signoff for commits where the DCO signoff was missed
 
@@ -62,13 +80,13 @@ Each user who has made the past commits should have thier own <code>Signed-off-b
 
 Some projects might either have used a Contributor License Agreement (CLA) in the past (either in the form of a Corporate Contributor License Agreement (CCLA) or Individual Contributior License Agreement (ICLA)) or have considered using it. The use of a CLA is not required for open source projects and many of the use cases for CLAs are handled through the lighter weight DCO or by having an independent entity in place like the ASWF makes available.
 
-If your project does have this requirement, ASWF recommends reaching out to The Linux Foundation in advance to discuss before proposing your project to the community.  Where a CLA is required, the ASWF recommends usage of the [Linux Foundation minimal CCLA template](ccla_template.md).
+If your project does have this requirement, ASWF recommends reaching out to The Linux Foundation in advance to discuss before proposing your project to the community. The CLA templates recommended by the ASWF's Legal Committee presently are the [ASWF 2020 CCLA template] and [ASWF 2020 ICLA template]. These are derived from the Apache Software Foundation's CCLA and ICLA template, and contain substantively the same scope of license grants and requirements. The changes are intended to reflect ASWF entities rather than Apache Software Foundation as the project host, and to include administrative changes for ASWF's use of the EasyCLA tool to manage authorized contributors under signed CLAs.
 
 # Frequently Asked Questions
 
-Q: What if the project I want to propose is not under an Apache 2 license, CDLA license or Creative Commons Attribution 4.0 International License?
+Q: What if the project I want to propose is not under an [Apache License, Version 2.0], [Community Data License Agreement (CDLA) license] or [Creative Commons Attribution 4.0 International License]?
 
-A: Some projects may be able to relicense to the [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0) for their codebase, a [Community Data License Agreement (CDLA) license](https://cdla.io/) for any data sets, and the [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/) for all documentation and non-code assets. If this can be easily done by one entity with the appropriate rights, this is our preferred approach. Projects with a history of contributions from multiple parties may not be able to easily relicense. Where another OSI-approved license is in place, the project may be proposed under its existing license and may be accepted without license change.  Use of a license not approved by the ASWF does not preclude you from making a proposal but be sure in your project proposal to address the anticipated challenges relicensing the project.
+A: Some projects may be able to relicense to the [Apache License, Version 2.0] for their codebase, a [Community Data License Agreement (CDLA) license] for any data sets, and the [Creative Commons Attribution 4.0 International License] for all documentation and non-code assets. If this can be easily done by one entity with the appropriate rights, this is our preferred approach. Projects with a history of contributions from multiple parties may not be able to easily relicense. Where another OSI-approved license is in place, the project may be proposed under its existing license and may be accepted without license change.  Use of a license not approved by the ASWF does not preclude you from making a proposal but be sure in your project proposal to address the anticipated challenges relicensing the project.
 
 Q: Does the use of a particular open source license require the use of a CLA?
 
@@ -80,10 +98,54 @@ A: Yes.
 
 Q: Can umbrella CLAs be established where contributors and their organizations grant rights to all ASWF projects?
 
-A: The ASWF TAC sees value in lowering the friction to contribution, and is investigating this as an option as the number of hosted projects grows. In the meantime, projects aligning around the [Linux Foundation minimal CCLA template](ccla_template.md) will ensure that the legal review for signing a CCLA is minimal.
+A: The ASWF TAC sees value in lowering the friction to contribution, and is investigating this as an option as the number of hosted projects grows. In the meantime, projects aligning around the [ASWF 2020 CCLA template] and [ASWF 2020 ICLA template] will ensure that the legal review for signing a CCLA and/or ICLA is minimal.
 
-Q: When a project uses a CLA with the [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0), is it common for the [Apache CCLA](https://www.apache.org/licenses/cla-corporate.txt) to be employed?  Should ASWF projects that require a CLA and use the Apache License, Version 2.0 employ the Apache CLA or the LF minimal CLA?
+Q: When a project uses a CLA with the [Apache License, Version 2.0], is it common for [ASF Contributor Agreements] to be employed?  Should ASWF projects that require a CLA and use the [Apache License, Version 2.0] employ the Apache CLA or the LF minimal CLA?
 
-A: There is no requirement for a project to adopt an Apache CCLA with code licensed under the Apache License, Version 2.0. Many open source projects leverage the Apache License, Version 2.0 without using the Apache CCLA or sometimes without a CLA in general (in many cases use of the [DCO](https://developercertificate.org/) alone is sufficent for project communities).
+A: There is no requirement for a project to adopt [ASF Contributor Agreements] with code licensed under the [Apache License, Version 2.0]. Many open source projects leverage the [Apache License, Version 2.0] without using [ASF Contributor Agreements] or sometimes without a CLA in general (in many cases use of the [DCO](https://developercertificate.org/) alone is sufficent for project communities).
 
-The ASWF community is aiming to align around the [Linux Foundation minimal CCLA template](ccla_template.md) in cases where use of a CLA is required.
+The ASWF community is aiming to align around the [ASWF 2020 CCLA template] and [ASWF 2020 ICLA template] in cases where use of a CLA is required. Projects may also use the [Linux Foundation minimal CCLA template] and [Linux Foundation minimal ICLA template].
+
+Q: Why does the project require me to sign a CLA?
+
+A: It depends from project to project. Typically, projects that use CLAs do so because the project community wants to ensure that there is a signed agreement explicitly stating the legal terms governing the contribution to the project. CLAs can also be used by organizations in connection with specifying which of their employees are permitted to contribute code on their behalf, under that CLA.
+
+Q: What is the difference between a Corporate and Individual CLA?
+
+A: The Corporate CLA is designed for an organization to authorize contributors that have permission to contribute on behalf of the organization. The Individual CLA is specific for an individual contributor, including those not affliated with an organization.
+
+Q: Who needs to sign the Corporate CLA?
+
+A: The Corporate CLA should be signed by someone in your organization who has sufficient authority to execute the CLA on its behalf. Each company or other organization has its own internal controls to determine who has this authority, so the project can't determine this for you; for example, it might be an executive or other member of your leadership, but you should always consult your organization's leadership to confirm.
+
+Q: What is a CLA Manager?
+
+A: A CLA Manager is the person or are the persons in your organization that are authorized by the signatory of the Corporate CLA to authorize contributors from your organization. This often is a development manager or team lead who is overseeing the contributions being made to a given project.
+
+Q: Do I need to have my employer sign the CCLA if I am making contributions on my own time and using my own equipment?
+
+A: This varies depending on where you live and work, and your employer's policies and agreements. If you have any questions then you should discuss with your manager and/or your employer's legal team before contributing.
+
+Q: I submitted a PR before I signed the CLA, so the PR is now marked with
+the red EasyCLA "NOT COVERED" error. What do I do to get the error
+to go away?
+
+A: Refer to the [EasyCLA documentation](https://docs.linuxfoundation.org/lfx/easycla/v2-current/getting-started) on making your first contribution to a EasyCLA managed repository, but generally it should go away on its own after a few minutes. If you still have issues, please file a [support request].
+
+Q: Myself or my company has a CLA for another ASWF project, doesn't that cover this project, too?
+
+A: Each ASWF project leverages a seperate CLA for contributions to their project. You can follow the [guide](https://docs.linuxfoundation.org/lfx/easycla/v2-current/contributors/corporate-contributor) to automatically notify your organization's CLA manager for the given project and authorize you under their Corporate CLA.
+
+Q: My Corporate CLA manager says I should be on the approved list, but my PR is still blocked. What gives?
+
+A: Confirm that you are selecting the proper company name as there may be multiple corporate entities registered. If you still have issues, please file a [support request].
+
+[Apache License, Version 2.0]: http://www.apache.org/licenses/LICENSE-2.0
+[ASF Contributor Agreements]: https://www.apache.org/licenses/contributor-agreements.html
+[ASWF 2020 CCLA template]: cla/ccla_template_aswf2020_v2.1.md
+[ASWF 2020 ICLA template]: cla/icla_template_aswf2020_v2.1.md
+[Community Data License Agreement (CDLA) license]: https://cdla.io/
+[Creative Commons Attribution 4.0 International License]: http://creativecommons.org/licenses/by/4.0/
+[Linux Foundation minimal CCLA template]: ccla_template_lfshortform.md
+[Linux Foundation minimal ICLA template]: icla_template_lfshortform.md
+[support request]: https://support.linuxfoundation.org

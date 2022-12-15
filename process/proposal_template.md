@@ -1,3 +1,9 @@
+---
+grand_parent: Processes
+parent: Project Lifecycle
+nav_order: 1
+---
+
 # Project Contribution Proposal Template
 
 Please answer each of the questions below to the best of your ability and submit to tac@lists.aswf.io for consideration.
@@ -6,7 +12,7 @@ Please answer each of the questions below to the best of your ability and submit
 
 
 
-* Requested project maturity level (select one):	Adopted 	or 	Incubation
+* Requested project maturity level (select one):	Sandbox or Adopted or Incubation
 
 
 
@@ -42,7 +48,7 @@ Please answer each of the questions below to the best of your ability and submit
 
 
 
-* Does the project have a Core Infrastructure Initiative security best practices badge? Do you foresee any challenges obtaining one? (See: https://bestpractices.coreinfrastructure.org)
+* Does the project have a OpenSSF Best Practices Badge? Do you foresee any challenges obtaining one? (See: https://bestpractices.coreinfrastructure.org)
 
 
 
