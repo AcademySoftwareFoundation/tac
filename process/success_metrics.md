@@ -6,7 +6,11 @@ This document is intended to capture best practices for ASWF hosted projects to 
 
 ## What is Project Success
 
-Defining project success is a collaborative effort, but usually derived from the project leads or founders. Widely viewed, a succcessful Open Source project is one that there is continued contribution to, and value derived from.  Some example metrics for consideration by project teams are listed below.
+A project's definition of success will change over time, and as such, measures of success will need to shift over time as well. 
+
+For most projects, a good place to start is with the founding project team defining what a success looks like to them at the early, MVP, v1, and LTS stages of the project, and some suggested KPI's are listed below. 
+
+In the early stages, a high velocity of commits sustained over months may be a good indicator for your project.  In LTS, this level of activity has likely tapered off, and that's not a bad thing. 
 
 ## Metrics for Project Success
 (from: https://opensource.com/article/19/8/measure-project) The below metrics are defined by development role in an Open Source project. 
@@ -118,7 +122,16 @@ As a project developer or contributor, I care most about:
 
 This is not an exhaustive list, please feel free to come up with your own!
 
+Some good KPI's to consider at the start of your project include: 
+
++ How many contributors do we have?
++ How many maintainers do we have?
++ How many downstream dependencies are there? 
++ How many users of the software do we have?
++ How many bugs do we have?
++ How long does it take for a bug to be fixed?
++ How long are PR's sitting open?
+
 ## Tools for measursing Project Success
 
-https://bitergia.com/ (commercial product)
-https://github.com/chaoss/ (open source product that Bitergia is based on)
+All projects have thier metrics posted on [LFX Insights](https://insights-v2.lfx.linuxfoundation.org/aswf/trends).
