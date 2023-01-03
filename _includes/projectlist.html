@@ -1,0 +1,26 @@
+
+<iframe src="https://landscape.aswf.io/pages/hosted-projects?style=body{background-color:white;}%23embedded-footer{display:none;}" frameborder="0" id="landscape" scrolling="no" style="width: 1px; min-width: 100%; opacity: 1; visibility: visible; overflow: hidden;"></iframe>
+<script src="https://landscape.aswf.io/iframeResizer.js"></script>
+
+<h2>Working Groups</h2>
+
+<h3>Active</h3>
+
+<ul>
+{%- for workinggroup in site.data.workinggroups -%}
+{%- if workinggroup["status"] == "Active" -%}
+<li><a href="{{ workinggroup['url'] }}">{{ workinggroup["name"] }}</a></li>
+{%- endif -%}
+{%- endfor -%}
+</ul>
+
+<h3>Archived</h3>
+
+<ul>
+{%- for workinggroup in site.data.workinggroups -%}
+{%- if workinggroup["status"] == "Archived" -%}
+<li><a href="{{ workinggroup['url'] }}">{{ workinggroup["name"] }}</a></li>
+{%- endif -%}
+{%- endfor -%}
+</ul>
+

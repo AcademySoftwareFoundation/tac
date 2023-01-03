@@ -1,0 +1,21 @@
+- name: CI Working Group
+  url: meetings/CI-workinggroup
+  status: Active
+- name: Diversity and Inclusion Working Group
+  url: https://lists.aswf.io/g/diversity
+  status: Active
+- name: Rust Working Group
+  url: https://github.com/vfx-rs/organization
+  status: Active
+- name: Universal Scene Description Working Group (USD WG)
+  url: https://wiki.aswf.io/display/WGUSD/USD+Working+Group
+  status: Active
+- name: Assets Working Group
+  url: https://wiki.aswf.io/display/ARW
+  status: Archived
+- name: Python 3 Working Group
+  url: https://github.com/AcademySoftwareFoundation/wg-python3
+  status: Archived
+- name: Review and Approval Working Group
+  url: https://wiki.aswf.io/display/PRWG
+  status: Archived

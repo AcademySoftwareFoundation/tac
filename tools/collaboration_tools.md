@@ -13,7 +13,7 @@ Academy Software Foundation maintains a number of tools to enable collaboration 
 
 ## Slack
 
-Academy Software Foundation hosts a Slack organization, which can be joined using the SlackIn joiner at https://slack.aswf.io ( note some projects use a seperate Slack instance, most notably [OpenColorIO](http://slack.opencolorio.org/), but follow these same guidelines ). Slack serves as the main communication platform for the Academy Software Foundation community outside of the mailing lists. It’s important that conversations stays on topic in each channel, and that everyone abides by the [Code of Conduct]. There are thousands of members who should all expect to have a positive experience.
+Academy Software Foundation hosts a Slack organization, which can be joined by going to at [slack.aswf.io][Slack] ( note some projects use a seperate Slack instance, most notably [OpenColorIO](http://slack.opencolorio.org/), but follow these same guidelines ). Slack serves as the main communication platform for the Academy Software Foundation community outside of the mailing lists. It’s important that conversations stays on topic in each channel, and that everyone abides by the [Code of Conduct][]. There are thousands of members who should all expect to have a positive experience.
 
 Chat is searchable and public. Do not make comments that you would not say on a video recording or in another public space. Please be courteous to others.
 
@@ -32,11 +32,11 @@ in the purpose or pinned docs of that channel.
 
 ### Escalating and/or Reporting a Problem
 
-If you encounter an issue using the Academy Software Foundation Slack, please contact the [Academy Software Foundation Program Director].
+If you encounter an issue using the Academy Software Foundation Slack, please [submit a request][].
 
 ### Requesting a Channel
 
-To add a channel, please [submit a request].
+To add a channel, please [submit a request][].
 
 Some general guidelines on new channels...
 
@@ -58,15 +58,15 @@ Typically approved requests include: GitHub, tool requests, or other tools/platf
 
 ## Mailing lists
 
-Academy Software Foundation maintains a number of mailing lists for the foundation itself, its members, and the community at large. These mailing lists are hosted at [groups.io](https://groups.io) and managed by the Linux Foundation staff and Academy Software Foundation community leadership.
+Academy Software Foundation maintains a number of mailing lists for the foundation itself, its members, and the community at large. These mailing lists are managed by the Linux Foundation staff and Academy Software Foundation community leadership.
 
 ### Key mailing lists
 
-The primary mailing list for all techincal community discussion is [tac@lists.aswf.io](https://lists.aswf.io/g/tac). Each hosted project and working group has its own mailing list as well, which are [listed in the project listing in the TAC repo](https://github.com/AcademySoftwareFoundation/tac#tac-projects).
+The primary mailing list for all techincal community discussion is [tac@lists.aswf.io][]. Each hosted project and working group has its own mailing list as well, which are [listed in the project listing in the TAC repo](/#tac-projects).
 
 ### Moderation and Moderation Guidelines
 
-By default, TSC voting members serve as the moderator for discussions in [tac@lists.aswf.io](https://lists.aswf.io/g/tac), and each hosted project's TSC will serve as moderator for its mailing lists. Moderation privledges can be extended to others upon a vote by the TAC or respective TSC as applicable.
+By default, TSC voting members serve as the moderator for discussions in [tac@lists.aswf.io][], and each hosted project's TSC will serve as moderator for its mailing lists. Moderation privledges can be extended to others upon a vote by the TAC or respective TSC as applicable.
 
 Being a moderator is as much a privledge as it is a duty. As part of volunteering to become a moderator you are now a representative of the Academy Software Foundation community, and it is your responsibility to remain aware of your contributions in this space. These responsibilities apply to all official Academy Software Foundation channels.
 
@@ -82,7 +82,7 @@ Moderators MUST:
 - Foster a safe and productive environment by being aware of potential multiple cultural differences between community members.
 - Understand that you might be contacted by moderators, community managers, and other users via private email or a direct message.
 - Keep up with software/platform changes on the property they are responsible for. This might include new UI changes, new features, or other software changes. Moderators are encouraged to meet regularly to train themselves how to be proficient with the platform.
-- Report violations of the [Code of Conduct] to pm@aswf.io.
+- Report violations to email specified in the [Code of Conduct][].
 
 Moderators SHOULD:
 
@@ -128,7 +128,7 @@ By default, any TSC or TAC chairperson has the ability to schedule community mee
     - Meeting Description, recommended to use the following template:
       ```
       <Summary of the meeting purpose>
-
+      
       Agenda/Notes at <Link to meeting agenda/notes>
       ```
     - Invite Committee Members, select the required committee for which the meeting is scheduled
@@ -163,7 +163,6 @@ By default, any TSC or TAC chairperson has the ability to schedule community mee
   - Select Update Event to save the changes and ensure you choose the update to reflect on Only This Event or All Meetings as applicable.
 
 The meeting update will be reflected in the meeting subscription with the next automatic update.
-    
 #### Cancel/Delete a Meeting   
 
 - Edit the meeting using [LFX Meeting Management](https://docs.linuxfoundation.org/lfx/project-control-center/it-services-for-a-project/meetings#scheduling-a-meeting).
@@ -173,6 +172,7 @@ The meeting update will be reflected in the meeting subscription with the next a
 - Click on the event you are updating and select Edit Event, scroll to the bottom of the Event and click on Delete Event.
   - You'll need to select either Only This Event or All Meetings as applicable here as well.
     
+
 The meeting update will be reflected in the meeting subscription with the next automatic update.
 
 ### Calendar guidance
@@ -184,14 +184,7 @@ To help individuals to not be inundated with calendar overload, try to follow th
 - Avoid making any meeting invite changes ( including cancellations or reschedulings ) less that 24 hours in advance, as many calendaring clients do not update immediately. It's also best practice to email that calendar's respective mailing list to inform the group of the cancellation.
 - If you are rescheduling a meeting, cancel the previous one and issue a new meeting instead of doing a reschedule. Some calendaring clients don't do well with meeting invite changes.
 
-### Subscribing to calendars
-
-Instructions for subscribing to an iCal calendar for popular calendaring tools:
-
-- [Google Calendar](https://support.google.com/calendar/answer/37100?co=GENIE.Platform%3DDesktop&oco=1) - note calendar updates only happen once daily
-- [Outlook](https://support.office.com/en-us/article/import-or-subscribe-to-a-calendar-in-outlook-com-cff1429c-5af6-41ec-a5b4-74f2c278e98c)
-- [Apple Calendar](https://support.apple.com/guide/calendar/subscribe-to-calendars-icl1022/mac)
-- [IBM/HCL Notes](https://www.ibm.com/support/knowledgecenter/SSKTWP_10.0.0/cal_add_cal_t.html)
+- https://www.ibm.com/support/knowledgecenter/SSKTWP_10.0.0/cal_add_cal_t.html)
 
 ### Calendar management best practices
 
@@ -205,8 +198,10 @@ Instructions for subscribing to an iCal calendar for popular calendaring tools:
   - When provisioning a new series of recurring meetings, instruct invitees to remove old entries manually.
 - Courtesy Email, as a meeting lead it is a best practice to email the applicable sub-group with a note about any new meetings available, any meeting changes, or meeting cancellations. 
 
-[Code of Conduct]: code-of-conduct.md
-[submit a request]: https://github.com/AcademySoftwareFoundation/foundation/issues/new/choose
+[Code of Conduct]: /code_of_conduct
+[submit a request]: https://servicedesk.aswf.io
 [tac calendar]: https://lists.aswf.io/g/tac/calendar
 [Academy Software Foundation Program Director]: mailto:operations@aswf.io
-[Academy Software Foundation Calendar]: https://lists.aswf.io/calendar
+[Academy Software Foundation Calendar]: https://calendar.aswf.io/
+[Slack]: https://slack.aswf.io
+[tac@lists.aswf.io]: https://lists.aswf.io/g/tac

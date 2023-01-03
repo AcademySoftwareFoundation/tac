@@ -1,7 +1,7 @@
 ---
 grand_parent: Processes
 parent: Project Lifecycle
-nav_order: 1
+nav_order: 2
 ---
 
 # Project Contribution Proposal Template

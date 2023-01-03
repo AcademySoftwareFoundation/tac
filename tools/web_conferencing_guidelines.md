@@ -11,9 +11,9 @@ These guidelines are meant as a tool to help Academy Software Foundation communi
 
 ## Setting up your meeting and moderation
 
-[Zoom] is the main video communication platform for the Academy Software Foundation. It is used for running the both techincal community and member meetings, along with many other Academy Software Foundation online events. 
+[Zoom][] is the main video communication platform for the Academy Software Foundation. It is used for running the both techincal community and member meetings, along with many other Academy Software Foundation online events. 
 
-New meetings can be provisioned using [LFX Project Control Center]. This service uses Zoom on the backend and integrates with a user's LF ID accounts, providing a secure and reliable virtual meeting experience. This does require the user to have an LF ID, which can be easily created and maintained in the [LFX Individual Dashboard]. Documentation on provisioning new meetings and sharing with participants is documented in the [LFX Meeting Management documentation].
+New meetings can be provisioned using [LFX Project Control Center][]. This service uses Zoom on the backend and integrates with a user's LF ID accounts, providing a secure and reliable virtual meeting experience. This does require the user to have an LF ID, which can be easily created and maintained in the [LFX Individual Dashboard][]. Documentation on provisioning new meetings and sharing with participants is documented in the [LFX Meeting Management documentation][].
 
 ## Running a meeting using Zoom and LFX Meeting Management
 
@@ -21,7 +21,7 @@ Generally meetings provisioned using LFX Meeting Management are fairly straightf
 
 ### Screen sharing guidelines and recommendations
 
-Zoom has a [documentation on how to use their screen sharing feature]:
+Zoom has a [documentation on how to use their screen sharing feature][]:
 
 Recommendations:
 
@@ -40,7 +40,7 @@ There are some things that are just plain out of your control, but there are som
 
 #### Recommended hardware to have
 
-- **A dedicated microphone** - This is the number one upgrade you can do. Sound is one of those things that can immediately change the quality of your call. If you plan on being here for the long haul, something like a [Blue Yeti] will work great due to the simplicity of using USB audio and having a hardware mute button. Consider a [pop filter] as well if necessary.
+- **A dedicated microphone** - This is the number one upgrade you can do. Sound is one of those things that can immediately change the quality of your call. If you plan on being here for the long haul, something like a [Blue Yeti][] will work great due to the simplicity of using USB audio and having a hardware mute button. Consider a [pop filter][] as well if necessary.
 - **A Video Camera** - A bad image can be worked around if the audio is good. Certain models have noise cancelling dual-microphones, which are a great backup for a dedicated microphone or if you are travelling.
 - **A decent set of headphones** - Personal preference, these cut down on the audio feedback when in larger meetings.
 
@@ -52,13 +52,13 @@ What about an integrated headset and microphone? This totally depends on the typ
 
 ### Conduct and Moderation
 
-Since the Zoom meetings are open to the general public, a Zoom host or co-host has to moderate a meeting in all senses of the word from starting and stopping the meeting, to acting on [Code of Conduct] issues. The Academy Software Foundation adheres to it's [Code of Conduct] or the relevant project code of conduct throughout all platforms and includes all communication mediums.
+Since the Zoom meetings are open to the general public, a Zoom host or co-host has to moderate a meeting in all senses of the word from starting and stopping the meeting, to acting on [Code of Conduct][] issues. The Academy Software Foundation adheres to it's [Code of Conduct] or the relevant project code of conduct throughout all platforms and includes all communication mediums.
 
 If you're dealing with a troll or bad actor:
 
 - Put the troll or bad actor on **hold**. The participant will be put into a "waiting room" and will not be able to participate in the call until the host removes the hold.
 - Remove the participant. Please be cautious when testing or using this feature, as it is **permanent**. They will never be able to come back into that meeting ID on that particular device. Do **not** joke around with this feature; it's better to put the attendee on "hold" first and then remove.
-- After an action has been taken, use the **lock meeting** feature so that no one else can come into the meeting. If that fails, end the call immediately, and contact the [LF Staff] to report the issue.
+- After an action has been taken, use the **lock meeting** feature so that no one else can come into the meeting. If that fails, end the call immediately, and [submit a support request][Support Request] to report the issue.
 
 **NOTE:** You can find these actions when clicking on the **more** or **"..."** options after scrolling over the participants name/information.
 
@@ -66,22 +66,22 @@ Hosts **must** be comfortable with how to use these moderation tools and the Zoo
 
 #### Related moderation documentation
 
-- Zoom has [documentation on how to use their moderation tools].
+- Zoom has [documentation on how to use their moderation tools][].
 
 #### Escalating and/Reporting a Problem
 
-Issues that cannot be handle via normal moderation, or with the assistance of the [LF Staff] should be escalated to the [TAC].
+For issues that cannot be handle via normal moderation, please [submit a support request][Support Request].
 
 ## Meeting recordings
 
-Meetings using the LFX Meeting Management service can generally be set to automatically record the meeting and make a transcript, both of which can be retrieved by users in thier [LFX Individual Dashboard]. Project leads can also get recordings from past meetings in [LFX Project Control Center] in the meeting management section; feel free to share those links and access key in the notes from the meeting. 
+Meetings using the LFX Meeting Management service can generally be set to automatically record the meeting and make a transcript, both of which can be retrieved by users in thier [LFX Individual Dashboard][]. Project leads can also get recordings from past meetings in [LFX Project Control Center][] in the meeting management section; feel free to share those links and access key in the notes from the meeting. 
 
-If there has been any conduct or other violation which was been addressed by a host and recorded, the video should be edited before being posted. Contact [LF Staff] if you need help to edit a video before posting it to the public.
+If there has been any conduct or other violation which was been addressed by a host and recorded, the video should be edited before being posted. [Submit a support request][Support Request] if you need help to edit a video before posting it to the public.
 
 ## Pro-tips
 
 - If you join the meeting via the desktop or web client, [make sure your name is set correctly](https://support.zoom.us/hc/en-us/articles/200941109-Attendee-Controls-in-a-Meeting) so other attendees know who you are ( especially the person taking meeting notes! ).
-- [Join on muted audio and video] in order to prevent noise to those already in a call.
+- [Join on muted audio and video][] in order to prevent noise to those already in a call.
 - If you don't have anything to say at that moment, **MUTE**. This is a common problem. You can help out a teammate by mentioning it on Zoom chat or asking them to mute on the call itself. The meeting co-host can help with muting noisly attendees before it becomes too disruptive. Don't feel bad if this happens to you, it's a common occurrence.
 - Try to find a quiet meeting place to join from; some coworking spaces and coffee shops have a ton of ambient noise that won't be obvious to you but will be to other people in the meeting. When presenting to large groups consider delegating to another person who is in a quieter environment.
 - Using your computer's built in microphone and speakers might work in a pinch, but in general won't work as well as a dedicated headset/microphone.
@@ -92,7 +92,7 @@ Thanks for making ASWF meetings work great!
 
 [Zoom]: https://zoom.us
 [Code of Conduct]: ../CODE_OF_CONDUCT.md
-[LF Staff]: https://supportdesk.aswf.io
+[Support Request]: https://supportdesk.aswf.io
 [TAC]: mailto:tac-private@lists.aswf.io
 [host key]: https://support.zoom.us/hc/en-us/articles/205172555-Host-Key
 [latest version]: https://zoom.us/download
