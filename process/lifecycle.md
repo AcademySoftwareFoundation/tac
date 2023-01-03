@@ -164,7 +164,7 @@ Adopted Stage projects are considered mature projects that generally are ready f
 
 ### Requirements
 
-To be advance to an Adopted stage, a project must meet the Incubation stage requirements plus:
+To be considered for the Adopted stage, a project must meet the Incubation stage requirements plus:
 
 * Demonstrate a substantial ongoing flow of commits and merged contributions, authored by a healthy number of diverse contributors*.
 * Demonstrable roadmap progress.
