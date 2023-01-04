@@ -2,12 +2,12 @@
 parent: Tools
 ---
 
-
 # Mailing Lists
 
 * TOC
 {:toc}
-Academy Software Foundation maintains several mailing lists for the foundation itself, its members, and the community. These mailing lists are managed by the Linux Foundation staff and Academy Software Foundation community leadership.
+
+Academy Software Foundation maintains several mailing lists for the foundation itself, its members, and the community. The Academy Software Foundation staff and community leadership manage these mailing lists.
 
 ## Key mailing lists
 

@@ -6,6 +6,7 @@ parent: Tools
 
 * TOC
 {:toc}
+
 Academy Software Foundation hosts a Slack organization, which can be joined by going to [slack.aswf.io][Slack] ( note some projects use a separate Slack instance, most notably [OpenColorIO](http://slack.opencolorio.org/), but follow these same guidelines ). Slack serves as the primary communication platform for the Academy Software Foundation community outside of the mailing lists. There are thousands of members who should all expect to have a positive experience. It’s important that conversations stay on topic in each channel and that everyone abides by the [Code of Conduct][].
 
 Chat is searchable and public. Do not make comments you would not say on a video recording or in another public space. Please be courteous to others.

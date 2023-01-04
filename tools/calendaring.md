@@ -3,8 +3,10 @@ parent: Tools
 ---
 
 # Calendaring
+
 * TOC
 {:toc}
+
 You can stay subscribed to the meetings of the projects and committees of the Academy Software Foundation by subscribing to the coordinating mailing list. Each mailing list has a calendar you can subscribe to with your calendar client of choice.
 
 By default, the following permissions apply to calendars:
