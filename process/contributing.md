@@ -28,7 +28,7 @@ Within open source, there are multiple approaches to contribution and licensing,
 
 Generally open source projects at The Linux Foundation that have not previously selected a license leverage the [Apache License, Version 2.0][] for their codebase, a [Community Data License Agreement (CDLA) license][] for any data sets, and the [Creative Commons Attribution 4.0 International License][] for all documentation and non-code assets. These licenses are widely used and understood by developers and organizations alike, providing flexibility for downstream usage and patent protection for those contributing code.
 
-### Code License identification
+### Code License Identification
 
 Each repository must contain a license file. Include the plain-text version of the license as a LICENSE file in the top-level directory of the repository.
 
@@ -54,7 +54,7 @@ Assumes [Apache License, Version 2.0][] and Foo project name.
 
 ## Contribution sign off
 
-Ensuring a clean code pedigree and lineage is critical to the downstream adoption of open-source code in the industry.
+Ensuring a clean code pedigree and lineage is critical to the industry's downstream adoption of open-source code.
 
 Academy Software Foundation requires the use of the [Developer’s Certificate of Origin 1.1 (DCO)][DCO], which is the same mechanism that the [Linux® Kernel](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/process/submitting-patches.rst#n416) and many other communities use to manage code contributions. The DCO is considered one of the simplest tools for sign-offs from contributors as the representations are meant to be easy to read and indicate signoff is done as a part of the commit message.
 
@@ -66,7 +66,7 @@ You can include this automatically when you commit a change to your local git re
 
 ### Make doing DCO signoffs easier
 
-By default, all GitHub repositories have both the [GitHub DCO App][] installed and [commit signoffs enabled][GitHub commit signoff policy]. This ensures anyone contributing via the GitHub web interface automatically will signoff commits.
+By default, all GitHub repositories have both the [GitHub DCO App][] installed and [commit signoffs enabled][GitHub commit signoff policy]. This ensures anyone contributing via the GitHub web interface will automatically signoff commits.
 
 For developers working from thier local machines, there are a few options available to automatically signoff commits.
 

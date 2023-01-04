@@ -47,7 +47,11 @@ Generally, the following settings apply to all hosted project repositories and o
 
 ### DCO
 
-The [DCO Github app](https://probot.github.io/apps/dco/) is installed by default on all repositories and organizations, as the DCO is generally required for contributions to hosted projects. This app will block a commit without a valid DCO signoff. The DCO app should not be disabled or bypassed after it is enabled.
+By default, all GitHub repositories have both the [GitHub DCO App][] installed and [commit signoffs enabled][GitHub commit signoff policy]. DCO guidelines for hosted projects are outlined in the [contributing guidelines](/process/contributing#Code+License+Identification).
+
+### CLA
+
+All projects requiring a Contributor License Agreement (CLA) leverage [EasyCLA](https://easycla.lfx.linuxfoundation.org) for automated management. Documentation on EasyCLA can be found [here](https://docs.linuxfoundation.org/lfx/easycla/v2-current).
 
 ### Permissions
 
