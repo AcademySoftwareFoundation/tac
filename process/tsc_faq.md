@@ -19,9 +19,18 @@ The Technical Steering Committee (TSC) is the leadership of the project. This co
 
 Typically the TSC is comprised of the primary committers or maintainers in a project. To start there may be an appointed list, but over time more individuals may join the TSC according to the policies the TSC set for how new members are added. Regardless, TSC meetings are generally open to anyone interested unless there are sensitive issues to discuss which necessitate a private meeting.
 
-[LFX Project Control Center](https://projectadmin.lfx.linuxfoundation.org/) is a tool for managing project committees and roles within a project. Each project will be setup in that tool with a voting committee named 'Technical Steering Committee (TSC)', notating the project chairperson and all of the voting members. Project chairpersons will have access to manage this in addition to the Linux Foundation staff supporting the project. 
+[LFX Project Control Center](https://projectadmin.lfx.linuxfoundation.org/) is a tool for managing project committees and roles within a project. Each project will be setup in that tool with a voting committee named 'Technical Steering Committee (TSC)', notating the project chairperson and all of the voting members. Project chairpersons will have access to manage this in addition to the Linux Foundation staff supporting the project. Additionally, each project should have a [GitHub Team](https://docs.github.com/en/organizations/organizing-members-into-teams/about-teams) setup that has each of thier maintainers as part of it, with each project repository granted 'maintainer' permission. Generally the LF Staff will have this setup for each project, but it's up to the project to maintain after that.
 
 More details on using LFX Project Control Center for committee management can be found [in the LFX documentation](https://docs.linuxfoundation.org/lfx/project-control-center-pre-release/setup-services-for-a-project/committees-setup-for-a-project).
+
+### Adding New Members
+
+The TSC can add members at any time with a simple majority vote of the current TSC members. The vote can be held during a regular TSC meeting, via email, or as part of a GitHub Issue; either way it is crucial to have a documented vote for adding the individual with the votes recorded. You should also save this vote in the TSC records for future reference to provide full transparency into TSC member selection.
+
+Once a TSC member is confirmed, the TSC Chairperson should...
+
+- Add them to the TSC Committee in [LFX Project Control Center](https://projectadmin.lfx.linuxfoundation.org/)
+- Update the GitHub repository team for maintainers to add the TSC member.
 
 ## Roles
 
