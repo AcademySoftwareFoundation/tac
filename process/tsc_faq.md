@@ -75,7 +75,7 @@ For public meetings, LFX PCC provides a public link for sharing the meeting with
 
 ### Agenda
 
-The TSC Chairperson should share an agenda at least 24 hours before the meeting with an ask to share additional agenda items. Projects can share via the public discussion lists or a pull request on GitHub.
+The TSC Chairperson should share an agenda at least 24 hours before the meeting with an ask to share additional agenda items. The agenda should be shared through the public communication/collaboration channels they use ( such as the mailing lists, chat channels, GitHub, etc ).
 
 ## FAQs about TSCs
 
