@@ -6,7 +6,7 @@ parent: Working Groups
 
 _This document is intended to be a template for working groups established by the TAC, to be used as the README.md file in its repository. All items in italics are descriptions of what context should be there; it is intended to be replaced by content. It is modeled off the [CNCF Serverless WG](https://github.com/cncf/wg-serverless)._
 
-_The intention is that each WG has its own GitHub repo under the [ASWF organization](https://github.com/AcademySoftwareFoundation)._
+_The intention is that each WG has its own GitHub repo under the [Academy Software Foundation organization](https://github.com/AcademySoftwareFoundation)._
 
 # _Working group name_
 
@@ -43,7 +43,7 @@ This WG communicates on the following channels:
 
 ## Meetings
 
-See the [ASWF public calendar](https://lists.aswf.io/calendar). This WG meets _meeting day/time and frequency_. 
+See the [Academy Software Foundation public calendar](https://calendar.aswf.io). This WG meets _meeting day/time and frequency_. 
 
 _provide the Zoom/conference call details_
 

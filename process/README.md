@@ -1,8 +1,9 @@
 ---
-title: Processes
 has_children: true
 nav_order: 3
 ---
+
+# Processes
 
 These are the various processes and policies adopted by the ASWF TAC. Any new proposed policies, or changes to existing policies, should be done via PR and merged only after the TAC has formally approved.
 
