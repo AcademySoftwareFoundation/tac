@@ -3,13 +3,11 @@ title: License Scanning
 parent: Programs
 ---
 
-# The Linux Foundation - License Scanning and Analysis Support Program for LF projects
+# License Scanning and Analysis Support Program
 
 * TOC
 {:toc}
-
-
-## Support plan summary for 2022: Academy Software Foundation
+## Support plan summary
 
 Support to be provided by: Jeff Shapiro &lt;<jshapiro@linuxfoundation.org>&gt;
 
@@ -23,10 +21,9 @@ performed:
     contained in the project codebases
 
 3.  Publish SPDX documents with the license conclusions and copyright
-    statements at <https://github.com/lfscanning/spdx-aswf> (or a similar public
-    location), for broader community use in their own compliance
+    statements at <https://github.com/lfscanning/spdx-aswf>, for broader community use in their own compliance
     processes
-
+    
 4.  Produce summary reports for project leads / maintainers, with
     limited public visibility (or optionally public at the project’s
     discretion) with the following:
