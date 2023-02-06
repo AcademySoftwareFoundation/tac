@@ -1,6 +1,6 @@
 ---
 parent: Meetings
-title: "yyyy-mm-dd"
+title: "Meeting Template"
 nav_exclude: true
 ---
 
