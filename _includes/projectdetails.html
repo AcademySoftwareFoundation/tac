@@ -1,0 +1,65 @@
+
+<table>
+<tbody>
+{%- for project in site.data.projects -%}
+    {%- if project["Level"] != 'emeritus' -%}
+    <tr>
+        <td><img id="{{ project["Name"] }}" src="{{ project["Logo URL"] }}" /></td>
+        <td>
+            {%- if project["Website"] -%}
+            Website: <a href="{{ project["Website"] }}">{{ project["Website"] }}</a><br />
+            {%- endif -%}
+            {%- if project["Dev Mailing List"] -%}
+            Dev Mailing List: <a href="{{ project["Dev Mailing List"] }}">{{ project["Dev Mailing List"] }}</a><br />
+            {%- endif -%}
+            {%- if project["User Mailing List"] -%}
+            User Mailing List: <a href="{{ project["User Mailing List"] }}">{{ project["User Mailing List"] }}</a><br />
+            {%- endif -%}
+            {%- if project["Mailing List"] -%}
+            Mailing List: <a href="{{ project["Mailing List"] }}">{{ project["Mailing List"] }}</a><br />
+            {%- endif -%}
+            {%- if project["Slug"] == "open-color-io" %}
+            Slack: <a href="https://slack.opencolorio.org/">slack.opencolorio.org</a><br />
+            {%- elsif project["Slack"] -%}
+            Slack: <a href="https://slack.aswf.io">{{ project["Slack"] }}</a><br />
+            {%- endif -%}
+            {%- if project["LFX Insights URL"] -%}
+            LFX Insights: <a href="{{ project["LFX Insights URL"] }}">{{ project["LFX Insights URL"] }}</a><br />
+            {%- endif -%}
+            {%- if project["LFX Security URL"] -%}
+            LFX Security: <a href="{{ project["LFX Security URL"] }}">{{ project["LFX Security URL"] }}</a><br />
+            {%- endif -%}
+            {%- if project["Documentation"] -%}
+            Documentation: <a href="{{ project["Documentation"] }}">{{ project["Documentation"] }}</a><br />
+            {%- endif -%}
+            {%- if project["Leads"] -%}
+            Leads: {{ project["Leads"] }}<br />
+            {%- endif -%}
+            {%- if project["Meeting Cadence"] -%}
+            Meeting Cadence: {{ project["Meeting Cadence"] }}<br />
+            {%- endif -%}
+        </td>
+    </tr>
+    {%- endif -%}
+{%- endfor -%}
+{%- for project in site.data.workinggroups -%}
+    {%- if project["status"] != 'Archived' -%}
+    <tr>
+        <td>{{ project["name"] }}</td>
+        <td>
+            {%- if project["url"] -%}
+            Website: <a href="{{ project["url"] }}">{{ project["url"] }}</a><br />
+            {%- endif -%}
+            {%- if project["mailing_list"] -%}
+            Dev Mailing List: <a href="{{ project["mailing_list"] }}">{{ project["mailing_list"] }}</a><br />
+            {%- endif -%}
+            {%- if project["slack_channel"] -%}
+            Slack: <a href="https://slack.aswf.io">{{ project["slack_channel"] }}</a><br />
+            {%- endif -%}
+        </td>
+    </tr>
+    {%- endif -%}
+{%- endfor -%}
+</tbody>
+</table>
+

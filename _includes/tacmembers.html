@@ -1,0 +1,45 @@
+
+<table class="sortable">
+<thead>
+    <tr>
+        <th>Representative</th>
+        <th>Appointed By</th>
+        <th>Role</th>
+        <th>Organization</th>
+    </tr>
+</thead>
+<tbody>
+{%- for member in site.data.tacmembers -%}
+{%- if member["Appointed By"] == "Membership Entitlement" -%}
+    <tr>
+        <td>{{ member["Full Name"] }}</td>
+        <td>Premier Member representative</td>
+        <td>{% if member["Special Role"] == "Chair" %}Chairperson - {% endif %}{{ member["Voting Status"] }}</td>
+        <td>{{ member["Account Name: Account Name"] }}</td>
+    </tr>
+{%- endif -%}
+{%- endfor -%}
+{%- for member in site.data.tacmembers -%}
+{%- if member["Appointed By"] == "Vote of TSC Committee" -%}
+    <tr>
+        <td>{{ member["Full Name"] }}</td>
+        <td>{{ member["Appointed By"] }}</td>
+        <td>{% if member["Special Role"] == "Chair" %}Chairperson - {% endif %}{{ member["Voting Status"] }}</td>
+        <td>{{ member["Account Name: Account Name"] }}</td>
+    </tr>
+{%- endif -%}
+{%- endfor -%}
+{%- for member in site.data.tacmembers -%}
+{%- if member["Appointed By"] == "Vote of TAC Committee" -%}
+    <tr>
+        <td>{{ member["Full Name"] }}</td>
+        <td>Industry Representative</td>
+        <td>{% if member["Special Role"] == "Chair" %}Chairperson - {% endif %}{{ member["Voting Status"] }}</td>
+        <td>{{ member["Account Name: Account Name"] }}</td>
+    </tr>
+{%- endif -%}
+{%- endfor -%}
+</tbody>
+</table>
+<link rel="stylesheet" href="css/sorTable.css">
+<script src="js/sorTable.js"></script>
