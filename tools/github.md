@@ -142,3 +142,5 @@ If there are concerns about this, feel free to [submit a request][].
 
 [submit a request]: https://servicedesk.aswf.io
 [Code of Conduct]: /code_of_conduct
+[GitHub commit signoff policy]: https://docs.github.com/en/organizations/managing-organization-settings/managing-the-commit-signoff-policy-for-your-organization
+[GitHub DCO App]: https://github.com/apps/dco
