@@ -27,7 +27,9 @@ title: "yyyy-mm-dd"
 {%- for member in site.data.tacmembers -%}
 {% if member["Appointed By"] == "Vote of TSC Committee" %}
 {%- for project in site.data.projects -%}
-{% if project["Leads"] == member["Full Name"] %}
+{%- if project["TAC Representative"] == member["Full Name"] -%}
+- [  ] {{ member["Full Name"] }} - {{ project["Name"] }} Representative
+{%- elsif project["Leads"] == member["Full Name"] -%}
 - [  ] {{ member["Full Name"] }} - {{ project["Name"] }} Representative
 {%- endif -%}
 {%- endfor -%}

@@ -31,6 +31,7 @@ with urllib.request.urlopen(landscapeHostedProjects) as hostedProjectsResponse:
                         'Slug': projectData['id'],
                         'Website': projectData['homepage_url'],
                         'Leads': projectData['extra']['leads'] if 'extra' in projectData and 'leads' in projectData['extra'] else None,
+                        'TAC Representative': projectData['extra']['TAC_representative'] if 'extra' in projectData and 'TAC_representative' in projectData['extra'] else None,
                         'Documentation': projectData['extra']['documentation'] if 'extra' in projectData and 'documentation' in projectData['extra'] else None,
                         'SBOM': projectData['extra']['SBOM'] if 'extra' in projectData and 'SBOM' in projectData['extra'] else None,
                         'Calendar': projectData['extra']['calendar'] if 'extra' in projectData and 'calendar' in projectData['extra'] else None,
