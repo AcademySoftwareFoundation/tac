@@ -6,7 +6,7 @@ nav_order: 2
 
 # Project Contribution Proposal Template
 
-Please answer each of the questions below to the best of your ability and submit to tac@lists.aswf.io for consideration.
+Please answer each of the questions below to the best of your ability and submit to [tac@lists.aswf.io](mailto:tac@lists.aswf.io?subject=New%20Project%20Proposal) for consideration.
 
 * Name of the project (existing or proposed):
 

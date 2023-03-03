@@ -1,13 +1,13 @@
 ---
 parent: Meetings
-title: yyyy-mm-dd
+title: "Meeting Template"
 nav_exclude: true
 ---
 
 <pre>
 ---
 parent: Meetings
-title: yyyy-mm-dd
+title: "yyyy-mm-dd"
 ---
 
 # AWSF TAC Meeting - Month DD, Year
