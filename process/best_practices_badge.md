@@ -27,7 +27,7 @@ SonarCloud is the tool that multiple projects have implemented, and there is alr
 
 [https://sonarcloud.io/organizations/academysoftwarefoundation/projects](https://sonarcloud.io/organizations/academysoftwarefoundation/projects)
 
-I'm also seeing some work towards using clang-tidy in Imath: [https://cs.github.com/AcademySoftwareFoundation/Imath/blob/3ad5d4da02795dbf37b44c5bbd2f919a7c01a19a/config/ImathSetup.cmake#L118](https://www.google.com/url?q=https://cs.github.com/AcademySoftwareFoundation/Imath/blob/3ad5d4da02795dbf37b44c5bbd2f919a7c01a19a/config/ImathSetup.cmake%23L118&sa=D&source=docs&ust=1675375752432129&usg=AOvVaw1HThXkwYas6U7fU6_IKetY)
+I'm also seeing some work towards using clang-tidy in Imath: [https://github.com/AcademySoftwareFoundation/Imath/blob/main/config/ImathSetup.cmake](https://github.com/AcademySoftwareFoundation/Imath/blob/main/config/ImathSetup.cmake)
 
 and in OSL:
 
