@@ -39,7 +39,7 @@ and in OSL:
 
 ## "The project MUST list external dependencies in a computer-processable way." - is there an automated way to build this?
 
-LFX Security automatically will pull the list of dependencies for a project provided they use the standard mechanisms leveraged by Synk.
+LFX Security automatically will pull the list of dependencies for a project provided they use the standard mechanisms leveraged by Snyk. Note there is still outstanding work to be done for [C/C++ projects to be supported](https://docs.snyk.io/scan-application-code/snyk-code/snyk-code-language-and-framework-support).
 
 ## "The project MUST provide an assurance case that justifies why its security requirements are met. The assurance case MUST include: a description of the threat model, clear identification of trust boundaries, an argument that secure design principles have been applied, and an argument that common implementation security weaknesses have been countered."
 
