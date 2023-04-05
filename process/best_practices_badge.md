@@ -25,13 +25,13 @@ Having a primary developer take the three courses outlined below ( all free to a
 
 SonarCloud is the tool that multiple projects have implemented, and there is already an organization-level access token that projects can use with it. You can see a specific example in the OpenEXR analysis_workflow.yml, which shows how to build, run the test suite, post-process, and upload to SonarCloud using the SONAR_TOKEN from the organization level. You can see the results for the various ASWF projects with SonarCloud here:
 
-[https://sonarcloud.io/organizations/academysoftwarefoundation/projects](https://www.google.com/url?q=https://sonarcloud.io/organizations/academysoftwarefoundation/projects&sa=D&source=docs&ust=1675375752427760&usg=AOvVaw3aJ1DsMv9yF2Xf-Uhv8EKo)
+[https://sonarcloud.io/organizations/academysoftwarefoundation/projects](https://sonarcloud.io/organizations/academysoftwarefoundation/projects)
 
 I'm also seeing some work towards using clang-tidy in Imath: [https://cs.github.com/AcademySoftwareFoundation/Imath/blob/3ad5d4da02795dbf37b44c5bbd2f919a7c01a19a/config/ImathSetup.cmake#L118](https://www.google.com/url?q=https://cs.github.com/AcademySoftwareFoundation/Imath/blob/3ad5d4da02795dbf37b44c5bbd2f919a7c01a19a/config/ImathSetup.cmake%23L118&sa=D&source=docs&ust=1675375752432129&usg=AOvVaw1HThXkwYas6U7fU6_IKetY)
 
 and in OSL:
 
-[https://cs.github.com/AcademySoftwareFoundation/Imath/blob/3ad5d4da02795dbf37b44c5bbd2f919a7c01a19a/config/ImathSetup.cmake#L118](https://www.google.com/url?q=https://cs.github.com/AcademySoftwareFoundation/Imath/blob/3ad5d4da02795dbf37b44c5bbd2f919a7c01a19a/config/ImathSetup.cmake%23L118&sa=D&source=docs&ust=1675375752432249&usg=AOvVaw10Qy3WPYpoaDl6XTJfp3F9)
+[https://github.com/AcademySoftwareFoundation/OpenShadingLanguage/blob/3bd377861087f99c6c69d73a95176d88072ff5da/src/cmake/compiler.cmake#L406]https://github.com/AcademySoftwareFoundation/OpenShadingLanguage/blob/3bd377861087f99c6c69d73a95176d88072ff5da/src/cmake/compiler.cmake#L406)
 
 ## "The project MUST have a documented process for responding to vulnerability reports." - does GitHub have anything to help with this?
 
