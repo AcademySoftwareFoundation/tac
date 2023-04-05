@@ -13,7 +13,7 @@
 {%- if member["Appointed By"] == "Membership Entitlement" -%}
     <tr>
         <td>{{ member["Full Name"] }}</td>
-        <td>Premier Member representative</td>
+        <td>Premier Member Representative</td>
         <td>{% if member["Special Role"] == "Chair" %}Chairperson - {% endif %}{{ member["Voting Status"] }}</td>
         <td>{{ member["Account Name: Account Name"] }}</td>
     </tr>
@@ -23,7 +23,15 @@
 {%- if member["Appointed By"] == "Vote of TSC Committee" -%}
     <tr>
         <td>{{ member["Full Name"] }}</td>
-        <td>{{ member["Appointed By"] }}</td>
+        <td>
+        {%- for project in site.data.projects -%}
+        {%- if project["TAC Representative"] == member["Full Name"] -%}
+        {{ project["Name"] }} Representative
+        {%- elsif project["Leads"] == member["Full Name"] -%}
+        {{ project["Name"] }} Representative
+        {%- endif -%}
+        {%- endfor -%}
+        </td>
         <td>{% if member["Special Role"] == "Chair" %}Chairperson - {% endif %}{{ member["Voting Status"] }}</td>
         <td>{{ member["Account Name: Account Name"] }}</td>
     </tr>
@@ -42,4 +50,4 @@
 </tbody>
 </table>
 <link rel="stylesheet" href="css/sorTable.css">
-<script src="js/sorTable.js"></script>
+<script src="js/sorTable.min.js"></script>
