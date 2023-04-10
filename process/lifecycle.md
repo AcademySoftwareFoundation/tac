@@ -113,7 +113,7 @@ A project at the Incubation Stage has begun to form a community and develop its 
 
 To be accepted at the Incubation stage, a project must meet the Sandbox requirements plus:
 
-*   Have completed and approved the Technical Charter and agree to transfer any relevant trademarks to The Linux Foundation or its affiliate, LF Projects, LLC, and to assist in filing for any relevant unregistered ones. The ASWF maintains a [template](charter_template.md) for projects to use.
+*   Have completed and approved the Technical Charter and agree to transfer any relevant trademarks to The Linux Foundation or its affiliate, LF Projects, LLC, and to assist in filing for any relevant unregistered ones.
 *   Have defined its technical governance, including:
     *   A LICENSE file in every code repository, with the license chosen an OSI-approved license.
     *   A README file welcoming new community members to the project and explaining why the project is useful and how to get started ( follow the guidelines at the [README checklist](https://github.com/ddbeck/readme-checklist) to create an excellent README file ).
