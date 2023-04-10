@@ -113,7 +113,7 @@ A project at the Incubation Stage has begun to form a community and develop its 
 
 To be accepted at the Incubation stage, a project must meet the Sandbox requirements plus:
 
-*   Have completed and approved the Technical Charter and agree to transfer any relevant trademarks to The Linux Foundation or its affiliate, LF Projects, LLC, and to assist in filing for any relevant unregistered ones. The ASWF maintains a [template](charter_template.md) for projects to use.
+*   Have completed and approved the Technical Charter and agree to transfer any relevant trademarks to The Linux Foundation or its affiliate, LF Projects, LLC, and to assist in filing for any relevant unregistered ones.
 *   Have defined its technical governance, including:
     *   A LICENSE file in every code repository, with the license chosen an OSI-approved license.
     *   A README file welcoming new community members to the project and explaining why the project is useful and how to get started ( follow the guidelines at the [README checklist](https://github.com/ddbeck/readme-checklist) to create an excellent README file ).
@@ -123,7 +123,7 @@ To be accepted at the Incubation stage, a project must meet the Sandbox requirem
     *   A RELEASE file that provides documentation on the release methodology, cadence, criteria, etc.
     *   A GOVERNANCE file that documents the project’s technical governance.
     *   A SUPPORT file to let users and developers know about ways to get help with your project.
-*   Have achieved and maintained a Core Infrastructure Initiative [Best Practices Badge](https://bestpractices.coreinfrastructure.org/) at the passing level. 
+*   Have achieved and maintained a an OpenSSF Best Practices Badge at the [passing level](https://bestpractices.coreinfrastructure.org/en/criteria). 
 *   Have had a successful license scan with any critical issues remedied.
 *   Have a defined project mission and scope
 *   An overview of the project’s architecture and features defined.
@@ -169,7 +169,7 @@ To be considered for the Adopted stage, a project must meet the Incubation stage
 * Demonstrate a substantial ongoing flow of commits and merged contributions, authored by a healthy number of diverse contributors*.
 * Demonstrable roadmap progress.
 * A healthy number of public adopters that are identified within the project ( using an ADOPTERS file or showcased on the project’s website ).
-* Have achieved and maintained a Core Infrastructure Initiative [Best Practices Gold Level Badge](https://bestpractices.coreinfrastructure.org/)
+* Have achieved and maintained an OpenSSF Best Practices Badge at the [gold level](https://bestpractices.coreinfrastructure.org/en/criteria/2).
 * Have a technical lead appointed for voting representation of the project to the TAC.
 * Be deemed by the TAC to add value to the mission of ASWF.
 * Obtain both a 2/3 supermajority vote of the TAC and an affirmative majority vote of the Governing Board
@@ -182,6 +182,7 @@ Adopted stage projects are eligible to receive the following benefits:
 
 * Be considered as one of the “TAC Projects” under the [ASWF Charter](https://github.com/AcademySoftwareFoundation/foundation/blob/master/CHARTER.md). 
  and may receive additional resources or support as determined by the Governing Board.
+* Have a voting representative on the TAC.
 * Right to refer to the project as an officially adopted project of ASWF, and receive highest priority for participating in events and other collaborative activities sponsored by ASWF.
 * A blog announcement or similar communication announcing the graduation of the project.
 
