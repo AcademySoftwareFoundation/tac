@@ -123,7 +123,7 @@ To be accepted at the Incubation stage, a project must meet the Sandbox requirem
     *   A RELEASE file that provides documentation on the release methodology, cadence, criteria, etc.
     *   A GOVERNANCE file that documents the project’s technical governance.
     *   A SUPPORT file to let users and developers know about ways to get help with your project.
-*   Have achieved and maintained an OpenSSF Best Practices Badge at the [passing level]([https://bestpractices.coreinfrastructure.org/](https://bestpractices.coreinfrastructure.org/en/criteria). 
+*   Have achieved and maintained a OpenSSF Best Practices Badge at the [passing level](https://bestpractices.coreinfrastructure.org/en/criteria). 
 *   Have had a successful license scan with any critical issues remedied.
 *   Have a defined project mission and scope
 *   An overview of the project’s architecture and features defined.
