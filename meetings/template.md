@@ -1,20 +1,20 @@
 ---
 parent: Meetings
-title: yyyy-mm-dd
+title: "Meeting Template"
 nav_exclude: true
 ---
 
 <pre>
 ---
 parent: Meetings
-title: yyyy-mm-dd
+title: "yyyy-mm-dd"
 ---
 
 # AWSF TAC Meeting - Month DD, Year
 
 ## Voting member attendance
 
-### Premier member representatives
+### Premier member Representatives
 
 {%- for member in site.data.tacmembers -%}
 {% if member["Appointed By"] == "Membership Entitlement" %}
@@ -26,7 +26,13 @@ title: yyyy-mm-dd
 
 {%- for member in site.data.tacmembers -%}
 {% if member["Appointed By"] == "Vote of TSC Committee" %}
-- [  ] {{ member["Full Name"] }} - {{ member["Account Name: Account Name"] }}
+{%- for project in site.data.projects -%}
+{%- if project["TAC Representative"] == member["Full Name"] -%}
+- [  ] {{ member["Full Name"] }} - {{ project["Name"] }} Representative
+{%- elsif project["Leads"] == member["Full Name"] -%}
+- [  ] {{ member["Full Name"] }} - {{ project["Name"] }} Representative
+{%- endif -%}
+{%- endfor -%}
 {%- endif -%}
 {% endfor %}
 

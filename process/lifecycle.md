@@ -4,8 +4,10 @@ title: Project Lifecycle
 has_children: true
 ---
 
-# The Academy Software Foundation
-# Project Lifecycle Document
+# Academy Software Foundation - Project Lifecycle
+
+* TOC
+{:toc}
 
 This lifecycle document is maintained by The Academy Software Foundation (“ASWF”), and its purpose is to:
 
@@ -35,7 +37,7 @@ Projects must be submitted to [tac@lists.aswf.io](mailto:tac@lists.aswf.io) for 
 * What is the project’s release methodology and cadence?
 * Are any trademarks, registered or unregistered, leveraged by the project? Have any trademark registrations been filed by the project or any third party anywhere in the world?
 
-# TAC presentation
+## TAC presentation
 
 Projects will present at the next TAC meeting no sooner than two weeks after their submission date.
 
@@ -114,8 +116,8 @@ To be accepted at the Incubation stage, a project must meet the Sandbox requirem
 *   Have completed and approved the Technical Charter and agree to transfer any relevant trademarks to The Linux Foundation or its affiliate, LF Projects, LLC, and to assist in filing for any relevant unregistered ones. The ASWF maintains a [template](charter_template.md) for projects to use.
 *   Have defined its technical governance, including:
     *   A LICENSE file in every code repository, with the license chosen an OSI-approved license.
-    *   A README file welcoming new community members to the project and explaining why the project is useful and how to get started.
-    *   A CONTRIBUTING file explaining to other developers and your community of users how to contribute to the project. The file should explain what types of contributions are needed and how the process works.
+    *   A README file welcoming new community members to the project and explaining why the project is useful and how to get started ( follow the guidelines at the [README checklist](https://github.com/ddbeck/readme-checklist) to create an excellent README file ).
+    *   A CONTRIBUTING file explaining to other developers and your community of users how to contribute to the project. The file should describe the types of contributions needed and how the process works.
     *   A CODEOWNERS or COMMITTERS file to define individuals or teams that are responsible for code in a repository; document current project owners and current and emeritus committers. 
     *   A CODE_OF_CONDUCT file that sets the ground rules for participants’ behavior associated and helps to facilitate a friendly, welcoming environment. By default, projects should leverage the Linux Foundation Code of Conduct unless an alternate Code of Conduct was previously approved.
     *   A RELEASE file that provides documentation on the release methodology, cadence, criteria, etc.
@@ -163,7 +165,7 @@ Adopted Stage projects are considered mature projects that generally are ready f
 
 ### Requirements
 
-To be advance to an Adopted stage, a project must meet the Incubation stage requirements plus:
+To be considered for the Adopted stage, a project must meet the Incubation stage requirements plus:
 
 * Demonstrate a substantial ongoing flow of commits and merged contributions, authored by a healthy number of diverse contributors*.
 * Demonstrable roadmap progress.
@@ -185,15 +187,6 @@ Adopted stage projects are eligible to receive the following benefits:
 * Right to refer to the project as an officially adopted project of ASWF, and receive highest priority for participating in events and other collaborative activities sponsored by ASWF.
 * A blog announcement or similar communication announcing the graduation of the project.
 
-# Project Benefits Associated with Each Lifecycle Stage
-
-Adopted stage projects are eligible to receive the following benefits:
-
-* Will become an official “Technical Project” under the ASWF charter and may receive additional resources or support as determined by the Governing Board.
-* Right to refer to the project as an officially adopted project of ASWF, and receive highest priority for participating in events and other collaborative activities sponsored by ASWF.
-* A blog announcement or similar communication announcing the graduation of the project.
-* Graduation stage projects that receive the approval of the Governing Board constitute “TAC Projects” under the ASWF charter.
-
 ## Archive Stage
 
 Projects like products have lifecycles, and often in open source, the relevance for a given project over time can diminish. Nonetheless, having a home for projects that are no longer relevant within the industry is crucial for long-term sustainability and asset management.
@@ -207,16 +200,3 @@ When in the Archive Stage, the project’s code repository administration is tra
 
 A project can move back to Adopted Stage following the guidelines for a project being accepted at the Adopted Stage above.
 
-# Annual Review
-
-The TAC will review on an annual basis all projects within this lifecycle. Additionally, Sandbox Stage projects will be required to submit quarterly reports of progress towards the Incubation Stage.
-
-The purpose of the TAC Review is to gauge whether the project is still at the correct maturity stage based on the criteria for the current stage, as well as identify any concerns or feedback from the project's TSC that the ASWF can help address.
-
-Projects will schedule their annual review as part of the next TAC meeting following their anniversary of the project’s acceptance. Projects should prepare a short presentation that covers the following points, which the TAC will use in its review of the project:
-
-*   The current activity of the project, including releases, adoption, and committer/contribution growth and diversity.
-*   Assessment of whether the project is fulfilling the requirements for the project to remain at its current stage, or be considered for a different stage.
-*   Feedback on its experience as an ASWF project, including benefits from being an ASWF project and areas that the TAC and ASWF staff can better support the project.
-
-Annual reviews require a majority affirmative vote of the TAC for the project to continue at the current stage or the appropriate number of votes as outlined for each stage in this document to move to the next stage. If the TAC deems the project to not be currently meeting the requirements of the current stage, it may vote to move the project to the appropriate stage or Archived stage. The project may choose to move outside of the ASWF at any time.
