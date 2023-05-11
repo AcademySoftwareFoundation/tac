@@ -7,10 +7,10 @@ nav_exclude: true
 <pre>
 ---
 parent: Meetings
-title: "yyyy-mm-dd"
+title: "{{ "now" | date: "%Y-%m-%d" }}"
 ---
 
-# AWSF TAC Meeting - Month DD, Year
+# AWSF TAC Meeting - {{ "now" | date: "%B %e, %Y" }}
 
 ## Voting member attendance
 
@@ -32,7 +32,7 @@ title: "yyyy-mm-dd"
 {%- elsif project["Leads"] == member["Full Name"] -%}
 - [  ] {{ member["Full Name"] }} - {{ project["Name"] }} Representative
 {%- endif -%}
-{%- endfor -%}
+{% endfor %}
 {%- endif -%}
 {% endfor %}
 
