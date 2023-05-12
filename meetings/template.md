@@ -18,7 +18,7 @@ title: "{{ "now" | date: "%Y-%m-%d" }}"
 
 {%- for member in site.data.tacmembers -%}
 {% if member["Appointed By"] == "Membership Entitlement" %}
-- [  ] {{ member["Full Name"] }} - {{ member["Account Name: Account Name"] }}
+- [ ] {{ member["Full Name"] }} - {{ member["Account Name: Account Name"] }}
 {%- endif -%}
 {% endfor %}
 
@@ -28,9 +28,9 @@ title: "{{ "now" | date: "%Y-%m-%d" }}"
 {% if member["Appointed By"] == "Vote of TSC Committee" %}
 {%- for project in site.data.projects -%}
 {% if project["TAC Representative"] == member["Full Name"] %}
-- [  ] {{ member["Full Name"] }} - {{ project["Name"] }} Representative
+- [ ] {{ member["Full Name"] }} - {{ project["Name"] }} Representative
 {% elsif project["Leads"] == member["Full Name"] %}
-- [  ] {{ member["Full Name"] }} - {{ project["Name"] }} Representative
+- [ ] {{ member["Full Name"] }} - {{ project["Name"] }} Representative
 {%- endif -%}
 {%- endfor -%}
 {%- endif -%}
@@ -40,7 +40,7 @@ title: "{{ "now" | date: "%Y-%m-%d" }}"
 
 {%- for member in site.data.tacmembers -%}
 {% if member["Appointed By"] == "Vote of TAC Committee" %}
-- [  ] {{ member["Full Name"] }} - {{ member["Account Name: Account Name"] }}
+- [ ] {{ member["Full Name"] }} - {{ member["Account Name: Account Name"] }}
 {%- endif -%}
 {% endfor %}
 
