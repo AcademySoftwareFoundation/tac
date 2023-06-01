@@ -73,6 +73,22 @@ Academy Software Foundation staff collectively have decades of experience drivin
 - Academy Software Foundation can leverage the expertise of its parent organization, The Linux Foundation, which hosts other successful projects, including the Linux kernel, Let’s Encrypt, and Node.js. 
 - You will have access to full-time Academy Software Foundation staff eager to assist your project in myriad ways and help make it successful.
 
+## What makes a good project to host at the Academy Software Foundation?
+
+Open-source projects and open-collaboration working groups hosted at the Academy Software Foundation are ones that benefit the motion picture and visual effects industries. Successful projects are ones that bring a diverse set of organizations and participants together; our experiences at the Linux Foundation and in open source tell us that a diverse community drives greater outcomes and innovation. As a vendor-neutral entity, the Academy Software Foundation creates that level playing field to drive leveraged, open collaboration.
+
+In evaluating projects to be hosted at the Academy Software Foundation, the TAC generally has these considerations when evaluating a project.
+
+- Does the project address a common problem in the motion picture and visual effects industries that is not solved by other efforts?
+- Will have the project the potential to gain alignment and participation amongst multiple consituients, including software vendors, studios, and other related organizations, to participate as contributors and maintainers?
+- Is the leadership of the project best positioned and capable of growing the project?
+- If the project grows into an Incubation stage project, would the TAC be able to invest into the project to help it become successful?
+- What resources would the project need to be successful, and does the Academy Software Foundation have the ability to attract and retain those resources?
+- Will this project divert away resources from existing project(s)?
+- What existing code is coming into the project, and what potential code could come into the project?
+
+Propsective projects are always welcome to engage the TAC to present about the work being done to gauge whether the project would be a good fit within the Academy Software Foundation.
+
 ## Preparing to bring your project here
 
 The “LF Way” is that there is no one way. The LF assumes that each open source project is different in its own way, which leads to building a unique governance and solution to sustain their communities.
