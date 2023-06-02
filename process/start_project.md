@@ -86,6 +86,7 @@ In evaluating projects to be hosted at the Academy Software Foundation, the TAC 
 - What resources would the project need to be successful, and does the Academy Software Foundation have the ability to attract and retain those resources?
 - Will this project divert away resources from existing project(s)?
 - What existing code is coming into the project, and what potential code could come into the project?
+- Does the project currently have the feature set, robustness, and scalability necessary to adequately solve the problem for film production, or else is there (a) a clear roadmap to get to that point, and (b) a team assembled with the skills and experience to successfully execute the plan?
 
 Propsective projects are always welcome to engage the TAC to present about the work being done to gauge whether the project would be a good fit within the Academy Software Foundation.
 
