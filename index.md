@@ -32,7 +32,7 @@ Each of the Academy Software Foundation projects are open to participation by an
 
 Working groups may be formed by the TAC to focus on specific areas of technical interest or need within the ASWF.  They report to the TAC which remains responsible for any formal decisions or voting matters.
 
-Below are the project and working groups supported by the TAC, listed by [project stage](process/lifecycle)
+Below are the project and working groups supported by the TAC, listed by [project stage](process/lifecycle). You can view the proposals for each of these projects [here](https://github.com/AcademySoftwareFoundation/tac/tree/main/project_lifecycle/proposals).
 
 {%- include projectlist.html -%}
 
