@@ -11,9 +11,11 @@ nav_order: 1
 
 The Academy Software Foundation is a host of open-source projects and open-collaboration working groups to benefit the motion picture and visual effects industries. Anyone can bring a new project or working group or start a new project or working group at the Academy Software Foundation.
 
+This document outlines why to host your project here, what makes a good project here, and the steps for bringing a project here.
+
 ## Why host your project at the Academy Software Foundation?
 
-A basic premise behind the Linux Foundation, and open source in general, is that most interactions are positive-sum. No fixed amount of investment, mindshare, or development contributions are allocated to specific projects. Just as open source development is based on the idea that, collectively, we are smarter than any one of us, open source foundations work to make the entire community better off. **Equally important, a neutral home for a project and community fosters this type of positive-sum thinking. It drives growth and diversity, core elements of a successful open-source project.**
+A basic premise behind the Linux Foundation and the Academy Software Foundation, and open source in general, is that most interactions are positive-sum. No fixed amount of investment, mindshare, or development contributions are allocated to specific projects. Just as open source development is based on the idea that, collectively, we are smarter than any one of us, open source foundations work to make the entire community better off. **Equally important, a neutral home for a project and community fosters this type of positive-sum thinking. It drives growth and diversity, core elements of a successful open-source project.**
 
 Organizations and projects come to the Academy Software Foundation to…
 
@@ -75,24 +77,26 @@ Academy Software Foundation staff collectively have decades of experience drivin
 
 ## What makes a good project to host at the Academy Software Foundation?
 
-Open-source projects and open-collaboration working groups hosted at the Academy Software Foundation are ones that benefit the motion picture and visual effects industries. Successful projects are ones that bring a diverse set of organizations and participants together; our experiences at the Linux Foundation and in open source tell us that a diverse community drives greater outcomes and innovation. As a vendor-neutral entity, the Academy Software Foundation creates that level playing field to drive leveraged, open collaboration.
+Open-source projects and open-collaboration working groups hosted at the Academy Software Foundation are ones that benefit the motion picture and visual effects industries. Successful projects bring diverse organizations and participants together; our experiences at the Linux Foundation and in open source tell us that a diverse community drives greater outcomes and innovation. As a vendor-neutral entity, the Academy Software Foundation creates that level playing field to drive leveraged, open collaboration.
 
 In evaluating projects to be hosted at the Academy Software Foundation, the TAC generally has these considerations when evaluating a project.
 
-- Does the project address a common problem in the motion picture and visual effects industries that is not solved by other efforts?
-- Will have the project the potential to gain alignment and participation amongst multiple consituents, including software vendors, studios, and other related organizations, to participate as contributors and maintainers?
-- Is the leadership of the project best positioned and capable of growing the project?
-- If the project grows into an Incubation stage project, would the TAC be able to invest into the project to help it become successful?
+- Does the project address a common problem in the motion picture and visual effects industries that are not solved by other efforts?
+- Will the project have the potential to gain alignment and participation amongst multiple constituents, including software vendors, studios, and other related organizations, to participate as contributors and maintainers?
+- Is the project's leadership best positioned and capable of growing the project?
+- If the project grows into an Incubation stage project, could the TAC invest in it to help it succeed?
 - What resources would the project need to be successful, and does the Academy Software Foundation have the ability to attract and retain those resources?
 - Will this project divert away resources from existing project(s)?
 - What existing code is coming into the project, and what potential code could come into the project?
 - Does the project currently have the feature set, robustness, and scalability necessary to adequately solve the problem for film production, or else is there (a) a clear roadmap to get to that point, and (b) a team assembled with the skills and experience to successfully execute the plan?
 
-Propsective projects are always welcome to engage the TAC to present about the work being done to gauge whether the project would be a good fit within the Academy Software Foundation.
+If a project does not meet all the criteria above, the TAC can reject the project proposal.
+
+Prospective projects are always welcome to engage the TAC to present the work being done to gauge whether the project would be a good fit within the Academy Software Foundation. 
 
 ## Preparing to bring your project here
 
-The “LF Way” is that there is no one way. The LF assumes that each open source project is different in its own way, which leads to building a unique governance and solution to sustain their communities.
+The “LF Way”, is that there is no one way. The LF assumes that each open source project is different in its own way, which leads to building a unique governance and solution to sustain their communities.
 
 ### Requirements to host a project here
 
@@ -122,3 +126,9 @@ The Academy Software Foundation staff is happy to engage and advise during this 
 ### What happens next?
 
 Generally, the TAC will schedule project proposals at the following [TAC Meeting](/meetings). Guidelines for the presentation to the TAC are detailed in the [project lifecycle](/process/lifecycle#tac-presentation).
+
+Key things to keep in mind for project proposals to the TAC:
+
+- Often, the TAC may not vote to include the project in the same meeting it's proposed, so don't be concerned if the TAC postpones the vote to a following meeting or via email.
+- Projects accepted at the Incubation level are generally mature, stable projects that have existed for many years ( examples include OpenVDB, OpenEXR, and OpenImageIO ). Projects that are newly forming or incomplete should propose to join at the Sandbox level.
+- The TAC may ask for the project to go back and address specific questions and/or concerns and then re-propose the project.
