@@ -96,7 +96,7 @@ Prospective projects are always welcome to engage the TAC to present the work be
 
 ## Preparing to bring your project here
 
-The “LF Way”, is that there is no one way. The LF assumes that each open source project is different in its own way, which leads to building a unique governance and solution to sustain their communities.
+The “LF Way”, which is aligned on how the Academy Software Foundation operates, is that there is no one way. The Academy Software Foundation assumes that each open source project is different in its own way, which leads to building a unique governance and solution to sustain their communities.
 
 ### Requirements to host a project here
 
@@ -131,4 +131,5 @@ Key things to keep in mind for project proposals to the TAC:
 
 - Often, the TAC may not vote to include the project in the same meeting it's proposed, so don't be concerned if the TAC postpones the vote to a following meeting or via email.
 - Projects accepted at the Incubation level are generally mature, stable projects that have existed for many years ( examples include OpenVDB, OpenEXR, and OpenImageIO ). Projects that are newly forming or incomplete should propose to join at the Sandbox level.
+- It's rare to see a project accepted at the Adopted level as even incoming projects that have existed for years require a fair amount of governance and operations changes as they come into the Academy Software Foundation; those projects tend to come in at the Incubation level and move to Adopted within a year.
 - The TAC may ask for the project to go back and address specific questions and/or concerns and then re-propose the project.
