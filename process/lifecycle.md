@@ -100,6 +100,7 @@ To be accepted at the Incubation stage, a project must meet the Sandbox requirem
 *   Community and contributor growth assessment
     *   The current number of contributors, committers, and different organizations contributing to the project. 
     *   Demonstrate a sustained flow of commits / merged contributions
+    *   A healthy number of end-users within the visual effects and motion picture industries that have adopted the project and that are identified within the project ( using an ADOPTERS file or showcased on the project’s website ).
     *   A credible plan for developing a thriving user community, particularly expanding the number of committers and contributors?
     *   Outline of the plan for the project to complete the requirements for the [Adopted Stage](#adopted-stage)
 * Obtain an affirmative vote of the TAC.
@@ -137,7 +138,7 @@ To be considered for the Adopted stage, a project must meet the Incubation stage
 
 * Demonstrate a substantial ongoing flow of commits and merged contributions authored by a healthy number of diverse contributors*.
 * Demonstrable roadmap progress.
-* A healthy number of public adopters are identified within the project ( using an ADOPTERS file or showcased on the project’s website ).
+* A significant number of end-users within the visual effects and motion picture industries that have adopted the project and that are identified within the project ( using an ADOPTERS file or showcased on the project’s website ).
 * Have achieved and maintained an OpenSSF Best Practices Badge at the [gold level](https://bestpractices.coreinfrastructure.org/en/criteria/2).
 * Have a technical lead appointed for voting representation of the project to the TAC.
 * Be deemed by the TAC to add value to the mission of the Academy Software Foundation.
