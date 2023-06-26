@@ -157,7 +157,7 @@ Adopted stage projects are eligible to receive the following benefits:
 
 ### Expectations
 
-Adopted Stage projects will have an Annual Review to assess if it is still meeting those requirements. At the Annual Review, the TAC will vote to either: 
+Adopted Stage projects will have an Annual Review to assess if the project is still meeting the Adopted Stage requirements. At the Annual Review, the TAC will vote to either: 
 
 * Renew the project at the Adopted Stage if it continues to [meet those requirements](#requirements-2).
 * Move the project to the [Archive Stage](#archive-stage). In this case, the trademark and any other assets will be returned to the project maintainers or an organization they designate.
