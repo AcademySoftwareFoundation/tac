@@ -4,13 +4,12 @@ parent: Project Lifecycle
 
 # OpenSSF Best Practices Badge FAQ
 
-* TOC
-{:toc}
-
-
 The [Open Source Security Foundation (OpenSSF) Best Practices badge](https://bestpractices.coreinfrastructure.org/en) allows Free/Libre and Open Source Software (FLOSS) projects to show that they follow best practices in managing their project. Consumers of the badge can quickly assess which FLOSS projects are following best practices and, as a result, are more likely to produce higher-quality secure software. Academy Software Foundation projects, as a part of the [project lifecycle established by the TAC](lifecycle), achieve this badge to showcase them being exemplars in open source for the visual effects and motion picture industries. 
 
 This document outlines specific questions Academy Software Foundation projects have raised concerning fulfilling the badge requirements. If you have unanswered questions, please provide a PR that adds your question below and will be merged with an answer.
+
+* TOC
+{:toc}
 
 ## "The project MUST have at least one primary developer who knows how to design secure software." - how to fulfill this?
 
