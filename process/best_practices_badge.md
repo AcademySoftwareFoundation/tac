@@ -33,7 +33,7 @@ There also is some work towards using clang-tidy in Imath: [https://github.com/A
 
 and in OSL:
 
-[https://github.com/AcademySoftwareFoundation/OpenShadingLanguage/blob/3bd377861087f99c6c69d73a95176d88072ff5da/src/cmake/compiler.cmake#L406]https://github.com/AcademySoftwareFoundation/OpenShadingLanguage/blob/3bd377861087f99c6c69d73a95176d88072ff5da/src/cmake/compiler.cmake#L406)
+[https://github.com/AcademySoftwareFoundation/OpenShadingLanguage/blob/3bd377861087f99c6c69d73a95176d88072ff5da/src/cmake/compiler.cmake#L406](https://github.com/AcademySoftwareFoundation/OpenShadingLanguage/blob/3bd377861087f99c6c69d73a95176d88072ff5da/src/cmake/compiler.cmake#L406)
 
 ## "The project MUST have a documented process for responding to vulnerability reports." - does GitHub have anything to help with this?
 
