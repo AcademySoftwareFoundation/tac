@@ -15,7 +15,7 @@ This lifecycle document is maintained by the Academy Software Foundation, and it
 * Provide a clear process for the contribution of a project to the Academy Software Foundation; and
 * Set milestones and requirements for different project development stages once accepted into Academy Software Foundation.
 
-The Academy Software Foundation may adopt or amend this document by votes of its Technical Advisory Council (“TAC”) and Governing Board.
+The Academy Software Foundation may adopt or amend this document by a majority vote of both the Technical Advisory Council (“TAC”) and Governing Board.
 
 # Stages
 
@@ -32,7 +32,7 @@ Any project to be considered for inclusion by the TAC must complete the [proposa
 
 Projects submitted to the Academy Software Foundation at the Sandbox Stage are intended to be the entry point for early-stage projects. Characteristics for projects at the Sandbox Stage may be one or more of the following:
 
-* Early-stage projects that the  TAC believes warrant experimentation.
+* Early-stage projects that the TAC believes warrant experimentation.
 * New projects designed to extend one or more TAC projects with functionality or interoperability libraries.
 * Independent projects that fit the Academy Software Foundation mission/vision and provide the potential for a novel approach to existing functional areas (or are an attempt to meet an unfulfilled need).
 * Projects commissioned or sanctioned by the Academy Software Foundation, including initial code for Academy Software Foundation Working Group collaborations and "experimental" projects.
@@ -42,10 +42,10 @@ Projects submitted to the Academy Software Foundation at the Sandbox Stage are i
 
 To be accepted at the Sandbox stage, a project must:
 
-* Submit a completed [Project Contribution Proposal Template](proposal_template.md) to the TAC or the TAC’s designated recipient for contribution proposals.
+* Submit a completed [Project Contribution Proposal Template](proposal_template.md) to the TAC.
 * Provide such additional information as the TAC may reasonably request.
-* Present the project’s proposal and inclusion in Academy Software Foundation to the TAC. Project teams should be prepared to present a detailed (20-30 minutes in length) overview of the project and speak to the information in the contribution proposal.
-* Be deemed by the TAC to add potential value or value to the mission of Academy Software Foundation.
+* Present the project’s proposal to the TAC. Project teams should be prepared to present a detailed (20-30 minutes in length) overview of the project and speak to the information in the contribution proposal.
+* Be deemed by the TAC to add potential value or value to the mission of the Academy Software Foundation.
 * Obtain an affirmative vote of the TAC.
 
 ### Benefits
@@ -55,8 +55,8 @@ The Sandbox Stage benefits are outlined below.
 * Neutral hosting of the project’s community and key assets (e.g., trademark, domain, etc.).
 * Access to the Academy Software Foundation collaboration infrastructure ( including GitHub, JIRA, Confluence, mailing lists, and Slack ).
 * A sponsor from the TAC to assist the project in reaching the Incubation Stage and to facilitate collaboration with other project communities.
-* Right to refer to the project as a Sandbox Project of Academy Software Foundation and an opportunity to participate in events and other collaborative activities sponsored by Academy Software Foundation.
-* Subject to applicable trademark usage guidelines to display Academy Software Foundation’s logo on the project’s code repository.
+* Right to refer to the project as a Sandbox Project of the Academy Software Foundation and an opportunity to participate in events and other collaborative activities sponsored by the Academy Software Foundation.
+* Subject to applicable trademark usage guidelines to display the Academy Software Foundation’s logo on the project’s code repository.
 
 Sandbox Stage projects will not have an announcement blog or press announcement because projects at the Sandbox stage are in an early stage and still gaining alignment among the stakeholders. We often see projects in the Sandbox Stage change scope and focus; the TAC aims to ensure that projects have the space to focus on building a solid governance and contributor base to grow towards the Incubation Stage.
 
@@ -64,12 +64,12 @@ Sandbox Stage projects will not have an announcement blog or press announcement 
 
 Sandbox Stage projects should provide a quarterly report to the TAC outlining its progress on completing the requirements for the Incubation Stage. If a project fails to provide these reports after a TAC request, the TAC may vote to remove the project from the Sandbox stage.
 
-Projects in the Sandbox Stage are expected to move to the [Incubation Stage](#incubation-stage) within one year. Sandbox Projects may propose to be reviewed to move to the Incubation Stage at any time by adding the review to a future TAC meeting agenda ( minimum two-week notice required ) or may be moved to the Incubation Stage during its annual review. 
+Projects in the Sandbox Stage are expected to move to the [Incubation Stage](#incubation-stage) within one year. Sandbox Projects may propose to be reviewed to move to the Incubation Stage during its regularly scheduled [Annual Review](review_cycle); projects can also request to hold their annual review early if they have completed the requirements before its scheduled [Annual Review](review_cycle).
 
-At the project's annual review [Annual Review](review_cycle), the TAC will vote to either:
+At the project's [Annual Review](review_cycle), the TAC will vote to either:
 
 * Move the project to the Incubation Stage if it meets the requirement for that stage.
-* Renew the project at the Sandbox Stage if it feels that it will move to the Incubation Stage by the next Annual Review.
+* Renew the project at the Sandbox Stage if it feels it will move to the Incubation Stage by the next Annual Review.
 * Move the project to the [Archive Stage](#archive-stage). In this case, the trademark and any other assets will be returned to the project maintainers or an organization they designate.
 
 ## Incubation Stage
@@ -114,8 +114,8 @@ Incubation stage projects are eligible to receive the following benefits:
 * Neutral hosting of the project’s community and key assets (e.g., trademark, domain, etc.)
 * Assistance from the Academy Software Foundation TAC to facilitate collaboration with other project communities.
 * Blog announcement or similar communication announcing the inclusion of the project.
-* Right to refer to the project as an incubation project of Academy Software Foundation and an opportunity to participate in events and other collaborative activities sponsored by Academy Software Foundation.
-* Subject to applicable trademark usage guidelines to display Academy Software Foundation’s logo on the project’s code repository.
+* Right to refer to the project as an incubation project of the Academy Software Foundation and an opportunity to participate in events and other collaborative activities sponsored by the Academy Software Foundation.
+* Subject to applicable trademark usage guidelines, display the Academy Software Foundation’s logo on the project’s code repository.
 
 ### Expectations
 
@@ -151,7 +151,7 @@ Adopted stage projects are eligible to receive the following benefits:
 
 * Be considered as one of the “TAC Projects” under the [Academy Software Foundation Charter](https://github.com/AcademySoftwareFoundation/foundation/blob/master/CHARTER.md) and may receive additional resources or support as determined by the Governing Board.
 * Have a voting representative on the TAC.
-* Right to refer to the project as an officially adopted project of the Academy Software Foundation and receive the highest priority for participating in events and other collaborative activities sponsored by Academy Software Foundation.
+* Right to refer to the project as an officially adopted project of the Academy Software Foundation and receive the highest priority for participating in events and other collaborative activities sponsored by the Academy Software Foundation.
 * A blog announcement or similar communication announcing the graduation of the project.
 
 ### Expectations
@@ -163,11 +163,11 @@ Adopted Stage projects will have an Annual Review to assess if it is still meeti
 
 ## Archive Stage
 
-Projects like products have lifecycles, and often in open source, the relevance of a given project over time can diminish. Nonetheless, having a home for no longer relevant projects within the industry is crucial for long-term sustainability and asset management.
+Projects like products have lifecycles, and often in open source, the relevance of a given project can diminish over time. Nonetheless, having a home for legacy and no longer maintained projects within the industry is crucial for long-term sustainability and asset management.
 
 Projects only can enter the Archive Stage by either:
 
-*   On request from the project itself, requiring a ⅔ supermajority vote of all active project committers.
+*   On request from the project itself, requiring a 2/3 supermajority vote of all active project committers.
 *   By a 2/3 supermajority vote of the TAC if deemed no longer relevant within the industry.
 
 In the Archive Stage, the project’s code repository administration is transferred to a designated individual by the TAC. No new features or bug fixes will be addressed unless it is deemed a security issue. Academy Software Foundation will hold all assets in perpetuity. Archive stage projects will be considered “Technical Projects" under the Academy Software Foundation charter and may receive support as determined by the Governing Board.
