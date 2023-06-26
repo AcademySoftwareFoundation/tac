@@ -81,7 +81,7 @@ Open-source projects and open-collaboration working groups hosted at the Academy
 
 In evaluating projects to be hosted at the Academy Software Foundation, the TAC generally has these considerations when evaluating a project.
 
-- Does the project address a common problem in the motion picture and visual effects industries that are not solved by other efforts?
+- Does the project address a common problem in the motion picture and visual effects industries that is not solved by other efforts?
 - Will the project have the potential to gain alignment and participation amongst multiple constituents, including software vendors, studios, and other related organizations, to participate as contributors and maintainers?
 - Is the project's leadership best positioned and capable of growing the project?
 - For a project proposed at the [Incubation Stage](lifecycle#incubation-stage) or a project proposed at [Sandbox Stage](/lifecycle#sandbox-stage) that would grow into an [Incubation Stage](lifecycle#incubation-stage) project, could the TAC invest in helping it succeed?
