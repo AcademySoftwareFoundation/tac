@@ -7,10 +7,10 @@ nav_exclude: true
 <pre>
 ---
 parent: Meetings
-title: "yyyy-mm-dd"
+title: "{{ "now" | date: "%Y-%m-%d" }}"
 ---
 
-# AWSF TAC Meeting - Month DD, Year
+# AWSF TAC Meeting - {{ "now" | date: "%B %e, %Y" }}
 
 ## Voting member attendance
 
@@ -18,7 +18,7 @@ title: "yyyy-mm-dd"
 
 {%- for member in site.data.tacmembers -%}
 {% if member["Appointed By"] == "Membership Entitlement" %}
-- [  ] {{ member["Full Name"] }} - {{ member["Account Name: Account Name"] }}
+- [ ] {{ member["Full Name"] }} - {{ member["Account Name: Account Name"] }}
 {%- endif -%}
 {% endfor %}
 
@@ -27,10 +27,10 @@ title: "yyyy-mm-dd"
 {%- for member in site.data.tacmembers -%}
 {% if member["Appointed By"] == "Vote of TSC Committee" %}
 {%- for project in site.data.projects -%}
-{%- if project["TAC Representative"] == member["Full Name"] -%}
-- [  ] {{ member["Full Name"] }} - {{ project["Name"] }} Representative
-{%- elsif project["Leads"] == member["Full Name"] -%}
-- [  ] {{ member["Full Name"] }} - {{ project["Name"] }} Representative
+{% if project["TAC Representative"] == member["Full Name"] %}
+- [ ] {{ member["Full Name"] }} - {{ project["Name"] }} Representative
+{% elsif project["Leads"] == member["Full Name"] %}
+- [ ] {{ member["Full Name"] }} - {{ project["Name"] }} Representative
 {%- endif -%}
 {%- endfor -%}
 {%- endif -%}
@@ -40,7 +40,7 @@ title: "yyyy-mm-dd"
 
 {%- for member in site.data.tacmembers -%}
 {% if member["Appointed By"] == "Vote of TAC Committee" %}
-- [  ] {{ member["Full Name"] }} - {{ member["Account Name: Account Name"] }}
+- [ ] {{ member["Full Name"] }} - {{ member["Account Name: Account Name"] }}
 {%- endif -%}
 {% endfor %}
 
