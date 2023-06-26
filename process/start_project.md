@@ -9,13 +9,13 @@ nav_order: 1
 * TOC
 {:toc}
 
-The Academy Software Foundation is a host of open-source projects and open-collaboration working groups to benefit the motion picture and visual effects industries. Anyone can bring a new project or working group or start a new project or working group at the Academy Software Foundation.
+The Academy Software Foundation hosts open-source projects and open-collaboration working groups to benefit the motion picture and visual effects industries. Anyone can bring a new project or working group or start a new project or working group at the Academy Software Foundation.
 
-This document outlines why to host your project here, what makes a good project here, and the steps for bringing a project here.
+This document outlines why you should host your project at the Academy Software Foundation, what makes a good Academy Software Foundation hosted project, and the steps for bringing a project to the Academy Software Foundation.
 
 ## Why host your project at the Academy Software Foundation?
 
-A basic premise behind the Linux Foundation, the Academy Software Foundation, and open source in general, is that most interactions are positive-sum. No fixed amount of investment, mindshare, or development contributions are allocated to specific projects. Just as open source development is based on the idea that we are collectively smarter than any of us, open source foundations work to make the entire community better off. **Equally important, a neutral home for a project and community fosters this positive-sum thinking. It drives growth and diversity, core elements of a successful open-source project.**
+A basic premise behind the Linux Foundation, the Academy Software Foundation, and open source in general, is that most interactions are positive-sum. No fixed amount of investment, mindshare, or development contributions are allocated to specific projects. Just as open source development is based on the idea that we are collectively smarter than one any of us, open source foundations work to make the entire community better off. **Equally important, a neutral home for a project and community fosters this positive-sum thinking. It drives growth and diversity, core elements of a successful open-source project.**
 
 Organizations and projects come to the Academy Software Foundation to…
 
@@ -84,7 +84,7 @@ In evaluating projects to be hosted at the Academy Software Foundation, the TAC 
 - Does the project address a common problem in the motion picture and visual effects industries that are not solved by other efforts?
 - Will the project have the potential to gain alignment and participation amongst multiple constituents, including software vendors, studios, and other related organizations, to participate as contributors and maintainers?
 - Is the project's leadership best positioned and capable of growing the project?
-- If the project grows into an Incubation stage project, could the TAC invest in helping it succeed?
+- For a project proposed at the [Incubation Stage](lifecycle#incubation-stage) or a project proposed at [Sandbox Stage](/lifecycle#sandbox-stage) that would grow into an [Incubation Stage](lifecycle#incubation-stage) project, could the TAC invest in helping it succeed?
 - What resources would the project need to be successful, and does the Academy Software Foundation have the ability to attract and retain those resources?
 - Will this project divert away resources from existing project(s)?
 - What existing code is coming into the project, and what potential code could come?
@@ -132,19 +132,18 @@ Proposed projects will have a 30-minute presentation timeslot at an upcoming TAC
 *   Overview of the project and its purpose
     *  If a project is new, it’s often helpful to share the vision for the project, the anticipated structure, and benefits.
     *  If the project is an existing open-source project proposed to join ASWF, it is often helpful to schedule a project walkthrough for the community to understand better the project, including the architecture, structure, and how to get started using the project. This often helps review progress more efficiently.
-*   How does this submission support the ASWF Mission and Vision Statements?
+*   How does this submission support the [Academy Software Foundation Mission and Vision statements](https://www.aswf.io/about/)?
 *   Does the project have any users? 
     *   How do you plan to attract users if accepted?
 *   How many committers will you have upfront, and from which companies? 
     *   How do you plan to attract committers and contributors if accepted?
-*   Architecture (functional / non-functional aspects), design, feature overview
 *   Demo and/or walk-through of the project
 
 Key things to keep in mind for project proposals to the TAC:
 
 - The TAC may consider the project for approval at the proposed stage during the meeting it is presented at, provided a quorum of TAC voting members are present. If there is no quorum of TAC voting members present or if the TAC is not ready to consider the project for approval during the meeting, the TAC will either:
   - Conduct a vote to approve the project via email, or
-  - Continue the discussion via email or during a future TAC meeting.
+  - Continue the discussion via email or Slack, or during a future TAC meeting.
 - Projects accepted at the [Incubation Stage](lifecycle#incubation-stage) are generally mature, stable projects that have existed for many years. Projects that are newly forming or incomplete should propose to join at the [Sandbox Stage](/lifecycle#sandbox-stage).
 - It's rare to see a project accepted at the [Adopted Stage](lifecycle#adopted-stage), as even incoming projects that have existed for years require a fair amount of governance and operations changes as they come into the Academy Software Foundation; those projects tend to come in at the Incubation level and move to Adopted within a year.
-- The TAC may ask for the project to go back and address specific questions and/or concerns and then re-propose the project. Any project that the TAC has not approved, or any project that is not renewed by the TAC, can only re-propose the project with the approval of the TAC.
+- The TAC may ask for the project to go back and address specific questions and/or concerns and then re-propose the project. Any project that the TAC has not approved, or any project that the TAC does not renew, can only re-propose the project with the approval of the TAC.
