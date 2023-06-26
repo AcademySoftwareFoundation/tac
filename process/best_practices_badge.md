@@ -1,5 +1,6 @@
 ---
 parent: Project Lifecycle
+grand_parent: Processes
 ---
 
 # OpenSSF Best Practices Badge FAQ
