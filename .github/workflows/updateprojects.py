@@ -50,7 +50,8 @@ with urllib.request.urlopen(landscapeHostedProjects) as hostedProjectsResponse:
                         'Dev Mailing List': projectData['extra']['dev_mailing_list_url'] if 'extra' in projectData and 'dev_mailing_list_url' in projectData['extra'] else None,
                         'Primary Github Repo': projectData['project_org'] if 'project_org' in projectData else None,
                         'Best Practices Badge ID': projectData['bestPracticeBadgeId'] if 'bestPracticeBadgeId' in projectData else None,
-                        'Github Org': projectData['repo_url'] if 'repo_url' in projectData else None
+                        'Github Org': projectData['repo_url'] if 'repo_url' in projectData else None,
+                        'Contributed By': projectData['extra']['contributed_by'] if 'extra' in projectData and 'contributed_by' in projectData['extra'] else None
                         })
 
 with open(projectsCsvFile, 'w') as projectsCsvFileObject:
