@@ -62,9 +62,9 @@ Sandbox Stage projects will not have an announcement blog or press announcement 
 
 ### Expectations
 
-Sandbox Stage projects should provide a quarterly report to the TAC outlining its progress on completing the requirements for the Incubation Stage. If a project fails to provide these reports after a TAC request, the TAC may vote to remove the project from the Sandbox stage.
+The TAC may request Sandbox Stage projects to provide updates outlining its progress on completing the requirements for the Incubation Stage before the Annual Review. If a project fails to provide these reports after a TAC request, the TAC may vote to remove the project from the Sandbox stage.
 
-Projects in the Sandbox Stage are expected to move to the [Incubation Stage](#incubation-stage) within one year. Sandbox Projects may propose to be reviewed to move to the Incubation Stage during its regularly scheduled [Annual Review](review_cycle); projects can also request to hold their annual review early if they have completed the requirements before its scheduled [Annual Review](review_cycle).
+Projects in the Sandbox Stage are expected to move or have made demonstrable progress on moving to the [Incubation Stage](#incubation-stage) within one year. Sandbox Projects may propose to be reviewed to move to the Incubation Stage during its regularly scheduled [Annual Review](review_cycle); projects can also request to hold their annual review early if they have completed the requirements before its scheduled [Annual Review](review_cycle).
 
 At the project's [Annual Review](review_cycle), the TAC will vote to either:
 
@@ -120,9 +120,7 @@ Incubation stage projects are eligible to receive the following benefits:
 
 ### Expectations
 
-Incubation Stage projects should provide a quarterly report to the TAC outlining its progress on completing the requirements for the Adopted Stage. 
-
-During the project's Annual Review, the TAC will assess the progress toward graduating to the Adopted Stage. At the Annual Review, the TAC will vote to either: 
+During the project's Annual Review, the TAC will assess the progress toward graduating to the Adopted Stage. Projects can also request to hold their annual review early if they have completed the requirements before its scheduled [Annual Review](review_cycle). At the Annual Review, the TAC will vote to either: 
 
 * Move the project to the Adopted Stage if it [meets those requirements](#requirements-2).
 * Renew the project at the Incubation Stage if it feels it will move to the Adopted Stage by the next Annual Review.
@@ -164,12 +162,12 @@ Adopted Stage projects will have an Annual Review to assess if the project is st
 
 ## Archive Stage
 
-Projects like products have lifecycles, and often in open source, the relevance of a given project can diminish over time. Nonetheless, having a home for legacy and no longer maintained projects within the industry is crucial for long-term sustainability and asset management.
+Projects like products have lifecycles, and often in open source, the relevance of a given project can diminish over time. Nonetheless, having a home for legacy and no longer maintained projects within the industry is crucial for long-term sustainability and asset management. Projects with operational, contributor, and/or adoption issues are not necessarily candidates for the Archive Stage; the TAC will work with these projects to improve any of these issues.
 
 Projects only can enter the Archive Stage by either:
 
 *   On request from the project itself, requiring a 2/3 supermajority vote of all active project committers.
-*   By a 2/3 supermajority vote of the TAC if deemed no longer relevant within the industry.
+*   By a 2/3 supermajority vote of the TAC if deemed to be no longer maintained.
 
 In the Archive Stage, the project’s code repository administration is transferred to a designated individual by the TAC. No new features or bug fixes will be addressed unless it is deemed a security issue. Academy Software Foundation will hold all assets in perpetuity. Archive stage projects will be considered “Technical Projects" under the Academy Software Foundation charter and may receive support as determined by the Governing Board.
 
