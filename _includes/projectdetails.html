@@ -42,24 +42,6 @@
     </tr>
     {%- endif -%}
 {%- endfor -%}
-{%- for project in site.data.workinggroups -%}
-    {%- if project["status"] != 'Archived' -%}
-    <tr>
-        <td>{{ project["name"] }}</td>
-        <td>
-            {%- if project["url"] -%}
-            Website: <a href="{{ project["url"] }}">{{ project["url"] }}</a><br />
-            {%- endif -%}
-            {%- if project["mailing_list"] -%}
-            Mailing List: <a href="{{ project["mailing_list"] }}">{{ project["mailing_list"] }}</a><br />
-            {%- endif -%}
-            {%- if project["slack_channel"] -%}
-            Slack: <a href="https://slack.aswf.io">{{ project["slack_channel"] }}</a><br />
-            {%- endif -%}
-        </td>
-    </tr>
-    {%- endif -%}
-{%- endfor -%}
 </tbody>
 </table>
 
