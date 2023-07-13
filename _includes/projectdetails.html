@@ -31,16 +31,16 @@
             Slack: <a href="{{ project["Slack"] }}">{{ project["Slack"] }}</a><br />
             {%- endif -%}
             {%- endif -%}
-            {%- if project["LFX Insights URL"] -%}
+            {%- if project["LFX Insights URL"] and project["LFX Insights URL"] != 'none' -%}
             LFX Insights: <a href="{{ project["LFX Insights URL"] }}">{{ project["LFX Insights URL"] }}</a><br />
             {%- endif -%}
-            {%- if project["LFX Security URL"] -%}
+            {%- if project["LFX Security URL"] and project["LFX Security URL"] != 'none' -%}
             LFX Security: <a href="{{ project["LFX Security URL"] }}">{{ project["LFX Security URL"] }}</a><br />
             {%- endif -%}
-            {%- if project["Documentation"] -%}
+            {%- if project["Documentation"] and project["Documentation"] != 'none' -%}
             Documentation: <a href="{{ project["Documentation"] }}">{{ project["Documentation"] }}</a><br />
             {%- endif -%}
-            {%- if project["Leads"] -%}
+            {%- if project["Leads"] and project["Leads"] != 'none' -%}
             Lead(s): {{ project["Leads"] }}<br />
             {%- endif -%}
             {%- if project["Calendar"] and project["Calendar"] != 'none' -%}
