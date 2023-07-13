@@ -6,22 +6,30 @@
     <tr>
         <td><img id="{{ project["Name"] }}" src="{{ project["Logo URL"] }}" /></td>
         <td>
-            {%- if project["Website"] -%}
+            {%- if project["Github Org"] -%}
+            Repo: <a href="{{ project["Github Org"] }}">{{ project["Github Org"] }}</a><br />
+            {%- elsif project["Primary Github Repo"] -%}
+            Repo: <a href="{{ project["Primary Github Repo"] }}">{{ project["Primary Github Repo"] }}</a><br />
+            {%- endif -%}
+            {%- if project["Website"] and project["Website"] != 'none' -%}
             Website: <a href="{{ project["Website"] }}">{{ project["Website"] }}</a><br />
             {%- endif -%}
-            {%- if project["Dev Mailing List"] -%}
+            {%- if project["Dev Mailing List"] and project["Dev Mailing List"] != 'none' -%}
             Dev Mailing List: <a href="{{ project["Dev Mailing List"] }}">{{ project["Dev Mailing List"] }}</a><br />
             {%- endif -%}
-            {%- if project["User Mailing List"] -%}
+            {%- if project["User Mailing List"] and project["User Mailing List"] != 'none' -%}
             User Mailing List: <a href="{{ project["User Mailing List"] }}">{{ project["User Mailing List"] }}</a><br />
             {%- endif -%}
-            {%- if project["Mailing List"] -%}
+            {%- if project["Mailing List"] and project["Mailing List"] != 'none' -%}
             Mailing List: <a href="{{ project["Mailing List"] }}">{{ project["Mailing List"] }}</a><br />
             {%- endif -%}
-            {%- if project["Slug"] == "open-color-io" %}
-            Slack: <a href="https://slack.opencolorio.org/">slack.opencolorio.org</a><br />
+            {%- if project["Slack"] and project["Slack"] != 'none' -%}
+            {{ assign slackstart = project["Slack"] | slice: 0 }}
+            {%- if slackstart == "#" %}
+            Slack: <a href="{{ site.slack_url }}">{{ project["Slack"] }}</a><br />
             {%- elsif project["Slack"] -%}
-            Slack: <a href="https://slack.aswf.io">{{ project["Slack"] }}</a><br />
+            Slack: <a href="{{ project["Slack"] }}">{{ project["Slack"] }}</a><br />
+            {%- endif -%}
             {%- endif -%}
             {%- if project["LFX Insights URL"] -%}
             LFX Insights: <a href="{{ project["LFX Insights URL"] }}">{{ project["LFX Insights URL"] }}</a><br />
@@ -33,10 +41,13 @@
             Documentation: <a href="{{ project["Documentation"] }}">{{ project["Documentation"] }}</a><br />
             {%- endif -%}
             {%- if project["Leads"] -%}
-            Leads: {{ project["Leads"] }}<br />
+            Lead(s): {{ project["Leads"] }}<br />
             {%- endif -%}
-            {%- if project["Meeting Cadence"] -%}
-            Meeting Cadence: {{ project["Meeting Cadence"] }}<br />
+            {%- if project["Calendar"] and project["Calendar"] != 'none' -%}
+            Calendar: {{ project["Calendar"] }}<br />
+            {%- endif -%}
+            {%- if project["Best Practices Badge ID"] and project["Best Practices Badge ID"] != 'none' and project["Best Practices Badge ID"] != 'False' -%}
+            <a href="https://bestpractices.coreinfrastructure.org/projects/{{ project["Best Practices Badge ID"] }}"><img src="https://bestpractices.coreinfrastructure.org/projects/{{ project["Best Practices Badge ID"] }}/badge"></a>
             {%- endif -%}
         </td>
     </tr>
@@ -44,4 +55,3 @@
 {%- endfor -%}
 </tbody>
 </table>
-
