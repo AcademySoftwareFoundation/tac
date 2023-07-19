@@ -27,6 +27,7 @@ landscape_url: 'https://landscape.aswf.io'
 calendar_url: 'https://calendar.aswf.io'
 slack_url: 'https://slack.aswf.io'
 vote_of_tac_committee_title: "Industry Representative"
+foundation_name: "Academy Software Foundation"
 
 aux_links:
   "Need help or have a question? Contact us here":
