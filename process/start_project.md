@@ -9,11 +9,13 @@ nav_order: 1
 * TOC
 {:toc}
 
-The Academy Software Foundation is a host of open-source projects and open-collaboration working groups to benefit the motion picture and visual effects industries. Anyone can bring a new project or working group or start a new project or working group at the Academy Software Foundation.
+The Academy Software Foundation hosts open-source projects and open-collaboration working groups to benefit the motion picture and visual effects industries. Anyone can bring a new project or working group or start a new project or working group at the Academy Software Foundation.
+
+This document outlines why you should host your project at the Academy Software Foundation, what makes a good Academy Software Foundation hosted project, and the steps for bringing a project to the Academy Software Foundation.
 
 ## Why host your project at the Academy Software Foundation?
 
-A basic premise behind the Linux Foundation, and open source in general, is that most interactions are positive-sum. No fixed amount of investment, mindshare, or development contributions are allocated to specific projects. Just as open source development is based on the idea that, collectively, we are smarter than any one of us, open source foundations work to make the entire community better off. **Equally important, a neutral home for a project and community fosters this type of positive-sum thinking. It drives growth and diversity, core elements of a successful open-source project.**
+A basic premise behind the Linux Foundation, the Academy Software Foundation, and open source in general, is that most interactions are positive-sum. No fixed amount of investment, mindshare, or development contributions are allocated to specific projects. Just as open source development is based on the idea that we are collectively smarter than one any of us, open source foundations work to make the entire community better off. **Equally important, a neutral home for a project and community fosters this positive-sum thinking. It drives growth and diversity, core elements of a successful open-source project.**
 
 Organizations and projects come to the Academy Software Foundation to…
 
@@ -56,7 +58,7 @@ Sustainable projects are those the industry adopts and drive economic value with
 
 **LFX Insights** is an analytics tool for all open-source projects hosted by the Linux Foundation. Its capabilities include the following:
 
-- Getting visibility you need to remove bottlenecks at any stage of your project’s code pipeline. Drill down into performance metrics across every step in the development lifecycle to identify where you should focus your resources.
+- Getting the visibility you need to remove bottlenecks at any stage of your project’s code pipeline. Drill down into performance metrics across every step in the development lifecycle to identify where you should focus your resources.
 - Ensuring the health and viability of the open-source projects you care about. Leverage data to help validate undertakings for investment and track the activity and growth of projects your organization is already involved in.
 - Showcasing your organization’s leadership and subject matter expertise in the open source community. Leverage affiliations to measure the impact of your employees’ contributions and capture the complete picture of your team’s impact
 
@@ -69,13 +71,31 @@ Sustainable projects are those the industry adopts and drive economic value with
 
 Academy Software Foundation staff collectively have decades of experience driving open-source projects and ecosystems in various vertical and horizontal industries, bringing the best practices to your project.
 
-- Press relations and analyst relations teams to increase awareness of and excitement about your project, and receive regular reports on press mentions and comparisons to similar projects.
+- Press relations and analyst relations teams to increase awareness of and excitement about your project and receive regular reports on press mentions and comparisons to similar projects.
 - Academy Software Foundation can leverage the expertise of its parent organization, The Linux Foundation, which hosts other successful projects, including the Linux kernel, Let’s Encrypt, and Node.js. 
 - You will have access to full-time Academy Software Foundation staff eager to assist your project in myriad ways and help make it successful.
 
+## What makes a good project to host at the Academy Software Foundation?
+
+Open-source projects hosted at the Academy Software Foundation are ones that benefit the motion picture and visual effects industries. Successful projects bring diverse organizations and participants together; our experiences at the Linux Foundation and in open source tell us that a diverse community drives greater outcomes and innovation. As a vendor-neutral entity, the Academy Software Foundation creates that level playing field to drive leveraged, open collaboration.
+
+In evaluating projects to be hosted at the Academy Software Foundation, the TAC generally has these considerations when evaluating a project.
+
+- Does the project address a common problem in the motion picture and visual effects industries that is not solved by other efforts?
+- Does the project have broad adoption across film production studios, software vendors, and related organizations, or is there a clear path to that adoption?
+- Will the project have the potential to gain alignment and participation amongst multiple constituents, including software vendors, studios, and other related organizations, to participate as contributors and maintainers?
+- Is the project's leadership best positioned and capable of growing the project?
+- For a project proposed at the [Incubation Stage](lifecycle#incubation-stage) or a project proposed at [Sandbox Stage](/lifecycle#sandbox-stage) that would grow into an [Incubation Stage](lifecycle#incubation-stage) project, could the TAC invest in helping it succeed?
+- What resources would the project need to be successful, and does the Academy Software Foundation have the ability to attract and retain those resources?
+- Will this project divert away resources from existing project(s)?
+- What existing code is coming into the project, and what potential code could come?
+- Does the project currently have the feature set, robustness, and scalability necessary to adequately solve the problem for film production, or else is there (a) a clear roadmap to get to that point and (b) a team assembled with the skills and experience to successfully execute the plan?
+
+Prospective projects are always welcome to engage the TAC to present the work being done to gauge whether the project would be a good fit within the Academy Software Foundation. 
+
 ## Preparing to bring your project here
 
-The “LF Way” is that there is no one way. The LF assumes that each open source project is different in its own way, which leads to building a unique governance and solution to sustain their communities.
+The “LF Way”, which is aligned with how the Academy Software Foundation operates, is that there is no one way. The Academy Software Foundation assumes that each open source project is different in its own way, which leads to building a unique governance and solution to sustain their communities.
 
 ### Requirements to host a project here
 
@@ -104,4 +124,25 @@ The Academy Software Foundation staff is happy to engage and advise during this 
 
 ### What happens next?
 
-Generally, the TAC will schedule project proposals at the following [TAC Meeting](/meetings). Guidelines for the presentation to the TAC are detailed in the [project lifecycle](/process/lifecycle#tac-presentation).
+Generally, the TAC will schedule project proposals at the following [TAC Meeting](/meetings), provided there is at least one week between the submitted project proposal and the scheduled TAC meeting.
+
+Proposed projects will have a 30-minute presentation timeslot at an upcoming TAC meeting as the schedule allows. The project proposal must include a presentation conforming to the structure below to ensure uniform and complete submissions.
+
+*   Overview of the project and its purpose
+    *  If a project is new, it’s often helpful to share the vision for the project, the anticipated structure, and benefits.
+    *  If the project is an existing open-source project proposed to join ASWF, it is often helpful to schedule a project walkthrough for the community to understand better the project, including the architecture, structure, and how to get started using the project. This often helps review progress more efficiently.
+*   How does this submission support the [Academy Software Foundation Mission and Vision statements](https://www.aswf.io/about/)?
+*   Does the project have any users? 
+    *   How do you plan to attract users if accepted?
+*   How many committers will you have upfront, and from which companies? 
+    *   How do you plan to attract committers and contributors if accepted?
+*   Demo and/or walk-through of the project
+
+Key things to keep in mind for project proposals to the TAC:
+
+- The TAC may consider the project for approval at the proposed stage during the meeting it is presented at, provided a quorum of TAC voting members are present. If there is no quorum of TAC voting members present or if the TAC is not ready to consider the project for approval during the meeting, the TAC will either:
+  - Conduct a vote to approve the project via email, or
+  - Continue the discussion via email or Slack, or during a future TAC meeting.
+- Projects accepted at the [Incubation Stage](lifecycle#incubation-stage) are generally mature, stable projects that have existed for many years. Projects that are newly forming or incomplete should propose to join at the [Sandbox Stage](/lifecycle#sandbox-stage).
+- It's rare to see a project accepted at the [Adopted Stage](lifecycle#adopted-stage), as even incoming projects that have existed for years require a fair amount of governance and operations changes as they come into the Academy Software Foundation; those projects tend to come in at the Incubation level and move to Adopted within a year.
+- The TAC may ask for the project to go back and address specific questions and/or concerns and then re-propose the project. Any project that the TAC has not approved, or any project that the TAC does not renew, can only re-propose the project with the approval of the TAC.
