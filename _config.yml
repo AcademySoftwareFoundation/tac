@@ -36,6 +36,9 @@ footer_content: Copyright &copy; The Linux Foundation&reg;. All rights reserved.
 readme_index:
   with_frontmatter: true
 
+ga_tracking: 360578303
+ga_tracking_anonymize_ip: true
+
 kramdown:
   parse_block_html: true
   toc_levels: 2..6
