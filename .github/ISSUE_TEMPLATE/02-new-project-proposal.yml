@@ -1,0 +1,113 @@
+name: New Project Proposal
+description: Template for proposing a new project to the TAC
+title: 'New Project Proposal - PROJECT NAME'
+labels: ["meeting-agenda", "new-project-wg"]
+assignees: 
+  - yarille
+  - jmertic
+  - kdt3rd
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for looking to bring your project to the Academy Software Foundation. Please put the name of the project in the title above replacing PROJECT NAME, and then answer the questions below to have this project be added to the agenda at a future TAC meeting for consideration as a new project. Please refer to the guideance in the [project lifecycle](https://tac.aswf.io/process/project_stages#proposal-process).
+        Please also note you must be available to lead this discussion on a TAC meeting. You can get information on TAC meetings and how to join the meetings at https://tac.aswf.io/meetings.
+  - type: textarea
+    id: project-description
+    attributes:
+      label: Project description
+      description: Please describe the purpose and function of the project, its origin and its significance to the ecosystem
+    validations:
+      required: true
+  - type: input
+    id: tac-sponsor
+    attributes:
+      label: Sponsor from TAC
+      description: Sponsor helps mentor projects - if the project doesn’t currently have a sponsor, the TAC will appoint one as part of the approval process
+    validations:
+      required: true
+  - type: dropdown
+    id: project-stage
+    attributes:
+      label: Proposed Project Stage
+      options:
+        - Sandbox
+        - Incubation
+        - Adopted
+    validations:
+      required: true
+  - type: textarea
+    id: project-alignment
+    attributes:
+      label: Please explain how this project is aligned with the mission of ASWF?
+      description: https://www.aswf.io/about
+    validations:
+      required: true
+  - type: textarea
+    id: license-and-contribution-guidelines
+    attributes:
+      label: What is the project’s license for code contributions and methodology for code contributions?
+      description: ASWF maintains recommendations for contribution and licensing for hosted projects.
+    validations:
+      required: true 
+  - type: textarea
+    id: source-control
+    attributes:
+      label: What tool or platform is utilized for source control (GitHub, etc.) and what is the location (e.g. URL)?
+    validations:
+      required: true 
+  - type: textarea
+    id: external-dependencies
+    attributes:
+      label: What are the external dependencies of the project, and what are the licenses of those dependencies?
+    validations:
+      required: true
+  - type: textarea
+    id: project-roles
+    attributes:
+      label: What roles does the project have (e.g. maintainers, committers?) Who are the current core committers of the project, or which can a list of committers be found?
+    validations:
+      required: true
+  - type: textarea
+    id: mailing-lists
+    attributes:
+      label: What mailing lists are currently used by the project?
+    validations:
+      required: true
+  - type: textarea
+    id: issue-tracker
+    attributes:
+      label: What tool or platform is leveraged by the project for issue tracking?
+    validations:
+      required: true
+  - type: textarea
+    id: bestpracticesbadge 
+    attributes:
+      label: Does the project have a OpenSSF Best Practices Badge? Do you foresee any challenges obtaining one?
+      description: Read more about the OpenSSF Best Practices Badge at https://bestpractices.coreinfrastructure.org
+    validations:
+      required: true
+  - type: textarea
+    id: website 
+    attributes:
+      label: What is the project’s website? Is there a wiki?
+    validations:
+      required: true
+  - type: textarea
+    id: social-media 
+    attributes:
+      label: What social media accounts are used by the project?
+    validations:
+      required: true
+  - type: textarea
+    id: release-methodology 
+    attributes:
+      label: What is the project’s release methodology and cadence?
+    validations:
+      required: true
+  - type: textarea
+    id: release-methodology 
+    attributes:
+      label: Are any trademarks, registered or unregistered, leveraged by the project? Have any trademark registrations been filed by the project or any third party anywhere in the world?
+    validations:
+      required: true

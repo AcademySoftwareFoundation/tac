@@ -1,5 +1,9 @@
-name: Update Projects
+name: Update Data Sources
 on:
+  issues:
+    types:
+      - "labeled"
+      - "unlabeled"
   schedule:
     - cron: '0 0 * * *'
   workflow_dispatch:
@@ -8,23 +12,25 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Check out repo
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
     - name: Set up Python 3.x
-      uses: actions/setup-python@v2
+      uses: actions/setup-python@v4
       with:
         python-version: '3.x'
     - name: Run build
       run: |
         python .github/workflows/updateprojects.py
+        python .github/workflows/updatetacmembers.py
+        python .github/workflows/updatetacagendaitems.py
+      env:
+        GITHUB_TOKEN: ${{ secrets.PAT }}
     - name: Create Pull Request
-      uses: peter-evans/create-pull-request@v3
+      uses: peter-evans/create-pull-request@v5
       with:
          token: ${{ secrets.PAT }}
          branch-suffix: timestamp
          path: .
-         title: Update Projects
+         title: Update Data Sources
          labels: automerge
-         commit-message: Update Projects
+         commit-message: Update Data Sources
          signoff: true
-
-
