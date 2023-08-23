@@ -1,7 +1,7 @@
 name: New Working Group Proposal
 description: Template for proposing a new Working Group to the TAC
 title: 'New Working Group Proposal - NAME'
-labels: ["meeting-agenda", "new-project-wg"]
+labels: ["meeting-agenda", "new-project-wg", "tac-meeting-long"]
 assignees: 
   - yarille
   - jmertic
@@ -12,9 +12,9 @@ body:
       value: |
         Thank you for proposing a Working Group to the Academy Software 
         Foundation. Please provide the name of the working group in the title 
-        above in place of NAME, and then answer the questions below to have 
-        this working group be added to the agenda at a future TAC meeting for 
-        consideration as a new project. Please refer to the guideance in the 
+        above instead of NAME, and then answer the questions below to add this 
+        working group to the agenda at a future TAC meeting for 
+        consideration as a new project. Please refer to the guidance in the 
         [working group overview](https://tac.aswf.io/process/working_groups).
         Please also note you must be available to lead this discussion on a 
         TAC meeting. You can get information on TAC meetings and how to join 
@@ -22,27 +22,35 @@ body:
   - type: textarea
     id: purpose
     attributes:
-      label: Describe the purpose of the group in no more that 4-5 sentences
+      label: Describe the purpose of the group in no more than 4-5 sentences
     validations:
       required: true
   - type: textarea
     id: goals
     attributes:
       label: Goals of the working group
-      description: Goals are the distinct outcomes that is to be anticipated from the working group, serving as a method for validating activities.
+      description: |
+        Goals are the distinct outcomes that are to be anticipated from the working
+        group, serving as a method for validating activities.
     validations:
       required: true
   - type: textarea
     id: non-goals
     attributes:
       label: Non-goals of the working group
-      description: Non-goals are things that the working group are intentionally choosing not to do, the things not expected to change due to the working groups efforts, or the subject matter areas that the working groups doesn’t want to address at this time.
+      description: |
+        Non-goals are things that the working group is intentionally choosing not to
+        do, the things not expected to change due to the working group's efforts, or
+        the subject matter areas that the working group doesn’t want to address at this time.
     validations:
       required: true
   - type: textarea
     id: deliverables
     attributes:
       label: Deliverables
-      description: Provide a list of planned deliverables, or links to the deliverables. A best practice is to have a directory named deliverables in the repo or wiki for hosting and managing deliverables.
+      description: |
+        Provide a list of planned deliverables or links to the deliverables. A best 
+        practice is to have a directory named deliverables in the repo or wiki for 
+        hosting and managing deliverables.
     validations:
       required: true
