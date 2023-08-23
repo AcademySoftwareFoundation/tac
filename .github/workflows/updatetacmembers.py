@@ -24,7 +24,7 @@ with urllib.request.urlopen(committeeURL) as committeeURLResponse:
             print("Processing {} {}...".format(committeeMember['FirstName'],committeeMember['LastName']))
             csvRows.append({
                 'Full Name': "{} {}".format(committeeMember['FirstName'],committeeMember['LastName']),
-                'Account Name: Account Name': committeeMember['Organization']['Name'],
+                'Account Name: Account Name': committeeMember['Organization']['Name'] if 'Organization' in committeeMember and 'Name' in committeeMember['Organization'] else None,
                 'Appointed By': committeeMember['AppointedBy'] if 'AppointedBy' in committeeMember else None,
                 'Voting Status': committeeMember['VotingStatus'],
                 'Special Role': committeeMember['Role'],
