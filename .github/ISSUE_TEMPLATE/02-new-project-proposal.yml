@@ -1,7 +1,7 @@
 name: New Project Proposal
 description: Template for proposing a new project to the TAC
 title: 'New Project Proposal - PROJECT NAME'
-labels: ["meeting-agenda", "new-project-wg"]
+labels: ["meeting-agenda", "new-project-wg", "tac-meeting-long"]
 assignees: 
   - yarille
   - jmertic
@@ -106,7 +106,7 @@ body:
     validations:
       required: true
   - type: textarea
-    id: release-methodology 
+    id: trademarks
     attributes:
       label: Are any trademarks, registered or unregistered, leveraged by the project? Have any trademark registrations been filed by the project or any third party anywhere in the world?
     validations:
