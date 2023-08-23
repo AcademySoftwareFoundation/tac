@@ -11,7 +11,7 @@ body:
     attributes:
       value: |
         The TAC is always looking for topics of interest to the community. 
-        Please set the issue title above to the agenda topic, and fill out the 
+        Please set the issue title above to the agenda topic and fill out the 
         following details to have this added to a future TAC meeting agenda. 
         Please also note you must be available to lead this discussion on a 
         TAC meeting. You can get information on TAC meetings and how to join 
@@ -32,7 +32,7 @@ body:
     id: topic-length
     attributes:
       label: How much time do you need for this topic?
-      description: Pick the option that is closest to the time you need for the topic.
+      description: Pick the option closest to the time you need for the topic.
       multiple: false
       options:
         - 5 minutes or less
