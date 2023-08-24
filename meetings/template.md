@@ -13,6 +13,8 @@ title: "{{ "now" | date: "%Y-%m-%d" }}"
 
 # AWSF TAC Meeting - {{ "now" | date: "%B %e, %Y" }}
 
+Join the meeting at [https://zoom-lfx.platform.linuxfoundation.org/meeting/97880950229?password=81d2940e-c055-43b9-9b5a-6cd7d7090feb](https://zoom-lfx.platform.linuxfoundation.org/meeting/97880950229?password=81d2940e-c055-43b9-9b5a-6cd7d7090feb)
+
 ## Voting member attendance
 
 ### Premier member Representatives
