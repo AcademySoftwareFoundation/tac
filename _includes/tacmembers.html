@@ -20,7 +20,7 @@
 {%- endif -%}
 {%- endfor -%}
 {%- for member in site.data.tacmembers -%}
-{%- if member["Appointed By"] == "Vote of TSC Committee" -%}
+{%- if member["Appointed By"] == "Vote of TSC Committee" and member['Voting Status'] != 'Observer' -%}
     <tr>
         <td>{{ member["Full Name"] }}</td>
         <td>

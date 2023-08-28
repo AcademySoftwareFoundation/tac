@@ -26,12 +26,14 @@ Join the meeting at [https://zoom-lfx.platform.linuxfoundation.org/meeting/97880
 
 ### Project Representatives
 {% for member in site.data.tacmembers -%}
-{% if member["Appointed By"] == "Vote of TSC Committee" %}
+{% if member["Appointed By"] == "Vote of TSC Committee" and member['Voting Status'] != 'Observer' %}
 {%- for project in site.data.projects -%}
-{% if project["TAC Representative"] == member["Full Name"] %}
+{% if project["TAC Representative"] contains member["Full Name"] %}
 - [ ] {{ member["Full Name"] }} - {{ project["Name"] }} Representative
-{% elsif project["Leads"] == member["Full Name"] %}
+{%- break -%}
+{% elsif project["Leads"] contains member["Full Name"] %}
 - [ ] {{ member["Full Name"] }} - {{ project["Name"] }} Representative
+{%- break -%}
 {%- endif -%}
 {%- endfor -%}
 {%- endif -%}
@@ -45,6 +47,24 @@ Join the meeting at [https://zoom-lfx.platform.linuxfoundation.org/meeting/97880
 {% endfor %}
 
 ## Other Attendees
+{% for member in site.data.tacmembers -%}
+{%- if member['Voting Status'] == 'Observer' -%}
+{%- for project in site.data.projects -%}
+{% if project["TAC Representative"] contains member["Full Name"] %}
+- [ ] {{ member["Full Name"] }} - {{ project["Name"] }} Representative
+{%- break -%}
+{% elsif project["Leads"] contains member["Full Name"] %}
+- [ ] {{ member["Full Name"] }} - {{ project["Name"] }} Representative
+{%- break -%}
+{%- endif -%}
+{%- endfor -%}
+{%- endif -%}
+{% endfor %}
+{%- for member in site.data.tacmembers -%}
+{% if member["Special Role"] == "LF Staff" %}
+- [ ] {{ member["Full Name"] }} - {{ member["Account Name: Account Name"] }}
+{%- endif -%}
+{% endfor %}
 
 ## Antitrust Policy Notice
 
