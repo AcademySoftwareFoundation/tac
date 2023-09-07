@@ -14,7 +14,11 @@
     {%- if project["Level"] != 'emeritus' -%}
     <tr>
         <td>{{ project["Name"] }}</td>
-        <td>{{ project["Level"] }}</td>
+        {%- assign level = project["Level"] | split: "-" -%}
+        {%- capture level-camelcase -%}
+        {%- for word in level %}{{ word | capitalize }} {% endfor -%}
+        {%- endcapture -%}
+        <td>{{ level-camelcase }}</td>
         <td>{{ project["Accepted Date"] | replace: "^", "" | date: "%F" }}</td>
         <td>{{ project["Last Review Date"] | replace: "^", "" | date: "%F" }}</td>
         <td>{{ project["Next Review Date"] | replace: "^", "" | date: "%F" }}</td>
