@@ -33,8 +33,7 @@ layout: minimal
         font-family: Arial;
         font-size: 17px;
         color: #999999;
-    }
-  }
+    }}
 </style>
 {% assign projects = site.data.projects | sort: "Contributed By" %}
 <dl id="projects_with_contributors">
