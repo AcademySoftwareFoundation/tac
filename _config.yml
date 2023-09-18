@@ -39,9 +39,6 @@ readme_index:
 ga_tracking: 360578303
 ga_tracking_anonymize_ip: true
 
-compress_html:
-  clippings: [style]
-
 kramdown:
   parse_block_html: true
   toc_levels: 2..6
