@@ -2,9 +2,7 @@
 nav_exclude: true
 layout: minimal
 ---
-<style>
-  
-  #projects_with_contributors {
+<style>#projects_with_contributors {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
