@@ -46,7 +46,7 @@ The TSC Chairperson is the figurehead of the project. The TSC Chairperson's prim
 
 ### Secretary
 
-The Secretary records all meeting notes for TSC members and ensures they are distributed to the project community after the meeting in a timely manner. Often projects have a rotating secretary role instead of a permanent role.
+The Secretary records all meeting notes for TSC members and ensures they are distributed to the project community after the meeting in a timely manner. Often, projects have a rotating secretary role instead of a permanent role.
 
 ### Additional roles
 
@@ -58,6 +58,19 @@ Roles we've seen in a project include but aren't limited to...
 - Security Lead
 - Release Manager
 - Documentation Lead
+
+### Transitioning Roles
+
+Individuals in project roles change from time to time, and it's important to have both a transparent selection process and ensure all relevant permissions are transitioned to the new role owner. In general, TSCs should follow the following process in transitioning roles.
+
+1) Define an election or selection process for the role. This should be documented in a GOVERNANCE.md file or similar document.
+2) Hold a vote of the TSC to confirm the individual being elected to the role.
+3) Update any systems relevant to the role, in particular...
+  - Add the role for the person on the TSC Committee in [LFX Project Control Center](https://projectadmin.lfx.linuxfoundation.org/), specifying the date they started the role and if the role has a set term, the date the role will end.
+  - Update the GitHub repository team for maintainers to adjust any relevant permissions. For example, the TSC Chairperson should be given permission to add/remove individuals from the team.
+  - Contact the [LF Staff](https://servicedesk.aswf.io) to provide access to any project-specific resources, and if the role is TSC Chairperson, to add them to the TAC.
+
+TSC charters do not dictate the specific terms or election processes for any of the roles within the TSC; it's expected that the TSC develop this as part of their policies and document them in a GOVERNANCE.md file or similar document.
 
 ## Meetings
 

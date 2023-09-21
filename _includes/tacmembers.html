@@ -13,14 +13,14 @@
 {%- if member["Appointed By"] == "Membership Entitlement" -%}
     <tr>
         <td>{{ member["Full Name"] }}</td>
-        <td>Premier Member Representative</td>
+        <td>{{ site.membership_top_tier | default: "Premier" }} Member Representative</td>
         <td>{% if member["Special Role"] == "Chair" %}Chairperson - {% endif %}{{ member["Voting Status"] }}</td>
         <td>{{ member["Account Name: Account Name"] }}</td>
     </tr>
 {%- endif -%}
 {%- endfor -%}
 {%- for member in site.data.tacmembers -%}
-{%- if member["Appointed By"] == "Vote of TSC Committee" -%}
+{%- if member["Appointed By"] == "Vote of TSC Committee" and member['Voting Status'] != 'Observer' -%}
     <tr>
         <td>{{ member["Full Name"] }}</td>
         <td>
@@ -41,7 +41,7 @@
 {%- if member["Appointed By"] == "Vote of TAC Committee" -%}
     <tr>
         <td>{{ member["Full Name"] }}</td>
-        <td>Industry Representative</td>
+        <td>{{ site.vote_of_tac_committee_title | default: "Other Representative" }}</td>
         <td>{% if member["Special Role"] == "Chair" %}Chairperson - {% endif %}{{ member["Voting Status"] }}</td>
         <td>{{ member["Account Name: Account Name"] }}</td>
     </tr>

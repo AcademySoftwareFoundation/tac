@@ -1,0 +1,39 @@
+name: TAC Meeting agenda item
+description: Propose an agenda item to discuss at an upcoming TAC meeting
+title: "AGENDA TOPIC"
+labels: ["meeting-agenda"]
+assignees: 
+  - yarille
+  - jmertic
+  - kdt3rd
+body:
+  - type: markdown
+    attributes:
+      value: |
+        The TAC is always looking for topics of interest to the community. 
+        Please set the issue title above to the agenda topic and fill out the 
+        following details to have this added to a future TAC meeting agenda. 
+        Please also note you must be available to lead this discussion on a 
+        TAC meeting. You can get information on TAC meetings and how to join 
+        the meetings at https://tac.aswf.io/meetings.
+  - type: textarea
+    id: details
+    attributes:
+      label: Please share any additional details on this topic
+    validations:
+      required: true
+  - type: textarea
+    id: tac-action
+    attributes:
+      label: Detail what actions or feedback you would like from the TAC
+    validations:
+      required: true
+  - type: dropdown
+    id: topic-length
+    attributes:
+      label: How much time do you need for this topic?
+      description: Pick the option closest to the time you need for the topic.
+      multiple: false
+      options:
+        - 5 minutes or less
+        - At least 30 minutes
