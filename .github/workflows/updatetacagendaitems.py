@@ -21,7 +21,7 @@ for item in projectData['items']:
         'title': item['content']['title'],
         'url': item['content']['url'],
         'number': item['content']['number'],
-        'status': item['status']
+        'status': item['status'] if 'status' in item else None
         })
 
 with open(csvFile, 'w') as csvFileObject:
