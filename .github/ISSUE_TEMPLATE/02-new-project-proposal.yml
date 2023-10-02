@@ -1,7 +1,7 @@
 name: New Project Proposal
 description: Template for proposing a new project to the TAC
 title: 'New Project Proposal - PROJECT NAME'
-labels: ["meeting-agenda", "new-project-wg", "tac-meeting-long"]
+labels: ["1-new-project-wg"]
 assignees: 
   - yarille
   - jmertic
