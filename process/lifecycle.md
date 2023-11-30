@@ -68,7 +68,7 @@ Projects in the Sandbox Stage are expected to move or have made demonstrable pro
 
 At the project's [Annual Review](review_cycle), the TAC will vote to either:
 
-* Move the project to the Incubation Stage if it meets the requirement for that stage.
+* Move the project to the Incubation Stage if it meets the requirements for that stage.
 * Renew the project at the Sandbox Stage if it feels it will move to the Incubation Stage by the next Annual Review.
 * Move the project to the [Archive Stage](#archive-stage). In this case, the trademark and any other assets will be returned to the project maintainers or an organization they designate.
 
@@ -137,7 +137,7 @@ To be considered for the Adopted stage, a project must meet the Incubation stage
 * Demonstrate a substantial ongoing flow of commits and merged contributions authored by a healthy number of diverse contributors*.
 * Demonstrable roadmap progress.
 * A significant number of end-users within the visual effects and motion picture industries that have adopted the project and that are identified within the project ( using an ADOPTERS file or showcased on the project’s website ).
-* Have achieved and maintained an OpenSSF Best Practices Badge at the [gold level](https://bestpractices.coreinfrastructure.org/en/criteria/2).
+* Have completed at least 75% of the OpenSSF Best Practices Badge requirements at the [gold level](https://bestpractices.coreinfrastructure.org/en/criteria/2).
 * Have a technical lead appointed for voting representation of the project to the TAC.
 * Be deemed by the TAC to add value to the mission of the Academy Software Foundation.
 * Obtain both a 2/3 supermajority vote of the TAC and an affirmative majority vote of the Governing Board
@@ -159,6 +159,8 @@ Adopted Stage projects will have an Annual Review to assess if the project is st
 
 * Renew the project at the Adopted Stage if it continues to [meet those requirements](#requirements-2).
 * Move the project to the [Archive Stage](#archive-stage). In this case, the trademark and any other assets will be returned to the project maintainers or an organization they designate.
+
+For the first Annual Review after the project reaches the Adopted Stage, it is expected that the project have completed 100% of the OpenSSF Best Practices Badge requirements at the [gold level](https://bestpractices.coreinfrastructure.org/en/criteria/2).
 
 ## Archive Stage
 
