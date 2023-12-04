@@ -89,6 +89,9 @@ A great starting point for all projects is the [Concise Guide for Developing Mor
 There are many [additional resources maintained by OpenSSF](https://github.com/ossf/wg-best-practices-os-developers/blob/main/docs/Existing%20Guidelines%20for%20Developing%20and%20Distributing%20Secure%20Software.md) that projects should reference as it pertains to language or domain-specific security topics.
 
 ### At least one of the project's primary developers MUST know of common kinds of errors that lead to vulnerabilities in this kind of software, as well as at least one method to counter or mitigate each of them.
+
+Taking the classes in the previous item resolves this.
+
 ### The software produced by the project MUST use, by default, only cryptographic protocols and algorithms that are publicly published and reviewed by experts (if cryptographic protocols and algorithms are used).
 ### If the software produced by the project is an application or library, and its primary purpose is not to implement cryptography, then it SHOULD only call on software specifically designed to implement cryptographic functions; it SHOULD NOT re-implement its own.
 ### All functionality in the software produced by the project that depends on cryptography MUST be implementable using FLOSS.
@@ -130,37 +133,102 @@ and in OSL:
 
 ### The project MUST achieve a passing level badge.
 ### The information on how to contribute MUST include the requirements for acceptable contributions (e.g., a reference to any required coding standard).
+
+The recommendation is to have this specifically outlined in the ```README.md``` or in a separate ```CONTRIBUTING.md``` file. OpenEXR's [CONTRIBUTING.md](https://github.com/AcademySoftwareFoundation/openexr/blob/main/CONTRIBUTING.md#Coding-Style) is a great example to follow.
+
 ### The project SHOULD have a legal mechanism where all developers of non-trivial amounts of project software assert that they are legally authorized to make these contributions. The most common and easily-implemented approach for doing this is by using a [Developer Certificate of Origin (DCO)](https://developercertificate.org/) where users add "signed-off-by" in their commits and the project links to the DCO website. However this MAY be implemented as a Contributor License Agreement (CLA)	or other legal mechanism.
 
-All projects hosted have this requirement in their IP policies already and it is setup to be managed for each project by default.
+All projects hosted have this requirement in their IP policies already and it is setup to be managed for each project by default, so this requirement is fulfilled.
 
 ### The project MUST clearly define and document its project governance model (the way it makes decisions, including key roles).
+
+Having this in a `GOVERNANCE.md` would suffice; there is an example one defined in the test project.
+
 ### The project MUST adopt a code of conduct and post it in a standard location.
+
+All ASWF project by default adopt the [LF Projects LLC CoC](https://lfprojects.org/policies/code-of-conduct/), so this requirement is fulfilled.
+
 ### The project MUST clearly define and publicly document the key roles in the project and their responsibilities, including any tasks those roles must perform.  It MUST be clear who has which role(s), though this might not be documented in the same way.
+
+Having this in a `GOVERNANCE.md` would suffice; there is an example one defined in the test project.
+
 ### The project MUST be able to continue with minimal interruption if any one person dies, is incapacitated, or is otherwise unable or unwilling to continue support of the project. In particular, the project MUST be able to create and close issues, accept proposed changes, and release versions of software, within a week of confirmation of the loss of support from any one individual. This MAY be done by ensuring someone else has any necessary keys, passwords, and legal rights to continue the project. Individuals who run a FLOSS project MAY do this by providing keys in a lockbox and a will providing any needed legal rights (e.g., for DNS names).
+
+Each repo has `thelinuxfoundation` as a user on their repo, so this requirement is fulfilled.
+
 ### The project SHOULD have a bus factor of 2 or more.
+
+You need to have more than one maintainer; ASWF doesn't accept any projects with only one maintainer, so this requirement is fulfilled.
+
 ### The project MUST have a documented roadmap that describes what the project intends to do and not do for at least the next year.
+
+This could be a GitHub project board for the project that outlines the planned issues, or a document in the repo or somewhere else that lists the planned work. This list can change over time, but having something gives confidence to downstream users.
+
 ### The project MUST include documentation of the architecture (aka high-level design) of the software produced by the project. If the project does not produce software, select not applicable (N/A).
-### The project MUST document what the user can and cannot expect in terms of security from the software produced by the project (its security requirements").
-### The project MUST provide a quick start" guide for new users to help them quickly do something with the software."
+
+This can be as simple or complex as it makes sense. At a minimum, having something that describes how the code is organized is sufficient. This is a great tool to have available for getting new contributors onboarded.
+
+### The project MUST document what the user can and cannot expect in terms of security from the software produced by the project (its security requirements).
+
+This likely will align with the security assurance case, but the doc should cover what the project does for security ( for example, input sanitization ) and areas that the project doesn't directly address but the user should ( for example, don't run as `root` ).
+
+### The project MUST provide a quick start guide for new users to help them quickly do something with the software.
+
+This is a cornerstone of good documentation. Part of this is the installation instructions, but having an example to show how the project works or something the user could do to understand how it works is of huge value to prospective users. OpenEXR has a [great example](https://github.com/AcademySoftwareFoundation/openexr#quick-start).
+
 ### The project MUST make an effort to keep the documentation consistent with the current version of the project results (including software produced by the project). Any known documentation defects making it inconsistent MUST be fixed. If the documentation is generally current, but erroneously includes some older information that is no longer true, just treat that as a defect, then track and fix as usual.
+
+Good practice for any project. Many projects keep the documentation alongside the code so when changes are made it's reflected in the same branch. Just The Docs has support for multiple versions of documentation.
+
 ### The project repository front page and/or website MUST identify and hyperlink to any achievements, including this best practices badge, within 48 hours of public recognition that the achievement has been attained.
+
+Put it in the README.md, either as a badge or textual notice.
+
 ### The project (both project sites and project results) SHOULD follow accessibility best practices so that persons with disabilities can still participate in the project and use the project results where it is reasonable to do so.
-### The software produced by the project SHOULD be internationalized to enable easy localization for the target audience's culture, region, or language. If internationalization (i18n) does not apply (e.g., the software doesn't generate text intended for end-users and doesn't sort human-readable text), select not applicable" (N/A)."
-### If the project sites (website, repository, and download URLs) store passwords for authentication of external users, the passwords MUST be stored as iterated hashes with a per-user salt by using a key stretching (iterated) algorithm (e.g., Argon2id, Bcrypt, Scrypt, or PBKDF2). If the project sites do not store passwords for this purpose, select not applicable" (N/A)."
+
+If a project is just working out of GitHub/Read The Docs/Confluence and not building a formal website, then this requirement is fulfilled. If you have a separate website, it's a good idea to review and assess.
+
+### The software produced by the project SHOULD be internationalized to enable easy localization for the target audience's culture, region, or language. If internationalization (i18n) does not apply (e.g., the software doesn't generate text intended for end-users and doesn't sort human-readable text), select not applicable (N/A).
+
+This only applies if there is text generated by the project for the user; if not n/a. Note you don't need multiple languages supported, just the mechanism such that you could ( i.e., split text strings out to a separate document ).
+
+### If the project sites (website, repository, and download URLs) store passwords for authentication of external users, the passwords MUST be stored as iterated hashes with a per-user salt by using a key stretching (iterated) algorithm (e.g., Argon2id, Bcrypt, Scrypt, or PBKDF2). If the project sites do not store passwords for this purpose, select not applicable (N/A).
+
+GitHub and Read The Docs do this by default, and any tools integrated with LF IDs are also doing this; if you are using just these tools then this requirement is fulfilled.
+
 ### The project MUST maintain the most often used older versions of the product or provide an upgrade path to newer versions. If the upgrade path is difficult, the project MUST document how to perform the upgrade (e.g., the interfaces that have changed and detailed suggested steps to help upgrade).
+
+Good practice overall. You don't need a migration script, just instructions.
+
 ### The project MUST use an issue tracker for tracking individual issues.
-### The project MUST give credit to the reporter(s) of all reports resolved in the last 12 months, except for the reporter(s) who request anonymity. If there have been no vulnerabilities resolved in the last 12 months, select not applicable" (N/A)."
+
+All ASWF projects do this, so this requirement is fulfilled.
+
+### The project MUST give credit to the reporter(s) of all reports resolved in the last 12 months, except for the reporter(s) who request anonymity. If there have been no vulnerabilities resolved in the last 12 months, select not applicable (N/A).
+
+A good practice is to put this in the SECURITY.md. 
+
 ### The project MUST have a documented process for responding to vulnerability reports.
 
 GitHub does have [features for security vulnerability management](https://docs.github.com/en/code-security/security-advisories/guidance-on-reporting-and-writing), which as a best practice should be used, but in addition, a project should have SECURITY file in the primary code repository to outline this process ( [OpenEXR](https://github.com/AcademySoftwareFoundation/openexr/blob/main/SECURITY.md) is a great example of this ).
 
 ### The project MUST identify the specific coding style guides for the primary languages it uses, and require that contributions generally comply with it.
+
+Good example from [OpenEXR](https://github.com/AcademySoftwareFoundation/openexr/blob/main/CONTRIBUTING.md#Coding-Style). You can adopt an existing coding style to make this easier.
+
 ### The project MUST automatically enforce its selected coding style(s) if there is at least one FLOSS tool that can do so in the selected language(s).
-### Build systems for native binaries MUST honor the relevant compiler and linker (environment) variables passed in to them (e.g., CC, CFLAGS, CXX, CXXFLAGS, and LDFLAGS) and pass them to compiler and linker invocations. A build system MAY extend them with additional flags; it MUST NOT simply replace provided values with its own. If no native binaries are being generated, select not applicable" (N/A)."
-### "The build and installation system SHOULD preserve debugging information if they are requested in the relevant flags (e.g., install -s is not used). If there is no build or installation system (e.g. typical JavaScript libraries)	select not applicable (N/A).
-### The build system for the software produced by the project MUST NOT recursively build subdirectories if there are cross-dependencies in the subdirectories. If there is no build or installation system (e.g., typical JavaScript libraries), select not applicable" (N/A)."
-### The project MUST be able to repeat the process of generating information from source files and get exactly the same bit-for-bit result. If no building occurs (e.g., scripting languages where the source code is used directly instead of being compiled), select not applicable" (N/A)."
+
+If you are using a standard coding style, there are numerous tools to validate that will integrate into GitHub actions.
+
+### Build systems for native binaries MUST honor the relevant compiler and linker (environment) variables passed in to them (e.g., CC, CFLAGS, CXX, CXXFLAGS, and LDFLAGS) and pass them to compiler and linker invocations. A build system MAY extend them with additional flags; it MUST NOT simply replace provided values with its own. If no native binaries are being generated, select not applicable (N/A).
+
+Generally, ASWF projects don't produce binaries for users, so this would be 'N/A'. 
+
+### The build and installation system SHOULD preserve debugging information if they are requested in the relevant flags (e.g., install -s is not used). If there is no build or installation system (e.g. typical JavaScript libraries)	select not applicable (N/A).
+
+### The build system for the software produced by the project MUST NOT recursively build subdirectories if there are cross-dependencies in the subdirectories. If there is no build or installation system (e.g., typical JavaScript libraries), select not applicable" (N/A).
+
+### The project MUST be able to repeat the process of generating information from source files and get exactly the same bit-for-bit result. If no building occurs (e.g., scripting languages where the source code is used directly instead of being compiled), select not applicable (N/A).
 
 The easiest solution is not to provide a binary build of the project, which is generally recommended. 
 
@@ -175,9 +243,20 @@ LFX Security automatically will pull the list of dependencies for a project, pro
 
 ### Projects MUST monitor or periodically check their external dependencies (including convenience copies) to detect known vulnerabilities, and fix exploitable vulnerabilities or verify them as unexploitable.
 
-### The project SHOULD avoid using deprecated or obsolete functions and APIs where FLOSS alternatives are available in the set of technology it uses (its technology stack") and to a supermajority of the users the project supports (so that users have ready access to the alternative).
+Same as above.
+
+### The project SHOULD avoid using deprecated or obsolete functions and APIs where FLOSS alternatives are available in the set of technology it uses (its technology stack) and to a supermajority of the users the project supports (so that users have ready access to the alternative).
+
+Good practice.
+
 ### An automated test suite MUST be applied on each check-in to a shared repository for at least one branch.  This test suite MUST produce a report on test success or failure.
+
+This can be easily integrated into the PR actions; good practice for ensuring contributions don't break existing functionality.
+
 ### The project MUST add regression tests to an automated test suite for at least 50% of the bugs fixed within the last six months.
+
+See below for how to address
+
 ### The project MUST have FLOSS automated test suite(s) that provide at least 80% statement coverage if there is at least one FLOSS tool that can measure this criterion in the selected language.
 
 A few considerations for projects in completing this requirement:
@@ -192,9 +271,15 @@ Run 2: Covers code branches A, C, and D
 In this case, the project can indicate test coverage for code branches A, B, C, and D, even though not all code branches as covered in a single run.
 
 ### The project MUST have a formal written policy that as major new functionality is added, tests for the new functionality MUST be added to an automated test suite.
+
+Can be a simple statement - example [OpenEXR](https://github.com/AcademySoftwareFoundation/openexr/blob/main/CONTRIBUTING.md#test-policy)
+
 ### The project MUST include, in its documented instructions for change proposals, the policy that tests are to be added for major new functionality.
+
+Can be a simple statement - example [OpenEXR](https://github.com/AcademySoftwareFoundation/openexr/blob/main/CONTRIBUTING.md#test-policy)
+
 ### Projects MUST be maximally strict with warnings in the software produced by the project, where practical.
-### "The project MUST implement secure design principles (from know_secure_design"") where applicable.  If the project is not producing software select "not applicable" (N/A).
+### "The project MUST implement secure design principles (from know_secure_design) where applicable.  If the project is not producing software select "not applicable" (N/A).
 ### The default security mechanisms within the software produced by the project MUST NOT depend on cryptographic algorithms or modes with known serious weaknesses (e.g., the SHA-1 cryptographic hash algorithm or the CBC mode in SSH).
 ### The project SHOULD support multiple cryptographic algorithms, so users can quickly switch if one is broken. Common symmetric key algorithms include AES, Twofish, and Serpent. Common cryptographic hash algorithm alternatives include SHA-2 (including SHA-224, SHA-256, SHA-384 AND SHA-512) and SHA-3.
 ### The project MUST support storing authentication credentials (such as passwords and dynamic tokens) and private cryptographic keys in files that are separate from other information (such as configuration files, databases, and logs), and permit users to update and replace them without code recompilation. If the project never processes authentication credentials and private cryptographic keys, select not applicable" (N/A).
@@ -211,7 +296,7 @@ In this case, the project can indicate test coverage for code branches A, B, C, 
 The goal here is for the project to define its security process and scope for the project. A good example of such a document is from [curl](https://curl.se/libcurl/security.html).
 
 ### The project MUST use at least one static analysis tool with rules or approaches to look for common vulnerabilities in the analyzed language or environment, if there is at least one FLOSS tool that can implement this criterion in the selected language.
-### If the software produced by the project includes software written using a memory-unsafe language (e.g., C or C++), then at least one dynamic tool (e.g., a fuzzer or web application scanner) MUST be routinely used in combination with a mechanism to detect memory safety problems such as buffer overwrites. If the project does not produce software written in a memory-unsafe language, choose not applicable" (N/A)."
+### If the software produced by the project includes software written using a memory-unsafe language (e.g., C or C++), then at least one dynamic tool (e.g., a fuzzer or web application scanner) MUST be routinely used in combination with a mechanism to detect memory safety problems such as buffer overwrites. If the project does not produce software written in a memory-unsafe language, choose not applicable (N/A).
 
 ## Gold
 
