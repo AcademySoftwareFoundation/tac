@@ -32,4 +32,4 @@ The TAC may also opt to establish the working group as a long-term working group
 
 [TAC member]: /#tac-members
 [servicedesk]: https://servicedesk.aswf.io
-[wg proposal form]: [https://lists.aswf.io/g/tac](https://github.com/AcademySoftwareFoundation/tac/issues/new?assignees=yarille%2Cjmertic%2Ckdt3rd&labels=1-new-project-wg&projects=&template=03-new-working-group-proposal.yml&title=New+Working+Group+Proposal+-+NAME)https://github.com/AcademySoftwareFoundation/tac/issues/new?assignees=yarille%2Cjmertic%2Ckdt3rd&labels=1-new-project-wg&projects=&template=03-new-working-group-proposal.yml&title=New+Working+Group+Proposal+-+NAME
+[wg proposal form]: https://github.com/AcademySoftwareFoundation/tac/issues/new?assignees=yarille%2Cjmertic%2Ckdt3rd&labels=1-new-project-wg&projects=&template=03-new-working-group-proposal.yml&title=New+Working+Group+Proposal+-+NAME
