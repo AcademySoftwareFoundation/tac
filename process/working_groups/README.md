@@ -12,7 +12,7 @@ The purpose of working groups are to study and report on a particular question a
 
 ## Forming a working group
 
-Parties interested in forming a working group should use the [charter template][] to define a charter to be proposed to the TAC. Once the working group charter is agreed upon, and a [TAC member][] is identified as a sponsor, it should be shared with the [TAC email list][] to be added to the agenda for the next TAC meeting for review and approval. A working group will not be designated and recognized as an official Academy Software Foundation Working Group until the TAC approves the charter.
+Parties interested in forming a working group should [submit the charter to the TAC][wg proposal form] and then it will be added to the agenda for the next TAC meeting for review and approval. A working group will not be designated and recognized as an official Academy Software Foundation Working Group until the TAC approves the charter.
 
 ## Working Group activities and collaboration
 
@@ -31,7 +31,5 @@ After one year, the working group is expected to have completed the mission, goa
 The TAC may also opt to establish the working group as a long-term working group after its 1 year anniversary with a 2/3 majority vote of [TAC members][TAC member], if it is deemed that such a working group is essential for the sustainability of the Academy Software Foundation. It is expected that a long-term working group has its charter reviewed and revisted annually with the approval of the TAC.
 
 [TAC member]: /#tac-members
-[charter template]: wg_readme_template
 [servicedesk]: https://servicedesk.aswf.io
-[TAC email list]: https://lists.aswf.io/g/tac
-
+[wg proposal form]: [https://lists.aswf.io/g/tac](https://github.com/AcademySoftwareFoundation/tac/issues/new?assignees=yarille%2Cjmertic%2Ckdt3rd&labels=1-new-project-wg&projects=&template=03-new-working-group-proposal.yml&title=New+Working+Group+Proposal+-+NAME)https://github.com/AcademySoftwareFoundation/tac/issues/new?assignees=yarille%2Cjmertic%2Ckdt3rd&labels=1-new-project-wg&projects=&template=03-new-working-group-proposal.yml&title=New+Working+Group+Proposal+-+NAME
