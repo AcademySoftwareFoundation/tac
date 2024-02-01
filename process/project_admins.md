@@ -36,4 +36,5 @@ Foundation Release Engineering team.
 
 ## List of Project Admins
 
-* Dan Bailey, OpenVDB
+* Dan Bailey, OpenVDB ( [@danrbailey](https://github.com/danrbailey) )
+* Cary Phillips, OpenEXR ( [@cary-ilm](https://github.com/cary-ilm) )

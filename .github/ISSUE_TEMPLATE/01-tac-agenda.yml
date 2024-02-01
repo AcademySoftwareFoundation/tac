@@ -1,7 +1,7 @@
 name: TAC Meeting agenda item
 description: Propose an agenda item to discuss at an upcoming TAC meeting
 title: "AGENDA TOPIC"
-labels: ["meeting-agenda"]
+labels: ["4-tac-meeting-short"]
 assignees: 
   - yarille
   - jmertic
