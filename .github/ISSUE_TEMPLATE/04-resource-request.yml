@@ -1,8 +1,7 @@
 name: Hosted Projects Resource Requests
 description: | 
   For hosted projects and working groups only, use this form to submit a resource 
-  or funding request to the TAC for consideration. Details on the full process 
-  are at https://tac.aswf.io/tools/resource_request
+  or funding request to the TAC for consideration.
 title: "SUBJECT - Resource Request"
 labels: ["resource-request"]
 assignees: 
