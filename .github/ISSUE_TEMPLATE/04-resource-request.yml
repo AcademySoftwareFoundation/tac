@@ -3,7 +3,7 @@ description: |
   For hosted projects and working groups only, use this form to submit a resource 
   or funding request to the TAC for consideration.
 title: "SUBJECT - Resource Request"
-labels: ["resource-request"]
+labels: ["help wanted"]
 assignees: 
   - yarille
   - jmertic
