@@ -12,23 +12,15 @@ This document outlines the process for hosting projects to have resource request
 
 ## Request Process
 
-Projects needing resources should aim to have the request in 2-3 months before the funding is needed. Projects should propose funding needs for the subsequent year in September/October if possible during budget planning.
+Projects needing resources should aim to request funding 2-3 months before the need arises. If possible, projects should propose funding needs for the subsequent year in September/October during budget planning.
 
 ### Project Resource Request Form
 
-Projects will need to complete a form to make the request; request form to include the following:
-
-* Request category
-    * Infrastructure needs ( website, CI/CD, communication tools, other software/hardware )
-    * Skill needs ( documentation writing, training, events )
-    * Goods ( stickers, t-shirts, other swag )
-* Why is this needed?
-* When is this needed by?
-* What else should the TAC and Governing Board know about this request
+Projects should submit resource requests as [an issue in the TAC repo](https://github.com/AcademySoftwareFoundation/tac/issues/new/choose) to make the request.
 
 ### Request review - TAC
 
-The TAC will do the initial review of resource requests. The TAC review criteria will include…
+The TAC will do the initial review of resource requests as part of its regular meeting business. The TAC review criteria will include…
 
 * Lifecycle Stage of the project; Adopted Stage projects have the highest priority, Incubation Stage projects are considered after that, and Sandbox Stage projects will be considered for funding on a case-by-case basis.
 * Previous funding requests of the project; with limited funds, the TAC will ensure projects have equal access to funding based on their lifecycle stage.
