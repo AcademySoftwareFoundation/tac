@@ -4,6 +4,7 @@ description: |
   or funding request to the TAC for consideration.
 title: "SUBJECT - Resource Request"
 labels: ["help wanted"]
+projects: AcademySoftwareFoundation/19
 assignees: 
   - yarille
   - jmertic
