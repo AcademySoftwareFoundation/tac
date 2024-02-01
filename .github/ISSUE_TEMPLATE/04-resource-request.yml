@@ -23,12 +23,12 @@ body:
       label: Request category
       description: Pick the option closest to the type of request you have.
       multiple: false
-      validations:
-        required: true
       options:
         - Infrastructure needs ( website, CI/CD, communication tools, other software/hardware )
         - Skill needs ( documentation writing, training, events )
         - Goods ( stickers, t-shirts, other swag )
+    validations:
+      required: true
   - type: textarea
     attributes:
       label: Why is this needed?
