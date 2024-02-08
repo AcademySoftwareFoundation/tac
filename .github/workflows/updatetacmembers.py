@@ -25,7 +25,7 @@ with urllib.request.urlopen(committeeURL) as committeeURLResponse:
             'Full Name': "{} {}".format(committeeMember['FirstName'].title(),committeeMember['LastName'].title()),
             'Account Name: Account Name': committeeMember['Organization']['Name'] if 'Organization' in committeeMember and 'Name' in committeeMember['Organization'] else None,
             'Appointed By': committeeMember['AppointedBy'] if 'AppointedBy' in committeeMember else None,
-            'Voting Status': committeeMember['VotingStatus'] if 'Voting Status' in committeeMember else None,
+            'Voting Status': committeeMember['VotingStatus'] if 'VotingStatus' in committeeMember else None,
             'Special Role': committeeMember['Role'] if 'Role' in committeeMember else None,
             'Title': committeeMember['Title'] if 'Title' in committeeMember else None,
             'HeadshotURL': committeeMember['LogoURL'] if 'LogoURL' in committeeMember else None
