@@ -1,0 +1,47 @@
+name: Hosted Projects Resource Requests
+description: | 
+  For hosted projects and working groups only, use this form to submit a resource 
+  or funding request to the TAC for consideration.
+title: "SUBJECT - Resource Request"
+labels: ["help wanted"]
+assignees: 
+  - yarille
+  - jmertic
+  - kdt3rd
+body:
+  - type: markdown
+    attributes:
+      value: |
+        For hosted projects and working groups only, use this form to submit a resource 
+        or funding request to the TAC for consideration. Details on the full process 
+        are at https://tac.aswf.io/tools/resource_request.
+
+        Please update `SUBJECT` in the title with a title for the request.
+  - type: dropdown
+    attributes:
+      label: Request category
+      description: Pick the option closest to the type of request you have.
+      multiple: false
+      options:
+        - Infrastructure needs ( website, CI/CD, communication tools, other software/hardware )
+        - Skill needs ( documentation writing, training, events )
+        - Goods ( stickers, t-shirts, other swag )
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Why is this needed?
+      description: Please provide background on the need, and do not why existing tools/resources are not sufficient for the need.
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: When is this needed by?
+      description: Please either provide a date or the name of an event.
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: What else should the TAC and Governing Board know about this request
+    validations:
+      required: true
