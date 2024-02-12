@@ -20,9 +20,9 @@ The Technical Steering Committee (TSC) is the leadership of the project. This co
 
 Typically, the TSC comprises the primary committers or maintainers in a project. To start, there may be an appointed list, but over time more individuals may join the TSC according to the policies the TSC set for how new members are added. Regardless, TSC meetings are generally open to anyone interested unless there are sensitive issues to discuss, which necessitate a private meeting.
 
-[LFX Project Control Center](https://projectadmin.lfx.linuxfoundation.org/) is a tool for managing project committees and roles within a project. Each project will be set up in that tool with a voting committee named 'Technical Steering Committee (TSC),' notating the project chairperson and all voting members. Project chairpersons will have access to manage this in addition to the Linux Foundation staff supporting the project. Additionally, each project should have a [GitHub Team](https://docs.github.com/en/organizations/organizing-members-into-teams/about-teams) set up with each of their maintainers, with each project repository granted 'maintainer' permission. Generally, the LF Staff will have this setup for each project, but it's up to the project to maintain after that.
+[LFX Project Control Center] is a tool for managing project committees and roles within a project. Each project will be set up in that tool with a voting committee named 'Technical Steering Committee (TSC),' notating the project chairperson and all voting members. Project chairpersons will have access to manage this in addition to the Linux Foundation staff supporting the project. Additionally, each project should have a [GitHub Team][GitHub Teams Docs] set up with each of their maintainers, with each project repository granted 'maintainer' permission. Generally, the LF Staff will have this setup for each project, but it's up to the project to maintain after that.
 
-More details on using LFX Project Control Center for committee management can be found [in the LFX documentation](https://docs.linuxfoundation.org/lfx/project-control-center-pre-release/setup-services-for-a-project/committees-setup-for-a-project).
+More details on using LFX Project Control Center for committee management can be found [in the LFX documentation][LFX PCC Committee Management Docs].
 
 ### Adding New Members
 
@@ -30,7 +30,7 @@ The TSC can add members at any time with a simple majority vote of the current T
 
 Once a TSC member is confirmed, the TSC Chairperson should...
 
-- Add them to the TSC Committee in [LFX Project Control Center](https://projectadmin.lfx.linuxfoundation.org/).
+- Add them to the TSC Committee in [LFX Project Control Center].
 - Update the GitHub repository team for maintainers to add the TSC member.
 
 ## Roles
@@ -67,15 +67,17 @@ Individuals in project roles change from time to time, and it's important to hav
 1) Define an election or selection process for the role. This should be documented in a GOVERNANCE.md file or similar document.
 2) Hold a vote of the TSC to confirm the individual being elected to the role.
 3) Update any systems relevant to the role, in particular...
-  - Add the role for the person on the TSC Committee in [LFX Project Control Center](https://projectadmin.lfx.linuxfoundation.org/), specifying the date they started the role and if the role has a set term, the date the role will end.
-  - Update the GitHub repository team for maintainers to adjust any relevant permissions. For example, the TSC Chairperson should be given permission to add/remove individuals from the team.
-  - Contact the [LF Staff](https://servicedesk.aswf.io) to provide access to any project-specific resources, and if the role is TSC Chairperson, to add them to the TAC.
+  - Add the role for the person on the TSC Committee in [LFX Project Control Center], specifying the date they started the role and if the role has a set term, the date the role will end.
+  - Update the GitHub repository team so maintainers can adjust any relevant permissions. For example, the TSC Chairperson should be given permission to add/remove individuals from the team.
+  - [Contact the LF Staff][Service Desk] to provide access to any project-specific resources.
+    - If the role is TSC Chairperson, they will be added to the [Technical Leads Mailing List], as well as the TAC Committee and associated mailing lists ( [TAC Mailing List] and [TAC Private Mailing List] ).
+    - If the project is appointing a different TAC representative than its TSC Chairperson, the TAC representative will be added to [TAC Mailing List] instead of the TSC Chairperson
 
 TSC charters do not dictate the specific terms or election processes for any of the roles within the TSC; it's expected that the TSC develop this as part of their policies and document them in a GOVERNANCE.md file or similar document.
 
 ## Meetings
 
-TSC meetings are opportunities for the project community to share updates and discuss issues and plans. All TSC meetings are considered open to the public unless there is a sensitive issue to discuss ( in the case of private meetings, Linux Foundation staff should be present at such meetings ).
+TSC meetings allow the project community to share updates and discuss issues and plans. All TSC meetings are considered open to the public unless there is a sensitive issue to discuss ( in the case of private meetings, Linux Foundation staff should be present at such meetings ).
 
 It's recommended to schedule meetings on a regular cadence ( for example, every other week at 2:00 pm US Pacific Time ). Many project communities alternate TSC meeting times if project members are globally dispersed ( for example, one time that is US Eastern/Europe friendly and another that is US Pacific/Asia/Australia friendly ).
 
@@ -83,7 +85,7 @@ It's recommended to schedule meetings on a regular cadence ( for example, every 
 
 Using LFX Project Control Center, you can easily schedule one-off or recurring meetings that automatically send invites to TSC members, allow other interested parties to register for meetings, and record meetings and make them available for others. Additionally, it provides excellent statistics for meeting attendance which can help you assess member engagement.
 
-More details on using LFX Project Control Center for meeting management can be found [in the LFX documentation](https://docs.linuxfoundation.org/lfx/project-control-center-pre-release/it-services-for-a-project/meetings).
+More details on using LFX Project Control Center for meeting management can be found [in the LFX documentation][LFX PCC Meeting Management Docs].
 
 For public meetings, LFX PCC provides a public link for sharing the meeting with non-attendees so they can register for the meeting. It's recommended to make that link available publically.
 
@@ -104,3 +106,12 @@ A: No - TSC membership is bound to an individual, not an organization. If a chan
 ### Q: Does an individual serving on the TSC represent themselves, the project, and/or their employer?
 
 A: As TSC members are individuals within the context of a TSC, it's expected that all their actions are for the general good of the project itself. It's not appropriate to use the project for anti-competitive purposes nor to discuss a TSC member employer's product plans and roadmap in conjunction with the project planning.
+
+[TAC Mailing List]: https://lists.aswf.io/g/tac
+[TAC Private Mailing List]: https://lists.aswf.io/g/tac-private
+[Technical Leads Mailing List]: https://lists.aswf.io/g/technical-project-leads
+[LFX Project Control Center]: https://projectadmin.lfx.linuxfoundation.org/
+[Service Desk]: https://servicedesk.aswf.io
+[LFX PCC Meeting Management Docs]: https://docs.linuxfoundation.org/lfx/project-control-center-pre-release/it-services-for-a-project/meetings
+[LFX PCC Committee Management Docs]: https://docs.linuxfoundation.org/lfx/project-control-center-pre-release/setup-services-for-a-project/committees-setup-for-a-project
+[GitHub Teams Docs]: https://docs.github.com/en/organizations/organizing-members-into-teams/about-teams
