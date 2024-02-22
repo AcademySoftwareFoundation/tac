@@ -86,9 +86,17 @@ the Linux Foundation.
 
 ## Agenda
 
-{% assign agendaitems = site.data.meeting-agenda-items | where: "status", "Upcoming Meeting Agenda Items" %}
+{% assign agendaitems = site.data.meeting-agenda-items | where: "status", "Upcoming Meeting Agenda Items" | sort: "meeting_label" -%}
+- General Updates
 {%- for agendaitem in agendaitems -%}
+{%- if agendaitem.meeting_label == "4-tac-meeting-short" %}
+  - {{ agendaitem.title }} [#{{ agendaitem.number }}]({{ agendaitem.url }})
+{%- endif -%}
+{% endfor %}
+{% for agendaitem in agendaitems -%}
+{%- if agendaitem.meeting_label != "4-tac-meeting-short" -%}
 - {{ agendaitem.title }} [#{{ agendaitem.number }}]({{ agendaitem.url }})
+{%- endif %}
 {% endfor %}
 ## Notes
 
