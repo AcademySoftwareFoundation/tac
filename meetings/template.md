@@ -15,9 +15,9 @@ title: "{{ "now" | date: "%Y-%m-%d" }}"
 
 Join the meeting at [https://zoom-lfx.platform.linuxfoundation.org/meeting/97880950229?password=81d2940e-c055-43b9-9b5a-6cd7d7090feb](https://zoom-lfx.platform.linuxfoundation.org/meeting/97880950229?password=81d2940e-c055-43b9-9b5a-6cd7d7090feb)
 
-## Voting member attendance
+## Voting Representative Attendees
 
-### Premier member Representatives
+### Premier Member Representatives
 {% for member in site.data.tacmembers -%}
 {% if member["Appointed By"] == "Membership Entitlement" %}
 - [ ] {{ member["Full Name"] }} - {{ member["Account Name: Account Name"] }}
@@ -46,7 +46,9 @@ Join the meeting at [https://zoom-lfx.platform.linuxfoundation.org/meeting/97880
 {%- endif -%}
 {% endfor %}
 
-## Other Attendees
+## Non-Voting Attendees
+
+### Non-Voting Project and Working Group Representatives
 {% for member in site.data.tacmembers -%}
 {%- if member['Voting Status'] == 'Observer' -%}
 {%- for project in site.data.projects -%}
@@ -60,11 +62,16 @@ Join the meeting at [https://zoom-lfx.platform.linuxfoundation.org/meeting/97880
 {%- endfor -%}
 {%- endif -%}
 {% endfor %}
-{%- for member in site.data.tacmembers -%}
+
+### LF Staff
+{% for member in site.data.tacmembers -%}
 {% if member["Special Role"] == "LF Staff" %}
 - [ ] {{ member["Full Name"] }} - {{ member["Account Name: Account Name"] }}
 {%- endif -%}
 {% endfor %}
+
+### Other Attendees
+
 
 ## Antitrust Policy Notice
 
