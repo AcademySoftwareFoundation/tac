@@ -1,4 +1,5 @@
 ---
+title: Project Contribution Proposal Template
 grand_parent: Processes
 parent: Project Lifecycle
 nav_order: 2
