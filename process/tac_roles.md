@@ -19,10 +19,20 @@ Per the [Academy Software Foundation Directed Fund Charter, Section 7(f)][ASWF C
 > The TAC representatives will elect a chair to preside over meetings, ensure minutes are 
 taken and drive the TAC agenda with input from the TAC representatives
 
-A Vice Chairperson role has been established to ensure continuity and increase leadership support. Each role
+A Vice Chairperson role has been established to ensure continuity and increase leadership support. The Vice Chairperson both supports and shadows the Chairperson so that they can serve as Chairperson the following year. The chart below illustrates this.
+
+```mermaid
+timeline
+  Year : Chairperson : Vice Chairperson
+  2024 : A : B
+  2025 : B : C
+  2026 : C : D
+  2027 : D : E
+```
+The TAC annually will hold an election to elect a new Vice-Chairperson, following the [ASWF election guidelines](https://github.com/AcademySoftwareFoundation/foundation/blob/main/elections.md).
 
 ## TAC Representative to the Governing Board
 
-## Secretary
+By default, the TAC Chairperson serves as the TAC Representative to the Governing Board. However, if the TAC Chairperson wishes to delegate this responsibility, they may do so and appoint a TAC Representative to the Governing Board, subject to TAC Approval.
 
 [ASWF Charter]: https://charter.aswf.io
