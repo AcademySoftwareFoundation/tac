@@ -29,7 +29,7 @@ timeline
   2026 : C : D
   2027 : D : E
 ```
-The TAC annually will hold an election to elect a new Vice-Chairperson, following the [ASWF election guidelines](https://github.com/AcademySoftwareFoundation/foundation/blob/main/elections.md).
+The TAC annually will hold an election to elect a new Vice-Chairperson, following the [ASWF election guidelines](https://github.com/AcademySoftwareFoundation/foundation/blob/main/elections.md). The TAC Chairperson and TAC Vice Chairpeson must be voting members of the TAC at the time of the election.
 
 ## TAC Representative to the Governing Board
 
