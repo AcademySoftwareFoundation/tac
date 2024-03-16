@@ -1,30 +1,31 @@
-title,url,number,status
-Annual Review - DPEL,https://github.com/AcademySoftwareFoundation/tac/issues/472,472,Future Meeting Agenda Items
-Annual Review - USD Working Group,https://github.com/AcademySoftwareFoundation/tac/issues/518,518,Future Meeting Agenda Items
-Annual Review - OpenAssetIO,https://github.com/AcademySoftwareFoundation/tac/issues/516,516,Future Meeting Agenda Items
-Annual Review - OpenFX,https://github.com/AcademySoftwareFoundation/tac/issues/514,514,Future Meeting Agenda Items
-Annual Review - CI Working Group,https://github.com/AcademySoftwareFoundation/tac/issues/511,511,Future Meeting Agenda Items
-Annual Review - OpenImageIO,https://github.com/AcademySoftwareFoundation/tac/issues/509,509,Future Meeting Agenda Items
-Annual Review - Open Shading Language,https://github.com/AcademySoftwareFoundation/tac/issues/437,437,Future Meeting Agenda Items
-Annual Review - D&I Working Group,https://github.com/AcademySoftwareFoundation/tac/issues/473,473,Future Meeting Agenda Items
-Annual Review - OpenColorIO,https://github.com/AcademySoftwareFoundation/tac/issues/474,474,Upcoming Meeting Agenda Items
-Open Source Forum: CFP & Program Committee,https://github.com/AcademySoftwareFoundation/tac/issues/551,551,Upcoming Meeting Agenda Items
-Semi-annual stakeholders survey,https://github.com/AcademySoftwareFoundation/tac/issues/549,549,Upcoming Meeting Agenda Items
-TAC Meeting Schedule - December 2023 and January 2024,https://github.com/AcademySoftwareFoundation/tac/issues/546,546,Upcoming Meeting Agenda Items
-Project Proposal - OpenQMC,https://github.com/AcademySoftwareFoundation/tac/issues/434,434,Upcoming Meeting Agenda Items
-Transition to LFX Meeting Management,https://github.com/AcademySoftwareFoundation/tac/issues/460,460,Upcoming Meeting Agenda Items
-Discuss use of OpenSSF Best Practices badge in lifecycle stage requirements.,https://github.com/AcademySoftwareFoundation/tac/issues/502,502,Upcoming Meeting Agenda Items
-Annual Review - rawtoaces,https://github.com/AcademySoftwareFoundation/tac/issues/475,475,Upcoming Meeting Agenda Items
-TAC Chairperson and Industry Representative re-election,https://github.com/AcademySoftwareFoundation/tac/issues/537,537,Upcoming Meeting Agenda Items
-Annual Review - Open Review Initiative,https://github.com/AcademySoftwareFoundation/tac/issues/436,436,Future Meeting Agenda Items
-COCOMO Project Anaylsis,https://github.com/AcademySoftwareFoundation/tac/issues/435,435,Future Meeting Agenda Items
-Annual Review - OpenTimelineIO,https://github.com/AcademySoftwareFoundation/tac/issues/477,477,Next Meeting Agenda Items
-Annual Review - OpenEXR,https://github.com/AcademySoftwareFoundation/tac/issues/483,483,Next Meeting Agenda Items
-guidance/input to Apple re: Uniform Type Identifiers for the various ASWF projects ,https://github.com/AcademySoftwareFoundation/tac/issues/541,541,Next Meeting Agenda Items
-Annual Review - OpenVDB,https://github.com/AcademySoftwareFoundation/tac/issues/480,480,Future Meeting Agenda Items
-Update on Hosted Projects Resource Request Process,https://github.com/AcademySoftwareFoundation/tac/pull/461,461,Future Meeting Agenda Items
-Annual Review - MaterialX,https://github.com/AcademySoftwareFoundation/tac/issues/486,486,Future Meeting Agenda Items
-Annual Review - Working Group for Rust Bindings,https://github.com/AcademySoftwareFoundation/tac/issues/489,489,Future Meeting Agenda Items
-Annual Review - Rez,https://github.com/AcademySoftwareFoundation/tac/issues/492,492,Future Meeting Agenda Items
-Annual Review - OpenCue,https://github.com/AcademySoftwareFoundation/tac/issues/495,495,Future Meeting Agenda Items
-Help with Security Reviews for hosted projects,https://github.com/AcademySoftwareFoundation/tac/issues/554,554,Upcoming Meeting Agenda Items
+title,url,number,scheduled_date,status,meeting_label
+DPEL,https://github.com/AcademySoftwareFoundation/tac/issues/472,472,2024-09-18,Future Meeting Agenda Items,2-annual-review
+OpenAssetIO,https://github.com/AcademySoftwareFoundation/tac/issues/516,516,2024-07-10,Future Meeting Agenda Items,2-annual-review
+OpenFX,https://github.com/AcademySoftwareFoundation/tac/issues/514,514,2024-06-12,Future Meeting Agenda Items,2-annual-review
+CI Working Group,https://github.com/AcademySoftwareFoundation/tac/issues/511,511,2024-05-15,Future Meeting Agenda Items,2-annual-review
+OpenEXR,https://github.com/AcademySoftwareFoundation/tac/issues/483,483,2024-04-17,Future Meeting Agenda Items,2-annual-review
+OpenImageIO,https://github.com/AcademySoftwareFoundation/tac/issues/509,509,2024-05-01,Future Meeting Agenda Items,2-annual-review
+Open Shading Language,https://github.com/AcademySoftwareFoundation/tac/issues/437,437,2024-09-04,Future Meeting Agenda Items,2-annual-review
+D&I Working Group,https://github.com/AcademySoftwareFoundation/tac/issues/473,473,2024-10-16,Future Meeting Agenda Items,2-annual-review
+OpenColorIO,https://github.com/AcademySoftwareFoundation/tac/issues/474,474,2024-11-05,Future Meeting Agenda Items,2-annual-review
+OpenTimelineIO,https://github.com/AcademySoftwareFoundation/tac/issues/477,477,2024-12-11,Future Meeting Agenda Items,2-annual-review
+CLOTributor for ASWF projects,https://github.com/AcademySoftwareFoundation/tac/issues/589,589,,Upcoming Meeting Agenda Items,4-tac-meeting-short
+FMX 2024 Open Source Track,https://github.com/AcademySoftwareFoundation/tac/issues/595,595,,Upcoming Meeting Agenda Items,4-tac-meeting-short
+OpenCue,https://github.com/AcademySoftwareFoundation/tac/issues/495,495,2024-03-20,Upcoming Meeting Agenda Items,2-annual-review
+Working Group for Rust Bindings,https://github.com/AcademySoftwareFoundation/tac/issues/489,489,2024-03-20,Upcoming Meeting Agenda Items,2-annual-review
+Close out adjustments to OpenSSF Best Practices badge in lifecycle stage requirements.,https://github.com/AcademySoftwareFoundation/tac/issues/502,502,,Upcoming Meeting Agenda Items,3-tac-meeting-long
+Project Proposal - OpenQMC,https://github.com/AcademySoftwareFoundation/tac/issues/434,434,,Upcoming Meeting Agenda Items,4-tac-meeting-short
+Security Threat model analysis for ASWF projects,https://github.com/AcademySoftwareFoundation/tac/issues/615,615,,Upcoming Meeting Agenda Items,4-tac-meeting-short
+Open Review Initiative,https://github.com/AcademySoftwareFoundation/tac/issues/436,436,2024-08-21,Future Meeting Agenda Items,2-annual-review
+COCOMO Project Anaylsis,https://github.com/AcademySoftwareFoundation/tac/issues/435,435,,Future Meeting Agenda Items,3-tac-meeting-long
+MaterialX,https://github.com/AcademySoftwareFoundation/tac/issues/486,486,2025-02-05,Future Meeting Agenda Items,2-annual-review
+Annual Review - OpenVDB,https://github.com/AcademySoftwareFoundation/tac/issues/480,480,2025-01-08,Future Meeting Agenda Items,2-annual-review
+USD Working Group,https://github.com/AcademySoftwareFoundation/tac/issues/518,518,2024-05-01,Future Meeting Agenda Items,2-annual-review
+Rez,https://github.com/AcademySoftwareFoundation/tac/issues/492,492,2024-04-17,Future Meeting Agenda Items,2-annual-review
+rawtoaces,https://github.com/AcademySoftwareFoundation/tac/issues/475,475,2025-01-08,Future Meeting Agenda Items,2-annual-review
+New Working Group Proposal - Swift,https://github.com/AcademySoftwareFoundation/tac/issues/578,578,2024-04-03,Next Meeting Agenda Items,3-tac-meeting-long
+guidance/input to Apple re: Uniform Type Identifiers for the various ASWF projects ,https://github.com/AcademySoftwareFoundation/tac/issues/541,541,,Next Meeting Agenda Items,4-tac-meeting-short
+Zero Trust Working Group,https://github.com/AcademySoftwareFoundation/tac/issues/621,621,2024-04-03,Next Meeting Agenda Items,1-new-project-wg
+Fixing LFX Security for C/C++ Projects,https://github.com/AcademySoftwareFoundation/tac/issues/592,592,,Next Meeting Agenda Items,4-tac-meeting-short
+Transition to LFX Meeting Management,https://github.com/AcademySoftwareFoundation/tac/issues/460,460,,Next Meeting Agenda Items,4-tac-meeting-short
+Starting a Zero Trust Security Working Group,https://github.com/AcademySoftwareFoundation/tac/issues/620,620,,Upcoming Meeting Agenda Items,4-tac-meeting-short
