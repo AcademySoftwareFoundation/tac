@@ -167,7 +167,7 @@ Adopted Stage projects will have an Annual Review to assess if the project is st
 * Renew the project at the Adopted Stage if it continues to [meet those requirements](#requirements-2).
 * Move the project to the [Archive Stage](#archive-stage). In this case, the trademark and any other assets will be returned to the project maintainers or an organization they designate.
 
-For the first Annual Review after the project reaches the Adopted Stage, it is expected that the project have completed 100% of the OpenSSF Best Practices Badge requirements at the [gold level](https://bestpractices.coreinfrastructure.org/en/criteria/2).
+For the first Annual Review after the project reaches the Adopted Stage, it is expected that the project has completed 100% of the OpenSSF Best Practices Badge requirements at the [gold level](https://bestpractices.coreinfrastructure.org/en/criteria/2) with the exception of the requirements listed above.
 
 ## Archive Stage
 
