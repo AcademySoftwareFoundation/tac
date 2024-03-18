@@ -107,6 +107,27 @@ A: No - TSC membership is bound to an individual, not an organization. If a chan
 
 A: As TSC members are individuals within the context of a TSC, it's expected that all their actions are for the general good of the project itself. It's not appropriate to use the project for anti-competitive purposes nor to discuss a TSC member employer's product plans and roadmap in conjunction with the project planning.
 
+### Q: Could a project start working groups or sub-committees within their project?
+
+Yes, projects can establish working groups or sub-committees ( herein referred to as 'subgroups' ) and do not need to change their Technical Charter to accommodate.
+
+When thinking about starting a new subgroup, generally, projects tend to follow a few key factors:
+
+- Is this initiative big enough, with a long enough timeline (6+ months usually, or ongoing is also ok)
+- Will this initiative require a level of collaboration and discussion that is not possible in the general TSC meeting?
+- Should this initiative involve folks not on the TSC?
+- Is this a high priority for the project?
+
+If the answer to all or most of these questions is yes, a subgroup is a good idea.
+
+Each project can develop its own specific process around establishing subgroups. Generally, projects should align with the following key points:
+
+- It's best practice to have a TSC member as either the leader or, at minimum, a defined member of the subgroup. This person is responsible for the group's operation, meetings, and communication back to the larger TSC about progress.
+- Each subgroup should have a charter. This can be a simple one-pager, outline the purpose, goals, non-goals, and deliverables of the subgroup. This charter should be approved by the TSC
+- Just like TSC Meetings, subgroup meetings must be open to anyone interested in participating. Each subgroup should have someone tasked with taking notes for the meeting that capture key discussion points and action items.
+- Evaluate the subgroups on a regularly scheduled basis, and try not to keep them around indefinitely. Once their larger goals have been achieved, they can be folded back into normal TSC operations.
+
+
 [TAC Mailing List]: https://lists.aswf.io/g/tac
 [TAC Private Mailing List]: https://lists.aswf.io/g/tac-private
 [Technical Leads Mailing List]: https://lists.aswf.io/g/technical-project-leads
