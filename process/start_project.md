@@ -118,7 +118,7 @@ Often projects are new open-source projects, but that isn’t a requirement - ex
 - Assess the potential universe of project participants. Identify ecosystem constituents and concerns of each. 
 - Identify any trademarks leveraged by the project (these will be owned by the LF neutrally) 
 - Outline infrastructure, marketing any other requirements needed for the project. 
-- Complete the [project proposal](https://tac.aswf.io/process/proposal_template) and submit it to the TAC for consideration
+- Complete the [project proposal](/process/proposal_template) and submit it to the TAC for consideration
 
 The Academy Software Foundation staff is happy to engage and advise during this process - let us know how we can help!
 
