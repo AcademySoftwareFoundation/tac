@@ -1,6 +1,5 @@
 ---
 parent: Processes
-has_children: true
 ---
 
 # TAC Roles
