@@ -93,6 +93,10 @@ For public meetings, LFX PCC provides a public link for sharing the meeting with
 
 The TSC Chairperson should share an agenda at least 24 hours before the meeting with an ask to share additional agenda items. The agenda should be shared through the public communication/collaboration channels they use ( such as the mailing lists, chat channels, GitHub, etc ).
 
+## Permissions
+
+Generally, all TSC members and maintainers have the ['Maintain' permission level](https://docs.github.com/en/organizations/managing-user-access-to-your-organizations-repositories/managing-repository-roles/repository-roles-for-an-organization#permissions-for-each-role) on their repository(s). If there is a need for additional permissions, please file a [service desk ticket][Service Desk].
+
 ## FAQs about TSCs
 
 ### Q: Is a TSC member required to have their employer be a member of the Academy Software Foundation?
