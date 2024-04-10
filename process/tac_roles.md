@@ -19,7 +19,7 @@ Per the [Academy Software Foundation Directed Fund Charter, Section 7(f)][ASWF C
 > The TAC representatives will elect a chair to preside over meetings, ensure minutes are 
 taken and drive the TAC agenda with input from the TAC representatives
 
-A Vice Chairperson role has been established to ensure continuity and increase leadership support. The Vice Chairperson both supports and shadows the Chairperson so that they can serve as Chairperson the following year. The chart below illustrates this.
+The Chairperson role serves a term of one year. A Vice Chairperson role has been established to ensure continuity and increase leadership support. The Vice Chairperson both supports and shadows the Chairperson so that they can serve as Chairperson the following year. The chart below illustrates this.
 
 ```mermaid
 timeline
