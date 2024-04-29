@@ -23,7 +23,7 @@ body:
       label: URL to your Dev Days 2024 landing page
       description: |
         This URL can be a webpage, wiki page, or file in your code repository, that outlines...
-      validations:
+      validation:
         required: true
   - type: input
     attributes:
@@ -35,7 +35,7 @@ body:
 
         These issues should align with the Academy Software Foundation TAC's
         [best practices for good first issues]()
-      validations:
+      validation:
         required: true
   - type: textarea
     attributes:
@@ -44,7 +44,7 @@ body:
         What are the best communications channel(s) for Dev Days particpants to use? This is
         likely your primary Slack channel or mailing list, but you could also setup a seperate
         communication channel if that would be preferred.
-      validations:
+      validation:
         required: true
   - type: textarea
     attributes:
