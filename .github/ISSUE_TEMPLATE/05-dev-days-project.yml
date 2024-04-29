@@ -53,8 +53,8 @@ body:
         What project meeting(s) should a potential Dev Days participant join if they want to 
         work with your project during Dev Days? This might be one of the project's
         regular TSC meetings, or could be separate meeting(s).
-      validation:
-        required: true
+    validations:
+      required: true
   - type: input
     attributes:
       label: URL to the project "Getting Started" and build instructions
