@@ -22,15 +22,15 @@ body:
     attributes:
       label: URL to your Dev Days 2024 landing page
       description: |
-        This URL can be a webpage, wiki page, or file in your code repository, that outlines...
+        This URL can be a webpage, wiki page, or file in your code repository that outlines...
     validations:
       required: true
   - type: input
     attributes:
       label: URL of issues for participants to work on
       description: |
-        Projects should label issues with 'good first issue' and 'help wanted', and ensure 
-        that they are unassigned and no more than one year old. To validate, go to 
+        Projects should label issues with 'good first issue' and 'help wanted' and ensure 
+        they are unassigned and no more than one year old. To validate, go to 
         [CLOTributor](https://clotributor.dev/search?foundation=aswf&good_first_issue=true).
 
         These issues should align with the Academy Software Foundation TAC's
@@ -39,20 +39,19 @@ body:
       required: true
   - type: textarea
     attributes:
-      label: Communication channel(s) for partipants
+      label: Communication channel(s) for participants
       description: |
-        What are the best communications channel(s) for Dev Days particpants to use? This is
-        likely your primary Slack channel or mailing list, but you could also setup a seperate
+        What are the best communications channel(s) for Dev Days participants to use? This is
+        likely your primary Slack channel or mailing list, but you could also set a separate
         communication channel if that would be preferred.
     validations:
       required: true
   - type: textarea
     attributes:
-      label: Project meeting(s) for Dev Days partipants to join
+      label: Project meeting(s) for Dev Days participants to join
       description: |
-        What project meeting(s) should a potential Dev Days participant join if they want to 
-        work with your project during Dev Days? This might be one of the project's
-        regular TSC meetings, or could be separate meeting(s).
+        Please include at least one scheduled meeting Dev Days participants for your project 
+        should attend. This could be a regular TSC meeting or a separately scheduled call.
     validations:
       required: true
   - type: input
@@ -60,7 +59,7 @@ body:
       label: URL to the project "Getting Started" and build instructions
       description: |
         Indicate the URL where your project has instructions for Dev Days participants
-        to set up thier development environment and instructions for building the project.
+        to set up their development environment and instructions for building the project.
     validations:
       required: true
   - type: textarea
