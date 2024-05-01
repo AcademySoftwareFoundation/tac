@@ -64,10 +64,6 @@ body:
       required: true
   - type: textarea
     attributes:
-      label: Expected time commitments for participants
+      label: Is there someone other than you who will be a contact for the project for Dev Days? 
       description: |
-        What should Dev Days partipants for the project expect in terms of time commitments? Note
-        that it's expected that each of the issues might have varying time commitments, but giving
-        a general sense can be helpful.
-    validations:
-      required: true
+        We assume the person submitting will be the primary contact, but if there are others list them here.
