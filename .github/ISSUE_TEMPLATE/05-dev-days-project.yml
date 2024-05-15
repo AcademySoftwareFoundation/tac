@@ -14,15 +14,18 @@ body:
       value: |
         ![](https://artwork.aswf.io/other/dev-days/2024/color/dev-days-2024-color.svg)
 
-        Thank you for your interest in being a project wanting to participate in Dev Days 2024!
-        For hosted projects only, use this form to indicate that your project will be participating in Dev Days.
+        Thank you for your interest in being a project participating in Dev Days 2024! For hosted projects 
+        only, use this form to indicate that your project will be participating in Dev Days. More details 
+        on how project participation can be found [here](https://wiki.aswf.io/display/DEVDAYS/Project+Guidelines)
 
         Please update `PROJECTNAME` in the title with your project name.
   - type: input
     attributes:
       label: URL to your Dev Days 2024 landing page
       description: |
-        This URL can be a webpage, wiki page, or file in your code repository that outlines...
+        This URL can be a webpage, wiki page, or file in your code repository that outlines specific guidance 
+        for participating in Dev Days. Guidance on creating this page can be found in the 
+        [Project Guidelines](https://wiki.aswf.io/display/DEVDAYS/Project+Guidelines#ProjectGuidelines-CreateaProjectSpecificLandingPage)
     validations:
       required: true
   - type: input
@@ -33,8 +36,8 @@ body:
         they are unassigned and no more than one year old. To validate, go to 
         [CLOTributor](https://clotributor.dev/search?foundation=aswf&good_first_issue=true).
 
-        These issues should align with the Academy Software Foundation TAC's
-        [best practices for good first issues]()
+        Tips for creating good first issues are outlined in the 
+        [Project Guidelines](https://wiki.aswf.io/display/DEVDAYS/Project+Guidelines#ProjectGuidelines-TagissuesthatareforDevDaysparticipantstochoosefrom)
     validations:
       required: true
   - type: textarea
@@ -66,4 +69,4 @@ body:
     attributes:
       label: Is there someone other than you who will be a contact for the project for Dev Days? 
       description: |
-        We assume the person submitting will be the primary contact, but if there are others list them here.
+        We assume the person submitting will be the primary contact, but if there are others, list them here.
