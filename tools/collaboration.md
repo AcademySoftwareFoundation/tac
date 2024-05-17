@@ -13,7 +13,7 @@ This document outlines the communications tools available for {{ site.foundation
 
 ## Committee Management
 
-Hosted projects and working groups will have a primary committee set up in PCC. Larger hosted projects and working groups may have subcommittees or groups (for example, Zowe has 'squads'). The naming convention for committees and PCC Committee Type will be as follows.
+Hosted projects and working groups will have a primary committee set up in PCC. Larger hosted projects and working groups may have subcommittees or groups. The naming convention for committees and PCC Committee Type will be as follows.
 
 |Name|PCC Committee Type|Description|
 |---|---|---|
