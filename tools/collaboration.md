@@ -25,7 +25,7 @@ The LF staff will set up the primary committee; subcommittees can be set up by t
 
 ### Adding people to a committee
 
-The committee members are those named individuals who have been appointed to the committee. Each hosted project and working group should detail the requirements for membership and distinguish voting from non-voting roles.
+Committee members are named individuals who have been appointed or elected to the committee per the hosted project's Technical Charter and any relevant hosted project or working group policies. Each hosted project and working group should detail the requirements for membership and distinguish voting from non-voting roles.
 
 Instructions for adding individuals to a committee in PCC can be found [here][add individuals to committee instructions]. The specific settings for adding individuals are as follows.
 
@@ -55,7 +55,7 @@ Meeting attendance is taken automatically and attached to the meeting itself. At
 
 Instructions for creating a meeting in PCC can be found [here][create meeting instructions]. Specific guidelines for hosted projects and working groups should be as follows.
 
-- Generally, all hosted projects and working group meetings should have `Make Meeting Public` checked and `Restricted` and unchecked, as those meetings are public by default. Occasionally, meetings related to security vulnerability review or other sensitive topics may be held; in those cases, `Make Meeting Public` should be unchecked and `Restricted` and checked.
+- Generally, all hosted projects and working group meetings should have `Make Meeting Public` checked and `Restricted` unchecked, as those meetings are public by default. Occasionally, meetings related to security vulnerability review or other sensitive topics may be held; in those cases, `Make Meeting Public` should be unchecked and `Restricted` checked.
 - Associate a `Committee` with the meeting to ensure that those committee members are automatically added. Other non-committee members can join using the meeting link and request that a meeting invite be sent to them.
 
 ### Cancelling meetings
