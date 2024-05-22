@@ -23,13 +23,15 @@ Hosted projects and working groups will have a primary committee set up in PCC. 
 
 The LF staff will set up the primary committee; subcommittees can be set up by the hosted project and/or working group themselves or the LF Staff if desired. The primary committee will be associated with any mailing lists of the hosted project or working group, meaning that they will be automatically added to those mailing lists.
 
+**Projects must maintain their committee members in LFX PCC and are expected to review for accuracy at least every three months**
+
 ### Adding people to a committee
 
 Committee members are named individuals who have been appointed or elected to the committee per the hosted project's Technical Charter and any relevant hosted project or working group policies. Each hosted project and working group should detail the requirements for membership and distinguish voting from non-voting roles.
 
 Instructions for adding individuals to a committee in PCC can be found [here][add individuals to committee instructions]. The specific settings for adding individuals are as follows.
 
-| | |
+|Field|Value|
 |---|---|
 |Appointed By|For TSCs, this would be `Vote of TSC Committee`. For Working Groups and sub-committees, pick `Community`|
 |Voting Status|Generally, this should be `Voting Rep`, though if you have non-voting roles on the committee, select `Other`|
