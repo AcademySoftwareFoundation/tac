@@ -14,7 +14,7 @@ Within open source, there are multiple approaches to contribution and licensing,
 
 ## Two-factor authentication (2FA)
 
-- To enable more robust security for hosted projects, Open Mainframe Project TAC requires all hosted projects to require Two-factor authentication (2FA) for accessing code repositories. Instructions for GitHub are below...
+- To enable more robust security for hosted projects, Academy Software Foundation TAC requires all hosted projects to require Two-factor authentication (2FA) for accessing code repositories. Instructions for GitHub are below...
 
   - [Configuring 2FA for your GitHub account](https://docs.github.com/en/github/authenticating-to-github/configuring-two-factor-authentication)
   - [Accessing GitHub using 2FA](https://docs.github.com/en/github/authenticating-to-github/accessing-github-using-two-factor-authentication)
