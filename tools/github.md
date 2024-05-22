@@ -20,7 +20,7 @@ When a new project or repository is to be added, please [submit a request][] to 
 If adding the new project or repository will include a significant contribution, requesting a code license scan is highly recommended before bringing the code in. This scan will look for and will provide recommendations (or, in some cases, required prior remediation) for:
 
 - The presence of third-party licenses (OSI-approved or otherwise) that might be considered incompatible with the project's license
-- Presence of headers with the project's designated license(s) and preferred copyright notices in project files (refer to the [License Specification in the Contribution Guidelines](https://github.com/openmainframeproject/tac/blob/master/process/contribution_guidelines.md#license-specification) for more information)
+- Presence of headers with the project's designated license(s) and preferred copyright notices in project files (refer to the [License Specification in the Contribution Guidelines](https://github.com/academysoftwarefoundation/tac/blob/main/process/contributing.md#license-specification) for more information)
 - Any other best practices guidance 
 
 Typically code license scans are a relatively quick turnaround, but that might take longer for more significant code bases.
