@@ -80,7 +80,7 @@ To help individuals not be inundated with calendar overload, try to follow these
 - Instruct invitees to manually remove old entries when provisioning a new series of recurring meetings. Occasionally, we will see some calendaring clients not removing these automatically.
 - Ensure the meeting description includes an agenda or a link to the agenda.
 
-[Community Calendar]: https://calendar.openmainframeproject.org
+[Community Calendar]: https://calendar.aswf.io
 [cancel meeting instructions]: https://docs.linuxfoundation.org/lfx/project-control-center/v2-latest-version/collaborations/meetings#delete-meetings
 [access to public calendar link instructions]: https://docs.linuxfoundation.org/lfx/project-control-center/v2-latest-version/collaborations/meetings
 [individual dashboard meetings instructions]: https://docs.linuxfoundation.org/lfx/my-profile/meetings
