@@ -7,7 +7,7 @@ parent: Tools
 * TOC
 {:toc}
 
-These guidelines are meant to help Academy Software Foundation community members manage their meetings using web conferencing tools provided by the Academy Software Foundation.
+These guidelines are meant to help {{ site.foundation_name }} community members manage their meetings using web conferencing tools provided by the {{ site.foundation_name }}.
 
 ## Setting up your meeting
 
@@ -19,7 +19,7 @@ Generally, meetings provisioned using LFX Meeting Management are relatively stra
 
 ### Screen sharing guidelines and recommendations
 
-Zoom has [documentation on how to use its screen-sharing feature][]:
+Zoom has [documentation on how to use thier screen sharing feature][]:
 
 Recommendations:
 
@@ -50,7 +50,7 @@ What about an integrated headset and microphone? This depends on the type. We re
 
 ### Conduct and Moderation
 
-Since the Zoom meetings are open to the general public, a Zoom host or co-host has to moderate a meeting in all senses, from starting and stopping the meeting to acting on [Code of Conduct][] issues. The Academy Software Foundation adheres to its [Code of Conduct][] or the relevant project code of conduct throughout all platforms and includes all communication mediums.
+Since the Zoom meetings are open to the general public, a Zoom host or co-host has to moderate a meeting in all senses, from starting and stopping the meeting to acting on [Code of Conduct][] issues. {{ site.foundation_name }} adheres to its [Code of Conduct][] or the relevant project code of conduct throughout all platforms and includes all communication mediums.
 
 If you're dealing with a troll or bad actor:
 
@@ -60,11 +60,11 @@ If you're dealing with a troll or bad actor:
 
 **NOTE:** You can find these actions when clicking on the **more** or **"..."** options after scrolling over the participant's name/information.
 
-Make sure whoever is running your meeting is equipped with the proper knowledge and skills. Hosts must be comfortable using these moderation tools and the Zoom settings. If you have any questions or concerns, reach out to the [LF Staff], and they can provide further guidance and training.
+Make sure whoever is running your meeting is equipped with the proper knowledge and skills. Hosts must be comfortable using these moderation tools and the Zoom settings. If you have any questions or concerns, reach out to the [LF Staff][Support Request], and they can provide further guidance and training.
 
 #### Related moderation documentation
 
-- Zoom has [documentation on how to use its moderation tools][].
+- Zoom has [documentation on how to use thier moderation tools][].
 
 #### Escalating and/Reporting a Problem
 
@@ -72,7 +72,7 @@ Please submit a [support request][Support Request] for issues that cannot be han
 
 ## Meeting recordings
 
-Meetings using the LFX Meeting Management service can generally be set to automatically record the meeting and make a transcript, which users can retrieve in their [LFX Individual Dashboard][]. Project leads can also get recordings from past meetings in [LFX Project Control Center][] in the meeting management section; feel free to share those links and access keys in the notes from the meeting. 
+Meetings using the LFX Meeting Management service can generally be set to automatically record the meeting and make a transcript, which users can retrieve in their [LFX Individual Dashboard][] or from the [{{ site.foundation_name }} Public Calendar]({{ site.calendar_url }}). Project leads can also get recordings from past meetings in [LFX Project Control Center][] in the meeting management section; feel free to share those links and access keys in the notes from the meeting. 
 
 If any conduct or other violation has been addressed by a host and recorded, the video should be edited before posting. [Submit a support request][Support Request] if you need help editing a video before posting it to the public.
 
@@ -89,13 +89,12 @@ If any conduct or other violation has been addressed by a host and recorded, the
 Thanks for making ASWF meetings work great!
 
 [Zoom]: https://zoom.us
-[Code of Conduct]: ../CODE_OF_CONDUCT
-[Support Request]: https://supportdesk.aswf.io
-[TAC]: mailto:tac-private@lists.aswf.io
+[Code of Conduct]: ../code_of_conduct
+[Support Request]: {{ site.helpdesk_url }}
 [host key]: https://support.zoom.us/hc/en-us/articles/205172555-Host-Key
 [latest version]: https://zoom.us/download
-[documentation on how to use their moderation tools]: https://support.zoom.us/hc/en-us/articles/201362603-Host-Controls-in-a-Meeting
-[documentation on how to use their screen sharing feature]: https://support.zoom.us/hc/en-us/articles/201362153-How-Do-I-Share-My-Screen
+[documentation on how to use thier moderation tools]: https://support.zoom.us/hc/en-us/articles/201362603-Host-Controls-in-a-Meeting
+[documentation on how to use thier screen sharing feature]: https://support.zoom.us/hc/en-us/articles/201362153-How-Do-I-Share-My-Screen
 [many things can go wrong]: https://www.youtube.com/watch?v=JMOOG7rWTPg
 [Blue Yeti]: https://www.bluedesigns.com/products/yeti/
 [pop filter]: https://en.wikipedia.org/wiki/Pop_filter
