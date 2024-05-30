@@ -26,8 +26,17 @@ gh_edit_view_mode: "tree"
 landscape_url: 'https://landscape.aswf.io'
 calendar_url: 'https://calendar.aswf.io'
 slack_url: 'https://slack.aswf.io'
+directed_fund_charter_url: 'https://charter.aswf.io'
+tac_issues_url: 'https://github.com/AcademySoftwareFoundation/tac/issues/new'
+helpdesk_url: "https://servicedesk.aswf.io"
+tac_mailing_list_url: "https://lists.aswf.io/g/tac"
+website_url: "https://aswf.io"
+blog_url: "https://aswf.io/blog"
+
+# Foundation Settings
 vote_of_tac_committee_title: "Industry Representative"
 foundation_name: "Academy Software Foundation"
+clotributor_name: aswf
 
 aux_links:
   "Need help or have a question? Contact us here":
