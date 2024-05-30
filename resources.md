@@ -15,5 +15,6 @@ If you are new to open source, or have some experience in open source and lookin
     - [Secure Software Development: Requirements, Design, and Reuse (LFD104x)](https://training.linuxfoundation.org/training/secure-software-development-requirements-design-and-reuse-lfd104/)
     - [Secure Software Development: Implementation (LFD105x)](https://training.linuxfoundation.org/training/secure-software-development-implementation-lfd105/)
 - [GitHub for Developers](https://githubtraining.github.io/training-manual/#/01_getting_ready_for_class)
+- [Open Source Guides from GitHub](https://opensource.guide/)
 
 If you have other resources to recommend, please create a pull request against this file.
