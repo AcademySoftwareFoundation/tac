@@ -6,6 +6,7 @@ assignees:
   - yarille
   - jmertic
   - kdt3rd
+  - lgritz
 body:
   - type: markdown
     attributes:
