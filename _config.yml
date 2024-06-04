@@ -11,7 +11,8 @@ exclude: [
   "Gemfile.lock", 
   "package.json", 
   "package-lock.json",
-  "LICENSE"
+  "LICENSE",
+  "vendor"
 ]
 
 back_to_top: true
