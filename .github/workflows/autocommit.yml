@@ -19,7 +19,7 @@ jobs:
           egress-policy: audit
 
       - name: Automerge Pull Request if possible
-        uses: "pascalgn/automerge-action@c6f2699cc4c19ea7ce7f560dbebd85565b744377 # v0.13.0"
+        uses: pascalgn/automerge-action@d1203c0bf94a827b991e5de69d662e9163304fa0 # v0.16.3
         env:
           GITHUB_TOKEN: "${{ secrets.PAT }}"
           MERGE_LABELS: "automerge"
