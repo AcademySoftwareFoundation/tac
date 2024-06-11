@@ -2,7 +2,7 @@ name: Indicate your project is participating in Dev Days
 description: | 
   For hosted projects only, use this form to indicate that your project will be participating in Dev Days.
 title: "Dev Days 2024 Project Application - PROJECTNAME"
-labels: ["help wanted"]
+labels: ["dev days/2024"]
 assignees: 
   - yarille
   - jmertic
