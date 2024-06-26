@@ -7,35 +7,35 @@ parent: Tools
 * TOC
 {:toc}
 
-Academy Software Foundation projects generally use GitHub for code hosting and issue management. GitHub organizations for hosted projects are owned and administered by the Linux Foundation staff, including the Linux Foundation release engineering team, to ensure the sustainability of the infrastructure. 
+{{ site.foundation_name }} projects generally use GitHub for code hosting and issue management. GitHub organizations for hosted projects are owned and administered by the Linux Foundation staff, including the Linux Foundation release engineering team, to ensure the sustainability of the infrastructure. 
 
-This document outlines the policies and procedures for projects using GitHub for code hosting. In addition, the Linux Foundation release engineering team maintains [documentation](https://docs.releng.linuxfoundation.org/en/latest/) on its services, policies, and procedures.
+This document outlines project policies and procedures using GitHub for code hosting. In addition, the Linux Foundation release engineering team maintains [documentation](https://docs.releng.linuxfoundation.org/en/latest/) on its services, policies, and procedures.
 
 ## New project or repository
 
-When a new project or repository is to be added, please [submit a request][] to facilitate the process.
+When a new project or repository is to be added, please [submit a request]({{ site.helpdesk_url }}) to facilitate the process.
 
 ### Code license scan
 
 If adding the new project or repository will include a significant contribution, requesting a code license scan is highly recommended before bringing the code in. This scan will look for and will provide recommendations (or, in some cases, required prior remediation) for:
 
 - The presence of third-party licenses (OSI-approved or otherwise) that might be considered incompatible with the project's license
-- Presence of headers with the project's designated license(s) and preferred copyright notices in project files (refer to the [License Specification in the Contribution Guidelines](https://github.com/openmainframeproject/tac/blob/master/process/contribution_guidelines.md#license-specification) for more information)
+- Presence of headers with the project's designated license(s) and preferred copyright notices in project files (refer to the [License Specification in the Contribution Guidelines](/process/contribution_guidelines.md#license-specification) for more information)
 - Any other best practices guidance 
 
-Typically code license scans are a relatively quick turnaround, but that might take longer for more significant code bases.
+Typically code license scans are a quick turnaround, but that might take longer for more significant code bases.
 
 ### Repository setup
 
-Generally, most projects utilize the existing Academy Software Foundation GitHub organization, especially if they intend to have a single repository. This practice enables the easiest discoverability of the project.
+Generally, most projects utilize the existing {{ site.foundation_name }} GitHub organization, especially if they intend to have a single repository. This practice enables the easiest discoverability of the project.
 
-If a project anticipates having multiple repositories, the Academy Software Foundation staff can provision a GitHub organization specific to that project. The same policies apply to the administration and access control with either option.
+If a project anticipates having multiple repositories, the {{ site.foundation_name }} staff can provision a GitHub organization specific to that project. The same policies apply to the administration and access control with either option.
 
 ### Code migration
 
 There are two strategies for migrating the code to a hosted project repository.
 
-- The best practice is for the Academy Software Foundation staff to provision a new repository, where the new code can be contributed to as a pull request. 
+- The best practice is for the {{ site.foundation_name }} staff to provision a new repository, where the new code can be contributed to as a pull request. 
 - If preserving the commit history is important, the repository can be transferred using the [GitHub transfer repository](https://docs.github.com/en/github/administering-a-repositoriesitory/transferring-a-repositoriesitory) process. If doing this, before the transfer, you must add a commit to the repositories providing a DCO signoff for all previous commits. The easiest way is to check in a file called `past-dco-signoff.txt` with the contents below...
 
 ```
@@ -68,7 +68,7 @@ By default, hosted project GitHub organizations and repositories have enabled th
 
 The below branch protection settings on the `master` or `main` branch are enabled by default.
 
-![](assets/branch_protection.png)
+![](./assets/branch_protection.png)
 
 ## Issue management
 
@@ -90,29 +90,19 @@ GitHub has the functionality for doing either a [single repository project board
 
 ## Using GitHub
 
-GitHub can be daunting for the new user, but contributing becomes much easier once you get the right tools in place. Here's a guide for getting started.
+All the projects hosted at the {{ site.foundation_name }} are hosted on GitHub, a code collaboration and hosting service used by millions of open-source projects globally. If you are new to GitHub or open source, check out the resources below.
 
-1. Create a [GitHub Account](https://github.com).
-2. Go to the repository of choice you are looking to contribute to.
-3. Contributing to GitHub may be more accessible by using [GitHub Desktop](https://desktop.github.com/).
+- [Create a GitHub Account](https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github).
+- [How to make a Pull Request by example](https://docs.github.com/en/get-started/start-your-journey/hello-world).
+- [First-timers guide to contributing to open source](https://opensource.guide/how-to-contribute/).
+- [Tutorial on how to make your first contributions to a git project](https://github.com/firstcontributions/first-contributions).
+- Contributing to GitHub may be more accessible by using [GitHub Desktop](https://desktop.github.com/).
 
 ### Working with Markdown files
-Markdown files (.md) are commonly used on GitHub for documentation and other non-code assets. They look similar to a document but have markings to allow for formatting. It can be easier to work with Markdown by using tools. You can find information on the types of elements used in GitHub Markdown here: https://guides.github.com/features/mastering-markdown/.
 
-There are also various tools you can use to help you see how your Markdown file will look when uploaded to GitHub. The list below is incomplete but is meant to provide some examples.
+Markdown files (.md) are commonly used on GitHub for documentation and other non-code assets. They look similar to a document but have markings to allow for formatting. It can be easier to work with Markdown by using tools. You can find information on the types of elements used in GitHub Markdown [here](https://guides.github.com/features/mastering-markdown/).
 
-- [Macdown](https://macdown.uranusjr.com/)
-- [Typora](https://typora.io/)
-- [StackEdit](https://stackedit.io/)
-- [Dillinger](https://dillinger.io/)
-- [Markdown Editor (for Visual Studio)](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.MarkdownEditor)
-- [Draft](https://draftin.com/)
-- [Ulysses](https://ulysses.app/)
-- [iA Writer](https://ia.net/writer)
-- [Dimer](https://dimerapp.com)
-- [Quiver](http://happenapps.com/)
-- [Mou](http://25.io/mou/)
-- [VSCode](https://code.visualstudio.com/docs/languages/markdown)
+There are also various tools you can use to help you see how your Markdown file will look when uploaded to GitHub. A good list of markdown editors can be found at [Awesome Markdown Editors & (Pre)viewers](https://github.com/mundimark/awesome-markdown-editors).
 
 ## Best practices for hosting code on GitHub
 
@@ -123,7 +113,7 @@ These practices will help you improve your GitHub presence to help you attract m
 * Add a README file to your repositories welcoming new community members to the project and explaining why the project is useful and how to get started. Follow the guidelines in the [README checklist](https://github.com/ddbeck/readme-checklist) to create an excellent README file.
 * Add a CONTRIBUTING file to your repositories explaining to other developers and your community of users how to contribute to the project. At a high level, the file would explain what types of contributions are needed and how the process works.
 * Add the CODEOWNERS file to define individuals or teams responsible for code in a repository.
-* Add a CODE_OF_CONDUCT file that sets the ground rules for participants’ behavior and helps facilitate a friendly, welcoming environment. While not every project has a CODE_OF_CONDUCT file, its presence signals that this is a welcoming project to contribute to and defines standards for engaging with the project’s community. Projects should leverage the default [Code of Conduct][] unless an alternate Code of Conduct is approved prior.
+* Add a CODE_OF_CONDUCT file that sets the ground rules for participants’ behavior and helps facilitate a friendly, welcoming environment. While not every project has a CODE_OF_CONDUCT file, its presence signals that this is a welcoming project to contribute to and defines standards for engaging with the project’s community. Projects should leverage the default [Code of Conduct][] unless an alternate Code of Conduct is approved.
 * Provide documentation on the release methodology, cadence, criteria, etc.
 * Document your project governance and make it available on the project’s repo.
 * Add a SUPPORT file to let users and developers know about ways to get help with your project. You can either add how and where security issues are handled in this file, put it at the project's top-level readme, or refer to security documentation.
@@ -136,11 +126,11 @@ These practices will help you improve your GitHub presence to help you attract m
 
 ### Why don't project members have `admin` permission on repositories or organizations?
 
-As project communities and members look for the Academy Software Foundation to provide a vendor-neutral space for collaboration, the staff are here to ensure that the fair and transparent governance that the project has put in place is adhered to. This can add a bit of overhead, but the tradeoff of showcasing transparent and consistent processes generally is considered a benefit to projects, and this also lowers the burden for a project to manage this on its own.
+As project communities and members look for the {{ site.foundation_name }} to provide a vendor-neutral space for collaboration, the staff are here to ensure that the fair and transparent governance that the project has put in place is adhered to. This can add a bit of overhead, but the tradeoff of showcasing transparent and consistent processes generally is considered a benefit to projects, and this also lowers the burden for a project to manage on its own.
 
 If there are concerns about this, feel free to [submit a request][].
 
-[submit a request]: https://servicedesk.aswf.io
+[submit a request]: {{ site.helpdesk_url }} 
 [Code of Conduct]: /code_of_conduct
 [GitHub commit signoff policy]: https://docs.github.com/en/organizations/managing-organization-settings/managing-the-commit-signoff-policy-for-your-organization
 [GitHub DCO App]: https://github.com/apps/dco

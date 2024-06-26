@@ -1,0 +1,72 @@
+name: Indicate your project is participating in Dev Days
+description: | 
+  For hosted projects only, use this form to indicate that your project will be participating in Dev Days.
+title: "Dev Days 2024 Project Application - PROJECTNAME"
+labels: ["dev days/2024"]
+assignees: 
+  - yarille
+  - jmertic
+  - carolalynn
+  - lgritz
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ![](https://artwork.aswf.io/other/dev-days/2024/color/dev-days-2024-color.svg)
+
+        Thank you for your interest in being a project participating in Dev Days 2024! For hosted projects 
+        only, use this form to indicate that your project will be participating in Dev Days. More details 
+        on how project participation can be found [here](https://wiki.aswf.io/display/DEVDAYS/Project+Guidelines)
+
+        Please update `PROJECTNAME` in the title with your project name.
+  - type: input
+    attributes:
+      label: URL to your Dev Days 2024 landing page
+      description: |
+        This URL can be a webpage, wiki page, or file in your code repository that outlines specific guidance 
+        for participating in Dev Days. Guidance on creating this page can be found in the 
+        [Project Guidelines](https://wiki.aswf.io/display/DEVDAYS/Project+Guidelines#ProjectGuidelines-CreateaProjectSpecificLandingPage)
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: URL of issues for participants to work on
+      description: |
+        Projects should label issues with 'good first issue' and 'help wanted' and ensure 
+        they are unassigned and no more than one year old. To validate, go to 
+        [CLOTributor](https://clotributor.dev/search?foundation=aswf&good_first_issue=true).
+
+        Tips for creating good first issues are outlined in the 
+        [Project Guidelines](https://wiki.aswf.io/display/DEVDAYS/Project+Guidelines#ProjectGuidelines-TagissuesthatareforDevDaysparticipantstochoosefrom)
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Communication channel(s) for participants
+      description: |
+        What are the best communications channel(s) for Dev Days participants to use? This is
+        likely your primary Slack channel or mailing list, but you could also set a separate
+        communication channel if that would be preferred.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Project meeting(s) for Dev Days participants to join
+      description: |
+        Please include at least one scheduled meeting Dev Days participants for your project 
+        should attend. This could be a regular TSC meeting or a separately scheduled call.
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: URL to the project "Getting Started" and build instructions
+      description: |
+        Indicate the URL where your project has instructions for Dev Days participants
+        to set up their development environment and instructions for building the project.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Is there someone other than you who will be a contact for the project for Dev Days? 
+      description: |
+        We assume the person submitting will be the primary contact, but if there are others, list them here.

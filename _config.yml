@@ -2,6 +2,7 @@ title: Academy Software Foundation TAC
 description: Materials and processes for the Academy Software Foundation TAC
 logo: "https://artwork.aswf.io/other/aswf/logo/aqua/aswf-logo-aqua.svg"
 theme: just-the-docs
+repository: AcademySoftwareFoundation/tac
 
 exclude: [
   "README.md",
@@ -11,7 +12,8 @@ exclude: [
   "Gemfile.lock", 
   "package.json", 
   "package-lock.json",
-  "LICENSE"
+  "LICENSE",
+  "vendor"
 ]
 
 back_to_top: true
@@ -26,8 +28,17 @@ gh_edit_view_mode: "tree"
 landscape_url: 'https://landscape.aswf.io'
 calendar_url: 'https://calendar.aswf.io'
 slack_url: 'https://slack.aswf.io'
+directed_fund_charter_url: 'https://charter.aswf.io'
+tac_issues_url: 'https://github.com/AcademySoftwareFoundation/tac/issues/new'
+helpdesk_url: "https://servicedesk.aswf.io"
+tac_mailing_list_url: "https://lists.aswf.io/g/tac"
+website_url: "https://aswf.io"
+blog_url: "https://aswf.io/blog"
+
+# Foundation Settings
 vote_of_tac_committee_title: "Industry Representative"
 foundation_name: "Academy Software Foundation"
+clotributor_name: aswf
 
 aux_links:
   "Need help or have a question? Contact us here":
@@ -45,3 +56,8 @@ kramdown:
 
 plugins:
   - jekyll-redirect-from
+
+mermaid:
+  # Version of mermaid library
+  # Pick an available version from https://cdn.jsdelivr.net/npm/mermaid/
+  version: "10.9.0"
