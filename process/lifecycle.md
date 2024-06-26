@@ -54,8 +54,8 @@ The Sandbox Stage benefits are outlined below.
 
 * Neutral hosting of the project’s community and key assets (e.g., trademark, domain, etc.).
 * Access to the Academy Software Foundation collaboration infrastructure ( including GitHub, JIRA, Confluence, mailing lists, and Slack ).
-* A sponsor from the TAC to assist the project in reaching the Incubation Stage and to facilitate collaboration with other project communities.
-* Right to refer to the project as a Sandbox Project of the Academy Software Foundation and an opportunity to participate in events and other collaborative activities sponsored by the Academy Software Foundation.
+* A sponsor from the TAC will assist the project in reaching the Incubation Stage and facilitate collaboration with other project communities.
+* The right to refer to the project as a Sandbox Project of the Academy Software Foundation and the opportunity to participate in events and other collaborative activities sponsored by the Academy Software Foundation.
 * Subject to applicable trademark usage guidelines to display the Academy Software Foundation’s logo on the project’s code repository.
 
 Sandbox Stage projects will not have an announcement blog or press announcement because projects at the Sandbox stage are in an early stage and still gaining alignment among the stakeholders. We often see projects in the Sandbox Stage change scope and focus; the TAC aims to ensure that projects have the space to focus on building a solid governance and contributor base to grow towards the Incubation Stage.
@@ -82,25 +82,18 @@ To be accepted at the Incubation stage, a project must meet the Sandbox requirem
 
 *   Have completed and approved the Technical Charter and agree to transfer any relevant trademarks to The Linux Foundation or its affiliate, LF Projects, LLC, and to assist in filing for any relevant unregistered ones.
 *   Have defined its technical governance, including:
-    *   A LICENSE file in every code repository, with the license chosen an [OSI-approved license](https://opensource.org/licenses/).
     *   A README file welcoming new community members to the project and explaining why the project is useful and how to get started ( follow the guidelines at the [README checklist](https://github.com/ddbeck/readme-checklist) to create an excellent README file ).
-    *   A CONTRIBUTING file explaining to other developers and your community of users how to contribute to the project. The file should describe the types of contributions needed and how the process works.
-    *   A CODEOWNERS or COMMITTERS file to define individuals or teams that are responsible for code in a repository; document current project owners and current and emeritus committers. 
-    *   A CODE_OF_CONDUCT file that sets the ground rules for participants’ behavior associated and helps to facilitate a friendly, welcoming environment. By default, projects should leverage the Linux Foundation Code of Conduct unless an alternate Code of Conduct was previously approved.
+    *   A CODEOWNERS or COMMITTERS file to define individuals or teams responsible for code in a repository; document current project owners and current and emeritus committers. 
     *   A RELEASE file that documents the release methodology, cadence, criteria, etc.
-    *   A GOVERNANCE file that documents the project’s technical governance.
-    *   A SUPPORT file to let users and developers know about ways to get help with your project.
-*   Have achieved and maintained an OpenSSF Best Practices Badge at the [passing level](https://bestpractices.coreinfrastructure.org/en/criteria). 
+*   Have achieved and maintained an OpenSSF Best Practices Badge at the [Passing Level](https://bestpractices.coreinfrastructure.org/en/criteria). 
 *   Have had a successful license scan with any critical issues remedied.
 *   Have a defined project mission and scope
-*   An overview of the project’s architecture and features defined.
-*   A project roadmap defined, which should address the following questions.
-    *   What use cases are possible now?
-    *   What does the next year look like regarding additional features and use cases covered?
+*   An overview of the project’s architecture and features defined ( equivalent to the [documentation_architecture](https://www.bestpractices.dev/en/criteria?details=true&rationale=true#1.documentation_architecture) OpenSFF Best Practices Silver Level badge requirement. )
+*   A documented project roadmap ( equivalent to the [documentation_roadmap](https://www.bestpractices.dev/en/criteria?details=true&rationale=true#1.documentation_roadmap) OpenSFF Best Practices Silver Level badge requirement. )
 *   Community and contributor growth assessment
     *   The current number of contributors, committers, and different organizations contributing to the project. 
     *   Demonstrate a sustained flow of commits / merged contributions
-    *   A healthy number of end-users within the visual effects and motion picture industries that have adopted the project and that are identified within the project ( using an ADOPTERS file or showcased on the project’s website ).
+    *   A healthy number of end-users within the visual effects and motion picture industries have adopted the project and are identified by the project ( using an ADOPTERS file or showcased on the project’s website ).
     *   A credible plan for developing a thriving user community, particularly expanding the number of committers and contributors?
     *   Outline of the plan for the project to complete the requirements for the [Adopted Stage](#adopted-stage)
 * Obtain an affirmative vote of the TAC.
@@ -174,13 +167,13 @@ For the first Annual Review after the project reaches the Adopted Stage, it is e
 
 ## Archive Stage
 
-Projects like products have lifecycles, and often in open source, the relevance of a given project can diminish over time. Nonetheless, having a home for legacy and no longer maintained projects within the industry is crucial for long-term sustainability and asset management. Projects with operational, contributor, and/or adoption issues are not necessarily candidates for the Archive Stage; the TAC will work with these projects to improve any of these issues.
+Projects like products have lifecycles, and often, in open source, the relevance of a given project can diminish over time. Nonetheless, having a home for legacy and no longer maintained projects within the industry is crucial for long-term sustainability and asset management. Projects with operational, contributor, and/or adoption issues are not necessarily candidates for the Archive Stage; the TAC will work with these projects to improve any of these issues.
 
-Projects only can enter the Archive Stage by either:
+Projects can only enter the Archive Stage by either:
 
-*   On request from the project itself, requiring a 2/3 supermajority vote of all active project committers.
+*   On request from the project itself, a 2/3 supermajority vote of all active project committers is required.
 *   By a 2/3 supermajority vote of the TAC if deemed to be no longer maintained.
 
-In the Archive Stage, the project’s code repository administration is transferred to a designated individual by the TAC. No new features or bug fixes will be addressed unless it is deemed a security issue. Academy Software Foundation will hold all assets in perpetuity. Archive stage projects will be considered “Technical Projects" under the Academy Software Foundation charter and may receive support as determined by the Governing Board.
+In the Archive Stage, the TAC transfers the project’s code repository administration to a designated individual. No new features or bug fixes will be addressed unless they are deemed security issues. Academy Software Foundation will hold all assets in perpetuity. Archive stage projects will be considered “Technical Projects" under the Academy Software Foundation charter and may receive support as determined by the Governing Board.
 
 A project can move back to one of the Sandbox, Incubation, or Adopted Stages following the guidelines for a project being accepted at that level.
