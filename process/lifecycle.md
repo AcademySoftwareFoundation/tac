@@ -145,6 +145,9 @@ To be considered for the Adopted stage, a project must meet the Incubation stage
   * [The project MUST have a reproducible build. If no building occurs (e.g., scripting languages where the source code is used directly instead of being compiled), select "not applicable"](https://www.bestpractices.dev/en/criteria?details=true&rationale=true#1.build_repeatable)
   * [The project MUST implement secure design principles where applicable.  If the project is not producing software	select "not applicable".](https://www.bestpractices.dev/en/criteria?details=true&rationale=true#1.implement_secure_design)
   * [The project website, repository (if accessible via the web), and download site (if separate) MUST include key hardening headers with nonpermissive values.](https://www.bestpractices.dev/en/criteria?details=true&rationale=true#2.hardened_site)
+  * [The project (both project sites and project results) SHOULD follow accessibility best practices so that persons with disabilities can still participate in the project and use the project results where it is reasonable to do so.](https://www.bestpractices.dev/en/criteria?details=true&rationale=true#1.accessibility_best_practices)
+  * [The project MUST list external dependencies in a computer-processable way.](https://www.bestpractices.dev/en/criteria?details=true&rationale=true#1.external_dependencies)
+  * [The project results MUST check all inputs from potentially untrusted sources to ensure they are valid (an allowlist), and reject invalid inputs, if there are any restrictions on the data at all.](https://www.bestpractices.dev/en/criteria?details=true&rationale=true#1.input_validation)
 * Have a technical lead appointed for voting representation of the project to the TAC.
 * Be deemed by the TAC to add value to the mission of the Academy Software Foundation.
 * Obtain both a 2/3 supermajority vote of the TAC and an affirmative majority vote of the Governing Board
