@@ -68,7 +68,7 @@ Projects in the Sandbox Stage are expected to move or have made demonstrable pro
 
 At the project's [Annual Review](review_cycle), the TAC will vote to either:
 
-* Move the project to the Incubation Stage if it meets the requirement for that stage.
+* Move the project to the Incubation Stage if it meets the requirements for that stage.
 * Renew the project at the Sandbox Stage if it feels it will move to the Incubation Stage by the next Annual Review.
 * Move the project to the [Archive Stage](#archive-stage). In this case, the trademark and any other assets will be returned to the project maintainers or an organization they designate.
 
@@ -137,7 +137,17 @@ To be considered for the Adopted stage, a project must meet the Incubation stage
 * Demonstrate a substantial ongoing flow of commits and merged contributions authored by a healthy number of diverse contributors*.
 * Demonstrable roadmap progress.
 * A significant number of end-users within the visual effects and motion picture industries that have adopted the project and that are identified within the project ( using an ADOPTERS file or showcased on the project’s website ).
-* Have achieved and maintained an OpenSSF Best Practices Badge at the [gold level](https://bestpractices.coreinfrastructure.org/en/criteria/2).
+* Have completed all of the OpenSSF Best Practices Badge requirements at the [gold level](https://bestpractices.coreinfrastructure.org/en/criteria/2), except for the following criteria, which are temporarily not required:
+  * [The project MUST have performed a security review within the last 5 years. This review MUST consider the security requirements and security boundary](https://www.bestpractices.dev/en/criteria?details=true&rationale=true#2.security_review)
+  * [The project MUST provide an assurance case that justifies why its security requirements are met. The assurance case MUST include: a description of the threat model, clear identification of trust boundaries, an argument that secure design principles have been applied, and an argument that common implementation security weaknesses have been countered.](https://www.bestpractices.dev/en/criteria?details=true&rationale=true#1.assurance_case)
+  * [The project MUST have FLOSS automated test suite(s) that provide at least 90% statement coverage if there is at least one FLOSS tool that can measure this criterion in the selected language.](https://www.bestpractices.dev/en/criteria?details=true&rationale=true#2.test_statement_coverage90)
+  * [The project MUST have FLOSS automated test suite(s) that provide at least 80% branch coverage if there is at least one FLOSS tool that can measure this criterion in the selected language.](https://www.bestpractices.dev/en/criteria?details=true&rationale=true#2.test_branch_coverage80)
+  * [The project MUST have a reproducible build. If no building occurs (e.g., scripting languages where the source code is used directly instead of being compiled), select "not applicable"](https://www.bestpractices.dev/en/criteria?details=true&rationale=true#1.build_repeatable)
+  * [The project MUST implement secure design principles where applicable.  If the project is not producing software	select "not applicable".](https://www.bestpractices.dev/en/criteria?details=true&rationale=true#1.implement_secure_design)
+  * [The project website, repository (if accessible via the web), and download site (if separate) MUST include key hardening headers with nonpermissive values.](https://www.bestpractices.dev/en/criteria?details=true&rationale=true#2.hardened_site)
+  * [The project (both project sites and project results) SHOULD follow accessibility best practices so that persons with disabilities can still participate in the project and use the project results where it is reasonable to do so.](https://www.bestpractices.dev/en/criteria?details=true&rationale=true#1.accessibility_best_practices)
+  * [The project MUST list external dependencies in a computer-processable way.](https://www.bestpractices.dev/en/criteria?details=true&rationale=true#1.external_dependencies)
+  * [The project results MUST check all inputs from potentially untrusted sources to ensure they are valid (an allowlist), and reject invalid inputs, if there are any restrictions on the data at all.](https://www.bestpractices.dev/en/criteria?details=true&rationale=true#1.input_validation)
 * Have a technical lead appointed for voting representation of the project to the TAC.
 * Be deemed by the TAC to add value to the mission of the Academy Software Foundation.
 * Obtain both a 2/3 supermajority vote of the TAC and an affirmative majority vote of the Governing Board
@@ -159,6 +169,8 @@ Adopted Stage projects will have an Annual Review to assess if the project is st
 
 * Renew the project at the Adopted Stage if it continues to [meet those requirements](#requirements-2).
 * Move the project to the [Archive Stage](#archive-stage). In this case, the trademark and any other assets will be returned to the project maintainers or an organization they designate.
+
+For the first Annual Review after the project reaches the Adopted Stage, it is expected that the project has completed 100% of the OpenSSF Best Practices Badge requirements at the [gold level](https://bestpractices.coreinfrastructure.org/en/criteria/2) with the exception of the requirements listed above.
 
 ## Archive Stage
 
