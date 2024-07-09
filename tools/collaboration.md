@@ -60,6 +60,12 @@ Instructions for creating a meeting in PCC can be found [here][create meeting in
 - Generally, all hosted projects and working group meetings should have `Make Meeting Public` checked and `Restricted` unchecked, as those meetings are public by default. Occasionally, meetings related to security vulnerability review or other sensitive topics may be held; in those cases, `Make Meeting Public` should be unchecked and `Restricted` checked.
 - Associate a `Committee` with the meeting to ensure that those committee members are automatically added. Other non-committee members can join using the meeting link and request that a meeting invite be sent to them.
 
+### Changing meetings
+
+Instructions for changing meetings can be found [here][change meeting instructions]. Specific guidelines for hosted projects and working groups should be as follows.
+
+- Avoid changing meetings less than 24 hours before the meeting starts. If you need to do this, please get in touch with all participants to inform them about the cancellation.
+
 ### Cancelling meetings
 
 Instructions for canceling meetings can be found [here][cancel meeting instructions].
@@ -85,6 +91,7 @@ To help individuals not be inundated with calendar overload, try to follow these
 [access to public calendar link instructions]: https://docs.linuxfoundation.org/lfx/project-control-center/v2-latest-version/collaborations/meetings
 [individual dashboard meetings instructions]: https://docs.linuxfoundation.org/lfx/my-profile/meetings
 [create meeting instructions]: https://docs.linuxfoundation.org/lfx/project-control-center/v2-latest-version/collaborations/meetings#scheduling-a-meeting
+[change meeting instructions]: https://docs.linuxfoundation.org/lfx/project-control-center/v2-latest-version/collaborations/meetings#manage-meetings
 [pcc access request instructions]: https://jira.linuxfoundation.org/plugins/servlet/desk/portal/4/create/358
 [add individuals to committee instructions]: https://docs.linuxfoundation.org/lfx/project-control-center/v2-latest-version/collaborations/committees#adding-members-to-a-committee
 [remove individuals from committee instructions]: https://docs.linuxfoundation.org/lfx/project-control-center/v2-latest-version/collaborations/committees#deleting-a-member-from-a-committee
