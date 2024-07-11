@@ -44,7 +44,10 @@
             Lead(s): {{ project["Leads"] }}<br />
             {%- endif -%}
             {%- if project["Calendar"] and project["Calendar"] != 'none' -%}
-            Calendar: {{ project["Calendar"] }}<br />
+            Public Calendar: {{ project["Calendar"] }}<br />
+            {%- endif -%}
+            {%- if project["iCal"] and project["iCal"] != 'none' -%}
+            iCal: {{ project["iCal"] }}<br />
             {%- endif -%}
             {%- if project["Best Practices Badge ID"] and project["Best Practices Badge ID"] != 'none' and project["Best Practices Badge ID"] != 'False' -%}
             <a href="https://bestpractices.coreinfrastructure.org/projects/{{ project["Best Practices Badge ID"] }}"><img src="https://bestpractices.coreinfrastructure.org/projects/{{ project["Best Practices Badge ID"] }}/badge"></a>
