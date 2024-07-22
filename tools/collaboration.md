@@ -70,6 +70,12 @@ Instructions for changing meetings can be found [here][change meeting instructio
 
 Instructions for canceling meetings can be found [here][cancel meeting instructions].
 
+### Recording meetings
+
+You can set a meeting to always be recorded or choose to record a single meeting or part of a meeting. Instructions for meeting recording can be found [here][create meeting instructions].
+
+If the meeting is not set to be recorded, you can enable recording on the fly by [getting the host key][find host key] for the meeting and then use the [recording options in Zoom][zoom meeting recording instructions]
+
 ## Calendar
 
 Each hosted project and working group has a Public Calendar that can be directly pointed to or embedded in an existing web page. Instructions for getting the link for the hosted project or working group Public Calendar can be found [here][access to public calendar link instructions]. Note that the LF Staff sets up a subdomain forward if the project has a primary domain setup using the format `https://calendar.DOMAINNAME`.
@@ -96,3 +102,5 @@ To help individuals not be inundated with calendar overload, try to follow these
 [add individuals to committee instructions]: https://docs.linuxfoundation.org/lfx/project-control-center/v2-latest-version/collaborations/committees#adding-members-to-a-committee
 [remove individuals from committee instructions]: https://docs.linuxfoundation.org/lfx/project-control-center/v2-latest-version/collaborations/committees#deleting-a-member-from-a-committee
 [email meeting participants PCC]: https://docs.linuxfoundation.org/lfx/project-control-center/v2-latest-version/collaborations/meetings
+[zoom meeting recording instructions]: https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0059856
+[find host key]: https://docs.linuxfoundation.org/lfx/my-profile/meetings/find-your-host-key
