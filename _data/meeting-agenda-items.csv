@@ -1,7 +1,7 @@
 title,url,number,scheduled_date,status,meeting_label
-Zero Trust Working Group,https://github.com/AcademySoftwareFoundation/tac/issues/621,621,2024-09-04,Future Meeting Agenda Items,2-annual-review
+Zero Trust Working Group,https://github.com/AcademySoftwareFoundation/tac/issues/621,621,2024-09-04,Next Meeting Agenda Items,2-annual-review
+Open Shading Language,https://github.com/AcademySoftwareFoundation/tac/issues/437,437,2024-09-04,Next Meeting Agenda Items,2-annual-review
 DPEL,https://github.com/AcademySoftwareFoundation/tac/issues/472,472,2024-09-18,Future Meeting Agenda Items,2-annual-review
-Open Shading Language,https://github.com/AcademySoftwareFoundation/tac/issues/437,437,2024-09-04,Future Meeting Agenda Items,2-annual-review
 D&I Working Group,https://github.com/AcademySoftwareFoundation/tac/issues/473,473,2024-10-16,Future Meeting Agenda Items,2-annual-review
 OpenColorIO,https://github.com/AcademySoftwareFoundation/tac/issues/474,474,2024-11-05,Future Meeting Agenda Items,2-annual-review
 OpenTimelineIO,https://github.com/AcademySoftwareFoundation/tac/issues/477,477,2024-12-11,Future Meeting Agenda Items,2-annual-review
@@ -13,21 +13,21 @@ OpenCue,https://github.com/AcademySoftwareFoundation/tac/issues/495,495,2025-05-
 OpenVDB,https://github.com/AcademySoftwareFoundation/tac/issues/480,480,2025-01-08,Future Meeting Agenda Items,2-annual-review
 rawtoaces,https://github.com/AcademySoftwareFoundation/tac/issues/475,475,2025-01-22,Future Meeting Agenda Items,2-annual-review
 OpenLensIO,https://github.com/AcademySoftwareFoundation/tac/issues/603,603,,On Hold,1-new-project-wg
+Implications of xz Backdoor,https://github.com/AcademySoftwareFoundation/tac/issues/652,652,,On Hold,4-tac-meeting-short
+Project Proposal - OpenQMC,https://github.com/AcademySoftwareFoundation/tac/issues/434,434,,On Hold,4-tac-meeting-short
+Establish a slack channel for SPK,https://github.com/AcademySoftwareFoundation/tac/issues/780,780,,On Hold,4-tac-meeting-short
+Engineering Contribution Assessment,https://github.com/AcademySoftwareFoundation/tac/issues/685,685,,On Hold,4-tac-meeting-short
+Discuss Atlassian Cloud Migration,https://github.com/AcademySoftwareFoundation/tac/issues/755,755,,On Hold,4-tac-meeting-short
 COCOMO Project Anaylsis,https://github.com/AcademySoftwareFoundation/tac/issues/435,435,,On Hold,3-tac-meeting-long
 Security Threat model analysis for ASWF projects,https://github.com/AcademySoftwareFoundation/tac/issues/615,615,,On Hold,4-tac-meeting-short
 Fixing LFX Security for C/C++ Projects,https://github.com/AcademySoftwareFoundation/tac/issues/592,592,,On Hold,4-tac-meeting-short
-OpenAssetIO,https://github.com/AcademySoftwareFoundation/tac/issues/516,516,2024-08-07,On Hold,2-annual-review
 OpenFX,https://github.com/AcademySoftwareFoundation/tac/issues/514,514,2025-06-11,Future Meeting Agenda Items,2-annual-review
 CI Working Group,https://github.com/AcademySoftwareFoundation/tac/issues/511,511,2025-05-28,Future Meeting Agenda Items,2-annual-review
 OpenImageIO,https://github.com/AcademySoftwareFoundation/tac/issues/509,509,2025-04-30,Future Meeting Agenda Items,2-annual-review
 USD Working Group,https://github.com/AcademySoftwareFoundation/tac/issues/518,518,2025-04-30,Future Meeting Agenda Items,2-annual-review
 ASWF Language Interop WG,https://github.com/AcademySoftwareFoundation/tac/issues/704,704,2025-06-25,Future Meeting Agenda Items,1-new-project-wg
+OpenAssetIO,https://github.com/AcademySoftwareFoundation/tac/issues/516,516,2024-08-21,Upcoming Meeting Agenda Items,2-annual-review
+Open Review Initiative,https://github.com/AcademySoftwareFoundation/tac/issues/436,436,2024-08-21,Upcoming Meeting Agenda Items,2-annual-review
 Dev Days 2024,https://github.com/AcademySoftwareFoundation/tac/issues/662,662,,Upcoming Meeting Agenda Items,4-tac-meeting-short
-Engineering Contribution Assessment,https://github.com/AcademySoftwareFoundation/tac/issues/685,685,,Upcoming Meeting Agenda Items,4-tac-meeting-short
-Project Proposal - OpenQMC,https://github.com/AcademySoftwareFoundation/tac/issues/434,434,,Upcoming Meeting Agenda Items,4-tac-meeting-short
 Schedule office hours for projects to complete OpenSSF Best Practices badge requirements,https://github.com/AcademySoftwareFoundation/tac/issues/760,760,,Upcoming Meeting Agenda Items,4-tac-meeting-short
-Discuss Atlassian Cloud Migration,https://github.com/AcademySoftwareFoundation/tac/issues/755,755,,Next Meeting Agenda Items,4-tac-meeting-short
-Implications of xz Backdoor,https://github.com/AcademySoftwareFoundation/tac/issues/652,652,,Next Meeting Agenda Items,4-tac-meeting-short
-Open Review Initiative,https://github.com/AcademySoftwareFoundation/tac/issues/436,436,2024-08-21,Next Meeting Agenda Items,2-annual-review
-Establish a slack channel for SPK,https://github.com/AcademySoftwareFoundation/tac/issues/780,780,,Upcoming Meeting Agenda Items,4-tac-meeting-short
 Change to public calendar for Academy Software Foundation,https://github.com/AcademySoftwareFoundation/tac/issues/782,782,,Upcoming Meeting Agenda Items,4-tac-meeting-short
