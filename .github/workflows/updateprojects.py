@@ -23,12 +23,17 @@ with urllib.request.urlopen(landscapeHostedProjects) as hostedProjectsResponse:
         for project in projectStage['items']:
             with urllib.request.urlopen(landscapeSingleItem.format(project['id'])) as singleItemResponse:
                 projectData = json.load(singleItemResponse)
+                categories = []
+                categories.append(projectData['path'])
+                if 'second_path' in projectData:
+                    categories = categories + projectData['second_path']
                 print("Processing {}...".format(projectData['name']))
                 csvRows.append({
                         'Name': projectData['name'],
                         'Level': projectData['project'],
                         'Logo URL': project['logo'],
                         'Slug': projectData['id'],
+                        'Categories': ','.join(categories),
                         'Website': projectData['homepage_url'],
                         'Leads': projectData['extra']['leads'] if 'extra' in projectData and 'leads' in projectData['extra'] else None,
                         'TAC Representative': projectData['extra']['TAC_representative'] if 'extra' in projectData and 'TAC_representative' in projectData['extra'] else None,
