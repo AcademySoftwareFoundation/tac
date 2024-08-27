@@ -13,7 +13,7 @@ title: "{{ "now" | date: "%Y-%m-%d" }}"
 
 # Academy Software Foundation - Technical Advisory Council (TAC) Meeting - {{ "now" | date: "%B %e, %Y" }}
 
-Join the meeting at [https://zoom-lfx.platform.linuxfoundation.org/meeting/97880950229?password=81d2940e-c055-43b9-9b5a-6cd7d7090feb](https://zoom-lfx.platform.linuxfoundation.org/meeting/97880950229?password=81d2940e-c055-43b9-9b5a-6cd7d7090feb)
+Join the meeting at [{{ site.tac_lfx_meeting_url }}]({{ site.tac_lfx_meeting_url }})
 
 ## Voting Representative Attendees
 
@@ -31,7 +31,7 @@ Join the meeting at [https://zoom-lfx.platform.linuxfoundation.org/meeting/97880
 {% if project["TAC Representative"] contains member["Full Name"] %}
 - [ ] {{ member["Full Name"] }} - {{ project["Name"] }} Representative
 {%- break -%}
-{% elsif project["Leads"] contains member["Full Name"] %}
+{% elsif project["Chair"] contains member["Full Name"] %}
 - [ ] {{ member["Full Name"] }} - {{ project["Name"] }} Representative
 {%- break -%}
 {%- endif -%}
@@ -55,7 +55,7 @@ Join the meeting at [https://zoom-lfx.platform.linuxfoundation.org/meeting/97880
 {% if project["TAC Representative"] contains member["Full Name"] %}
 - [ ] {{ member["Full Name"] }} - {{ project["Name"] }} Representative
 {%- break -%}
-{% elsif project["Leads"] contains member["Full Name"] %}
+{% elsif project["Chair"] contains member["Full Name"] %}
 - [ ] {{ member["Full Name"] }} - {{ project["Name"] }} Representative
 {%- break -%}
 {%- endif -%}

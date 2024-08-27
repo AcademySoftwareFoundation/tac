@@ -27,7 +27,7 @@
         {%- for project in site.data.projects -%}
         {%- if project["TAC Representative"] == member["Full Name"] -%}
         {{ project["Name"] }} Representative
-        {%- elsif project["Leads"] == member["Full Name"] -%}
+        {%- elsif project["Chair"] == member["Full Name"] -%}
         {{ project["Name"] }} Representative
         {%- endif -%}
         {%- endfor -%}
