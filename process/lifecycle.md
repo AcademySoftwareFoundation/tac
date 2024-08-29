@@ -42,6 +42,8 @@ Projects submitted to the Academy Software Foundation at the Sandbox Stage are i
 
 To be accepted at the Sandbox stage, a project must:
 
+* Have completed and approved the Technical Charter and agree to transfer any relevant trademarks to The Linux Foundation or its affiliate, LF Projects, LLC, and to assist in filing for any relevant unregistered ones.
+* Have had a successful license scan with any critical issues remedied.
 * Submit a completed [Project Contribution Proposal Template](proposal_template.md) to the TAC.
 * Provide such additional information as the TAC may reasonably request.
 * Present the project’s proposal to the TAC. Project teams should be prepared to present a detailed (20-30 minutes in length) overview of the project and speak to the information in the contribution proposal.
@@ -80,13 +82,11 @@ A project at the Incubation Stage has begun to form a community and develop its 
 
 To be accepted at the Incubation stage, a project must meet the Sandbox requirements plus:
 
-*   Have completed and approved the Technical Charter and agree to transfer any relevant trademarks to The Linux Foundation or its affiliate, LF Projects, LLC, and to assist in filing for any relevant unregistered ones.
 *   Have defined its technical governance, including:
     *   A README file welcoming new community members to the project and explaining why the project is useful and how to get started ( follow the guidelines at the [README checklist](https://github.com/ddbeck/readme-checklist) to create an excellent README file ).
     *   A CODEOWNERS or COMMITTERS file to define individuals or teams responsible for code in a repository; document current project owners and current and emeritus committers. 
     *   A RELEASE file that documents the release methodology, cadence, criteria, etc.
 *   Have achieved and maintained an OpenSSF Best Practices Badge at the [Passing Level](https://bestpractices.coreinfrastructure.org/en/criteria). 
-*   Have had a successful license scan with any critical issues remedied.
 *   Have a defined project mission and scope
 *   An overview of the project’s architecture and features defined ( equivalent to the [documentation_architecture](https://www.bestpractices.dev/en/criteria?details=true&rationale=true#1.documentation_architecture) OpenSFF Best Practices Silver Level badge requirement. )
 *   A documented project roadmap ( equivalent to the [documentation_roadmap](https://www.bestpractices.dev/en/criteria?details=true&rationale=true#1.documentation_roadmap) OpenSFF Best Practices Silver Level badge requirement. )
