@@ -1,6 +1,7 @@
 ---
 parent: Meetings
 title: "Meeting Template"
+layout: minimal
 nav_exclude: true
 ---
 
@@ -11,13 +12,15 @@ parent: Meetings
 title: "{{ "now" | date: "%Y-%m-%d" }}"
 ---
 
-# Academy Software Foundation - Technical Advisory Council (TAC) Meeting - {{ "now" | date: "%B %e, %Y" }}
+# {{ site.foundation_name }} Technical Advisory Council (TAC) Meeting - {{ "now" | date: "%B %e, %Y" }}
 
+{%- if site.tac_lfx_meeting_url -%}
 Join the meeting at [{{ site.tac_lfx_meeting_url }}]({{ site.tac_lfx_meeting_url }})
+{%- endif -%}
 
 ## Voting Representative Attendees
 
-### Premier Member Representatives
+### {{ site.membership_top_tier }} Member Representatives
 {% for member in site.data.tacmembers -%}
 {% if member["Appointed By"] == "Membership Entitlement" %}
 - [ ] {{ member["Full Name"] }} - {{ member["Account Name: Account Name"] }}
@@ -39,12 +42,14 @@ Join the meeting at [{{ site.tac_lfx_meeting_url }}]({{ site.tac_lfx_meeting_url
 {%- endif -%}
 {% endfor %}
 
-### Industry Representatives
+{%- if site.vote_of_tac_committee_title -%}
+### {{ site.vote_of_tac_committee_title }}
 {% for member in site.data.tacmembers -%}
 {% if member["Appointed By"] == "Vote of TAC Committee" %}
 - [ ] {{ member["Full Name"] }} - {{ member["Account Name: Account Name"] }}
 {%- endif -%}
 {% endfor %}
+{%- endif -%}
 
 ## Non-Voting Attendees
 
@@ -112,6 +117,6 @@ the Linux Foundation.
 {{ agenda }}
 </pre>
 
-<a href="https://github.com/AcademySoftwareFoundation/tac/new/main/meetings?filename={{ "now" | date: "%Y-%m-%d" }}.md&value={{ agenda | url_encode }}">Create Pull Request</a> | 
+<a href="{{ site.gh_edit_repository }}/new/main/meetings?filename={{ "now" | date: "%Y-%m-%d" }}.md&value={{ agenda | url_encode }}">Create Pull Request</a> | 
 
 

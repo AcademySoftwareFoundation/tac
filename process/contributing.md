@@ -2,8 +2,7 @@
 parent: Processes
 has_children: true
 ---
-
-# Contribution Guidelines
+# Contribution Guidelines for hosted projects
 
 * TOC
 {:toc}
