@@ -96,9 +96,9 @@ The TSC Chairperson should share an agenda at least 24 hours before the meeting 
 
 ## FAQs about TSCs
 
-### Q: Is a TSC member required to have their employer be a member of the Academy Software Foundation?
+### Q: Is a TSC member required to have their employer be a member of the {{ site.foundation_name }}?
 
-A: No - All technical community work, such as projects and working groups, is open to anyone to participate and not bound by membership in the Academy Software Foundation. 
+A: No - All technical community work, such as projects and working groups, is open to anyone to participate and not bound by membership in the {{ site.foundation_name }}. 
 
 ### Q: Does a person lose their membership in a TSC if they leave or change employers?
 

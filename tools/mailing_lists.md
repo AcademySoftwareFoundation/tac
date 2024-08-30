@@ -51,4 +51,4 @@ Being a moderator is as much a privilege as it is a duty. As part of volunteerin
 - Contact the list moderators if there are concerns about the [Code of Conduct][].
 
 [Code of Conduct]: /code_of_conduct
-[TAC Mailing List]: {{ site.tac_mailinglist_url }}
+[TAC Mailing List]: {{ site.tac_mailing_list_url }}

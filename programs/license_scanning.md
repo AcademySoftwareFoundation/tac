@@ -9,8 +9,6 @@ parent: Programs
 {:toc}
 ## Support plan summary
 
-Support to be provided by: Jeff Shapiro &lt;<jshapiro@linuxfoundation.org>&gt;
-
 For the projects described below, the following actions will be
 performed:
 
@@ -21,9 +19,9 @@ performed:
     contained in the project codebases
 
 3.  Publish SPDX documents with the license conclusions and copyright
-    statements at <https://github.com/lfscanning/spdx-aswf>, for broader community use in their own compliance
+    statements at <{{ site.lfscanning_repo_url }}>, for broader community use in their own compliance
     processes
-    
+
 4.  Produce summary reports for project leads / maintainers, with
     limited public visibility (or optionally public at the project’s
     discretion) with the following:
@@ -117,16 +115,6 @@ continued development of the scanning workflow automation.
     of scans, for those that are dependent of CI/CD processes that are
     managed by LF IT (none presently anticipated for current projects /
     scan types)
-
-## Covered projects and schedule of scans
-
-### January, April, July, October
-
--   All Projects
-
-Anticipate up to approximately 3 new projects to come in during 2021.
-Will perform pre-intake scans and allocate to cycles based on project
-sizing.
 
 ## Exhibits
 
