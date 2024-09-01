@@ -38,12 +38,16 @@ website_url: "https://aswf.io"
 blog_url: "https://aswf.io/blog"
 tac_lfx_meeting_url: "https://zoom-lfx.platform.linuxfoundation.org/meeting/97880950229?password=81d2940e-c055-43b9-9b5a-6cd7d7090feb" 
 lfscanning_repo_url: https://github.com/lfscanning/spdx-aswf
+tac_member_list_url: https://www.aswf.io/about/technical-advisory-council
+lf_staff_list_url: https://www.aswf.io/about/staff/
+mission_statement_url: https://www.aswf.io/about/
 
 # Foundation Settings
 foundation_name: "Academy Software Foundation"
 clotributor_name: aswf
 membership_top_tier: 'Premier'
 vote_of_tac_committee_title: "Industry Representatives"
+archived_lifecycle_stage: "Archived"
 
 aux_links:
   "Need help or have a question? Contact us here":
