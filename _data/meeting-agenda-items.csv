@@ -1,6 +1,6 @@
 title,url,number,scheduled_date,status,last_review_date,meeting_label
 D&I Working Group,https://github.com/AcademySoftwareFoundation/tac/issues/473,473,2024-10-16,Future Meeting Agenda Items,,2-annual-review
-OpenColorIO,https://github.com/AcademySoftwareFoundation/tac/issues/474,474,2024-11-05,Future Meeting Agenda Items,2023-11-01,2-annual-review
+OpenColorIO,https://github.com/AcademySoftwareFoundation/tac/issues/474,474,2024-11-13,Future Meeting Agenda Items,2023-11-01,2-annual-review
 OpenTimelineIO,https://github.com/AcademySoftwareFoundation/tac/issues/477,477,2024-12-11,Future Meeting Agenda Items,2023-12-13,2-annual-review
 OpenEXR,https://github.com/AcademySoftwareFoundation/tac/issues/483,483,2025-04-16,Future Meeting Agenda Items,2024-04-17,2-annual-review
 ASWF Language Interop Project,https://github.com/AcademySoftwareFoundation/tac/issues/489,489,2025-03-19,Future Meeting Agenda Items,2024-03-20,2-annual-review
@@ -10,7 +10,7 @@ OpenCue,https://github.com/AcademySoftwareFoundation/tac/issues/495,495,2025-05-
 OpenVDB,https://github.com/AcademySoftwareFoundation/tac/issues/480,480,2025-01-08,Future Meeting Agenda Items,2024-01-10,2-annual-review
 rawtoaces,https://github.com/AcademySoftwareFoundation/tac/issues/475,475,2025-01-22,Future Meeting Agenda Items,2024-01-10,2-annual-review
 OpenLensIO,https://github.com/AcademySoftwareFoundation/tac/issues/603,603,,On Hold,,1-new-project-wg
-Open Shading Language,https://github.com/AcademySoftwareFoundation/tac/issues/437,437,2024-10-02,On Hold,,2-annual-review
+Open Shading Language,https://github.com/AcademySoftwareFoundation/tac/issues/437,437,2024-10-02,On Hold,2023-09-06,2-annual-review
 Implications of xz Backdoor,https://github.com/AcademySoftwareFoundation/tac/issues/652,652,,On Hold,,4-tac-meeting-short
 Establish a slack channel for SPK,https://github.com/AcademySoftwareFoundation/tac/issues/780,780,,On Hold,,4-tac-meeting-short
 Engineering Contribution Assessment,https://github.com/AcademySoftwareFoundation/tac/issues/685,685,,On Hold,,4-tac-meeting-short
