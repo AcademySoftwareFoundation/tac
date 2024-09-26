@@ -9,10 +9,13 @@ parent: Processes
 
 While the {{ site.foundation_name }} aims to drive decision-making by consensus; from time to time, voting is needed to ratify key actions or resolve decisions where there is contention. This document outlines when voting is required and the process for doing so.
 
+{: .note }
 It is the role of the TAC Chairperson to determine consensus based on their good faith consideration of a number of factors, including the dominant view of the TAC Voting Represenatatives and nature of support and objections. The TAC Chairperson will document evidence of consensus in accordance with these requirements. 
 
+{: .note }
 This voting process applies to the TAC specifically, but TSCs should look at this for inspiration for thier own processes. The document is also meant to add clarity to any stipulations listed in the [Academy Software Foundation Directed Fund Charter][ASWF Charter]. 
 
+{: .note }
 The LF Staff will assist as needed to help resolve any voting concerns and questions, and faciliate voting as needed.
 
 ## When voting is required

@@ -32,6 +32,9 @@ calendar_url: 'https://zoom-lfx.platform.linuxfoundation.org/meetings/aswf'
 slack_url: 'https://slack.aswf.io'
 directed_fund_charter_url: 'https://charter.aswf.io'
 tac_issues_url: 'https://github.com/AcademySoftwareFoundation/tac/issues/new'
+mailing_list_url: "https://lists.aswf.io"
+wiki_url: "https://wiki.aswf.io"
+lfx_insights_url: "https://insights.lfx.linuxfoundation.org/foundation/aswf"
 helpdesk_url: "https://servicedesk.aswf.io"
 tac_mailing_list_url: "https://lists.aswf.io/g/tac"
 website_url: "https://aswf.io"
@@ -73,3 +76,8 @@ mermaid:
   # Version of mermaid library
   # Pick an available version from https://cdn.jsdelivr.net/npm/mermaid/
   version: "10.9.0"
+
+callouts:
+  note:
+    title: Note
+    color: blue
