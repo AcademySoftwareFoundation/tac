@@ -13,7 +13,7 @@ While the {{ site.foundation_name }} aims to drive decision-making by consensus;
 The TAC Chairperson's role is to determine consensus based on their good faith consideration of several factors, including the dominant view of the TAC Voting Representatives and the nature of support and objections. The Chairperson will document evidence of consensus in accordance with these requirements. 
 
 {: .note }
-This voting process applies specifically to the TAC, but TSCs should look at it for inspiration for their own processes. The document is also meant to clarify any stipulations listed in the [Academy Software Foundation Directed Fund Charter][ASWF Charter]. 
+This voting process applies specifically to the TAC, but TSCs should use it as inspiration for their own processes. The document is also meant to clarify any stipulations listed in the [{{ site.foundation_name }} Directed Fund Charter]({{ site.directed_fund_charter_url }}). 
 
 {: .note }
 The LF Staff will assist as needed to resolve any voting concerns and questions and facilitate voting.
@@ -50,5 +50,3 @@ First, ask for those who support the vote. Individuals can vote by saying "Aye" 
 If a quorum is not achieved during a regular TAC meeting, or if after discussions outside of a regular TAC meeting, the TAC Chairperson determines it is appropriate to conduct a vote, the vote will be conducted via the [LFX PCC Voting Tool](https://docs.linuxfoundation.org/lfx/project-control-center/v2-latest-version/collaborations/voting). Votes can be case for, against, or as abstentions.
 
 If opposing votes are present, the TAC Chairperson may determine whether suspending the vote is appropriate and continue the discussion in a regular TAC meeting.
-
-[ASWF Charter]: https://charter.aswf.io
