@@ -1,9 +1,9 @@
 ---
 parent: Processes
+nav_order: 10
 has_children: true
 ---
-
-# Contribution Guidelines
+# Contribution Guidelines for hosted projects
 
 * TOC
 {:toc}

@@ -13,19 +13,19 @@ The Academy Software Foundation hosts open-source projects and open-collaboratio
 
 This document outlines why you should host your project at the Academy Software Foundation, what makes a good Academy Software Foundation hosted project, and the steps for bringing a project to the Academy Software Foundation.
 
-## Why host your project at the Academy Software Foundation?
+## Why host your project at the {{ site.foundation_name }}?
 
-A basic premise behind the Linux Foundation, the Academy Software Foundation, and open source in general, is that most interactions are positive-sum. No fixed amount of investment, mindshare, or development contributions are allocated to specific projects. Just as open source development is based on the idea that we are collectively smarter than one any of us, open source foundations work to make the entire community better off. **Equally important, a neutral home for a project and community fosters this positive-sum thinking. It drives growth and diversity, core elements of a successful open-source project.**
+A basic premise behind the Linux Foundation, the {{ site.foundation_name }}, and open source in general, is that most interactions are positive-sum. No fixed amount of investment, mindshare, or development contributions are allocated to specific projects. Just as open source development is based on the idea that we are collectively smarter than one any of us, open source foundations work to make the entire community better off. **Equally important, a neutral home for a project and community fosters this positive-sum thinking. It drives growth and diversity, core elements of a successful open-source project.**
 
-Organizations and projects come to the Academy Software Foundation to…
+Organizations and projects come to the {{ site.foundation_name }} to…
 
 ### Have a vendor-neutral home for the project and assets.
 
-Groundbreaking and game-changing projects are a collective effort across organizations. Hosting at the Academy Software Foundation ensures a project has a reputable legal home and governance to attract contributors and adoption.
+Groundbreaking and game-changing projects are a collective effort across organizations. Hosting at {{ site.foundation_name }} ensures a project has a reputable legal home and governance to attract contributors and adoption.
 
 - All projects are set up as 501c6 Series LLC legal entities, giving the project a non-profit status and autonomy to set their policies and processes with expert guidance.
-- To ensure neutral management, the project has access to Academy Software Foundation-owned infrastructures such as mailing lists, websites, and domain names.
-- [Academy Software Foundation TAC project lifecycle](https://tac.aswf.io/process/lifecycle.html) guides the project to establish a sustainable project.
+- To ensure neutral management, the project has access to {{ site.foundation_name }}-owned infrastructures such as mailing lists, websites, and domain names.
+- [{{ site.foundation_name }} project lifecycle](/process/lifecycle) guides the project to establish a sustainable project.
 
 ### Bring in contributors from different organizations ( including your competitors )
 
@@ -33,7 +33,7 @@ Shared R&D with a broad ecosystem means bringing more contributors and maintaine
 
 - Our [staff](https://www.aswf.io/about/staff/) works with the project to establish open, neutral governance that makes roles clear and paths to leadership available.
 - All projects have a Code of Conduct to ensure collaboration in a safe and welcoming environment.
-- Outreach done through the Academy Software Foundation is done from a neutral perspective, separating product promotion and vendor favoritism and promoting the community's work.
+- Outreach done through the {{ site.foundation_name }} is done from a neutral perspective, separating product promotion and vendor favoritism and promoting the community's work.
 
 ### Drive broad industry awareness with the press and analysts.
 
@@ -42,14 +42,14 @@ Your project will get broad motion picture, visual effects, tech, and open sourc
 - Your project will be featured on both the [Academy Software Foundation](//aswf.io) and the [Linux Foundation](https://www.linuxfoundation.org/projects) websites.
 - Always available guest blog post(s) on the [Academy Software Foundation blog](https://www.aswf.io/blog/) on project updates.
 - Post one technical article about an open-source project you care about to [Linux.com](https://www.linux.com/), which has over 1 million unique visitors per month.
-- As appropriate, support your announcements with social outreach and quotes from Linux Foundation and Academy Software Foundation leadership.
+- As appropriate, support your announcements with social outreach and quotes from Linux Foundation and {{ site.foundation_name }} leadership.
 - Access to opportunities for contributed articles, videos, podcasts, and events
 
 ### Build a downstream ecosystem for open and commercial solutions.
 
-Sustainable projects are those the industry adopts and drive economic value with. Doing this at Academy Software Foundation takes advantage of the expertise in building these programs.
+Sustainable projects are those the industry adopts and drive economic value with. Doing this at {{ site.foundation_name }} takes advantage of the expertise in building these programs.
 
-- Conformance programs with community requirements that the Academy Software Foundation Projects manage.
+- Conformance programs with community requirements that the {{ site.foundation_name }} Projects manage.
 - Training and certification programs through [LF Training](https://training.linuxfoundation.org/).
 - Badging using [Credly](https://info.credly.com/) to recognize individuals.
 - Events such as Open Source Days and Open Source Forum for the community to connect and collaborate.
@@ -69,11 +69,11 @@ Sustainable projects are those the industry adopts and drive economic value with
 
 ### Leverage the collective experience and expertise of the Linux Foundation.
 
-Academy Software Foundation staff collectively have decades of experience driving open-source projects and ecosystems in various vertical and horizontal industries, bringing the best practices to your project.
+{{ site.foundation_name }} staff collectively have decades of experience driving open-source projects and ecosystems in various vertical and horizontal industries, bringing the best practices to your project.
 
 - Press relations and analyst relations teams to increase awareness of and excitement about your project and receive regular reports on press mentions and comparisons to similar projects.
-- Academy Software Foundation can leverage the expertise of its parent organization, The Linux Foundation, which hosts other successful projects, including the Linux kernel, Let’s Encrypt, and Node.js. 
-- You will have access to full-time Academy Software Foundation staff eager to assist your project in myriad ways and help make it successful.
+- {{ site.foundation_name }} can leverage the expertise of its parent organization, The Linux Foundation, which hosts other successful projects, including the Linux kernel, Let’s Encrypt, and Node.js. 
+- You will have access to full-time {{ site.foundation_name }} staff eager to assist your project in myriad ways and help make it successful.
 
 ## What makes a good project to host at the Academy Software Foundation?
 
@@ -102,7 +102,7 @@ The “LF Way”, which is aligned with how the Academy Software Foundation oper
 The project must:
 
 - Use an approved [OSI open-source license](https://opensource.org/licenses).
-- Be supported by a [TAC member](https://www.aswf.io/about/technical-advisory-council/).
+- Be supported by a [TAC member]({{ site.tac_member_list.url }}).
 - Allow neutral ownership of project assets such as a trademark, domain, or GitHub account (the community can define and manage rules).
 - Technical "do-ocracy" and separation of business governance from technical governance (we're flexible on the model) are clearly documented (which we can help you establish).
 - Allow anyone to participate in the technical community, whether or not a financial member or supporter of the project.
@@ -120,9 +120,15 @@ Often projects are new open-source projects, but that isn’t a requirement - ex
 - Outline infrastructure, marketing any other requirements needed for the project. 
 - Complete the [project proposal](/process/proposal_template) and submit it to the TAC for consideration
 
-The Academy Software Foundation staff is happy to engage and advise during this process - let us know how we can help!
+The {{ site.foundation_name }} staff is happy to engage and advise during this process - let us know how we can help!
 
 ### What happens next?
+
+Once the TAC Chairperson reviews the proposal, the LF Staff will follow up with the prospective project to begin the pre-TAC proposal processes listed below.
+
+- Complete and approve the Technical Charter and agree to transfer any relevant trademarks to The Linux Foundation or its affiliate, LF Projects, LLC, and to assist in filing for any relevant unregistered ones.
+- Have a successful license scan with any critical issues remedied.
+- Provide administrator access to all project tools, such as it’s GitHub organization, collaboration and communicaton tools, and build/testing infrastructure.
 
 Generally, the TAC will schedule project proposals at the following [TAC Meeting](/meetings), provided there is at least one week between the submitted project proposal and the scheduled TAC meeting.
 
@@ -131,18 +137,22 @@ Proposed projects will have a 30-minute presentation timeslot at an upcoming TAC
 *   Overview of the project and its purpose
     *  If a project is new, it’s often helpful to share the vision for the project, the anticipated structure, and benefits.
     *  If the project is an existing open-source project proposed to join ASWF, it is often helpful to schedule a project walkthrough for the community to understand better the project, including the architecture, structure, and how to get started using the project. This often helps review progress more efficiently.
-*   How does this submission support the [Academy Software Foundation Mission and Vision statements](https://www.aswf.io/about/)?
+*   How does this submission support the [{{ site.foundation_name }} Mission and Vision statements]( {{ site.mission_statement_url }})?
 *   Does the project have any users? 
     *   How do you plan to attract users if accepted?
 *   How many committers will you have upfront, and from which companies? 
     *   How do you plan to attract committers and contributors if accepted?
 *   Demo and/or walk-through of the project
 
-Key things to keep in mind for project proposals to the TAC:
+### Key things to keep in mind for project proposals to the TAC
 
 - The TAC may consider the project for approval at the proposed stage during the meeting it is presented at, provided a quorum of TAC voting members are present. If there is no quorum of TAC voting members present or if the TAC is not ready to consider the project for approval during the meeting, the TAC will either:
   - Conduct a vote to approve the project via email, or
   - Continue the discussion via email or Slack, or during a future TAC meeting.
 - Projects accepted at the [Incubation Stage](lifecycle#incubation-stage) are generally mature, stable projects that have existed for many years. Projects that are newly forming or incomplete should propose to join at the [Sandbox Stage](/lifecycle#sandbox-stage).
-- It's rare to see a project accepted at the [Adopted Stage](lifecycle#adopted-stage), as even incoming projects that have existed for years require a fair amount of governance and operations changes as they come into the Academy Software Foundation; those projects tend to come in at the Incubation level and move to Adopted within a year.
+- It's rare to see a project accepted at the [Adopted Stage], as even incoming projects that have existed for years require a fair amount of governance and operations changes as they come into the {{ site.foundation_name }}; those projects tend to come in at the Incubation level and move to Adopted within a year.
 - The TAC may ask for the project to go back and address specific questions and/or concerns and then re-propose the project. Any project that the TAC has not approved, or any project that the TAC does not renew, can only re-propose the project with the approval of the TAC.
+
+[Sandbox stage]: /process/lifecycle#sandbox-stage
+[Incubation stage]: /process/lifecycle#incubation-stage
+[Adopted stage]: /process/lifecycle#adopted-stage

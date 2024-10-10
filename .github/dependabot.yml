@@ -3,9 +3,14 @@ updates:
   - package-ecosystem: github-actions
     directory: /
     schedule:
-      interval: daily
-
+      interval: weekly
+    groups:
+      all:
+        dependency-type: "production"
   - package-ecosystem: bundler
     directory: /
     schedule:
-      interval: daily
+      interval: weekly
+    groups:
+      all:
+        dependency-type: "production"

@@ -12,6 +12,7 @@ exclude: [
   "Gemfile.lock", 
   "package.json", 
   "package-lock.json",
+  "CODE_OF_CONDUCT.md",
   "LICENSE",
   "vendor"
 ]
@@ -25,21 +26,31 @@ gh_edit_repository: "https://github.com/AcademySoftwareFoundation/tac" # the git
 gh_edit_branch: "main" # the branch that your docs is served from
 gh_edit_view_mode: "tree"
 
+# Various URLs used across the site
 landscape_url: 'https://landscape.aswf.io'
 calendar_url: 'https://zoom-lfx.platform.linuxfoundation.org/meetings/aswf'
 slack_url: 'https://slack.aswf.io'
 directed_fund_charter_url: 'https://charter.aswf.io'
 tac_issues_url: 'https://github.com/AcademySoftwareFoundation/tac/issues/new'
+mailing_list_url: "https://lists.aswf.io"
+wiki_url: "https://wiki.aswf.io"
+lfx_insights_url: "https://insights.lfx.linuxfoundation.org/foundation/aswf"
 helpdesk_url: "https://servicedesk.aswf.io"
 tac_mailing_list_url: "https://lists.aswf.io/g/tac"
 website_url: "https://aswf.io"
 blog_url: "https://aswf.io/blog"
 tac_lfx_meeting_url: "https://zoom-lfx.platform.linuxfoundation.org/meeting/97880950229?password=81d2940e-c055-43b9-9b5a-6cd7d7090feb" 
+lfscanning_repo_url: https://github.com/lfscanning/spdx-aswf
+tac_member_list_url: https://www.aswf.io/about/technical-advisory-council
+lf_staff_list_url: https://www.aswf.io/about/staff/
+mission_statement_url: https://www.aswf.io/about/
 
 # Foundation Settings
-vote_of_tac_committee_title: "Industry Representative"
 foundation_name: "Academy Software Foundation"
 clotributor_name: aswf
+membership_top_tier: 'Premier'
+vote_of_tac_committee_title: "Industry Representatives"
+archived_lifecycle_stage: "Archived"
 
 aux_links:
   "Need help or have a question? Contact us here":
@@ -52,6 +63,9 @@ ga_tracking: 360578303
 ga_tracking_anonymize_ip: true
 
 kramdown:
+  input: GFM
+  extensions:
+    - autolink
   parse_block_html: true
   toc_levels: 2..6
 
@@ -62,3 +76,8 @@ mermaid:
   # Version of mermaid library
   # Pick an available version from https://cdn.jsdelivr.net/npm/mermaid/
   version: "10.9.0"
+
+callouts:
+  note:
+    title: Note
+    color: blue

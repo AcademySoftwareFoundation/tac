@@ -1,7 +1,7 @@
 ---
 has_children: true
 child_nav_order: reversed
-nav_order: 4
+nav_order: 30 
 ---
 
 # Meetings 
