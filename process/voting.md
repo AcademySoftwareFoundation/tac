@@ -26,7 +26,7 @@ Voting is only required in these cases:
 - Approving new projects or working group
 - Approving annual reviews
 - Approving projects moving a lifecycle stage
-- Changes to [Project Lifecycle]({% link process/lifecycle.html %}) or [Working Group program]({% link process/working_groups/ %})
+- Changes to [Project Lifecycle]({% link process/lifecycle.md %}) or [Working Group program]({% link process/working_groups/README.md %})
 - Any other decisions where a consensus cannot be achieved.
 
 ## Voting Process
