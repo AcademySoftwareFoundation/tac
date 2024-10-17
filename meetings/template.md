@@ -15,6 +15,7 @@ title: "{{ "now" | date: "%Y-%m-%d" }}"
 # {{ site.foundation_name }} Technical Advisory Council (TAC) Meeting - {{ "now" | date: "%B %e, %Y" }}
 
 {%- if site.tac_lfx_meeting_url -%}
+{%- break -%}
 Join the meeting at [{{ site.tac_lfx_meeting_url }}]({{ site.tac_lfx_meeting_url }})
 {%- endif -%}
 
@@ -43,12 +44,14 @@ Join the meeting at [{{ site.tac_lfx_meeting_url }}]({{ site.tac_lfx_meeting_url
 {% endfor %}
 
 {%- if site.vote_of_tac_committee_title -%}
+{%- break -%}
 ### {{ site.vote_of_tac_committee_title }}
 {% for member in site.data.tacmembers -%}
 {% if member["Appointed By"] == "Vote of TAC Committee" %}
 - [ ] {{ member["Full Name"] }} - {{ member["Account Name: Account Name"] }}
 {%- endif -%}
 {% endfor %}
+{%- break -%}
 {%- endif -%}
 
 ## Non-Voting Attendees
