@@ -14,10 +14,9 @@ title: "{{ "now" | date: "%Y-%m-%d" }}"
 
 # {{ site.foundation_name }} Technical Advisory Council (TAC) Meeting - {{ "now" | date: "%B %e, %Y" }}
 
-{%- if site.tac_lfx_meeting_url -%}
-{%- break -%}
+{% if site.tac_lfx_meeting_url -%}
 Join the meeting at [{{ site.tac_lfx_meeting_url }}]({{ site.tac_lfx_meeting_url }})
-{%- endif -%}
+{%- endif %}
 
 ## Voting Representative Attendees
 
@@ -34,25 +33,21 @@ Join the meeting at [{{ site.tac_lfx_meeting_url }}]({{ site.tac_lfx_meeting_url
 {%- for project in site.data.projects -%}
 {% if project["TAC Representative"] contains member["Full Name"] %}
 - [ ] {{ member["Full Name"] }} - {{ project["Name"] }} Representative
-{%- break -%}
 {% elsif project["Chair"] contains member["Full Name"] %}
 - [ ] {{ member["Full Name"] }} - {{ project["Name"] }} Representative
-{%- break -%}
 {%- endif -%}
 {%- endfor -%}
 {%- endif -%}
 {% endfor %}
 
-{%- if site.vote_of_tac_committee_title -%}
-{%- break -%}
+{% if site.vote_of_tac_committee_title -%}
 ### {{ site.vote_of_tac_committee_title }}
 {% for member in site.data.tacmembers -%}
 {% if member["Appointed By"] == "Vote of TAC Committee" %}
 - [ ] {{ member["Full Name"] }} - {{ member["Account Name: Account Name"] }}
 {%- endif -%}
 {% endfor %}
-{%- break -%}
-{%- endif -%}
+{%- endif %}
 
 ## Non-Voting Attendees
 
@@ -62,10 +57,8 @@ Join the meeting at [{{ site.tac_lfx_meeting_url }}]({{ site.tac_lfx_meeting_url
 {%- for project in site.data.projects -%}
 {% if project["TAC Representative"] contains member["Full Name"] %}
 - [ ] {{ member["Full Name"] }} - {{ project["Name"] }} Representative
-{%- break -%}
 {% elsif project["Chair"] contains member["Full Name"] %}
 - [ ] {{ member["Full Name"] }} - {{ project["Name"] }} Representative
-{%- break -%}
 {%- endif -%}
 {%- endfor -%}
 {%- endif -%}
