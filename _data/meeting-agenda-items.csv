@@ -1,6 +1,8 @@
 title,url,number,scheduled_date,status,last_review_date,meeting_label
-Evolving our working groups program,https://github.com/AcademySoftwareFoundation/tac/issues/798,798,,Next Meeting Agenda Items,,3-tac-meeting-long
-OpenTimelineIO,https://github.com/AcademySoftwareFoundation/tac/issues/477,477,2024-11-13,Next Meeting Agenda Items,2023-12-13,2-annual-review
+D&I Working Group,https://github.com/AcademySoftwareFoundation/tac/issues/473,473,2024-12-11,Next Meeting Agenda Items,,2-annual-review
+OpenAPV - defining 6 month milestones,https://github.com/AcademySoftwareFoundation/tac/issues/877,877,2024-12-11,Next Meeting Agenda Items,,4-tac-meeting-short
+Open Shading Language,https://github.com/AcademySoftwareFoundation/tac/issues/437,437,2024-10-30,In Voting,2023-09-06,2-annual-review
+Zero Trust Working Group,https://github.com/AcademySoftwareFoundation/tac/issues/621,621,2024-10-30,In Voting,2024-04-03,2-annual-review
 DPEL,https://github.com/AcademySoftwareFoundation/tac/issues/472,472,2025-09-17,Future Meeting Agenda Items,2024-09-18,2-annual-review
 OpenColorIO,https://github.com/AcademySoftwareFoundation/tac/issues/474,474,2025-01-22,Future Meeting Agenda Items,2023-11-01,2-annual-review
 OpenAPV,https://github.com/AcademySoftwareFoundation/tac/issues/803,803,2025-10-15,Future Meeting Agenda Items,2024-10-16,2-annual-review
@@ -24,10 +26,8 @@ OpenImageIO,https://github.com/AcademySoftwareFoundation/tac/issues/509,509,2025
 USD Working Group,https://github.com/AcademySoftwareFoundation/tac/issues/518,518,2025-04-30,Future Meeting Agenda Items,2024-05-01,2-annual-review
 ASWF Language Interop WG,https://github.com/AcademySoftwareFoundation/tac/issues/704,704,2025-06-25,Future Meeting Agenda Items,2024-06-26,2-annual-review
 OpenAssetIO,https://github.com/AcademySoftwareFoundation/tac/issues/516,516,2025-08-20,Future Meeting Agenda Items,2024-08-14,2-annual-review
-D&I Working Group,https://github.com/AcademySoftwareFoundation/tac/issues/473,473,2024-12-11,Future Meeting Agenda Items,,2-annual-review
-OpenAPV - defining 6 month milestones,https://github.com/AcademySoftwareFoundation/tac/issues/877,877,2024-12-11,Future Meeting Agenda Items,,4-tac-meeting-short
 Open Review Initiative,https://github.com/AcademySoftwareFoundation/tac/issues/436,436,2025-08-20,Future Meeting Agenda Items,2024-08-21,2-annual-review
-Open Shading Language,https://github.com/AcademySoftwareFoundation/tac/issues/437,437,2024-10-30,Upcoming Meeting Agenda Items,2023-09-06,2-annual-review
-Zero Trust Working Group,https://github.com/AcademySoftwareFoundation/tac/issues/621,621,2024-10-30,Upcoming Meeting Agenda Items,2024-04-03,2-annual-review
+Evolving our working groups program,https://github.com/AcademySoftwareFoundation/tac/issues/798,798,,Upcoming Meeting Agenda Items,,3-tac-meeting-long
+OpenTimelineIO,https://github.com/AcademySoftwareFoundation/tac/issues/477,477,2024-11-13,Upcoming Meeting Agenda Items,2023-12-13,2-annual-review
 OpenQMC,https://github.com/AcademySoftwareFoundation/tac/issues/434,434,,Upcoming Meeting Agenda Items,,4-tac-meeting-short
 Project Leads Office Hours,https://github.com/AcademySoftwareFoundation/tac/issues/760,760,,Upcoming Meeting Agenda Items,,4-tac-meeting-short
