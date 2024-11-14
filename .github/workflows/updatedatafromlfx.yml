@@ -11,7 +11,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: jmertic/lfx-tac-actions@main
+      - uses: jmertic/lfx-tac-actions@693b9f0cdf3798e25e01d19b5c7f2fb2f4d94b27 # 2024-11-14
         with:
           landscape_url: https://aswf.landscape2.io
           artwork_url: https://artwork.aswf.io 
