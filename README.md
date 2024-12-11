@@ -1,4 +1,4 @@
-# Academy Software Foundation Techincal Advisory Council (TAC)
+# Academy Software Foundation Technical Advisory Council (TAC)
 
 This repo contains materials, meeting materials, and process documents for the Academy Software Foundation TAC.
 
