@@ -27,9 +27,19 @@ Working Groups will present to the TAC its progress towards the mission, goals, 
 
 After one year, the working group is expected to have completed the mission, goals, non-goals, and deliverables listed in the approved charter. If the working group has not completed its mission, goals, non-goals, and deliverables, and its of the opinion of the TAC that it can be completed, the TAC may opt to extend the working group for up to 1 year with a 2/3 majority vote of [TAC members][TAC member]. 
 
-## Long-term working group
+## Long-term Working Group
 
 The TAC may also opt to establish the working group as a long-term working group after its 1 year anniversary with a 2/3 majority vote of [TAC members][TAC member], if it is deemed that such a working group is essential for the sustainability of the Academy Software Foundation. It is expected that a long-term working group has its charter reviewed and revisted annually with the approval of the TAC.
+
+### Benefits
+
+Long-term Working Groups are eligible to receive the following benefits:
+
+* Be considered as one of the “TAC Projects” under the [Academy Software Foundation Charter](https://github.com/AcademySoftwareFoundation/foundation/blob/master/CHARTER.md) and may receive additional resources or support as determined by the Governing Board.
+* Have a voting representative on the TAC.
+* Right to refer to the project as a Long-term Working Group of the Academy Software Foundation and receive the highest priority for participating in events and other collaborative activities sponsored by the Academy Software Foundation.
+* A blog announcement or similar communication announcing the working grouping becoming a Long-term Working Group.
+
 
 [TAC member]: /#tac-members
 [servicedesk]: https://servicedesk.aswf.io
