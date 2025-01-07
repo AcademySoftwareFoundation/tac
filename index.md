@@ -41,6 +41,4 @@ Below are the projects and working groups supported by the TAC, listed by [proje
 
 There are many more related open source projects than what is hosted at {{ site.foundation_name }}; check out the list and add any we are missing at the [{{ site.foundation_name }} Landscape]({{ site.landscape_url }})
 
-[![{{ site.foundation_name }} Landscape]({{ site.landscape_url }}/images/landscape.png)]({{ site.landscape_url }})
-
 [CLOTributor]: https://clotributor.dev/search?foundation={{ site.clotributor_name }}
