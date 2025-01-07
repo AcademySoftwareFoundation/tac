@@ -14,7 +14,7 @@
     <tr>
         <td>{{ member["Full Name"] }}</td>
         <td>{{ site.membership_top_tier | default: "Premier" }} Member Representative</td>
-        <td>{% if member["Special Role"] == "Chair" %}Chairperson - {% endif %}{{ member["Voting Status"] }}</td>
+        <td>{% if member["Special Role"] != "None" %}{{ member["Special Role"] }} - {% endif %}{{ member["Voting Status"] }}</td>
         <td>{{ member["Account Name: Account Name"] }}</td>
     </tr>
 {%- endif -%}
