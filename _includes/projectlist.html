@@ -1,3 +1,11 @@
 
-<iframe src="{{ site.landscape_url }}/pages/hosted-projects?style=body{background-color:white;}%23embedded-footer{display:none;}.borderless-mode .mosaic-wrap{padding-top:0;padding-bottom:0}" frameborder="0" id="landscape" scrolling="no" style="width: 1px; min-width: 100%; opacity: 1; visibility: visible; overflow: hidden;"></iframe>
-<script src="{{ site.landscape_url }}/iframeResizer.js"></script>
+<!-- Landscape embed view -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/4.3.9/iframeResizer.min.js"></script>
+<iframe id="iframe-landscape" src="{{ site.landscape_url }}/embed/embed.html?base-path=&key=aswf-projects--all&headers=true&category-header=false&category-in-subcategory=false&title-uppercase=false&title-alignment=left&title-font-family=sans-serif&title-font-size=16&style=clean&bg-color=%23ffffff&fg-color=%23000000&item-modal=true&item-name=false&size=lg&items-alignment=left&iframe-resizer=true" style="width:100%;height:100%;display:block;border:none;"></iframe>
+<!-- Landscape embed item details view -->
+<!-- NOTE: the script and the iframe below should only be added once, even when adding multiple embed views to the page -->
+<script src="{{ site.landscape_url }}/embed/embed-item.js"></script>
+<iframe id="embed-item" src="{{ site.landscape_url }}/embed/embed-item.html" style="width:100%;height:100%;display:block;border:none;position:fixed;top:0;bottom:0;left:0;right:0;z-index:2147483647;display:none;"></iframe>
+<script>
+iFrameResize({ }, '#iframe-landscape');
+</script>

@@ -7,6 +7,7 @@
   }
   & div {
     flex-basis: 16%;
+    margin: 10px;
   }
   & dt img {
     height: 150px;
@@ -30,4 +31,8 @@
     font-size: 17px;
     color: #999999;
   }
+}
+
+div.main:has(#projects_with_contributors) {
+  max-width: none !important;
 }
