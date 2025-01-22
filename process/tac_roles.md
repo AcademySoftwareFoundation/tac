@@ -34,6 +34,6 @@ The TAC annually will hold an election to elect a new Vice-Chairperson, followin
 
 The TAC Chairperson serves as the TAC Representative to the Governing Board. However, if the TAC Chairperson wishes to delegate this responsibility, they may appoint a TAC Representative to the Governing Board, subject to TAC Approval.
 
-The TAC Vice Chair serves as the Alternate TAC Representative to the Governing Board. However, if the TAC Chairperson wishes to delegate this responsibility, they may appoint a TAC Representative to the Governing Board, subject to TAC Approval.
+The TAC Vice Chair serves as the Alternate TAC Representative to the Governing Board. However, if the TAC Vice Chair wishes to delegate this responsibility, they may appoint an Alternate TAC Representative to the Governing Board, subject to TAC Approval.
 
 [ASWF Charter]: https://charter.aswf.io
