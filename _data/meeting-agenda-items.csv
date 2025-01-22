@@ -1,7 +1,6 @@
 title,url,number,scheduled_date,status,last_review_date,meeting_label
 MaterialX,https://github.com/AcademySoftwareFoundation/tac/issues/486,486,2025-02-05,Next Meeting Agenda Items,2024-02-07,2-annual-review
 rawtoaces,https://github.com/AcademySoftwareFoundation/tac/issues/475,475,2025-02-05,Next Meeting Agenda Items,2024-01-10,2-annual-review
-OpenQMC,https://github.com/AcademySoftwareFoundation/tac/issues/434,434,,Next Meeting Agenda Items,,4-tac-meeting-short
 OpenTimelineIO,https://github.com/AcademySoftwareFoundation/tac/issues/477,477,2025-11-12,Future Meeting Agenda Items,2024-11-12,2-annual-review
 Open Shading Language,https://github.com/AcademySoftwareFoundation/tac/issues/437,437,2025-10-29,Future Meeting Agenda Items,2024-10-30,2-annual-review
 Zero Trust Working Group,https://github.com/AcademySoftwareFoundation/tac/issues/621,621,2025-10-29,Future Meeting Agenda Items,2024-10-30,2-annual-review
@@ -27,7 +26,8 @@ Open Review Initiative,https://github.com/AcademySoftwareFoundation/tac/issues/4
 Evolving our working groups program,https://github.com/AcademySoftwareFoundation/tac/issues/798,798,,In Voting,,4-tac-meeting-short
 OpenVDB,https://github.com/AcademySoftwareFoundation/tac/issues/480,480,2025-01-22,Upcoming Meeting Agenda Items,2024-01-10,2-annual-review
 OpenAPV - defining 6 month milestones,https://github.com/AcademySoftwareFoundation/tac/issues/877,877,2025-01-22,Upcoming Meeting Agenda Items,,4-tac-meeting-short
-Security Threat model analysis for ASWF projects,https://github.com/AcademySoftwareFoundation/tac/issues/615,615,,Upcoming Meeting Agenda Items,,4-tac-meeting-short
 OpenColorIO,https://github.com/AcademySoftwareFoundation/tac/issues/474,474,2025-01-22,Upcoming Meeting Agenda Items,2023-11-01,2-annual-review
 D&I Working Group,https://github.com/AcademySoftwareFoundation/tac/issues/473,473,2025-01-08,In Voting,,2-annual-review
 Call out TAC Vice Chair being GB rep alternate,https://github.com/AcademySoftwareFoundation/tac/pull/946,946,,Upcoming Meeting Agenda Items,,
+OpenQMC,https://github.com/AcademySoftwareFoundation/tac/issues/434,434,,Upcoming Meeting Agenda Items,,4-tac-meeting-short
+Security Threat model analysis for ASWF projects,https://github.com/AcademySoftwareFoundation/tac/issues/615,615,,Upcoming Meeting Agenda Items,,4-tac-meeting-short
