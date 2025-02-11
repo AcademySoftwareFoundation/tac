@@ -1,10 +1,11 @@
 title,url,number,scheduled_date,status,last_review_date,meeting_label
-OpenColorIO,https://github.com/AcademySoftwareFoundation/tac/issues/474,474,2025-02-19,Upcoming Meeting Agenda Items,2023-11-01,2-annual-review
-rawtoaces,https://github.com/AcademySoftwareFoundation/tac/issues/475,475,2025-02-19,Upcoming Meeting Agenda Items,2024-01-10,2-annual-review
-OpenAPV - defining 6 month milestones,https://github.com/AcademySoftwareFoundation/tac/issues/877,877,2025-02-19,Upcoming Meeting Agenda Items,,4-tac-meeting-short
+OpenColorIO,https://github.com/AcademySoftwareFoundation/tac/issues/474,474,2025-03-19,Upcoming Meeting Agenda Items,2023-11-01,2-annual-review
 Security Threat model analysis for ASWF projects,https://github.com/AcademySoftwareFoundation/tac/issues/615,615,,Upcoming Meeting Agenda Items,,4-tac-meeting-short
 OpenQMC,https://github.com/AcademySoftwareFoundation/tac/issues/434,434,,Upcoming Meeting Agenda Items,,4-tac-meeting-short
 Feedback on Open Source Forum 2025,https://github.com/AcademySoftwareFoundation/tac/issues/960,960,,Upcoming Meeting Agenda Items,,4-tac-meeting-short
+rawtoaces,https://github.com/AcademySoftwareFoundation/tac/issues/475,475,2025-02-19,Upcoming Meeting Agenda Items,2024-01-10,2-annual-review
+Dev Days - May 2025,https://github.com/AcademySoftwareFoundation/tac/issues/966,966,2025-02-19,,,4-tac-meeting-short
+OpenAPV - defining 6 month milestones,https://github.com/AcademySoftwareFoundation/tac/issues/877,877,2025-02-19,,,4-tac-meeting-short
 OpenTimelineIO,https://github.com/AcademySoftwareFoundation/tac/issues/477,477,2025-11-12,Future Meeting Agenda Items,2024-11-12,2-annual-review
 Open Shading Language,https://github.com/AcademySoftwareFoundation/tac/issues/437,437,2025-10-29,Future Meeting Agenda Items,2024-10-30,2-annual-review
 Zero Trust Working Group,https://github.com/AcademySoftwareFoundation/tac/issues/621,621,2025-10-29,Future Meeting Agenda Items,2024-10-30,2-annual-review
