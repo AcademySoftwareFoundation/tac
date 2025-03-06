@@ -1,10 +1,10 @@
 title,url,number,scheduled_date,status,last_review_date,meeting_label
 OpenColorIO,https://github.com/AcademySoftwareFoundation/tac/issues/474,474,2025-03-19,Next Meeting Agenda Items,2023-11-01,2-annual-review
 OpenQMC,https://github.com/AcademySoftwareFoundation/tac/issues/434,434,,Next Meeting Agenda Items,,4-tac-meeting-short
+Security Threat model analysis for ASWF projects,https://github.com/AcademySoftwareFoundation/tac/issues/615,615,,Next Meeting Agenda Items,,4-tac-meeting-short
 OpenLensIO,https://github.com/AcademySoftwareFoundation/tac/issues/603,603,2025-03-19,Next Meeting Agenda Items,,1-new-project-wg
 OpenAPV - defining 6 month milestones,https://github.com/AcademySoftwareFoundation/tac/issues/877,877,2025-03-19,Next Meeting Agenda Items,,4-tac-meeting-short
 Dev Days - May 2025,https://github.com/AcademySoftwareFoundation/tac/issues/966,966,2025-03-05,Upcoming Meeting Agenda Items,,4-tac-meeting-short
-Security Threat model analysis for ASWF projects,https://github.com/AcademySoftwareFoundation/tac/issues/615,615,,Upcoming Meeting Agenda Items,,4-tac-meeting-short
 Planning Session for TAC,https://github.com/AcademySoftwareFoundation/tac/issues/972,972,2025-03-05,Upcoming Meeting Agenda Items,,3-tac-meeting-long
 OpenTimelineIO,https://github.com/AcademySoftwareFoundation/tac/issues/477,477,2025-11-12,Future Meeting Agenda Items,2024-11-12,2-annual-review
 Open Shading Language,https://github.com/AcademySoftwareFoundation/tac/issues/437,437,2025-10-29,Future Meeting Agenda Items,2024-10-30,2-annual-review
@@ -24,7 +24,7 @@ rawtoaces,https://github.com/AcademySoftwareFoundation/tac/issues/475,475,2025-0
 New Project Proposal - SPK/SPFS,https://github.com/AcademySoftwareFoundation/tac/issues/915,915,,On Hold,,1-new-project-wg
 OpenFX,https://github.com/AcademySoftwareFoundation/tac/issues/514,514,2025-06-11,Future Meeting Agenda Items,2024-06-12,2-annual-review
 CI Working Group,https://github.com/AcademySoftwareFoundation/tac/issues/511,511,2025-05-28,Future Meeting Agenda Items,2024-05-29,2-annual-review
-OpenImageIO,https://github.com/AcademySoftwareFoundation/tac/issues/509,509,2025-04-30,Future Meeting Agenda Items,2024-05-01,2-annual-review
+OpenImageIO,https://github.com/AcademySoftwareFoundation/tac/issues/509,509,2025-05-14,Future Meeting Agenda Items,2024-05-01,2-annual-review
 USD Working Group,https://github.com/AcademySoftwareFoundation/tac/issues/518,518,2025-04-30,Future Meeting Agenda Items,2024-05-01,2-annual-review
 ASWF Language Interop Project,https://github.com/AcademySoftwareFoundation/tac/issues/704,704,2025-06-25,Future Meeting Agenda Items,2024-06-26,2-annual-review
 OpenAssetIO,https://github.com/AcademySoftwareFoundation/tac/issues/516,516,2025-08-20,Future Meeting Agenda Items,2024-08-14,2-annual-review
