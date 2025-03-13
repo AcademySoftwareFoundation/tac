@@ -16,5 +16,6 @@ If you are new to open source, or have some experience in open source and lookin
     - [Secure Software Development: Implementation (LFD105x)](https://training.linuxfoundation.org/training/secure-software-development-implementation-lfd105/)
 - [GitHub for Developers](https://githubtraining.github.io/training-manual/#/01_getting_ready_for_class)
 - [Open Source Guides from GitHub](https://opensource.guide/)
+- [Open Source License Best Practices - Quick Reference Guide](https://www.linuxfoundation.org/licensebestpractices)
 
 If you have other resources to recommend, please create a pull request against this file.
