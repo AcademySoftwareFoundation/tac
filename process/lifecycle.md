@@ -47,7 +47,7 @@ To be accepted at the Sandbox stage, a project must:
 * Have had a successful license scan with any critical issues remedied.
 * Submit a completed [Project Contribution Proposal Template](proposal_template.md) to the TAC.
 * Provide such additional information as the TAC may reasonably request.
-* Present the project’s proposal to the TAC. Project teams should be prepared to present a detailed (20-30 minutes in length) overview of the project and speak to the information in the contribution proposal.
+* Present the project's proposal to the TAC. Project teams should be prepared to present a detailed (20-30 minutes in length) overview of the project and speak to the information in the contribution proposal.
 * Be deemed by the TAC to add potential value or value to the mission of the Academy Software Foundation.
 * Obtain an affirmative vote of the TAC.
 
@@ -55,7 +55,7 @@ To be accepted at the Sandbox stage, a project must:
 
 The Sandbox Stage benefits are outlined below.
 
-* Neutral hosting of the project’s community and key assets (e.g., trademark, domain, etc.).
+* Neutral hosting of the project's community and key assets (e.g., trademark, domain, etc.).
 * Access to the Academy Software Foundation collaboration infrastructure ( including GitHub, JIRA, Confluence, mailing lists, and Slack ).
 * A sponsor from the TAC will assist the project in reaching the Incubation Stage and facilitate collaboration with other project communities.
 * The right to refer to the project as a Sandbox Project of the Academy Software Foundation and the opportunity to participate in events and other collaborative activities sponsored by the Academy Software Foundation.
@@ -85,11 +85,11 @@ To be accepted at the Incubation stage, a project must meet the Sandbox requirem
 
 *   Have defined its technical governance, including:
     *   A README file welcoming new community members to the project and explaining why the project is useful and how to get started ( follow the guidelines at the [README checklist](https://github.com/ddbeck/readme-checklist) to create an excellent README file ).
-    *   A CODEOWNERS or COMMITTERS file to define individuals or teams responsible for code in a repository; document current project owners and current and Archived committers. 
+    *   A CODEOWNERS or COMMITTERS file to define individuals or teams responsible for code in a repository; document current project owners and current and emeritus committers. 
     *   A RELEASE file that documents the release methodology, cadence, criteria, etc.
 *   Have achieved and maintained an OpenSSF Best Practices Badge at the [Passing Level](https://bestpractices.coreinfrastructure.org/en/criteria). 
 *   Have a defined project mission and scope
-*   An overview of the project’s architecture and features defined ( equivalent to the [documentation_architecture](https://www.bestpractices.dev/en/criteria?details=true&rationale=true#1.documentation_architecture) OpenSFF Best Practices Silver Level badge requirement. )
+*   An overview of the project's architecture and features defined ( equivalent to the [documentation_architecture](https://www.bestpractices.dev/en/criteria?details=true&rationale=true#1.documentation_architecture) OpenSFF Best Practices Silver Level badge requirement. )
 *   A documented project roadmap ( equivalent to the [documentation_roadmap](https://www.bestpractices.dev/en/criteria?details=true&rationale=true#1.documentation_roadmap) OpenSFF Best Practices Silver Level badge requirement. )
 *   Community and contributor growth assessment
     *   The current number of contributors, committers, and different organizations contributing to the project. 
@@ -106,11 +106,11 @@ Projects preparing to be considered for the Incubation Stage should prepare a pr
 Incubation stage projects are eligible to receive the following benefits:
 
 * Be considered as one of the “Technical Projects” under the [Academy Software Foundation Charter](https://github.com/AcademySoftwareFoundation/foundation/blob/master/CHARTER.md) and may receive support as determined by the Governing Board.
-* Neutral hosting of the project’s community and key assets (e.g., trademark, domain, etc.)
+* Neutral hosting of the project's community and key assets (e.g., trademark, domain, etc.)
 * Assistance from the Academy Software Foundation TAC to facilitate collaboration with other project communities.
 * Blog announcement or similar communication announcing the inclusion of the project.
 * Right to refer to the project as an incubation project of the Academy Software Foundation and an opportunity to participate in events and other collaborative activities sponsored by the Academy Software Foundation.
-* Subject to applicable trademark usage guidelines, display the Academy Software Foundation’s logo on the project’s code repository.
+* Subject to applicable trademark usage guidelines, display the Academy Software Foundation's logo on the project's code repository.
 
 ### Expectations
 
@@ -175,6 +175,6 @@ Projects can only enter the Archived Stage by either:
 *   On request from the project itself, a 2/3 supermajority vote of all active project committers is required.
 *   By a 2/3 supermajority vote of the TAC if deemed to be no longer maintained.
 
-In the Archived Stage, the TAC transfers the project’s code repository administration to a designated individual. No new features or bug fixes will be addressed unless they are deemed security issues. Academy Software Foundation will hold all assets in perpetuity. Archived Stage projects will be considered “Technical Projects" under the Academy Software Foundation charter and may receive support as determined by the Governing Board.
+In the Archived Stage, the TAC transfers the project's code repository administration to a designated individual. No new features or bug fixes will be addressed unless they are deemed security issues. Academy Software Foundation will hold all assets in perpetuity. Archived Stage projects will be considered “Technical Projects" under the Academy Software Foundation charter and may receive support as determined by the Governing Board.
 
 A project can move back to one of the Sandbox, Incubation, or Graduated Stages following the guidelines for a project being accepted at that level.
