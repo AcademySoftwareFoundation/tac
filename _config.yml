@@ -31,7 +31,7 @@ landscape_url: 'https://landscape.aswf.io'
 calendar_url: 'https://zoom-lfx.platform.linuxfoundation.org/meetings/aswf'
 slack_url: 'https://slack.aswf.io'
 directed_fund_charter_url: 'https://charter.aswf.io'
-tac_issues_url: 'https://github.com/AcademySoftwareFoundation/tac/issues/new'
+tac_issues_url: 'https://github.com/AcademySoftwareFoundation/tac/issues/new?template=01-tac-agenda.yml'
 mailing_list_url: "https://lists.aswf.io"
 wiki_url: "https://wiki.aswf.io"
 lfx_insights_url: "https://insights.lfx.linuxfoundation.org/foundation/aswf"
