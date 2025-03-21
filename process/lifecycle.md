@@ -59,7 +59,7 @@ The Sandbox Stage benefits are outlined below.
 * Access to the Academy Software Foundation collaboration infrastructure ( including GitHub, JIRA, Confluence, mailing lists, and Slack ).
 * A sponsor from the TAC will assist the project in reaching the Incubation Stage and facilitate collaboration with other project communities.
 * The right to refer to the project as a Sandbox Project of the Academy Software Foundation and the opportunity to participate in events and other collaborative activities sponsored by the Academy Software Foundation.
-* Subject to applicable trademark usage guidelines to display the Academy Software Foundation’s logo on the project’s code repository.
+* Subject to applicable trademark usage guidelines to display the Academy Software Foundation's logo on the project's code repository.
 
 Sandbox Stage projects will not have an announcement blog or press announcement because projects at the Sandbox stage are in an early stage and still gaining alignment among the stakeholders. We often see projects in the Sandbox Stage change scope and focus; the TAC aims to ensure that projects have the space to focus on building a solid governance and contributor base to grow towards the Incubation Stage.
 
@@ -94,7 +94,7 @@ To be accepted at the Incubation stage, a project must meet the Sandbox requirem
 *   Community and contributor growth assessment
     *   The current number of contributors, committers, and different organizations contributing to the project. 
     *   Demonstrate a sustained flow of commits / merged contributions
-    *   A healthy number of end-users within the visual effects and motion picture industries have Graduated the project and are identified by the project ( using an ADOPTERS file or showcased on the project’s website ).
+    *   A healthy number of end-users within the visual effects and motion picture industries have Graduated the project and are identified by the project ( using an ADOPTERS file or showcased on the project's website ).
     *   A credible plan for developing a thriving user community, particularly expanding the number of committers and contributors?
     *   Outline of the plan for the project to complete the requirements for the [Graduated Stage](#Graduated-stage)
 * Obtain an affirmative vote of the TAC.
@@ -130,7 +130,7 @@ To be considered for the Graduated stage, a project must meet the Incubation sta
 
 * Demonstrate a substantial ongoing flow of commits and merged contributions authored by a healthy number of diverse contributors*.
 * Demonstrable roadmap progress.
-* A significant number of end-users within the visual effects and motion picture industries have adopted the project and are identified within the project ( using an ADOPTERS file or showcased on the project’s website ).
+* A significant number of end-users within the visual effects and motion picture industries have adopted the project and are identified within the project ( using an ADOPTERS file or showcased on the project's website ).
 * Have completed all of the OpenSSF Best Practices Badge requirements at the [gold level](https://bestpractices.coreinfrastructure.org/en/criteria/2), except for the following criteria, which are temporarily not required:
   * [The project MUST have performed a security review within the last 5 years. This review MUST consider the security requirements and security boundary](https://www.bestpractices.dev/en/criteria?details=true&rationale=true#2.security_review)
   * [The project MUST provide an assurance case that justifies why its security requirements are met. The assurance case MUST include: a description of the threat model, clear identification of trust boundaries, an argument that secure design principles have been applied, and an argument that common implementation security weaknesses have been countered.](https://www.bestpractices.dev/en/criteria?details=true&rationale=true#1.assurance_case)
