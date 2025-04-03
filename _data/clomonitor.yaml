@@ -142,10 +142,10 @@
   logo_url: https://artwork.aswf.io/projects/open-shading-language/largestack/color/open-shading-language-largestack-color.svg
   logo_url_dark: https://artwork.aswf.io/projects/open-shading-language/largestack/color/open-shading-language-largestack-color.svg
   devstats_url: null
-  maturity: incubating
+  maturity: graduated
   repositories:
-  - name: openshadinglanguage
-    url: https://github.com/imageworks/openshadinglanguage
+  - name: OpenShadingLanguage
+    url: https://github.com/AcademySoftwareFoundation/OpenShadingLanguage
     exclude:
     - clomonitor
 - name: openapv
