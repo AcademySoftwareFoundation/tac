@@ -23,13 +23,10 @@
             {%- if project["Mailing List"] and project["Mailing List"] != 'none' -%}
             Mailing List: <a href="{{ project["Mailing List"] }}">{{ project["Mailing List"] }}</a><br />
             {%- endif -%}
-            {%- if project["Slack"] and project["Slack"] != 'none' -%}
-            {{ assign slackstart = project["Slack"] | slice: 0 }}
-            {%- if slackstart == "#" %}
-            Slack: <a href="{{ site.slack_url }}">{{ project["Slack"] }}</a><br />
-            {%- elsif project["Slack"] -%}
-            Slack: <a href="{{ project["Slack"] }}">{{ project["Slack"] }}</a><br />
-            {%- endif -%}
+            {%- if project["Chat Channel"] and project["Chat Channel"] != 'none' -%}
+            Slack: <a href="{{ site.slack_url }}">{{ project["Chat Channel"] }}</a><br />
+            {%- elsif project["Slack URL"] -%}
+            Slack: <a href="{{ project["Slack URL"] }}">{{ project["Slack URL"] }}</a><br />
             {%- endif -%}
             {%- if project["LFX Insights URL"] and project["LFX Insights URL"] != 'none' -%}
             LFX Insights: <a href="{{ project["LFX Insights URL"] }}">{{ project["LFX Insights URL"] }}</a><br />
