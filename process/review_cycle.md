@@ -4,9 +4,9 @@ parent: Project Lifecycle
 nav_order: 80
 ---
 
-# Project Review Cycle
+# Annual Reviews
 
-The TAC will review on an annual basis all projects within this lifecycle. 
+The TAC will review all projects within this lifecycle on an annual basis. 
 
 The purpose of the TAC Review is to gauge whether the project is still at the correct maturity stage based on the criteria for the current stage, as well as identify any concerns or feedback from the project's TSC that the {{ site.foundation_name }} can help address.
 
@@ -18,7 +18,9 @@ Projects will schedule their annual review as part of the next TAC meeting follo
 
 Projects should use the [annual review template](annual_review_template.pptx) to structure their presentation.
 
-Annual reviews require an affirmative majority vote of the TAC for the project to continue at the current stage or the appropriate number of votes outlined for each stage in this document to move to the next stage. If the TAC deems the project not meeting the current stage's requirements, it may vote to move the project to the appropriate or {{ site.archived_lifecycle_stage }} stage. The project may choose to move outside of {{ site.foundation_name }} at any time.
+Projects may request to move to the next lifecycle stage as part of their annual review. To do so, the project should notify the TAC at least two days before the TAC meeting they are scheduled to present at, adding a comment on the annual review GitHub issue.
+
+If the TAC deems the project not meeting the current stage's requirements, it may vote to move the project to the appropriate or {{ site.archived_lifecycle_stage }} stage. The project may choose to move outside of {{ site.foundation_name }} at any time.
 
 ## Review Schedule
 
