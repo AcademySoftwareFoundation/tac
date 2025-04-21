@@ -94,7 +94,7 @@ To be accepted at the Incubation stage, a project must meet the Sandbox requirem
 *   Community and contributor growth assessment
     *   The current number of contributors, committers, and different organizations contributing to the project. 
     *   Demonstrate a sustained flow of commits / merged contributions
-    *   A healthy number of end-users within the visual effects and motion picture industries have Graduated the project and are identified by the project ( using an ADOPTERS file or showcased on the project's website ).
+    *   A healthy number of end-users within the visual effects and motion picture industries have adopted the project and are identified by the project ( using an ADOPTERS file or showcased on the project's website ).
     *   A credible plan for developing a thriving user community, particularly expanding the number of committers and contributors?
     *   Outline of the plan for the project to complete the requirements for the [Graduated Stage](#Graduated-stage)
 * Obtain an affirmative vote of the TAC.
