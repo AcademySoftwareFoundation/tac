@@ -5,7 +5,7 @@ labels: ["4-tac-meeting-short"]
 assignees: 
   - yarille
   - jmertic
-  - kdt3rd
+  - carolalynn
   - lgritz
 body:
   - type: markdown
@@ -14,7 +14,7 @@ body:
         The TAC is always looking for topics of interest to the community. 
         Please set the issue title above to the agenda topic and fill out the 
         following details to have this added to a future TAC meeting agenda. 
-        Please also note you must be available to lead this discussion on a 
+        Please also note that you must be available to lead this discussion on a 
         TAC meeting. You can get information on TAC meetings and how to join 
         the meetings at https://tac.aswf.io/meetings.
   - type: textarea
