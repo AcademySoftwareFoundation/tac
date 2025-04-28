@@ -12,7 +12,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        ![](https://artwork.aswf.io/other/dev-days/2024/color/dev-days-2024-color.svg)
+        ![](https://artwork.aswf.io/other/dev-days/blank/color/dev-days-blank-color.svg)
 
         Thank you for your interest in being a project participating in Dev Days 2024! For hosted projects 
         only, use this form to indicate that your project will be participating in Dev Days. More details 
