@@ -5,7 +5,7 @@ labels: ["1-new-project-wg"]
 assignees: 
   - yarille
   - jmertic
-  - kdt3rd
+  - carolalynn
   - lgritz
 body:
   - type: markdown
