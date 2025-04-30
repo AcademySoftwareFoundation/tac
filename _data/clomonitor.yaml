@@ -76,12 +76,8 @@
   logo_url: https://artwork.aswf.io/projects/aswf-diversity-inclusion-wg/horizontal/color/aswf-diversity-inclusion-wg-horizontal-color.svg
   logo_url_dark: https://artwork.aswf.io/projects/aswf-diversity-inclusion-wg/horizontal/color/aswf-diversity-inclusion-wg-horizontal-color.svg
   devstats_url: null
-  maturity: working-group
-  repositories:
-  - name: wg-diversity-inclusion
-    url: https://github.com/chaoss/wg-diversity-inclusion
-    exclude:
-    - clomonitor
+  maturity: long-term-working-group
+  repositories: []
 - name: materialx
   display_name: MaterialX
   description: MaterialX addresses the need for a common, open standard to represent
