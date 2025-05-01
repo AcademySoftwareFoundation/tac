@@ -138,6 +138,6 @@ body:
       label: |
         What existing maintainers and contributors does the project have? Are there 
         organizations involved that are committing resources to the project; if so 
-        please describe?
+        please describe.
     validations:
       required: true
