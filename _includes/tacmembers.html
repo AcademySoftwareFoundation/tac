@@ -26,9 +26,9 @@
         <td>
         {%- for project in site.data.projects -%}
         {%- if project["TAC Representative"] contains member["Full Name"] -%}
-        {{ project["Name"] }} Representative
+	{{ project["Name"] }} Representative<br>
         {%- elsif project["Chair"] contains member["Full Name"] -%}
-        {{ project["Name"] }} Representative
+	{{ project["Name"] }} Representative<br>
         {%- endif -%}
         {%- endfor -%}
         </td>
