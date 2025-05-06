@@ -132,3 +132,12 @@ body:
         trademark registrations been filed by the project or any third party anywhere in the world?
     validations:
       required: true
+  - type: textarea
+    id: resources
+    attributes:
+      label: |
+        What existing maintainers and contributors does the project have? Are there 
+        organizations involved that are committing resources to the project; if so 
+        please describe.
+    validations:
+      required: true
