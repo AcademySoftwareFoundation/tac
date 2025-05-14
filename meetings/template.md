@@ -31,13 +31,17 @@ Join the meeting at [{{ site.tac_lfx_meeting_url }}]({{ site.tac_lfx_meeting_url
 ### Project Representatives
 {% for member in site.data.tacmembers -%}
 {% if member["Appointed By"] == "Vote of TSC Committee" and member['Voting Status'] != 'Observer' %}
+{%- assign roles = '' -%}
 {%- for project in site.data.projects -%}
 {% if project["TAC Representative"] contains member["Full Name"] %}
-- [ ] {{ member["Full Name"] }} - {{ project["Name"] }} Representative
+{%- capture roles -%}{{roles}}, {{ project["Name"] }} Representative{%- endcapture -%}
 {% elsif project["Chair"] contains member["Full Name"] %}
-- [ ] {{ member["Full Name"] }} - {{ project["Name"] }} Representative
+{%- capture roles -%}{{roles}}, {{ project["Name"] }} Representative{%- endcapture -%}
 {%- endif -%}
 {%- endfor -%}
+{%- if roles != '' %}
+- [ ] {{ member["Full Name"] }} - {{ roles | remove_first: ", "}}
+{%- endif -%}
 {%- endif -%}
 {% endfor %}
 
@@ -57,13 +61,17 @@ Join the meeting at [{{ site.tac_lfx_meeting_url }}]({{ site.tac_lfx_meeting_url
 ### Non-Voting Project and Working Group Representatives
 {% for member in site.data.tacmembers -%}
 {%- if member['Voting Status'] == 'Observer' -%}
+{%- assign roles = '' -%}
 {%- for project in site.data.projects -%}
 {% if project["TAC Representative"] contains member["Full Name"] %}
-- [ ] {{ member["Full Name"] }} - {{ project["Name"] }} Representative
+{%- capture roles -%}{{roles}}, {{ project["Name"] }} Representative{%- endcapture -%}
 {% elsif project["Chair"] contains member["Full Name"] %}
-- [ ] {{ member["Full Name"] }} - {{ project["Name"] }} Representative
+{%- capture roles -%}{{roles}}, {{ project["Name"] }} Representative{%- endcapture -%}
 {%- endif -%}
 {%- endfor -%}
+{%- if roles != '' %}
+- [ ] {{ member["Full Name"] }} - {{ roles | remove_first: ", "}}
+{%- endif -%}
 {%- endif -%}
 {% endfor %}
 

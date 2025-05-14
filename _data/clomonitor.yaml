@@ -368,7 +368,7 @@
   logo_url: https://artwork.aswf.io/projects/aswf-usd-wg/horizontal/color/aswf-usd-wg-horizontal-color.svg
   logo_url_dark: https://artwork.aswf.io/projects/aswf-usd-wg/horizontal/color/aswf-usd-wg-horizontal-color.svg
   devstats_url: null
-  maturity: working-group
+  maturity: long-term-working-group
   repositories:
   - name: wg-usd
     url: https://github.com/AcademySoftwareFoundation/wg-usd
