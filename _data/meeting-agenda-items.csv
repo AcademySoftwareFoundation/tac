@@ -1,4 +1,5 @@
 title,url,number,scheduled_date,status,last_review_date,meeting_label
+USD Working Group,https://github.com/AcademySoftwareFoundation/tac/issues/518,518,2025-06-25,Next Meeting Agenda Items,2024-05-01,2-annual-review
 OpenFX,https://github.com/AcademySoftwareFoundation/tac/issues/514,514,2025-06-11,Upcoming Meeting Agenda Items,2024-06-12,2-annual-review
 OpenImageIO,https://github.com/AcademySoftwareFoundation/tac/issues/509,509,2025-06-11,Upcoming Meeting Agenda Items,2024-05-01,2-annual-review
 Engineering Contribution Assessment,https://github.com/AcademySoftwareFoundation/tac/issues/685,685,,Next Meeting Agenda Items,,4-tac-meeting-short
@@ -22,7 +23,6 @@ New Project Proposal - SPK/SPFS,https://github.com/AcademySoftwareFoundation/tac
 OpenEXR,https://github.com/AcademySoftwareFoundation/tac/issues/483,483,2026-04-15,Future Meeting Agenda Items,2025-04-16,2-annual-review
 Rez,https://github.com/AcademySoftwareFoundation/tac/issues/492,492,2026-04-01,Future Meeting Agenda Items,2025-04-02,2-annual-review
 Machine Learning WG,https://github.com/AcademySoftwareFoundation/tac/issues/1029,1029,2026-04-29,Future Meeting Agenda Items,2025-04-30,2-annual-review
-USD Working Group,https://github.com/AcademySoftwareFoundation/tac/issues/518,518,2025-06-25,Future Meeting Agenda Items,2024-05-01,2-annual-review
 CI Working Group,https://github.com/AcademySoftwareFoundation/tac/issues/511,511,2025-07-09,Future Meeting Agenda Items,2024-05-29,2-annual-review
 D&I Working Group,https://github.com/AcademySoftwareFoundation/tac/issues/473,473,2026-01-07,Future Meeting Agenda Items,2025-01-08,2-annual-review
 OpenAssetIO,https://github.com/AcademySoftwareFoundation/tac/issues/516,516,2025-08-20,Future Meeting Agenda Items,2024-08-14,2-annual-review
