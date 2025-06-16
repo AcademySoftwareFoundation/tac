@@ -145,16 +145,16 @@
     url: https://github.com/OpenAssetIO/OpenAssetIO
     exclude:
     - clomonitor
-  - name: OpenAssetIO-Manager-BAL
-    url: https://github.com/OpenAssetIO/OpenAssetIO-Manager-BAL
-    exclude:
-    - clomonitor
-  - name: OpenAssetIO-Manager-BAL
-    url: https://github.com/OpenAssetIO/OpenAssetIO-Manager-BAL
-    exclude:
-    - clomonitor
   - name: OpenAssetIO-MediaCreation
     url: https://github.com/OpenAssetIO/OpenAssetIO-MediaCreation
+    exclude:
+    - clomonitor
+  - name: OpenAssetIO-TraitGen
+    url: https://github.com/OpenAssetIO/OpenAssetIO-TraitGen
+    exclude:
+    - clomonitor
+  - name: Template-OpenAssetIO-Manager-Python
+    url: https://github.com/OpenAssetIO/Template-OpenAssetIO-Manager-Python
     exclude:
     - clomonitor
 - name: opencolorio
