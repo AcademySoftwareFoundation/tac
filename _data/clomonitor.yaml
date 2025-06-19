@@ -251,7 +251,7 @@
   logo_url: https://artwork.aswf.io/projects/openimageio/acronym/color/openimageio-acronym-color.svg
   logo_url_dark: https://artwork.aswf.io/projects/openimageio/acronym/color/openimageio-acronym-color.svg
   devstats_url: null
-  maturity: incubating
+  maturity: graduated
   repositories:
   - name: OpenImageIO
     url: https://github.com/AcademySoftwareFoundation/OpenImageIO
