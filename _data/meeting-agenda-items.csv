@@ -1,8 +1,7 @@
 title,url,number,scheduled_date,status,last_review_date,meeting_label
 OpenFX,https://github.com/AcademySoftwareFoundation/tac/issues/514,514,2025-07-23,Future Meeting Agenda Items,2024-06-12,2-annual-review
-USD Working Group,https://github.com/AcademySoftwareFoundation/tac/issues/518,518,2025-06-25,Upcoming Meeting Agenda Items,2024-05-01,2-annual-review
 Engineering Contribution Assessment,https://github.com/AcademySoftwareFoundation/tac/issues/685,685,,Next Meeting Agenda Items,,4-tac-meeting-short
-CI Working Group,https://github.com/AcademySoftwareFoundation/tac/issues/511,511,2025-07-09,Next Meeting Agenda Items,2024-05-29,2-annual-review
+USD Working Group,https://github.com/AcademySoftwareFoundation/tac/issues/518,518,2025-07-09,Next Meeting Agenda Items,2024-05-01,2-annual-review
 OpenCue,https://github.com/AcademySoftwareFoundation/tac/issues/495,495,2026-05-13,Future Meeting Agenda Items,2025-05-28,2-annual-review
 OpenImageIO,https://github.com/AcademySoftwareFoundation/tac/issues/509,509,2026-06-10,Future Meeting Agenda Items,2025-06-11,2-annual-review
 Dailies Transcription / Notes Taking Tool,https://github.com/AcademySoftwareFoundation/tac/issues/1040,1040,2026-05-27,Future Meeting Agenda Items,,2-annual-review
@@ -34,4 +33,5 @@ Propose to remove vote for annual reviews,https://github.com/AcademySoftwareFoun
 Add option for Lightning Talks at TAC meetings,https://github.com/AcademySoftwareFoundation/tac/pull/1039,1039,,Next Meeting Agenda Items,,4-tac-meeting-short
 TAC Overview presentation,https://github.com/AcademySoftwareFoundation/tac/issues/1062,1062,,On Hold,,3-tac-meeting-long
 "Dev Days recap May 15, 2025",https://github.com/AcademySoftwareFoundation/tac/issues/1070,1070,,Next Meeting Agenda Items,,4-tac-meeting-short
-RMTC (Rongotai Model Train Club),https://github.com/AcademySoftwareFoundation/tac/issues/1075,1075,,Upcoming Meeting Agenda Items,,1-new-project-wg
+RMTC (Rongotai Model Train Club),https://github.com/AcademySoftwareFoundation/tac/issues/1075,1075,2025-06-25,Upcoming Meeting Agenda Items,,1-new-project-wg
+CI Working Group,https://github.com/AcademySoftwareFoundation/tac/issues/511,511,2025-06-25,Upcoming Meeting Agenda Items,2024-05-29,2-annual-review
