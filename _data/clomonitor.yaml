@@ -248,8 +248,8 @@
     a format- agnostic API, with a feature set, scalability, and robustness needed
     for production.
   category: Visual Effects and Computer Graphics
-  logo_url: https://artwork.aswf.io/projects/openimageio/acronym/color/openimageio-acronym-color.svg
-  logo_url_dark: https://artwork.aswf.io/projects/openimageio/acronym/color/openimageio-acronym-color.svg
+  logo_url: https://artwork.aswf.io/projects/openimageio/stacked/color/openimageio-stacked-color.svg
+  logo_url_dark: https://artwork.aswf.io/projects/openimageio/stacked/color/openimageio-stacked-color.svg
   devstats_url: null
   maturity: graduated
   repositories:
