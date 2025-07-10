@@ -122,8 +122,8 @@
   description: The mission of the Project is to develop a royalty-free, open-source,
     open standard video codec for professional video capturing and post-production.
   category: Visual Effects and Computer Graphics
-  logo_url: https://artwork.aswf.io/projects/openapv/None
-  logo_url_dark: https://artwork.aswf.io/projects/openapv/None
+  logo_url: https://artwork.aswf.io/projects/openapv/horizontal/black/openapv-logo-black.svg
+  logo_url_dark: https://artwork.aswf.io/projects/openapv/horizontal/black/openapv-logo-black.svg
   devstats_url: null
   maturity: sandbox
   repositories:
