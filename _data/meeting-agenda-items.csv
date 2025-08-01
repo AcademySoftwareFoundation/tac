@@ -1,7 +1,8 @@
 title,url,number,scheduled_date,status,last_review_date,meeting_label
 Open Review Initiative,https://github.com/AcademySoftwareFoundation/tac/issues/436,436,2025-08-20,Next Meeting Agenda Items,2024-08-21,2-annual-review
 OpenAssetIO,https://github.com/AcademySoftwareFoundation/tac/issues/516,516,2025-08-20,Next Meeting Agenda Items,2024-08-14,2-annual-review
-OpenQMC,https://github.com/AcademySoftwareFoundation/tac/issues/434,434,,Upcoming Meeting Agenda Items,,4-tac-meeting-short
+OpenQMC,https://github.com/AcademySoftwareFoundation/tac/issues/434,434,2025-08-06,Upcoming Meeting Agenda Items,,4-tac-meeting-short
+Security Review report for OpenEXR/MaterialX,https://github.com/AcademySoftwareFoundation/tac/issues/1021,1021,,Upcoming Meeting Agenda Items,,3-tac-meeting-long
 CI Working Group,https://github.com/AcademySoftwareFoundation/tac/issues/511,511,2026-06-24,Future Meeting Agenda Items,2025-06-25,2-annual-review
 Engineering Contribution Assessment,https://github.com/AcademySoftwareFoundation/tac/issues/685,685,,Next Meeting Agenda Items,,4-tac-meeting-short
 OpenCue,https://github.com/AcademySoftwareFoundation/tac/issues/495,495,2026-05-13,Future Meeting Agenda Items,2025-05-28,2-annual-review
@@ -17,7 +18,6 @@ MaterialX,https://github.com/AcademySoftwareFoundation/tac/issues/486,486,2026-0
 New Project Proposal - VUE and PlantFactory,https://github.com/AcademySoftwareFoundation/tac/issues/1059,1059,,On Hold,,1-new-project-wg
 LFX Insights review for projects,https://github.com/AcademySoftwareFoundation/tac/issues/920,920,,On Hold,,4-tac-meeting-short
 Planning Session for TAC,https://github.com/AcademySoftwareFoundation/tac/issues/972,972,,On Hold,,3-tac-meeting-long
-Security Review report for OpenEXR/MaterialX,https://github.com/AcademySoftwareFoundation/tac/issues/1021,1021,,On Hold,,3-tac-meeting-long
 New Project Proposal - SPK/SPFS,https://github.com/AcademySoftwareFoundation/tac/issues/915,915,,On Hold,,1-new-project-wg
 OpenEXR,https://github.com/AcademySoftwareFoundation/tac/issues/483,483,2026-04-15,Future Meeting Agenda Items,2025-04-16,2-annual-review
 Rez,https://github.com/AcademySoftwareFoundation/tac/issues/492,492,2026-04-01,Future Meeting Agenda Items,2025-04-02,2-annual-review
