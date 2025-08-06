@@ -32,7 +32,7 @@
         {%- endif -%}
         {%- endfor -%}
         </td>
-        <td>{% if member["Special Role"] == "Chair" %}Chairperson - {% endif %}{{ member["Voting Status"] }}</td>
+        <td>{% if member["Special Role"] != "None" %}{{ member["Special Role"] }} - {% endif %}{{ member["Voting Status"] }}</td>
         <td>{{ member["Account Name: Account Name"] }}</td>
     </tr>
 {%- endif -%}
@@ -42,7 +42,7 @@
     <tr>
         <td>{{ member["Full Name"] }}</td>
         <td>{{ site.vote_of_tac_committee_title | default: "Other Representative" }}</td>
-        <td>{% if member["Special Role"] == "Chair" %}Chairperson - {% endif %}{{ member["Voting Status"] }}</td>
+        <td>{% if member["Special Role"] != "None" %}{{ member["Special Role"] }} - {% endif %}{{ member["Voting Status"] }}</td>
         <td>{{ member["Account Name: Account Name"] }}</td>
     </tr>
 {%- endif -%}
