@@ -353,8 +353,8 @@
     environment. Assist ASWF projects in determining their zero trust security needs
     and share best practices on implementation approaches.
   category: Visual Effects and Computer Graphics
-  logo_url: https://artwork.aswf.io/projects/aswf-zero-trust-wg/horizontal/color/zero-trust-wg-color.svg
-  logo_url_dark: https://artwork.aswf.io/projects/aswf-zero-trust-wg/horizontal/color/zero-trust-wg-color.svg
+  logo_url: https://artwork.aswf.io/projects/aswf-zero-trust-wg/horizontal/color/aswf-zero-trust-wg-horizontal-color.svg
+  logo_url_dark: https://artwork.aswf.io/projects/aswf-zero-trust-wg/horizontal/color/aswf-zero-trust-wg-horizontal-color.svg
   devstats_url: null
   maturity: working-group
   repositories: []
