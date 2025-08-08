@@ -1,3 +1,18 @@
+- name: aces
+  display_name: Academy Color Encoding System (ACES)
+  description: The mission of the project is to develop a global standard for interchanging
+    digital image files, managing color workflows, and creating masters for delivery
+    and archiving.
+  category: Visual Effects and Computer Graphics
+  logo_url: https://artwork.aswf.io/projects/aces/full/color/aces-full-color.svg
+  logo_url_dark: https://artwork.aswf.io/projects/aces/full/color/aces-full-color.svg
+  devstats_url: null
+  maturity: incubating
+  repositories:
+  - name: aces
+    url: https://github.com/ampas/aces
+    exclude:
+    - clomonitor
 - name: aswf-continuous-integration-wg
   display_name: Continuous Integration Working Group
   description: "The ASWF\u2019s investment in CI build infrastructure will provide\
@@ -15,6 +30,21 @@
     - clomonitor
   - name: aswf-docker
     url: https://github.com/AcademySoftwareFoundation/aswf-docker
+    exclude:
+    - clomonitor
+- name: dailies-transcription-notes-taking-tool
+  display_name: Dailies Notes Assistant
+  description: The mission of the Project is to develop a tool designed to transcribe
+    dailies meetings, analyze the content using an LLM, and provide a plugin system
+    to integrate into production tracking software.
+  category: Visual Effects and Computer Graphics
+  logo_url: https://artwork.aswf.io/projects/dailies-transcription-notes-taking-tool/None
+  logo_url_dark: https://artwork.aswf.io/projects/dailies-transcription-notes-taking-tool/None
+  devstats_url: null
+  maturity: sandbox
+  repositories:
+  - name: dna
+    url: https://github.com/AcademySoftwareFoundation/dna
     exclude:
     - clomonitor
 - name: dpel
@@ -330,6 +360,16 @@
     url: https://github.com/AcademySoftwareFoundation/rez
     exclude:
     - clomonitor
+- name: rongotai-model-train-club-rmtc
+  display_name: Rongotai Model Train Club (RMTC)
+  description: RMTC is a VFX-specific framework for simplifying the production and
+    deployment of AI/ML models using well-tracked and rights-cleared datasets.
+  category: Visual Effects and Computer Graphics
+  logo_url: https://artwork.aswf.io/projects/rongotai-model-train-club-rmtc/None
+  logo_url_dark: https://artwork.aswf.io/projects/rongotai-model-train-club-rmtc/None
+  devstats_url: null
+  maturity: sandbox
+  repositories: []
 - name: aswf-usd-wg
   display_name: Universal Scene Description Working Group
   description: The purpose of the USD working group is to support the USD project
