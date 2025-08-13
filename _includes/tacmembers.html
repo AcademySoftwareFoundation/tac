@@ -10,11 +10,11 @@
 </thead>
 <tbody>
 {%- for member in site.data.tacmembers -%}
-{%- if member["Appointed By"] == "Membership Entitlement" -%}
+{%- if member["Appointed By"] == "Membership Entitlement" and member['Voting Status'] != 'Observer' -%}
     <tr>
         <td>{{ member["Full Name"] }}</td>
-        <td>{{ site.membership_top_tier | default: "Premier" }} Member Representative</td>
-        <td>{% if member["Special Role"] != "None" %}{{ member["Special Role"] }} - {% endif %}{{ member["Voting Status"] }}</td>
+	<td>{{ site.membership_top_tier | default: "Premier" }} Member {% if member["Voting Status"] == "Alternate Voting Rep" %}Alternate {% endif %}Representative</td>
+        <td>{% if member["Special Role"] != "None" %}{{ member["Special Role"] }}{% endif %}</td>
         <td>{{ member["Account Name: Account Name"] }}</td>
     </tr>
 {%- endif -%}
@@ -26,13 +26,13 @@
         <td>
         {%- for project in site.data.projects -%}
         {%- if project["TAC Representative"] contains member["Full Name"] -%}
-	{{ project["Name"] }} Representative<br>
+	{{ project["Name"] }} {% if member["Voting Status"] == "Alternate Voting Rep" %}Alternate {% endif %}Representative<br>
         {%- elsif project["Chair"] contains member["Full Name"] -%}
-	{{ project["Name"] }} Representative<br>
+	{{ project["Name"] }} {% if member["Voting Status"] == "Alternate Voting Rep" %}Alternate {% endif %}Representative<br>
         {%- endif -%}
         {%- endfor -%}
         </td>
-        <td>{% if member["Special Role"] != "None" %}{{ member["Special Role"] }} - {% endif %}{{ member["Voting Status"] }}</td>
+        <td>{% if member["Special Role"] != "None" %}{{ member["Special Role"] }}{% endif %}</td>
         <td>{{ member["Account Name: Account Name"] }}</td>
     </tr>
 {%- endif -%}
@@ -42,7 +42,7 @@
     <tr>
         <td>{{ member["Full Name"] }}</td>
         <td>{{ site.vote_of_tac_committee_title | default: "Other Representative" }}</td>
-        <td>{% if member["Special Role"] != "None" %}{{ member["Special Role"] }} - {% endif %}{{ member["Voting Status"] }}</td>
+        <td>{% if member["Special Role"] != "None" %}{{ member["Special Role"] }}{% endif %}</td>
         <td>{{ member["Account Name: Account Name"] }}</td>
     </tr>
 {%- endif -%}
