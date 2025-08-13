@@ -291,6 +291,16 @@
     url: https://github.com/AcademySoftwareFoundation/OpenImageIO-images
     exclude:
     - clomonitor
+- name: openqmc
+  display_name: OpenQMC
+  description: The mission of the Project is to provide an API to deliver high quality
+    QMC sample points.
+  category: Visual Effects and Computer Graphics
+  logo_url: https://artwork.aswf.io/projects/openqmc/None
+  logo_url_dark: https://artwork.aswf.io/projects/openqmc/None
+  devstats_url: null
+  maturity: sandbox
+  repositories: []
 - name: open-timeline-io
   display_name: OpenTimelineIO
   description: OpenTimelineIO (OTIO) is an API and interchange format for editorial
