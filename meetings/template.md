@@ -125,6 +125,26 @@ the Linux Foundation.
 ## Notes
 
 
+
+## Next Meeting Agenda
+
+{% assign agendaitems = site.data.meeting-agenda-items | where: "status", "Next Meeting Agenda Items" | sort: "meeting_label" -%}
+- General Updates
+{%- for agendaitem in agendaitems -%}
+{%- if agendaitem.meeting_label == "4-tac-meeting-short" %}
+  - {{ agendaitem.title }} [#{{ agendaitem.number }}]({{ agendaitem.url }})
+{%- endif -%}
+{% endfor -%}
+{% for agendaitem in agendaitems %}
+{%- if agendaitem.meeting_label contains "2-annual-review" %}
+- Annual Review: {{ agendaitem.title }} [#{{ agendaitem.number }}]({{ agendaitem.url }})
+{%- elsif agendaitem.meeting_label contains "1-new-project-wg" %}
+- New Project/Working Group Proposal: {{ agendaitem.title }} [#{{ agendaitem.number }}]({{ agendaitem.url }})
+{%- elsif agendaitem.meeting_label != "4-tac-meeting-short" %}
+- {{ agendaitem.title }} [#{{ agendaitem.number }}]({{ agendaitem.url }})
+{%- endif -%}
+{% endfor %}
+
 {%- endcapture -%}
 {{ agenda }}
 </pre>
