@@ -4,8 +4,6 @@ New Project Proposal - SPK/SPFS,https://github.com/AcademySoftwareFoundation/tac
 Rename project lifecycle stage 'Adopted' to 'Graduated',https://github.com/AcademySoftwareFoundation/tac/pull/999,999,,Upcoming Meeting Agenda Items,,4-tac-meeting-short
 Propose to remove vote for annual reviews,https://github.com/AcademySoftwareFoundation/tac/pull/1016,1016,,Upcoming Meeting Agenda Items,,4-tac-meeting-short
 CI Working Group,https://github.com/AcademySoftwareFoundation/tac/issues/511,511,2026-06-24,Future Meeting Agenda Items,2025-06-25,2-annual-review
-Engineering Contribution Assessment,https://github.com/AcademySoftwareFoundation/tac/issues/685,685,,Next Meeting Agenda Items,,4-tac-meeting-short
-Security Review report for OpenEXR/MaterialX,https://github.com/AcademySoftwareFoundation/tac/issues/1021,1021,,Next Meeting Agenda Items,,4-tac-meeting-short
 OpenCue,https://github.com/AcademySoftwareFoundation/tac/issues/495,495,2026-05-13,Future Meeting Agenda Items,2025-05-28,2-annual-review
 OpenImageIO,https://github.com/AcademySoftwareFoundation/tac/issues/509,509,2026-06-10,Future Meeting Agenda Items,2025-06-11,2-annual-review
 Dailies Notes Assistant (DNA),https://github.com/AcademySoftwareFoundation/tac/issues/1040,1040,2026-05-27,Future Meeting Agenda Items,,2-annual-review
@@ -34,3 +32,5 @@ OpenFX,https://github.com/AcademySoftwareFoundation/tac/issues/514,514,2026-07-2
 OpenQMC,https://github.com/AcademySoftwareFoundation/tac/issues/434,434,2026-08-05,Future Meeting Agenda Items,2025-08-06,2-annual-review
 Academy Color Encoding System (ACES),https://github.com/AcademySoftwareFoundation/tac/issues/1091,1091,2026-07-08,Future Meeting Agenda Items,2025-07-09,2-annual-review
 Dev Days - September 25th,https://github.com/AcademySoftwareFoundation/tac/issues/1134,1134,,Upcoming Meeting Agenda Items,,4-tac-meeting-short
+Engineering Contribution Assessment,https://github.com/AcademySoftwareFoundation/tac/issues/685,685,,Upcoming Meeting Agenda Items,,4-tac-meeting-short
+Future Security Reviews,https://github.com/AcademySoftwareFoundation/tac/issues/1137,1137,,On Hold,,
