@@ -5,7 +5,7 @@ labels: ["1-new-project-wg"]
 assignees: 
   - yarille
   - jmertic
-  - kdt3rd
+  - carolalynn
   - lgritz
 body:
   - type: markdown
@@ -130,5 +130,14 @@ body:
       label: |
         Are any trademarks, registered or unregistered, leveraged by the project? Have any
         trademark registrations been filed by the project or any third party anywhere in the world?
+    validations:
+      required: true
+  - type: textarea
+    id: resources
+    attributes:
+      label: |
+        What existing maintainers and contributors does the project have? Are there 
+        organizations involved that are committing resources to the project; if so 
+        please describe.
     validations:
       required: true
