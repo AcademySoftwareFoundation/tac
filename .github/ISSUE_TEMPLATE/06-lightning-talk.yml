@@ -1,0 +1,24 @@
+name: TAC Meeting "Lightning Talk"
+description: Propose a "Lightning Talk" for a future TAC meeting
+title: "AGENDA TOPIC"
+labels: ["5-tac-lightning-talk"]
+assignees: 
+  - yarille
+  - jmertic
+  - carolalynn
+  - lgritz
+body:
+  - type: markdown
+    attributes:
+      value: |
+        The TAC invites hosted projects and working groups, along with the ASWF
+        Community at large to present "Lightning Talks" at TAC meetings. Those
+        interested in doing a "Lightning Talk" will be given 10 minutes for the 
+        presentation and questions. You can get information on TAC meetings and 
+        how to join the meetings at https://tac.aswf.io/meetings.
+  - type: textarea
+    id: details
+    attributes:
+      label: Please share more details on what you plan to present.
+    validations:
+      required: true
