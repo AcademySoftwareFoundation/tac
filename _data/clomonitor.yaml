@@ -68,6 +68,18 @@
     url: https://github.com/AcademySoftwareFoundation/dpel-website
     exclude:
     - clomonitor
+  - name: ALab
+    url: https://github.com/DigitalProductionExampleLibrary/ALab
+    exclude:
+    - clomonitor
+  - name: OpenPBRShaderPlayground
+    url: https://github.com/DigitalProductionExampleLibrary/OpenPBRShaderPlayground
+    exclude:
+    - clomonitor
+  - name: SoleMates
+    url: https://github.com/DigitalProductionExampleLibrary/SoleMates
+    exclude:
+    - clomonitor
 - name: aswf-diversity-inclusion-wg
   display_name: Diversity & Inclusion Working Group
   description: The purpose of this Working Group is to create a cross-industry effort
@@ -95,7 +107,7 @@
   maturity: graduated
   repositories:
   - name: MaterialX
-    url: https://github.com/materialx/MaterialX
+    url: https://github.com/AcademySoftwareFoundation/MaterialX
     exclude:
     - clomonitor
   - name: OpenPBR
@@ -379,7 +391,11 @@
   logo_url_dark: https://artwork.aswf.io/projects/rongotai-model-train-club-rmtc/None
   devstats_url: null
   maturity: sandbox
-  repositories: []
+  repositories:
+  - name: rmtc
+    url: https://github.com/AcademySoftwareFoundation/rmtc
+    exclude:
+    - clomonitor
 - name: aswf-usd-wg
   display_name: Universal Scene Description Working Group
   description: The purpose of the USD working group is to support the USD project
