@@ -3,29 +3,15 @@ title: Home
 nav_order: 1
 ---
 
-# Overview
+# {{ site.foundation_name }} Technical Advisory Council (TAC)
 
-Per the [Directed Fund Charter]({{ site.directed_fund_charter_url }}), the role of the Technical Advisory Committee (TAC) is to facilitate communication and collaboration among the Technical Projects. The TAC will be responsible for:
+This site hosts all the materials and resources for the {{ site.foundation_name }} TAC and it's Technical Projects and Working Groups. More details on the role of the TAC can be found [here](overview).
 
-- Coordinating collaboration among Technical Projects, including development of an overall technical vision for the community;
-- Making recommendations to the Budget Committee of resource priorities for Technical Projects;
-- Electing annually a chairperson to preside over meetings, set the agenda for meetings, ensure meeting minutes are taken and who will also serve on the Governing Board as the TAC’s representative (the “TAC Representative”);
-- Creating, maintaining and amending project lifecycle procedures and processes, subject to the approval of the Governing Board; and
-- Such other matters related to the technical role of the TAC as may be communicated to the TAC by the Governing Board.
-
-# TAC Members
-
-All members of the broad {{ site.foundation_name }} community are welcome to participate in TAC activities, such as meetings or online discussion. For voting matters such as project inclusion or graduation, TAC members are composed of:
-
-* One representative appointed by each Premier Member;
-* One representative appointed by the technical oversight body (e.g., a technical steering committee) of each TAC Project; and
-* Up to three experts from the broader motion picture industry (who serve for one-year terms)
-
-Current TAC Members are:
+## TAC Members
 
 {%- include tacmembers.html -%}
 
-# Technical Projects 
+## Technical Projects and Working Groups 
 
 Technical Projects are approved by TAC Members per the [project lifecycle guidelines](process/lifecycle). You can learn more about hosting projects at {{ site.foundation_name }} and how to propose a project for inclusion as an {{ site.foundation_name }} Technical Project [here](process/start_project).
 
