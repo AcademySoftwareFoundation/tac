@@ -1,6 +1,5 @@
 ---
-title: Overview
-nav_order: 2
+parent: Processes
 ---
 
 # TAC Overview
@@ -40,15 +39,20 @@ See [Section 7(b) of the Academy Software Foundation Charter]({{ site.directed_f
 
 Premier members and projects/working groups can change their representative at any time by making a request [here]({{ site.helpdesk_url }}).
 
+## Discussion Channels
+
+### Relevant Mailing Lists
+
+- TAC Public List: tac@lists.aswf.io
+- TAC Private List: tac-private@lists.aswf.io (This list is ONLY for sensitive topics)
+- Project and Working Group Leads: technical-project-leads@lists.aswf.io
+
+### Slack Channel
+
+- You can join Academy Software Foundation Slack [here]({{ site.slack_url }})
+- To join the TAC Slack channel, make a request [here]({{ site.helpdesk_url }}).
+
 ## Meetings
-
-Schedule of TAC Meetings is below. All meetings listed are open to anyone interested in participating in the project.
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/4.3.9/iframeResizer.min.js"></script>
-<iframe id="taccalendar" src="{{ site.tac_lfx_meeting_url }}" style="border: 0" width="700" height="1050" frameborder="0" scrolling="no"></iframe>
-<script>
-iFrameResize({ }, '#taccalendar');
-</script>
 
 - Agenda for TAC meetings are managed [here]({{ site.tac_meeting_agenda_url }})
 - Propose a topic for a TAC meeting [here]({{ site.tac_propose_agenda_item_url }})
@@ -60,18 +64,13 @@ iFrameResize({ }, '#taccalendar');
   - Refer the topic to the appropriate committee or task force of the TAC
 - We may ask you to provide slides 3 days before the meeting.
 - Agendas for TAC meetings will be made available the day before the scheduled meeting
-- Past meeting notes can be found [here](/meetings).
+- Past meeting notes can be found [here]({% link meetings/README.md %}).
 - No meeting of the TAC is recorded unless the TAC provides explicit consent to do so. 
 
-## Discussion Channels
+Schedule of TAC Meetings is below. All meetings listed are open to anyone interested in participating in the project.
 
-Relevant Mailing Lists
-
-- TAC Public List: tac@lists.aswf.io
-- TAC Private List: tac-private@lists.aswf.io (This list is ONLY for sensitive topics)
-- Project and Working Group Leads: technical-project-leads@lists.aswf.io
-
-Slack Channel
-
-- You can join Academy Software Foundation Slack [here]({{ site.slack_url }})
-- To join the TAC Slack channel, make a request [here]({{ site.helpdesk_url }}).
+<script src="https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/4.3.9/iframeResizer.min.js"></script>
+<iframe id="taccalendar" src="{{ site.tac_lfx_meeting_url }}" style="border: 0" width="700" height="1050" frameborder="0" scrolling="no"></iframe>
+<script>
+iFrameResize({ }, '#taccalendar');
+</script>
