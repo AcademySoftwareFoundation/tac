@@ -39,9 +39,11 @@ helpdesk_url: "https://servicedesk.aswf.io"
 tac_mailing_list_url: "https://lists.aswf.io/g/tac"
 website_url: "https://aswf.io"
 blog_url: "https://aswf.io/blog"
-tac_lfx_meeting_url: "https://zoom-lfx.platform.linuxfoundation.org/meeting/97880950229?password=81d2940e-c055-43b9-9b5a-6cd7d7090feb" 
+tac_lfx_meeting_url: "https://zoom-lfx.platform.linuxfoundation.org/meetings/aswf?view=list&projects=aswf"
 lfscanning_repo_url: https://github.com/lfscanning/spdx-aswf
 tac_member_list_url: https://www.aswf.io/about/technical-advisory-council
+tac_meeting_agenda_url: https://github.com/orgs/AcademySoftwareFoundation/projects/19
+tac_propose_agenda_item_url: https://github.com/AcademySoftwareFoundation/tac/issues/new
 lf_staff_list_url: https://www.aswf.io/about/staff/
 mission_statement_url: https://www.aswf.io/about/
 
