@@ -24,7 +24,6 @@ To enable more robust security for hosted projects, {{ site.foundation_name }} T
 
 Generally open source projects at The Linux Foundation that have not previously selected a license leverage the [Apache License, Version 2.0][] for their codebase, a [Community Data License Agreement (CDLA) license][] for any data sets, and the [Creative Commons Attribution 4.0 International License][] for all documentation and non-code assets. These licenses are widely used and understood by developers and organizations alike, providing flexibility for downstream usage and patent protection for those contributing code. Each hosted project maintains their own Intellectual Property policy as part of thier Technical Charter which outlines the specific guidelines.
 
-
 ### Code License Identification
 
 Each repository must contain a license file. Include the plain-text version of the license as a LICENSE file in the top-level directory of the repository.
