@@ -5,7 +5,7 @@ nav_order: 1
 
 # {{ site.foundation_name }} Technical Advisory Council (TAC)
 
-This site hosts all the materials and resources for the {{ site.foundation_name }} TAC and it's Technical Projects and Working Groups. More details on the role of the TAC can be found [here](overview).
+This site hosts all the materials and resources for the {{ site.foundation_name }} TAC and it's Technical Projects and Working Groups. More details on the role of the TAC can be found [here]({% link process/tac_overview.md %}).
 
 ## TAC Members
 
