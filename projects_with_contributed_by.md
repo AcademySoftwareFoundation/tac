@@ -10,6 +10,7 @@ layout: minimal
   <div>
   <dt><img src="{{ project['Logo URL'] }}" ></dt>
   <dd><p>Contributed By</p><p>{{ project['Contributed By'] }}</p></dd>
+  <dd><p>Chairperson(s)</p><p>{{ project['Chair'] }}</p></dd>
   </div>
 {%- endif -%}
 {%- endfor -%}
