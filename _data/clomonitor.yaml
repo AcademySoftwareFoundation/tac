@@ -9,8 +9,8 @@
   devstats_url: null
   maturity: incubating
   repositories:
-  - name: aces
-    url: https://github.com/ampas/aces
+  - name: aces-core
+    url: https://github.com/aces-aswf/aces-core
     exclude:
     - clomonitor
 - name: aswf-continuous-integration-wg
