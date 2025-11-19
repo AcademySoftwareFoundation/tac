@@ -23,6 +23,9 @@ If you are new to open source, or have some experience in open source and lookin
     - Documentation
         - [Open Source Technical Documentation Essentials (LFC111)](https://training.linuxfoundation.org/training/open-source-technical-documentation-essentials-lfc111/)
         - [Creating Effective Documentation for Developers (LFC112)](https://training.linuxfoundation.org/training/creating-effective-documentation-for-developers-lfc112/)
+    - Standards Development
+        - [GitHub for Open Standards Development (LFD140)](https://training.linuxfoundation.org/training/github-for-open-standards-development-lfd140/)
+        - [Leading High-Performance Working Group Meetings (LFC120)](https://training.linuxfoundation.org/training/leading-high-performance-working-group-meetings-lfc120/)
 - [GitHub for Developers](https://githubtraining.github.io/training-manual/#/01_getting_ready_for_class)
 - [Open Source Guides from GitHub](https://opensource.guide/)
 - [Open Source License Best Practices - Quick Reference Guide](https://www.linuxfoundation.org/licensebestpractices)
