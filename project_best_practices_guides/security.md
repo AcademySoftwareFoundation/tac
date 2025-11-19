@@ -1,3 +1,7 @@
+---
+parent: Best Practices
+---
+
 Security Best Practices
 =======================
 

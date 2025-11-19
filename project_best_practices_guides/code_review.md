@@ -1,3 +1,7 @@
+---
+parent: Best Practices
+---
+
 Code Review Best Practices
 ==========================
 

@@ -1,3 +1,8 @@
+---
+title: Best Practices
+nav_order: 55
+---
+
 ASWF Project Best Practices -- Overview
 =======================================
 
