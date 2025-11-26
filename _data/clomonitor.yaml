@@ -9,8 +9,8 @@
   devstats_url: null
   maturity: incubating
   repositories:
-  - name: aces
-    url: https://github.com/ampas/aces
+  - name: aces-core
+    url: https://github.com/aces-aswf/aces-core
     exclude:
     - clomonitor
 - name: aswf-continuous-integration-wg
@@ -312,7 +312,11 @@
   logo_url_dark: https://artwork.aswf.io/projects/openqmc/None
   devstats_url: null
   maturity: sandbox
-  repositories: []
+  repositories:
+  - name: openqmc
+    url: https://github.com/AcademySoftwareFoundation/openqmc
+    exclude:
+    - clomonitor
 - name: open-timeline-io
   display_name: OpenTimelineIO
   description: OpenTimelineIO (OTIO) is an API and interchange format for editorial
