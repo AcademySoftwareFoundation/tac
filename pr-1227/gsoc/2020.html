@@ -1,0 +1,892 @@
+
+
+<!DOCTYPE html>
+
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+  <link rel="stylesheet" href="/assets/css/just-the-docs-default.css">
+
+  <link rel="stylesheet" href="/assets/css/just-the-docs-head-nav.css" id="jtd-head-nav-stylesheet">
+
+  <style id="jtd-nav-activation">
+  
+
+    .site-nav > ul.nav-list:first-child > li > a,
+    .site-nav > ul.nav-list:first-child > li > ul > li > a,
+    
+    .site-nav > ul.nav-list:first-child > li > ul > li > ul > li:not(:nth-child(1)) > a,
+    .site-nav > ul.nav-list:first-child > li > ul > li > ul > li > ul > li a {
+      background-image: none;
+    }
+
+    .site-nav > ul.nav-list:not(:first-child) a,
+    .site-nav li.external a {
+      background-image: none;
+    }
+
+    .site-nav > ul.nav-list:first-child > li:nth-child(5) > ul > li:nth-child(1) > ul > li:nth-child(1) > a {
+      font-weight: 600;
+      text-decoration: none;
+    }.site-nav > ul.nav-list:first-child > li:nth-child(5) > button svg,
+    .site-nav > ul.nav-list:first-child > li:nth-child(5) > ul > li:nth-child(1) > button svg,
+    .site-nav > ul.nav-list:first-child > li:nth-child(5) > ul > li:nth-child(1) > ul > li:nth-child(1) > button svg {
+      transform: rotate(-90deg);
+    }.site-nav > ul.nav-list:first-child > li.nav-list-item:nth-child(5) > ul.nav-list,
+    .site-nav > ul.nav-list:first-child > li.nav-list-item:nth-child(5) > ul.nav-list > li.nav-list-item:nth-child(1) > ul.nav-list,
+    .site-nav > ul.nav-list:first-child > li.nav-list-item:nth-child(5) > ul.nav-list > li.nav-list-item:nth-child(1) > ul.nav-list > li.nav-list-item:nth-child(1) > ul.nav-list {
+      display: block;
+    }
+  </style>
+
+  
+    
+    <script async src="https://www.googletagmanager.com/gtag/js?id=360578303"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      
+        gtag('config', '360578303', { 'anonymize_ip': true });
+      
+    </script>
+  
+
+  
+    <script src="/assets/js/vendor/lunr.min.js"></script>
+  
+
+  <script src="/assets/js/just-the-docs.js"></script>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+
+
+  <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>ASWF Google Summer of Code 2020 | Academy Software Foundation TAC</title>
+<meta name="generator" content="Jekyll v3.10.0" />
+<meta property="og:title" content="ASWF Google Summer of Code 2020" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Materials and processes for the Academy Software Foundation TAC" />
+<meta property="og:description" content="Materials and processes for the Academy Software Foundation TAC" />
+<meta property="og:site_name" content="Academy Software Foundation TAC" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="ASWF Google Summer of Code 2020" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"Materials and processes for the Academy Software Foundation TAC","headline":"ASWF Google Summer of Code 2020","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://artwork.aswf.io/other/aswf/logo/aqua/aswf-logo-aqua.svg"}},"url":"/gsoc/2020.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+  
+
+</head>
+
+<body>
+  <a class="skip-to-main" href="#main-content">Skip to main content</a>
+  <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
+  <symbol id="svg-link" viewBox="0 0 24 24">
+  <title>Link</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link">
+    <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+  </svg>
+</symbol>
+
+  <symbol id="svg-menu" viewBox="0 0 24 24">
+  <title>Menu</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+    <line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line>
+  </svg>
+</symbol>
+
+  <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+  <title>Expand</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+    <polyline points="9 18 15 12 9 6"></polyline>
+  </svg>
+</symbol>
+
+  <!-- Feather. MIT License: https://github.com/feathericons/feather/blob/master/LICENSE -->
+<symbol id="svg-external-link" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-external-link">
+  <title id="svg-external-link-title">(external link)</title>
+  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line>
+</symbol>
+
+  
+    <symbol id="svg-doc" viewBox="0 0 24 24">
+  <title>Document</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file">
+    <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline>
+  </svg>
+</symbol>
+
+    <symbol id="svg-search" viewBox="0 0 24 24">
+  <title>Search</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
+    <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+  </svg>
+</symbol>
+
+  
+  
+    <!-- Bootstrap Icons. MIT License: https://github.com/twbs/icons/blob/main/LICENSE.md -->
+<symbol id="svg-copy" viewBox="0 0 16 16">
+  <title>Copy</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clipboard" viewBox="0 0 16 16">
+    <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"/>
+    <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"/>
+  </svg>
+</symbol>
+<symbol id="svg-copied" viewBox="0 0 16 16">
+  <title>Copied</title>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clipboard-check-fill" viewBox="0 0 16 16">
+    <path d="M6.5 0A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3Zm3 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3Z"/>
+    <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1A2.5 2.5 0 0 1 9.5 5h-3A2.5 2.5 0 0 1 4 2.5v-1Zm6.854 7.354-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 0 1 .708-.708L7.5 10.793l2.646-2.647a.5.5 0 0 1 .708.708Z"/>
+  </svg>
+</symbol>
+
+  
+</svg>
+
+  
+    <div class="side-bar">
+  <div class="site-header" role="banner">
+    <a href="/" class="site-title lh-tight">
+  <div class="site-logo" role="img" aria-label="Academy Software Foundation TAC"></div>
+
+</a>
+    <button id="menu-button" class="site-button btn-reset" aria-label="Toggle menu" aria-pressed="false">
+      <svg viewBox="0 0 24 24" class="icon" aria-hidden="true"><use xlink:href="#svg-menu"></use></svg>
+    </button>
+  </div>
+
+  <nav aria-label="Main" id="site-nav" class="site-nav">
+  
+  
+    <ul class="nav-list"><li class="nav-list-item"><a href="/" class="nav-list-link">Home</a></li><li class="nav-list-item"><a href="/engagement/" class="nav-list-link">Getting Involved</a></li><li class="nav-list-item"><button class="nav-list-expander btn-reset" aria-label="toggle items in Processes category" aria-pressed="false">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><use xlink:href="#svg-arrow-right"></use></svg>
+      </button><a href="/process/" class="nav-list-link">Processes</a><ul class="nav-list"><li class="nav-list-item"><a href="/process/contributing.html" class="nav-list-link">Contribution Guidelines for hosted projects</a></li><li class="nav-list-item"><button class="nav-list-expander btn-reset" aria-label="toggle items in Project Lifecycle category" aria-pressed="false">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><use xlink:href="#svg-arrow-right"></use></svg>
+      </button><a href="/process/lifecycle.html" class="nav-list-link">Project Lifecycle</a><ul class="nav-list"><li class="nav-list-item"><a href="/process/start_project.html" class="nav-list-link">Bringing a project here</a></li><li class="nav-list-item"><a href="/process/proposal_template.html" class="nav-list-link">Project Contribution Proposal Template</a></li><li class="nav-list-item"><a href="/process/onboarding.html" class="nav-list-link">New Project Onboarding</a></li><li class="nav-list-item"><a href="/process/review_cycle.html" class="nav-list-link">Annual Reviews</a></li><li class="nav-list-item"><a href="/process/tsc_faq.html" class="nav-list-link">Technical Steering Committee (TSC) FAQ</a></li><li class="nav-list-item"><a href="/process/project_admins.html" class="nav-list-link">Project Admins</a></li><li class="nav-list-item"><a href="/process/best_practices_badge.html" class="nav-list-link">OpenSSF Best Practices Badge FAQ</a></li></ul></li><li class="nav-list-item"><button class="nav-list-expander btn-reset" aria-label="toggle items in Working Groups category" aria-pressed="false">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><use xlink:href="#svg-arrow-right"></use></svg>
+      </button><a href="/process/working_groups/" class="nav-list-link">Working Groups</a><ul class="nav-list"><li class="nav-list-item"><a href="/process/working_groups/wg_readme_template.html" class="nav-list-link">Working Group Charter Template</a></li></ul></li><li class="nav-list-item"><a href="/process/tac_overview.html" class="nav-list-link">TAC Overview</a></li><li class="nav-list-item"><a href="/process/tac_roles.html" class="nav-list-link">TAC Roles</a></li><li class="nav-list-item"><a href="/process/voting.html" class="nav-list-link">Voting Processes</a></li></ul></li><li class="nav-list-item"><button class="nav-list-expander btn-reset" aria-label="toggle items in Meetings category" aria-pressed="false">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><use xlink:href="#svg-arrow-right"></use></svg>
+      </button><a href="/meetings/" class="nav-list-link">Meetings</a><ul class="nav-list"><li class="nav-list-item"><a href="/meetings/2025-11-12/2025-11-12.html" class="nav-list-link">2025-11-12</a></li><li class="nav-list-item"><a href="/meetings/2025-10-29/2025-10-29.html" class="nav-list-link">2025-10-29</a></li><li class="nav-list-item"><a href="/meetings/2025-10-15/2025-10-15.html" class="nav-list-link">2025-10-15</a></li><li class="nav-list-item"><a href="/meetings/2025-10-01/2025-10-01.html" class="nav-list-link">2025-10-01</a></li><li class="nav-list-item"><a href="/meetings/2025-09-17/2025-09-17.html" class="nav-list-link">2025-09-17</a></li><li class="nav-list-item"><a href="/meetings/2025-09-03/2025-09-03.html" class="nav-list-link">2025-09-03</a></li><li class="nav-list-item"><a href="/meetings/2025-08-20.html" class="nav-list-link">2025-08-20</a></li><li class="nav-list-item"><a href="/meetings/2025-08-06.md.html" class="nav-list-link">2025-08-06</a></li><li class="nav-list-item"><a href="/meetings/2025-07-23/2025-07-23.html" class="nav-list-link">2025-07-23</a></li><li class="nav-list-item"><a href="/meetings/2025-07-09/2025-07-09.html" class="nav-list-link">2025-07-09</a></li><li class="nav-list-item"><a href="/meetings/2025-06-25/2025-06-25.html" class="nav-list-link">2025-06-25</a></li><li class="nav-list-item"><a href="/meetings/2025-06-11/2025-06-11.html" class="nav-list-link">2025-06-11</a></li><li class="nav-list-item"><a href="/meetings/2025-05-28/2025-05-28.html" class="nav-list-link">2025-05-28</a></li><li class="nav-list-item"><a href="/meetings/2025-05-14/2025-05-14.html" class="nav-list-link">2025-05-14</a></li><li class="nav-list-item"><a href="/meetings/2025-04-30.html" class="nav-list-link">2025-04-30</a></li><li class="nav-list-item"><a href="/meetings/2025-04-16/2025-04-16.html" class="nav-list-link">2025-04-16</a></li><li class="nav-list-item"><a href="/meetings/2025-04-02/2025-04-02.html" class="nav-list-link">2025-04-02</a></li><li class="nav-list-item"><a href="/meetings/2025-03-19/2025-03-19.html" class="nav-list-link">2025-03-19</a></li><li class="nav-list-item"><a href="/meetings/2025-03-05.html" class="nav-list-link">2025-03-05</a></li><li class="nav-list-item"><a href="/meetings/2025-02-19.html" class="nav-list-link">2025-02-19</a></li><li class="nav-list-item"><a href="/meetings/2025-02-05/2025-02-05.html" class="nav-list-link">2025-02-05</a></li><li class="nav-list-item"><a href="/meetings/2025-01-22.html" class="nav-list-link">2025-01-22</a></li><li class="nav-list-item"><a href="/meetings/2025-01-08/2025-01-08.html" class="nav-list-link">2025-01-08</a></li><li class="nav-list-item"><a href="/meetings/2024-12-11.html" class="nav-list-link">2024-12-11</a></li><li class="nav-list-item"><a href="/meetings/2024-11-13/2024-11-13.html" class="nav-list-link">2024-11-13</a></li><li class="nav-list-item"><a href="/meetings/2024-10-30/2024-10-30.html" class="nav-list-link">2024-10-30</a></li><li class="nav-list-item"><a href="/meetings/2024-10-16/2024-10-16.html" class="nav-list-link">2024-10-16</a></li><li class="nav-list-item"><a href="/meetings/2024-10-02.html" class="nav-list-link">2024-10-02</a></li><li class="nav-list-item"><a href="/meetings/2024-09-25.html" class="nav-list-link">2024-09-25</a></li><li class="nav-list-item"><a href="/meetings/2024-09-18/2024-09-18.html" class="nav-list-link">2024-09-18</a></li><li class="nav-list-item"><a href="/meetings/2024-09-04/2024-09-04.html" class="nav-list-link">2024-09-04</a></li><li class="nav-list-item"><a href="/meetings/2024-08-28.html" class="nav-list-link">2024-08-28</a></li><li class="nav-list-item"><a href="/meetings/2024-08-21/2024-08-21.html" class="nav-list-link">2024-08-21</a></li><li class="nav-list-item"><a href="/meetings/2024-08-07.html" class="nav-list-link">2024-08-07</a></li><li class="nav-list-item"><a href="/meetings/2024-07-10/2024-07-10.html" class="nav-list-link">2024-07-10</a></li><li class="nav-list-item"><a href="/meetings/2024-06-26.html" class="nav-list-link">2024-06-26</a></li><li class="nav-list-item"><a href="/meetings/2024-06-12/2024-06-12.html" class="nav-list-link">2024-06-12</a></li><li class="nav-list-item"><a href="/meetings/2024-05-29/2024-05-29.html" class="nav-list-link">2024-05-29</a></li><li class="nav-list-item"><a href="/meetings/2024-05-15.html" class="nav-list-link">2024-05-15</a></li><li class="nav-list-item"><a href="/meetings/2024-05-01/2024-05-01.html" class="nav-list-link">2024-05-01</a></li><li class="nav-list-item"><a href="/meetings/2024-04-17/2024-04-17.html" class="nav-list-link">2024-04-17</a></li><li class="nav-list-item"><a href="/meetings/2024-04-03/2024-04-03.html" class="nav-list-link">2024-04-03</a></li><li class="nav-list-item"><a href="/meetings/2024-03-20.html" class="nav-list-link">2024-03-20</a></li><li class="nav-list-item"><a href="/meetings/2024-03-06.html" class="nav-list-link">2024-03-06</a></li><li class="nav-list-item"><a href="/meetings/2024-02-07/2024-02-07.html" class="nav-list-link">2024-02-07</a></li><li class="nav-list-item"><a href="/meetings/2024-01-10.html" class="nav-list-link">2024-01-10</a></li><li class="nav-list-item"><a href="/meetings/2023-12-13.html" class="nav-list-link">2023-12-13</a></li><li class="nav-list-item"><a href="/meetings/2023-11-29.html" class="nav-list-link">2023-11-29</a></li><li class="nav-list-item"><a href="/meetings/2023-11-15.html" class="nav-list-link">2023-11-15</a></li><li class="nav-list-item"><a href="/meetings/2023-11-01/2023-11-01.html" class="nav-list-link">2023-11-01</a></li><li class="nav-list-item"><a href="/meetings/2023-10-18.html" class="nav-list-link">2023-10-18</a></li><li class="nav-list-item"><a href="/meetings/2023-10-04.html" class="nav-list-link">2023-10-04</a></li><li class="nav-list-item"><a href="/meetings/2023-09-20.html" class="nav-list-link">2023-09-20</a></li><li class="nav-list-item"><a href="/meetings/2023-09-06.html" class="nav-list-link">2023-09-06</a></li><li class="nav-list-item"><a href="/meetings/2023-08-23.html" class="nav-list-link">2023-08-23</a></li><li class="nav-list-item"><a href="/meetings/2023-07-12/2023-07-12.html" class="nav-list-link">2023-07-12</a></li><li class="nav-list-item"><a href="/meetings/2023-06-28.html" class="nav-list-link">2023-06-28</a></li><li class="nav-list-item"><a href="/meetings/2023-06-14.html" class="nav-list-link">2023-06-14</a></li><li class="nav-list-item"><a href="/meetings/2023-05-31.html" class="nav-list-link">2023-05-31</a></li><li class="nav-list-item"><a href="/meetings/2023-05-17/2023-05-17.html" class="nav-list-link">2023-05-17</a></li><li class="nav-list-item"><a href="/meetings/2023-05-03/2023-05-03.html" class="nav-list-link">2023-05-03</a></li><li class="nav-list-item"><a href="/meetings/2023-04-19.html" class="nav-list-link">2023-04-19</a></li><li class="nav-list-item"><a href="/meetings/2023-04-05.html" class="nav-list-link">2023-04-05</a></li><li class="nav-list-item"><a href="/meetings/2023-03-22.html" class="nav-list-link">2023-03-22</a></li><li class="nav-list-item"><a href="/meetings/2023-03-08.html" class="nav-list-link">2023-03-08</a></li><li class="nav-list-item"><a href="/meetings/2023-02-22.html" class="nav-list-link">2023-02-22</a></li><li class="nav-list-item"><a href="/meetings/2023-02-08.html" class="nav-list-link">2023-02-08</a></li><li class="nav-list-item"><a href="/meetings/2023-01-25.html" class="nav-list-link">2023-01-25</a></li><li class="nav-list-item"><a href="/meetings/2023-01-11.html" class="nav-list-link">2023-01-11</a></li><li class="nav-list-item"><a href="/meetings/2022-12-14.html" class="nav-list-link">2022-12-14</a></li><li class="nav-list-item"><a href="/meetings/2022-11-30.html" class="nav-list-link">2022-11-30</a></li><li class="nav-list-item"><a href="/meetings/2022-11-16.html" class="nav-list-link">2022-11-16</a></li><li class="nav-list-item"><a href="/meetings/2022-11-02.html" class="nav-list-link">2022-11-02</a></li><li class="nav-list-item"><a href="/meetings/2022-10-19.html" class="nav-list-link">2022-10-19</a></li><li class="nav-list-item"><a href="/meetings/2022-10-05.html" class="nav-list-link">2022-10-05</a></li><li class="nav-list-item"><a href="/meetings/2022-09-21.html" class="nav-list-link">2022-09-21</a></li><li class="nav-list-item"><a href="/meetings/2022-09-07.html" class="nav-list-link">2022-09-07</a></li><li class="nav-list-item"><a href="/meetings/2022-08-24.html" class="nav-list-link">2022-08-24</a></li><li class="nav-list-item"><a href="/meetings/2022-07-27.html" class="nav-list-link">2022-07-27</a></li><li class="nav-list-item"><a href="/meetings/2022-07-13/2022-07-13.html" class="nav-list-link">2022-07-13</a></li><li class="nav-list-item"><a href="/meetings/2022-06-29.html" class="nav-list-link">2022-06-29</a></li><li class="nav-list-item"><a href="/meetings/2022-06-15.html" class="nav-list-link">2022-06-15</a></li><li class="nav-list-item"><a href="/meetings/2022-05-18/2022-05-18.html" class="nav-list-link">2022-05-18</a></li><li class="nav-list-item"><a href="/meetings/2022-05-04.html" class="nav-list-link">2022-05-04</a></li><li class="nav-list-item"><a href="/meetings/2022-04-20.html" class="nav-list-link">2022-04-20</a></li><li class="nav-list-item"><a href="/meetings/2022-04-06.html" class="nav-list-link">2022-04-06</a></li><li class="nav-list-item"><a href="/meetings/2022-03-23.html" class="nav-list-link">2022-03-23</a></li><li class="nav-list-item"><a href="/meetings/2022-03-10.html" class="nav-list-link">2022-03-10</a></li><li class="nav-list-item"><a href="/meetings/2022-02-23.html" class="nav-list-link">2022-02-23</a></li><li class="nav-list-item"><a href="/meetings/2022-02-09.html" class="nav-list-link">2022-02-09</a></li><li class="nav-list-item"><a href="/meetings/2022-01-26.html" class="nav-list-link">2022-01-26</a></li><li class="nav-list-item"><a href="/meetings/2022-01-12.html" class="nav-list-link">2022-01-12</a></li><li class="nav-list-item"><a href="/meetings/2021-12-15.html" class="nav-list-link">2021-12-15</a></li><li class="nav-list-item"><a href="/meetings/2021-12-01.html" class="nav-list-link">2021-12-01</a></li><li class="nav-list-item"><a href="/meetings/2021-11-17.html" class="nav-list-link">2021-11-17</a></li><li class="nav-list-item"><a href="/meetings/2021-11-03.html" class="nav-list-link">2021-11-03</a></li><li class="nav-list-item"><a href="/meetings/2021-10-20.html" class="nav-list-link">2021-10-20</a></li><li class="nav-list-item"><a href="/meetings/2021-10-05.html" class="nav-list-link">2021-10-05</a></li><li class="nav-list-item"><a href="/meetings/2021-09-22.html" class="nav-list-link">2021-09-22</a></li><li class="nav-list-item"><a href="/meetings/2021-09-08.html" class="nav-list-link">2021-09-08</a></li><li class="nav-list-item"><a href="/meetings/2021-08-25.html" class="nav-list-link">2021-08-25</a></li><li class="nav-list-item"><a href="/meetings/2021-07-28.html" class="nav-list-link">2021-07-28</a></li><li class="nav-list-item"><a href="/meetings/2021-07-14.html" class="nav-list-link">2021-07-14</a></li><li class="nav-list-item"><a href="/meetings/2021-06-30.html" class="nav-list-link">2021-06-30</a></li><li class="nav-list-item"><a href="/meetings/2021-06-16.html" class="nav-list-link">2021-06-16</a></li><li class="nav-list-item"><a href="/meetings/2021-06-02.html" class="nav-list-link">2021-06-02</a></li><li class="nav-list-item"><a href="/meetings/2021-05-19.html" class="nav-list-link">2021-05-19</a></li><li class="nav-list-item"><a href="/meetings/2021-05-05.html" class="nav-list-link">2021-05-05</a></li><li class="nav-list-item"><a href="/meetings/2021-04-21.html" class="nav-list-link">2021-04-21</a></li><li class="nav-list-item"><a href="/meetings/2021-04-07.html" class="nav-list-link">2021-04-07</a></li><li class="nav-list-item"><a href="/meetings/2021-03-24/2021-03-24.html" class="nav-list-link">2021-03-24</a></li><li class="nav-list-item"><a href="/meetings/2021-02-24.html" class="nav-list-link">2021-02-24</a></li><li class="nav-list-item"><a href="/meetings/2021-02-10.html" class="nav-list-link">2021-02-10</a></li><li class="nav-list-item"><a href="/meetings/2021-01-27.html" class="nav-list-link">2021-01-27</a></li><li class="nav-list-item"><a href="/meetings/2021-01-13.html" class="nav-list-link">2021-01-13</a></li><li class="nav-list-item"><a href="/meetings/2020-12-16.html" class="nav-list-link">2020-12-16</a></li><li class="nav-list-item"><a href="/meetings/2020-12-02.html" class="nav-list-link">2020-12-02</a></li><li class="nav-list-item"><a href="/meetings/2020-11-18.html" class="nav-list-link">2020-11-18</a></li><li class="nav-list-item"><a href="/meetings/2020-11-04.html" class="nav-list-link">2020-11-04</a></li><li class="nav-list-item"><a href="/meetings/2020-10-21.html" class="nav-list-link">2020-10-21</a></li><li class="nav-list-item"><a href="/meetings/2020-10-07.html" class="nav-list-link">2020-10-07</a></li><li class="nav-list-item"><a href="/meetings/2020-09-23.html" class="nav-list-link">2020-09-23</a></li><li class="nav-list-item"><a href="/meetings/2020-09-09.html" class="nav-list-link">2020-09-09</a></li><li class="nav-list-item"><a href="/meetings/2020-08-26.html" class="nav-list-link">2020-08-26</a></li><li class="nav-list-item"><a href="/meetings/2020-08-12.html" class="nav-list-link">2020-08-12</a></li><li class="nav-list-item"><a href="/meetings/2020-07-29.html" class="nav-list-link">2020-07-29</a></li><li class="nav-list-item"><a href="/meetings/2020-07-15.html" class="nav-list-link">2020-07-15</a></li><li class="nav-list-item"><a href="/meetings/2020-07-01.html" class="nav-list-link">2020-07-01</a></li><li class="nav-list-item"><a href="/meetings/2020-06-17.html" class="nav-list-link">2020-06-17</a></li><li class="nav-list-item"><a href="/meetings/2020-06-03.html" class="nav-list-link">2020-06-03</a></li><li class="nav-list-item"><a href="/meetings/2020-05-20.html" class="nav-list-link">2020-05-20</a></li><li class="nav-list-item"><a href="/meetings/2020-05-06.html" class="nav-list-link">2020-05-06</a></li><li class="nav-list-item"><a href="/meetings/2020-04-22.html" class="nav-list-link">2020-04-22</a></li><li class="nav-list-item"><a href="/meetings/2020-04-08.html" class="nav-list-link">2020-04-08</a></li><li class="nav-list-item"><a href="/meetings/2020-03-25.html" class="nav-list-link">2020-03-25</a></li><li class="nav-list-item"><a href="/meetings/2020-03-11.html" class="nav-list-link">2020-03-11</a></li><li class="nav-list-item"><a href="/meetings/2020-02-26.html" class="nav-list-link">2020-02-26</a></li><li class="nav-list-item"><a href="/meetings/2020-02-12.html" class="nav-list-link">2020-02-12</a></li><li class="nav-list-item"><a href="/meetings/2020-01-30.html" class="nav-list-link">2020-01-30</a></li><li class="nav-list-item"><a href="/meetings/2020-01-15.html" class="nav-list-link">2020-01-15</a></li><li class="nav-list-item"><a href="/meetings/2019-12-04.html" class="nav-list-link">2019-12-04</a></li><li class="nav-list-item"><a href="/meetings/2019-11-20.html" class="nav-list-link">2019-11-20</a></li><li class="nav-list-item"><a href="/meetings/2019-11-06.html" class="nav-list-link">2019-11-06</a></li><li class="nav-list-item"><a href="/meetings/2019-10-23.html" class="nav-list-link">2019-10-23</a></li><li class="nav-list-item"><a href="/meetings/2019-10-09.html" class="nav-list-link">2019-10-09</a></li><li class="nav-list-item"><a href="/meetings/2019-09-25.html" class="nav-list-link">2019-09-25</a></li><li class="nav-list-item"><a href="/meetings/2019-09-11.html" class="nav-list-link">2019-09-11</a></li><li class="nav-list-item"><a href="/meetings/2019-08-28.html" class="nav-list-link">2019-08-28</a></li><li class="nav-list-item"><a href="/meetings/2019-08-14.html" class="nav-list-link">2019-08-14</a></li><li class="nav-list-item"><a href="/meetings/2019-07-31.html" class="nav-list-link">2019-07-31</a></li><li class="nav-list-item"><a href="/meetings/2019-07-17.html" class="nav-list-link">2019-07-17</a></li><li class="nav-list-item"><a href="/meetings/2019-07-03.html" class="nav-list-link">2019-07-03</a></li><li class="nav-list-item"><a href="/meetings/2019-06-19.html" class="nav-list-link">2019-06-19</a></li><li class="nav-list-item"><a href="/meetings/2019-06-05.html" class="nav-list-link">2019-06-05</a></li><li class="nav-list-item"><a href="/meetings/2019-05-22.html" class="nav-list-link">2019-05-22</a></li><li class="nav-list-item"><a href="/meetings/2019-05-08.html" class="nav-list-link">2019-05-08</a></li><li class="nav-list-item"><a href="/meetings/2019-04-24.html" class="nav-list-link">2019-04-24</a></li><li class="nav-list-item"><a href="/meetings/2019-04-10.html" class="nav-list-link">2019-04-10</a></li><li class="nav-list-item"><a href="/meetings/2019-03-27.html" class="nav-list-link">2019-03-27</a></li><li class="nav-list-item"><a href="/meetings/2019-03-13.html" class="nav-list-link">2019-03-13</a></li><li class="nav-list-item"><a href="/meetings/2019-02-20.html" class="nav-list-link">2019-02-20</a></li><li class="nav-list-item"><a href="/meetings/2019-02-07.html" class="nav-list-link">2019-02-07</a></li><li class="nav-list-item"><a href="/meetings/2019-01-16.html" class="nav-list-link">2019-01-16</a></li><li class="nav-list-item"><a href="/meetings/2018-12-05.html" class="nav-list-link">2018-12-05</a></li><li class="nav-list-item"><a href="/meetings/2018-11-20.html" class="nav-list-link">2018-11-20</a></li><li class="nav-list-item"><a href="/meetings/2018-11-07.html" class="nav-list-link">2018-11-07</a></li><li class="nav-list-item"><a href="/meetings/2018-10-24.html" class="nav-list-link">2018-10-24</a></li><li class="nav-list-item"><a href="/meetings/2018-10-10.html" class="nav-list-link">2018-10-10</a></li><li class="nav-list-item"><a href="/meetings/2018-09-26.html" class="nav-list-link">2018-09-26</a></li><li class="nav-list-item"><a href="/meetings/2018-09-19.html" class="nav-list-link">2018-09-19</a></li><li class="nav-list-item"><a href="/meetings/2018-09-12.html" class="nav-list-link">2018-09-12</a></li><li class="nav-list-item"><a href="/meetings/2018-09-05/2018-09-05.html" class="nav-list-link">2018-09-05</a></li><li class="nav-list-item"><a href="/meetings/2018-08-22/2018-08-22.html" class="nav-list-link">2018-08-22</a></li></ul></li><li class="nav-list-item"><button class="nav-list-expander btn-reset" aria-label="toggle items in Programs category" aria-pressed="false">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><use xlink:href="#svg-arrow-right"></use></svg>
+      </button><a href="/programs/" class="nav-list-link">Programs</a><ul class="nav-list"><li class="nav-list-item"><button class="nav-list-expander btn-reset" aria-label="toggle items in Google Summer of Code category" aria-pressed="false">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><use xlink:href="#svg-arrow-right"></use></svg>
+      </button><a href="/gsoc/" class="nav-list-link">Google Summer of Code</a><ul class="nav-list"><li class="nav-list-item"><a href="/gsoc/2020.html" class="nav-list-link">ASWF Google Summer of Code 2020</a></li><li class="nav-list-item"><a href="/gsoc/2022.html" class="nav-list-link">ASWF Google Summer of Code 2022</a></li></ul></li><li class="nav-list-item"><a href="/programs/license_scanning.html" class="nav-list-link">License Scanning</a></li></ul></li><li class="nav-list-item"><button class="nav-list-expander btn-reset" aria-label="toggle items in Tools category" aria-pressed="false">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><use xlink:href="#svg-arrow-right"></use></svg>
+      </button><a href="/tools/" class="nav-list-link">Tools</a><ul class="nav-list"><li class="nav-list-item"><a href="/tools/collaboration.html" class="nav-list-link">Collaboration Tools</a></li><li class="nav-list-item"><a href="/tools/github.html" class="nav-list-link">GitHub</a></li><li class="nav-list-item"><a href="/tools/it_support.html" class="nav-list-link">IT and Release Enginering Support</a></li><li class="nav-list-item"><a href="/tools/mailing_lists.html" class="nav-list-link">Mailing Lists</a></li><li class="nav-list-item"><a href="/tools/project-accounts.html" class="nav-list-link">Project Accounts</a></li><li class="nav-list-item"><a href="/tools/resource_request.html" class="nav-list-link">Resource Request Process</a></li><li class="nav-list-item"><a href="/tools/slack.html" class="nav-list-link">Slack</a></li><li class="nav-list-item"><a href="/tools/web_conferencing_zoom.html" class="nav-list-link">Web Conferencing (Zoom)</a></li></ul></li><li class="nav-list-item"><button class="nav-list-expander btn-reset" aria-label="toggle items in Best Practices category" aria-pressed="false">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><use xlink:href="#svg-arrow-right"></use></svg>
+      </button><a href="/project_best_practices_guides/" class="nav-list-link">Best Practices</a><ul class="nav-list"><li class="nav-list-item"><a href="/project_best_practices_guides/ci.html" class="nav-list-link">CI Best Practices</a></li><li class="nav-list-item"><a href="/project_best_practices_guides/code_review.html" class="nav-list-link">Code Review Best Practices</a></li><li class="nav-list-item"><a href="/project_best_practices_guides/releasing.html" class="nav-list-link">Releasing Best Practices</a></li><li class="nav-list-item"><a href="/project_best_practices_guides/security.html" class="nav-list-link">Security Best Practices</a></li><li class="nav-list-item"><a href="/project_best_practices_guides/testing.html" class="nav-list-link">Testing Best Practices</a></li></ul></li><li class="nav-list-item"><a href="/resources.html" class="nav-list-link">Resources</a></li><li class="nav-list-item"><a href="/code_of_conduct.html" class="nav-list-link">Code of Conduct</a></li></ul>
+  
+</nav>
+
+
+
+
+  
+  
+    <footer class="site-footer">
+      This site uses <a href="https://github.com/just-the-docs/just-the-docs">Just the Docs</a>, a documentation theme for Jekyll.
+    </footer>
+  
+</div>
+
+  
+  <div class="main" id="top">
+    <div id="main-header" class="main-header">
+  
+    
+
+<div class="search" role="search">
+  <div class="search-input-wrap">
+    <input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Search Academy Software Foundation TAC" aria-label="Search Academy Software Foundation TAC" autocomplete="off">
+    <label for="search-input" class="search-label"><svg viewBox="0 0 24 24" class="search-icon"><use xlink:href="#svg-search"></use></svg></label>
+  </div>
+  <div id="search-results" class="search-results"></div>
+</div>
+
+  
+  
+  
+    <nav aria-label="Auxiliary" class="aux-nav">
+  <ul class="aux-nav-list">
+    
+      <li class="aux-nav-list-item">
+        <a href="//servicedesk.aswf.io" class="site-button"
+          
+        >
+          Need help or have a question? Contact us here
+        </a>
+      </li>
+    
+  </ul>
+</nav>
+
+  
+</div>
+
+    <div class="main-content-wrap">
+      <nav aria-label="Breadcrumb" class="breadcrumb-nav">
+  <ol class="breadcrumb-nav-list">
+    <li class="breadcrumb-nav-list-item"><a href="/programs/">Programs</a></li>
+    <li class="breadcrumb-nav-list-item"><a href="/gsoc/">Google Summer of Code</a></li>
+    <li class="breadcrumb-nav-list-item"><span>ASWF Google Summer of Code 2020</span></li>
+  </ol>
+</nav>
+
+
+      <div id="main-content" class="main-content">
+        <main>
+          
+            <h1 id="aswf-google-summer-of-code-2020">
+  
+  
+    <a href="#aswf-google-summer-of-code-2020" class="anchor-heading" aria-labelledby="aswf-google-summer-of-code-2020"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> ASWF Google Summer of Code 2020
+  
+  
+</h1>
+    
+
+<p>The Academy Software Foundation (ASWF) is collaboration between the Linux
+Foundation and the Academy of Motion Picture Arts and Sciences, serving as
+an umbrella organization that is the home to several key open source
+software projects used by the film industry (primarily visual effects and
+animation production). The projects we manage are some of the most
+high-profile and widely used open source projects originating and used in
+film production studios. It’s a great opportunity for students to get
+involved with projects that will be used professionally on films!</p>
+
+<p>The mission of the ASWF is to increase the quality and quantity of
+contributions to the content creation industry’s open source software base;
+to provide a neutral forum to coordinate cross-project efforts; to provide a
+common build and test infrastructure; and to provide individuals and
+organizations a clear path to participation in advancing our open source
+ecosystem.</p>
+
+<p>Member projects are focused primarily on visual effects and animation
+production, and at present include 5 distinct software packages. Student
+summer project applications can be for any of these packages individually,
+as well as potentially including tasks that bridge between them or provide
+common infrastructure (they share CI and other resources). The current
+member projects are:</p>
+
+<ul>
+  <li>
+    <p><strong>OpenColorIO</strong> : A complete color management solution geared towards
+motion picture production with an emphasis on visual effects and computer
+animation.</p>
+  </li>
+  <li>
+    <p><strong>OpenCue</strong> : A render management / job queueing system you can deploy for
+visual effects and animation productions.</p>
+  </li>
+  <li>
+    <p><strong>OpenEXR</strong> : The specification and reference implementation of the EXR
+file format, the professional-grade image storage format of the motion
+picture industry.</p>
+  </li>
+  <li>
+    <p><strong>Open Shading Language</strong> : The de facto standard shading and pattern
+language of physically-based renderers used for film VFX and animation.</p>
+  </li>
+  <li>
+    <p><strong>OpenTimelineIO</strong> : API and interchange format for editorial timeline
+information.</p>
+  </li>
+  <li>
+    <p><strong>OpenVDB</strong> : Hierarchical data structure and a suite of tools for the
+efficient storage and manipulation of sparse volumetric data.</p>
+  </li>
+</ul>
+<h2 id="application-instructions-for-students">
+  
+  
+    <a href="#application-instructions-for-students" class="anchor-heading" aria-labelledby="application-instructions-for-students"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Application Instructions for Students
+  
+  
+</h2>
+    
+
+<p>Please familiarize yourself with the several software projects under our
+organization. The individual projects are listed below with their home
+pages, GitHub repositories, and a list of possible projects.</p>
+
+<p>You may choose a summer task from any of our software projects. It is also
+permissible to propose (a) a task that is common infrastructure shared by
+the projects, such as with our CI system; (b) a task that crosses project
+boundaries or involves two projects; (c) a task that is technically in a
+non-ASWF code base but for which our organization is an appropriate mentor
+(as an illustrative example: adding comprehensive OpenColorIO support to a
+widely used open source project).</p>
+
+<p>All of our projects maintain their own CONTRIBUTING guidelines, please read
+them for the project you are interested in. They each also have separate
+contributor license agreements (CLAs) which must be signed for them to
+accept contributions.</p>
+
+<p><strong>Successfully submitting a Pull Request to the ASWF software project you are
+applying to is a strict requirement prior to submitting an application.</strong>
+This is not negotiable. We will not even read applications from students who
+have not submitted an acceptable PR to the project they are applying to
+participate in. It can be a truly minimal change – for example, fixing a
+typo in an error message. The purpose of this requirement is to prove that
+you already have the skills to set up a GitHub login, successfully clone the
+project, build it, make a change, submit a PR, and interact with the
+community for code review.</p>
+
+<p>In addition to ideas listed below, the GitHub “Issues” page for each project
+will have issues tagged “GSoC” if they seem like an appropriate size for a
+GSoC summer project. You will also see many issues tagged “good first
+issue”, those might be ideal candidates for your small trial PR to qualify
+for application.</p>
+
+<p>Individual project’s developer mail lists can be found here:
+https://lists.aswf.io/</p>
+<h2 id="application-template">
+  
+  
+    <a href="#application-template" class="anchor-heading" aria-labelledby="application-template"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Application template
+  
+  
+</h2>
+    
+
+<p>Please use this application template. You don’t have to stick precisely to
+this, feel free to expand or tell us any other relevant details, but this is
+a good place to start.</p>
+
+<p>The applications will be judged both by the individual leadership teams of
+the software project you propose to work on, as well as representatives of
+the ASWF technical advisory council.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Student name:
+
+School / year / area of study:
+
+Relevant courses, materials studied, jobs, programming projects, skills,
+other open source projects you've contributed to. Go ahead and tell us
+anything about your background that you think we will find interesting
+for our projects.
+
+ASWF project you are interested in:
+
+Project proposal:
+
+What would you like to do for your summer project?  Please explain in
+detail what it is, why it is important, how it fits into the ASWF
+project's overall design and goals.  Give specifics on acceptance
+criteria -- how we can measure your success, how we can test your code.
+Give a week-by-week timeline for expected progress and how it can be
+measured.
+
+Tell us about your interest in this project, what you hope to
+contribute, and what you hope to get from this experience:
+
+We will not review applications from students who have not contributed a
+patch to ASWF by the application deadline.  It doesn't have to be
+big -- a short bug fix, a new test case for a unit test, an improved
+error message, fixing unclear documentation.  But you must prove that
+you can check out the project, build it, find something to improve, make
+the change, communicate with the other developers, and survive our
+rigorous code review.  Please tell us below which fix you contributed:
+</code></pre></div></div>
+<h2 id="project-information-and-suggested-ideas-list">
+  
+  
+    <a href="#project-information-and-suggested-ideas-list" class="anchor-heading" aria-labelledby="project-information-and-suggested-ideas-list"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Project information and suggested ideas list
+  
+  
+</h2>
+    
+<h3 id="opencolorio">
+  
+  
+    <a href="#opencolorio" class="anchor-heading" aria-labelledby="opencolorio"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> OpenColorIO
+  
+  
+</h3>
+    
+
+<p>Home page:  https://opencolorio.org/ <br />
+GitHub:     https://github.com/AcademySoftwareFoundation/OpenColorIO <br />
+Skills/knowledge relevant to the project: C++11, CMake, color science</p>
+
+<p>Mentor suggestions: Patrick Hodoul, Doug Walker, Michael Dolan</p>
+
+<p><strong>Project Ideas</strong>:</p>
+
+<ul>
+  <li>Add Metal, Vulkan, or CUDA language support to GPU renderer
+    <ul>
+      <li>The OCIO Processor currently supports rendering color transforms on a GPU 
+with GLSL (OpenGL), HLSL (DirectX), or CG. With Apple deprecating OpenGL 
+support and the availability of several additional high-performance GPU 
+computing platforms, we desire to add shader language support for one or 
+more of these to expand the capability and reach of OCIO. This will also 
+be a critical need for OCIO to maintain full cross-platform support.</li>
+      <li>Special skills: Familiar with C++, shader development, and implementing 
+graphics APIs.</li>
+    </ul>
+  </li>
+  <li>Restore Java bindings
+    <ul>
+      <li>The OCIO Java language bindings have not yet been updated to support the
+newly developed OCIO v2 API. Java provides additional Android platform 
+support, but needs some effort to revive. Additionally, adding Java unit
+test support to OCIO’s CI infrastructure would help maintain the 
+functionality as OCIO continues to evolve.</li>
+      <li>Special skills: Comfortable with Java, with some knowledge of wrapping a 
+C++ library with the JNI.</li>
+    </ul>
+  </li>
+  <li>Add OCIO support to FFmpeg or another FOSS project
+    <ul>
+      <li>An important effort for OCIO is expanding the libraries and applications 
+where OCIO is implemented. Users have specifically called out FFmpeg as 
+a library and command-line tool where they would like to see OCIO 
+support, but any other FOSS project leveraged by digital artists or 
+production pipelines could be considered. This could also include 
+upgrading an existing implementation to support the OCIO v2 API and 
+leverage new functionality.</li>
+      <li>Special skills: Familiarity with prospective host library or tool, 
+and knowledge of working with image buffers and authoring plugins.</li>
+    </ul>
+  </li>
+  <li>Develop GUI for interactive OCIO config authoring and visualization
+    <ul>
+      <li>OCIO is all about color management, but the visual results of a config 
+author’s decisions are not verifiable until the config is generated and 
+loaded into a host application. Learning and using OCIO could be greatky
+aided with a GUI which provides interactive visual feedback and 
+validation while a config is being authored. This could be a standalone 
+Qt or PySide application, or an expanded plugin within an existing 
+graphics application like Foundry’s Nuke.</li>
+      <li>Special skills: Experience with GUI and graphics programming in C++ or 
+Python, understanding of UX, and interest in data visualization.</li>
+    </ul>
+  </li>
+</ul>
+<h3 id="opencue">
+  
+  
+    <a href="#opencue" class="anchor-heading" aria-labelledby="opencue"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> OpenCue
+  
+  
+</h3>
+    
+
+<p>Home page:  https://www.opencue.io <br />
+GitHub:     https://github.com/AcademySoftwareFoundation/OpenCue <br />
+Skills/knowledge relevant to the project: Python, Java</p>
+
+<p>Mentor suggestion: Brian Cipriano</p>
+
+<p><strong>Getting Started</strong>:</p>
+
+<p>Contact Brian Cipriano «cipriano@google.com» and join the <a href="https://lists.aswf.io/g/opencue-dev">opencue-dev list</a>.</p>
+
+<p><strong>Project Ideas</strong>:</p>
+
+<ul>
+  <li>Create a Web GUI
+    <ul>
+      <li>Design and begin implementation on a new, web-based GUI to eventually
+replace OpenCue’s existing PySide2 application GUI. This will consist
+mostly of front-end work; the new GUI should use the existing OpenCue
+API on the back-end. Design, including tech stack to be used, will be
+done in collaboration with the project leads.</li>
+      <li>Special skills: UI/UX design, front-end development</li>
+    </ul>
+  </li>
+  <li>Create a REST API
+    <ul>
+      <li>Create a REST API to complement OpenCue’s existing gRPC API. Backend
+should be mostly shared between the two.</li>
+      <li>Special skills: REST API design</li>
+    </ul>
+  </li>
+  <li>Create a Cloud Management Plugin
+    <ul>
+      <li>Extend the OpenCue GUI to add a plugin for scaling the pool of OpenCue
+workers running in the cloud. The plugin should use at least
+one of the major cloud providers (Google Cloud, Microsoft Azure, or
+Amazon Web Services) but should be designed in way where other cloud
+providers can be easily added.</li>
+      <li>Special skills: Cloud development and APIs</li>
+    </ul>
+  </li>
+  <li>Create Installers/Launchers
+    <ul>
+      <li>Create installers (.exe, .msi, .dmg, etc.) and/or
+click-to-launch wrappers for existing OpenCue components. To goal
+is to make OpenCue more user friendly by reducing reliance on the command
+line and providing an intuitive click-to-install/-launch experience.</li>
+      <li>Special skills: Desktop application development</li>
+    </ul>
+  </li>
+</ul>
+<h3 id="openexr">
+  
+  
+    <a href="#openexr" class="anchor-heading" aria-labelledby="openexr"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> OpenEXR
+  
+  
+</h3>
+    
+
+<p>Home page:  https://www.openexr.com/ <br />
+GitHub:     https://github.com/AcademySoftwareFoundation/openexr <br />
+Skills/knowledge relevant to the project:</p>
+
+<p>Mentor suggestions: Kimball Thurston, Cary Phillips, Larry Gritz, Nick Porcino</p>
+
+<p><strong>Project Ideas</strong>:</p>
+
+<ul>
+  <li>New python bindings for Imath using pybind11.
+    <ul>
+      <li>Our core C++ library for vector and matrix types, which is widely
+used by other projects, needs an overhaul of its Python bindings
+to switch to using <a href="https://github.com/pybind/pybind11">pybind11</a></li>
+    </ul>
+  </li>
+  <li>Split Imath into a separate project and modernize
+    <ul>
+      <li>The main library is for dealing with OpenEXR image files. But several
+helper libraries are bundled, including a widely used vector, matrix,
+and math library known as Imath. We would like to split this off into
+a separate repository (which will then be a dependency of the image
+file library). There are several possible sub-tasks:
+        <ul>
+          <li>actually splitting the library into separate repo and adjusting
+all the CMake build scripts</li>
+          <li>make almost all of it exception-free and marked properly as <code class="language-plaintext highlighter-rouge">noexcept</code></li>
+          <li>mark <code class="language-plaintext highlighter-rouge">const</code> and <code class="language-plaintext highlighter-rouge">constexpr</code> as widely as possible.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Explore and benchmark compression methods
+    <ul>
+      <li>Design a methodology for assessing compression and decompression speed
+and file sizes.</li>
+      <li>Benchmark the currently supported set of compression techniques across
+a variety of represenative images and document the performance and
+compression ratio tradeoffs among the choices.</li>
+      <li>Speculatively implement additional compression techniques such as
+<a href="https://computing.llnl.gov/projects/floating-point-compression">zfp</a>
+or <a href="https://github.com/facebook/zstd">zstd</a> (and possibly others) to
+find out if they offer advantages over our current set of compression
+methods.</li>
+    </ul>
+  </li>
+  <li>Performance evaluation and regression detection
+    <ul>
+      <li>We currently have a test suite to verify correctness, but not performance.</li>
+      <li>Design and implement performance tests as part of our testing framework.
+This should probably cover a variety of image file scenarios and settings.</li>
+      <li>Extend our build and CI system to automatically detect performance
+regressions or improvements for submitted code changes and proposed
+releases.</li>
+    </ul>
+  </li>
+  <li>Expand “Simple” API
+    <ul>
+      <li>Update the IlmImfRGBAFile interface</li>
+      <li>Expose a pure “C” interface to the DSO</li>
+      <li>Write a sample python binding using this C api</li>
+    </ul>
+  </li>
+  <li>Amend test suite to get closer to 100% coverage
+    <ul>
+      <li>Current tests cover about 75% of the C++ code base, as reported by
+SonarCloud.</li>
+      <li>Implement tests that validate the behavior of the uncovered components.</li>
+    </ul>
+  </li>
+</ul>
+<h3 id="opentimelineio">
+  
+  
+    <a href="#opentimelineio" class="anchor-heading" aria-labelledby="opentimelineio"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> OpenTimelineIO
+  
+  
+</h3>
+    
+
+<p>Home page:  http://opentimeline.io <br />
+GitHub:     https://github.com/PixarAnimationStudios/OpenTimelineIO <br />
+Skills/knowledge relevant to the project: C++, Python, CMake, knowledge of how NLEs and DCCs are used, knowledge of EDLs a bonus</p>
+
+<p>Mentor suggestions: Josh Minor, Stephan Steinbach, Nick Porcino, Eric Reinecke</p>
+
+<p><strong>Project Ideas</strong>:</p>
+
+<ul>
+  <li>Progress Callback API
+    <ul>
+      <li>Some import and export operations are time consuming, and tool authors would like to provide progress estimations. A progress callback, presumably with a percentage or other measure would enable this.</li>
+      <li>OTIO file format adaptors are written in Python, so this would be a Python-available API</li>
+    </ul>
+  </li>
+  <li>Javascript Language binding
+    <ul>
+      <li>Use emscripten’s WebIDL or Embind to provide Javascript bindings for OpenTimelineio</li>
+      <li>An open question is whether the adaptors, such as for AAF, would be available under Javascript. The adaptors are implemented in Python.</li>
+    </ul>
+  </li>
+  <li>
+    <p>Otioview as a web app</p>
+  </li>
+  <li>Otioview track and timeline metadata viewing
+    <ul>
+      <li>Add metadata introspection and navigation on timelines and tracks</li>
+    </ul>
+  </li>
+  <li>C Language binding
+    <ul>
+      <li>A C foreign function interface (ffi) would enable bindings for languages other than Js and Python.</li>
+      <li>Example applications would be Lua bindings, and remote procedure calls.</li>
+    </ul>
+  </li>
+  <li>Reusable timeline display widgets
+    <ul>
+      <li>Otioview has a widget for Qt. Having the widget separately available for other apps would be great</li>
+      <li>An ImGui variant</li>
+      <li>A generic widget assuming only the availability of mouse interaction data and simple draw calls</li>
+    </ul>
+  </li>
+  <li>C++ and Python operators for time ranges
+    <ul>
+      <li>Functions such as “meets”, “overlaps”, and so on.</li>
+    </ul>
+  </li>
+  <li>C++ and Python time coordinate system class
+    <ul>
+      <li>Coordinate system implementation and operators to enable operations such as local to parent, world to local, and so on.</li>
+    </ul>
+  </li>
+  <li>opentime_clock for std::chrono
+    <ul>
+      <li>bindings to allow meaningful interoperation with std templates that have time arguments</li>
+    </ul>
+  </li>
+  <li>Add OTIO to another ASWF project
+    <ul>
+      <li>Identify another ASWF project that might meaningfully interoperate with OTIO and implement it</li>
+    </ul>
+  </li>
+  <li>Add OTIO support to an NLE or DCC
+    <ul>
+      <li>As an example, the generic widget project could be used to build OTIO support into Blender</li>
+      <li>An OTIO adapter could support time based media, such as Grease Pencil storyboards in Blender</li>
+    </ul>
+  </li>
+</ul>
+<h3 id="openvdb">
+  
+  
+    <a href="#openvdb" class="anchor-heading" aria-labelledby="openvdb"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> OpenVDB
+  
+  
+</h3>
+    
+
+<p>Home page:  https://www.openvdb.org/ <br />
+GitHub:     https://github.com/AcademySoftwareFoundation/openvdb <br />
+Skills/knowledge relevant to the project: C++14, Git, CMake,
+(Knowledge of Houdini is also useful)</p>
+
+<p>Mentor suggestions: Ken Museth, Dan Bailey, Nick Avramoussis</p>
+
+<p><strong>Project Ideas</strong>:</p>
+
+<ul>
+  <li>Delayed Loading on Windows
+    <ul>
+      <li>Introduce support for delayed-loading on Windows by modifying the temporary
+file implementation in the core OpenVDB library to make use of the Windows-
+specific std::fopen flags for temporary files (“TD”).</li>
+      <li>Help to improve the Windows-related build, CI and documentation.</li>
+      <li>Background Info: OpenVDB can generate very large files and even with the
+fastest solid state drives, I/O performance is still a common bottleneck.
+Delayed-loading (sometimes referred to as lazy-loading) is about reading
+only the VDB data that is absolutely needed. An example use case is being
+able to clip or delete voxel data from the VDB before the data has been read
+from disk resulting in an overall increase in performance when visualizing
+data.</li>
+    </ul>
+  </li>
+  <li>Improved Level Set Rebuilding
+    <ul>
+      <li>Modify the rebuilding of VDB level sets to improve the flood-filling
+operation that can eliminate desirable features.</li>
+      <li>Background Info: Constructive Solid Geometry (CSG) operations include union,
+difference and intersection compositing of two or more level sets that will
+result in a new level set. An example could be subtracting some level set
+spheres from a level set of a cube to generate a “Swiss cheese” level set.
+If the narrow band or transform of the source level sets does not match the
+target level set, they must be completely rebuilt before they can be
+composited which can result in eliminating desirable features of the source
+level set. In particular, the rebuilding algorithm converts to polygons and
+back, which will cause holes in the geometry to be filled. The Polygon -&gt;
+VDB rasterization could be special cased to use the original VDB to
+determine sign, thus avoiding collapsing holes.</li>
+    </ul>
+  </li>
+  <li>Multi-thread Sequential Algorithms
+    <ul>
+      <li>Introduce new multi-threaded algorithms that use leaf and tile traversal to
+replicate existing single-threaded tree algorithms (such as
+tree::activeVoxelCount).</li>
+      <li>Introduce new extrema and statistics tools (such as tools::extrema) that are
+multi-threaded using leaf and tile traversal.</li>
+      <li>Background info: Investigations carried out using the existing sequential
+tree-based algorithms in OpenVDB have demonstrated a large performance
+improvement by multi-threading across different levels of the tree data
+structure. In addition, OpenVDB provides general purpose leaf and tile
+traversal for computing extrema and statistics, however the most intuitive
+way to use these is by calling them with a tree iterator which is very slow.
+Both of these performance improvements would use Intel’s TBB and OpenVDB
+convenience classes such as tree::LeafManager and tree::NodeManager to
+introduce multi-threading.</li>
+    </ul>
+  </li>
+  <li>Improve Filter Operations to Densify Tiles and Optionally Dilate
+    <ul>
+      <li>Automatically densify specific VDB tiles required to perform different
+filtering operations such as gaussian smoothing and handle all edge cases.</li>
+      <li>Provide an option to automatically dilate level set VDBs as required when
+filtering based on filter and voxel sizes.</li>
+      <li>Background info: OpenVDB tiles are constant-value nodes designed to optimize
+storage space and improve performance. However not all algorithms, such as
+gaussian smoothing turn these tiles into dense nodes (often called
+densifying) when required so as to generate the correct result. In addition,
+it is left up to the user to specify the correct amount of dilation to
+perform prior to any filtering based on their filter size and the voxel
+size. A beneficial feature would be allowing the user to opt-in to dilate
+automatically up to some threshold.</li>
+    </ul>
+  </li>
+  <li>Optimization using SSE/AVX Intrinsics
+    <ul>
+      <li>Investigate opportunities to improve VDB performance using vectorization and
+SSE and AVX intrinsics.</li>
+      <li>Background info: OpenVDB already has optional SSE/AVX build flags, but
+minimal use of any of these intrinsics. There are lots of potential
+operations such as bit-counting, finding least significant bit, SSE/AVX
+operation on floating-point values (e.g. math::Vec3) and integer operations
+(e.g. math::Coord) that would benefit performance.</li>
+    </ul>
+  </li>
+</ul>
+<h3 id="cross-project-infrastructure">
+  
+  
+    <a href="#cross-project-infrastructure" class="anchor-heading" aria-labelledby="cross-project-infrastructure"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Cross-project infrastructure
+  
+  
+</h3>
+    
+<h4 id="aswf-docker">
+  
+  
+    <a href="#aswf-docker" class="anchor-heading" aria-labelledby="aswf-docker"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> ASWF-Docker
+  
+  
+</h4>
+    
+
+<p>GitHub:     https://github.com/AcademySoftwareFoundation/aswf-docker <br />
+Skills/knowledge relevant to the project: Python, Docker, Bash, CMake</p>
+
+<p>Mentor suggestions: Aloys Baillet, JF Panisset</p>
+
+<p><strong>Project Ideas</strong>:</p>
+
+<ul>
+  <li>Better docker image discovery via automatic readme uploads to DockerHub overviews on image push (modern Python 3 development, dockerhub rest API).
+These readme files would populate the “overview” tab on the docker hub pages such as this one: https://hub.docker.com/r/aswf/ci-openexr.</li>
+  <li>Investigate RPM (yum packages) generation from docker ci-packages such as https://hub.docker.com/r/aswf/ci-package-openexr.
+These RPMs would potentially be hosted on an artifactory yum repo which would enable any RHEL or CentOS user to very easily install many VFX packages.</li>
+  <li>Create a prototype of a windows docker image equivalent to the linux <code class="language-plaintext highlighter-rouge">ci-common</code> and <code class="language-plaintext highlighter-rouge">ci-base</code> images to be able to compile VFX packages such as OpenEXR.
+Many details on the windows version of our CI docker images are still yet to be defined and discovered.</li>
+</ul>
+
+<p>… more ideas go here …</p>
+
+          
+
+          
+            
+          
+        </main>
+        
+
+  <hr>
+  <footer>
+    
+      <p><a href="#top" id="back-to-top">Back to top</a></p>
+    
+
+    <p class="text-small text-grey-dk-100 mb-0">Copyright &copy; The Linux Foundation&reg;. All rights reserved. The Linux Foundation has registered trademarks and uses trademarks. For a list of trademarks of The Linux Foundation, please see our <a href="https://www.linuxfoundation.org/trademark-usage">Trademark Usage</a> page. Linux is a registered trademark of Linus Torvalds. <a href="http://www.linuxfoundation.org/privacy">Privacy Policy</a> and <a href="http://www.linuxfoundation.org/terms">Terms of Use</a>.</p>
+
+    
+      <div class="d-flex mt-2">
+        
+        
+          <p class="text-small text-grey-dk-000 mb-0">
+            <a href="https://github.com/AcademySoftwareFoundation/tac/tree/main/gsoc/2020.md" id="edit-this-page">Edit this page on GitHub</a>
+          </p>
+        
+      </div>
+    
+  </footer>
+
+
+      </div>
+    </div>
+    
+      
+
+<div class="search-overlay"></div>
+
+    
+  </div>
+
+  
+    
+
+
+
+
+
+<script type="module">
+  
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10.9.0/dist/mermaid.esm.min.mjs';
+  
+
+  var config = {}
+;
+  mermaid.initialize(config);
+  mermaid.run({
+    querySelector: '.language-mermaid',
+  });
+</script>
+
+
+
+  
+</body>
+</html>
+
