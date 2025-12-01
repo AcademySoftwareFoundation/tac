@@ -25,7 +25,7 @@ jobs:
 
       - name: Build Jekyll
         run: |
-          bundle exec jekyll build --destination _site
+          bundle exec jekyll build --destination _site --baseurl "/pr-${{ github.event.number }}"
 
       # Deploy ONLY the preview to a separate branch
       - name: Deploy Preview to pr-previews branch
