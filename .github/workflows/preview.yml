@@ -35,3 +35,4 @@ jobs:
           source-dir: ./_site/
           preview-branch: previews
           umbrella-dir: previews
+          pages-base-url: tac.aswf.io
