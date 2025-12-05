@@ -1,5 +1,6 @@
 ---
 parent: Best Practices
+title: Repository
 ---
 
 # Repository Setup Recommendations
