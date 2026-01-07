@@ -20,8 +20,20 @@
         {%- endcapture -%}
         <td>{{ level-camelcase }}</td>
         <td>{{ project["Accepted Date"] | replace: "^", "" | date: "%F" }}</td>
+        {% assign agendaitems = site.data.meeting-agenda-items | find_exp: "item", "item.meeting_label contains 2-annual-review" | sort: "title" -%}
+        {% assign found = false %}
+        {%- for agendaitem in agendaitems -%}
+        {%- if agendaitem['title'] == project['Name'] %}
+        <td>{{ agendaitem["last_review_date"] | replace: "^", "" | date: "%F" }}</td>
+        <td>{{ agendaitem["scheduled_date"] | replace: "^", "" | date: "%F" }}</td>
+        {% assign found = true %}
+        {% break %}
+        {%- endif -%}
+        {%- endfor -%}
+        {%- unless found -%}
         <td>{{ project["Last Review Date"] | replace: "^", "" | date: "%F" }}</td>
         <td>{{ project["Next Review Date"] | replace: "^", "" | date: "%F" }}</td>
+        {%- endunless -%}
     </tr>
     {%- endif -%}
 {%- endfor -%}
