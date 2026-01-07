@@ -9,9 +9,9 @@ nav_order: 1
 * TOC
 {:toc}
 
-The Academy Software Foundation hosts open-source projects and open-collaboration working groups to benefit the motion picture and visual effects industries. Anyone can bring a new project or working group or start a new project or working group at the Academy Software Foundation.
+{{ site.foundation_name }} hosts open-source projects and open-collaboration working groups to benefit the motion picture and visual effects industries. Anyone can bring a new project or start a new project at {{ site.foundation_name }}.
 
-This document outlines why you should host your project at the Academy Software Foundation, what makes a good Academy Software Foundation hosted project, and the steps for bringing a project to the Academy Software Foundation.
+This document outlines why you should host your project at the {{ site.foundation_name }}, what makes a good {{ site.foundation_name }} hosted project, and the steps for bringing a project to the {{ site.foundation_name }}.
 
 ## Why host your project at the {{ site.foundation_name }}?
 
@@ -31,7 +31,7 @@ Groundbreaking and game-changing projects are a collective effort across organiz
 
 Shared R&D with a broad ecosystem means bringing more contributors and maintainers into your project - including your competitors.
 
-- Our [staff](https://www.aswf.io/about/staff/) works with the project to establish open, neutral governance that makes roles clear and paths to leadership available.
+- [LF Staff]{{ site.lf_staff_list_url }}) works with the project to establish open, neutral governance that makes roles clear and paths to leadership available.
 - All projects have a Code of Conduct to ensure collaboration in a safe and welcoming environment.
 - Outreach done through the {{ site.foundation_name }} is done from a neutral perspective, separating product promotion and vendor favoritism and promoting the community's work.
 
@@ -39,8 +39,8 @@ Shared R&D with a broad ecosystem means bringing more contributors and maintaine
 
 Your project will get broad motion picture, visual effects, tech, and open source exposure through our large audience, extensive media outreach partnerships with publications such as Linux.com and TFiR, and key partners.
 
-- Your project will be featured on both the [Academy Software Foundation](//aswf.io) and the [Linux Foundation](https://www.linuxfoundation.org/projects) websites.
-- Always available guest blog post(s) on the [Academy Software Foundation blog](https://www.aswf.io/blog/) on project updates.
+- Your project will be featured on both the [{{ site.foundation_name }}]({{ site.website_url }}) and the [Linux Foundation](https://www.linuxfoundation.org/projects) websites, as well as the [{{ site.foundation_name }} Landscape](https://l.lfenergy.org)
+- Always available guest blog post(s) on the [{{ site.foundation_name }} blog]({{ site.blog_url }}) on project updates.
 - Post one technical article about an open-source project you care about to [Linux.com](https://www.linux.com/), which has over 1 million unique visitors per month.
 - As appropriate, support your announcements with social outreach and quotes from Linux Foundation and {{ site.foundation_name }} leadership.
 - Access to opportunities for contributed articles, videos, podcasts, and events
@@ -95,7 +95,7 @@ Prospective projects are always welcome to engage the TAC to present the work be
 
 ## Preparing to bring your project here
 
-The “LF Way”, which is aligned with how the Academy Software Foundation operates, is that there is no one way. The Academy Software Foundation assumes that each open source project is different in its own way, which leads to building a unique governance and solution to sustain their communities.
+The “LF Way”, which is aligned with how {{ site.foundation_name }} operates, is that there is no one way. {{ site.foundation_name }} assumes that each open source project is different in its own way, which leads to building a unique governance and solution to sustain their communities.
 
 ### Requirements to host a project here
 

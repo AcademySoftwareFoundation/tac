@@ -32,6 +32,3 @@ Temporary Items
 .apdisk
 Gemfile.lock
 *.swp
-
-_data/tacmembers-new.csv
-_data/aswf.yaml

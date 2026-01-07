@@ -9,7 +9,20 @@ parent: Tools
 
 This document outlines the communications tools available for {{ site.foundation_name }} hosted projects and working groups.
 
-{{ site.foundation_name }} leverages the tools provided by the LFX Project Control Center (PCC) for maintaining committee member lists, scheduling meetings, configuring mailing lists, and making community meetings publicly available. The LFX Project Control Center is a tool built and maintained by the Linux Foundation for use by the {{ site.foundation_name }} and its hosted projects and working groups. Access to PCC for hosted projects and working groups for management of meetings and committees can be granted by making a support request [here][pcc access request instructions].
+{{ site.foundation_name }} leverages the tools provided by the LFX Project Control Center (PCC) to maintain committee member lists, schedule meetings, configure mailing lists, and make community meetings publicly available. 
+
+PCC is a tool built and maintained by the Linux Foundation for use by the {{ site.foundation_name }} and its hosted projects and working groups. Access to PCC for hosted projects and working groups, including management of meetings and committees, can be granted by submitting a support request [here][pcc access request instructions]. It is recommended that, at a minimum, the TSC Chairperson have access to PCC; it may also be beneficial to have a second person with access in case the TSC Chairperson is unavailable and the project needs to reschedule a meeting. 
+
+The specific abilities the person with access to PCC has for managing project settings include:
+
+- Add/remove individuals from the TSC committee and other committees for the project.
+- Add new mailing lists, and add/remove individuals from the mailing lists.
+- Add/change meetings.
+- Create polls and surveys.
+
+Note that PCC is not publicly viewable; projects should use their public calendar for sharing project meetings ( link available for each project [here]({% link engagement/README.md %}) ).
+
+More information about PCC and it's capabilities can be found [here](https://docs.linuxfoundation.org/lfx/project-control-center).
 
 ## Committee Management
 

@@ -7,17 +7,16 @@ parent: Tools
 * TOC
 {:toc}
 
-The Linux Foundation provides support for the infrastructure hosted by the Academy Software Foundation. This support includes both IT support, as well as Release Engineering support. This document outlines the included services available to projects.
+The Linux Foundation provides support for the infrastructure hosted by the {{ site.foundation_name }}. This support includes both IT support, as well as Release Engineering support. This document outlines the included services available to projects.
 
 ## IT Support
 
 Linux Foundation provides direct support for the following infrastructure:
 
-- Mailing Lists hosted at [lists.aswf.io]
-- ASWF [JIRA] and [Confluence wiki]
-- [ASWF website]
-- [LFX Insights]
-- [LFX Security]
+- [Mailing Lists]({{ site.mailing_list_url }})
+- [{{ site.foundation_name }} Confluence wiki]({{ site.wiki_url }})
+- [{{ site.foundation_name }} website]({{ site.website_url }})
+- [LFX Insights]({{ site.lfx_insights_url }})
 - [LFX EasyCLA]
 - [LFX Project Control Center]
 
@@ -27,7 +26,7 @@ Tools not listed above are maintained by the individual project communities and 
 
 ## Domain management
 
-ASWF both manages the domain renewals and DNS for all project domains. Projects can request both new domain purchases, transfer of existing domains to the ASWF, as well as request redirect or service-specific subdomains ( for example, docs.openexr.org ), by creating an [IT Request][Domain IT Request]. For domains that are not available, ASWF may be able to purchase the domain from it's existing owner pending budget approval.
+{{ site.foundation_name }} both manages the domain renewals and DNS for all project domains. Projects can request both new domain purchases, transfer of existing domains to the {{ site.foundation_name }}, as well as request redirect or service-specific subdomains, by creating an [IT Request][Domain IT Request]. For domains that are not available, {{ site.foundation_name }} may be able to purchase the domain from it's existing owner pending budget approval.
 
 ## Build Infrastructure support
 
@@ -52,12 +51,6 @@ The [CI Working Group] oversees the common build infrastructure for hosted proje
 
 The Linux Foundation team is always happy to support projects in thier IT and build infrastructure needs. Please [file a ticket][Generic IT Request] to reach the team.
 
-[lists.aswf.io]: https://lists.aswf.io
-[JIRA]: https://jira.aswf.io
-[Confluence wiki]: https://wiki.aswf.io
-[ASWF website]: https://aswf.io
-[LFX Insights]: https://insights-v2.lfx.linuxfoundation.org/aswf/trends
-[LFX Security]: https://security.lfx.linuxfoundation.org/#/a09410000182dD2AAI/foundation-details
 [LFX EasyCLA]: https://easycla.lfx.linuxfoundation.org/
 [LFX Project Control Center]: https://lfx.linuxfoundation.org/tools/project-control-center
 [support.linuxfoundation.org]: https://support.linuxfoundation.org

@@ -1,8 +1,8 @@
-
+{% assign excluded_levels = include.excluded_levels | split: "," | default: 'emeritus' %}
 <table>
 <tbody>
 {%- for project in site.data.projects -%}
-    {%- if project["Level"] != 'emeritus' -%}
+    {%- unless excluded_levels contains project["Level"] -%}
     <tr>
         <td><img id="{{ project["Name"] }}" src="{{ project["Logo URL"] }}" /></td>
         <td>
@@ -51,7 +51,7 @@
             {%- endif -%}
         </td>
     </tr>
-    {%- endif -%}
+    {%- endunless -%}
 {%- endfor -%}
 </tbody>
 </table>
