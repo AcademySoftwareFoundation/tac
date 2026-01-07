@@ -23,8 +23,7 @@ The LF Staff will assist as needed to resolve any voting concerns and questions 
 Voting is only required in these cases:
 
 - Approving and renewing Industry Representatives to the TAC
-- Approving new projects or working group
-- Approving annual reviews
+- Approving new projects or working groups
 - Approving projects moving a lifecycle stage
 - Changes to [Project Lifecycle]({% link process/lifecycle.md %}) or [Working Group program]({% link process/working_groups/README.md %})
 - Any other decisions where a consensus cannot be achieved.

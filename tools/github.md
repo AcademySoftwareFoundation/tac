@@ -13,7 +13,7 @@ This document outlines project policies and procedures using GitHub for code hos
 
 ## New project or repository
 
-When a new project or repository is to be added, please [submit a request]({{ site.helpdesk_url }}) to facilitate the process.
+When a new project or repository is to be added, please [submit a request](https://jira.linuxfoundation.org/plugins/servlet/desk/portal/2/create/102) to facilitate the process.
 
 ### Code license scan
 
@@ -23,7 +23,9 @@ If adding the new project or repository will include a significant contribution,
 - Presence of headers with the project's designated license(s) and preferred copyright notices in project files (refer to the [License Specification in the Contribution Guidelines](/process/contribution_guidelines.md#license-specification) for more information)
 - Any other best practices guidance 
 
-Typically code license scans are a quick turnaround, but that might take longer for more significant code bases.
+Projects can [submit a request]({{ site.helpdesk_url }}) to facilitate the process. Typically code license scans are a quick turnaround, but that might take longer for more significant code bases.
+
+Code licenses scans are done on a regular basis, with the reports shared with each project's TSC and posted [here]({{ site.lfscanning_repo_url }})
 
 ### Repository setup
 
@@ -59,10 +61,6 @@ All projects requiring a Contributor License Agreement (CLA) leverage [EasyCLA](
 Projects should define a COMMITTERS.* file for indicating committers that can merge in code to a repository. The list of committers is generally approved by the TSC or the committers, aligning with the requirements described in the project's governance. Permissions are managed using GitHub teams, where the TSC or committers will have a team, and that team will be given ['maintain' permission](https://docs.github.com/en/github/setting-up-and-managing-organizations-and-teams/repositoriesitory-permission-levels-for-an-organization#permission-levels-for-repositoriesitories-owned-by-an-organization) on the repositories.
 
 The best process for adding a new committer is to have that committer issue a pull request to add their name to the COMMITTERS.* file, where the required number of TSC members or committers can +1 the request, and the TSC chairperson can merge in it and can add the individual to the team.
-
-### Adding read-only members to an organization
-
-By default, hosted project GitHub organizations and repositories have enabled the [invite-contributors](https://probot.github.io/apps/invite-contributors/) GitHub app installed, which will automatically send an invite to anyone with a successful merged pull request to join the organization as a member. The *member* permission is read-only by default, but this enables members to have issues and pull requests assigned to them and be tagged inside of issues and pull requests.
 
 ### Branch protection
 
