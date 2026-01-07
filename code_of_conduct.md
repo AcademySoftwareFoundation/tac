@@ -1,5 +1,6 @@
 ---
 nav_order: 999
+title: Code of Conduct
 ---
 
 # Code of Conduct

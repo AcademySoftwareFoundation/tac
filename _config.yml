@@ -32,20 +32,21 @@ calendar_url: 'https://zoom-lfx.platform.linuxfoundation.org/meetings/aswf'
 slack_url: 'https://slack.aswf.io'
 directed_fund_charter_url: 'https://charter.aswf.io'
 tac_issues_url: 'https://github.com/AcademySoftwareFoundation/tac/issues/new?template=01-tac-agenda.yml'
+helpdesk_url: "https://servicedesk.aswf.io"
 mailing_list_url: "https://lists.aswf.io"
 wiki_url: "https://wiki.aswf.io"
 lfx_insights_url: "https://insights.lfx.linuxfoundation.org/foundation/aswf"
-helpdesk_url: "https://servicedesk.aswf.io"
 tac_mailing_list_url: "https://lists.aswf.io/g/tac"
 website_url: "https://aswf.io"
 blog_url: "https://aswf.io/blog"
-tac_lfx_meeting_url: "https://zoom-lfx.platform.linuxfoundation.org/meetings/aswf?view=list&projects=aswf"
+tac_lfx_meeting_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/aswf?view=list&projects=aswf
 lfscanning_repo_url: https://github.com/lfscanning/spdx-aswf
 tac_member_list_url: https://www.aswf.io/about/technical-advisory-council
 tac_meeting_agenda_url: https://github.com/orgs/AcademySoftwareFoundation/projects/19
-tac_propose_agenda_item_url: https://github.com/AcademySoftwareFoundation/tac/issues/new
 lf_staff_list_url: https://www.aswf.io/about/staff/
 mission_statement_url: https://www.aswf.io/about/
+tac_agenda_url: https://github.com/orgs/AcademySoftwareFoundation/projects/19
+artwork_url: 'https://artwork.aswf.io'
 
 # Foundation Settings
 foundation_name: "Academy Software Foundation"
@@ -58,6 +59,7 @@ aux_links:
   "Need help or have a question? Contact us here":
     - "//servicedesk.aswf.io"
 footer_content: Copyright &copy; The Linux Foundation&reg;. All rights reserved. The Linux Foundation has registered trademarks and uses trademarks. For a list of trademarks of The Linux Foundation, please see our <a href="https://www.linuxfoundation.org/trademark-usage">Trademark Usage</a> page. Linux is a registered trademark of Linus Torvalds. <a href="http://www.linuxfoundation.org/privacy">Privacy Policy</a> and <a href="http://www.linuxfoundation.org/terms">Terms of Use</a>.
+
 readme_index:
   with_frontmatter: true
 
@@ -83,3 +85,12 @@ callouts:
   note:
     title: Note
     color: blue
+
+defaults:
+  -
+    scope: 
+      path: "meetings/*/README.md"
+      type: "pages"
+    values:
+      title: My Title
+      parent: Meetings

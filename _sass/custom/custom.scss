@@ -9,7 +9,7 @@
     flex-basis: 12%;
     margin: 10px;
   }
-  & dt img {
+  & dt img[src^="https://landscape"] {
     height: 150px;
   }
   & dt {
@@ -22,14 +22,14 @@
     text-align: center;
   }
   & dd p:first-child {
-    font-family: Arial;
-    font-size: 13px;
-    color: #AAAAAA;
+      font-family: Arial;
+      font-size: 13px;
+      color: #AAAAAA;
   }
   & dd p:last-child {
-    font-family: Arial;
-    font-size: 17px;
-    color: #999999;
+      font-family: Arial;
+      font-size: 17px;
+      color: #999999;
   }
   & div dd p {
     margin-bottom: 0;
