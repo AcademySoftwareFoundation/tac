@@ -19,7 +19,7 @@ Generally, topics for a TAC meeting include:
 
 * Short, general updates of interest to the TAC (expected to be 5 minutes or less ).
 * A {{ site.project_types | map: 'singular' |  array_to_sentence_string: 'or' }} proposal (allotted 20-25 minutes).
-* Annual review of a project or working group or consideration for a project to move to a different stage (allotted 20-25 minutes).
+* Annual review of a {{ site.project_types | map: 'singular' |  array_to_sentence_string: 'or' }}, or consideration for a project to move to a different stage (allotted 20-25 minutes).
 * An invited presentation on a topic of interest to the TAC or the {{ site.foundation_name }} technical community. This might be tooling and infrastructure updates, presentations from related organizations/projects, or other program updates (allotted 20-25 minutes).
 * Strategic discussions regarding the {{ site.foundation_name }} techincal community (allotted 20-25 minutes).
 
