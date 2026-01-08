@@ -37,6 +37,9 @@ mailing_list_url: "https://lists.aswf.io"
 wiki_url: "https://wiki.aswf.io"
 lfx_insights_url: "https://insights.lfx.linuxfoundation.org/foundation/aswf"
 tac_mailing_list_url: "https://lists.aswf.io/g/tac"
+tac_mailing_list_email: tac@lists.aswf.io
+tac_private_mailing_list_email: tac-private@lists.aswf.io
+leads_mailing_list_email: technical-project-leads@lists.aswf.io
 website_url: "https://aswf.io"
 blog_url: "https://aswf.io/blog"
 tac_lfx_meeting_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/aswf?view=list&projects=aswf
@@ -47,13 +50,23 @@ lf_staff_list_url: https://www.aswf.io/about/staff/
 mission_statement_url: https://www.aswf.io/about/
 tac_agenda_url: https://github.com/orgs/AcademySoftwareFoundation/projects/19
 artwork_url: 'https://artwork.aswf.io'
+election_guidelines_url: 'https://github.com/AcademySoftwareFoundation/foundation/blob/main/elections.md'
 
 # Foundation Settings
 foundation_name: "Academy Software Foundation"
 clotributor_name: aswf
 membership_top_tier: 'Premier'
 vote_of_tac_committee_title: "Industry Representatives"
+vote_of_tac_committee_count: 3
 archived_lifecycle_stage: "Archived"
+tac_projects: 
+  - "Graduated Stage Projects"
+  - "Long Term Working Groups"
+project_types:
+  - singular: "Project"
+    plural: "Projects"
+  - singular: "Working Group"
+    plural: "Working Groups"
 
 aux_links:
   "Need help or have a question? Contact us here":
