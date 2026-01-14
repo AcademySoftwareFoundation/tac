@@ -70,11 +70,11 @@ Sustainable projects are those the industry adopts and drive economic value with
 - {{ site.foundation_name }} can leverage the expertise of its parent organization, The Linux Foundation, which hosts other successful projects, including the Linux kernel, Let’s Encrypt, and Node.js. 
 - You will have access to full-time {{ site.foundation_name }} staff eager to assist your project in myriad ways and help make it successful.
 
-## What makes a good project to host at the Academy Software Foundation?
+## What makes a good project to host at the {{ site.foundation_name }}?
 
-Open-source projects hosted at the Academy Software Foundation are ones that benefit the motion picture and visual effects industries. Successful projects bring diverse organizations and participants together; our experiences at the Linux Foundation and in open source tell us that a diverse community drives greater outcomes and innovation. As a vendor-neutral entity, the Academy Software Foundation creates that level playing field to drive leveraged, open collaboration.
+Open-source projects hosted at {{ site.foundation_name }} are ones that benefit the motion picture and visual effects industries. Successful projects bring diverse organizations and participants together; our experiences at the Linux Foundation and in open source tell us that a diverse community drives greater outcomes and innovation. As a vendor-neutral entity, {{ site.foundation_name }} creates that level playing field to drive leveraged, open collaboration.
 
-In evaluating projects to be hosted at the Academy Software Foundation, the TAC generally has these considerations when evaluating a project.
+In evaluating projects to be hosted at the {{ site.foundation_name }}, the TAC generally has these considerations when evaluating a project.
 
 - Does the project address a common problem in the motion picture and visual effects industries that is not solved by other efforts?
 - Does the project have broad adoption across film production studios, software vendors, and related organizations, or is there a clear path to that adoption?
@@ -127,7 +127,7 @@ Once the TAC Chairperson reviews the proposal, the LF Staff will follow up with 
 
 Generally, the TAC will schedule project proposals at the following [TAC Meeting](/meetings), provided there is at least one week between the submitted project proposal and the scheduled TAC meeting.
 
-Proposed projects will have a 30-minute presentation timeslot at an upcoming TAC meeting as the schedule allows. The project proposal must include a presentation conforming to the structure below to ensure uniform and complete submissions.
+Proposed projects will have a 20-minute presentation timeslot at an upcoming TAC meeting as the schedule allows. The project proposal must include a presentation conforming to the structure below to ensure uniform and complete submissions.
 
 *   Overview of the project and its purpose
     *  If a project is new, it’s often helpful to share the vision for the project, the anticipated structure, and benefits.
