@@ -18,7 +18,7 @@ body:
         guidance in the [project lifecycle](https://tac.aswf.io/process/project_stages#proposal-process).
         Please also note you must be available to lead this discussion at a TAC 
         meeting. You can get information on TAC meetings and how to join the meetings
-        at https://tac.aswf.io/meetings.
+        at [tac.aswf.io/meetings](https://tac.aswf.io/meetings/).
   - type: textarea
     id: project-description
     attributes:
@@ -32,19 +32,18 @@ body:
     id: tac-sponsor
     attributes:
       label: Sponsor from TAC
-      description: |
-        Sponsor helps mentor projects - if the project doesn’t currently have a sponsor, the TAC
-        will appoint one as part of the approval process
+      description: Projects must be sponsored by a TAC member.
     validations:
       required: true
   - type: dropdown
     id: project-stage
     attributes:
       label: Proposed Project Stage
+      description: Please refer to the [project lifecycle](https://tac.aswf.io/process/lifecycle.html) for a description of the stages.
       options:
         - Sandbox
         - Incubation
-        - Adopted
+        - Graduated
     validations:
       required: true
   - type: textarea
@@ -113,9 +112,14 @@ body:
     validations:
       required: true
   - type: textarea
-    id: social-media 
     attributes:
-      label: What social media accounts are used by the project?
+      label: |
+        Detail any existing community infrastructure, including:
+          - Github/GitLab, or other location where the code is hosted
+          - Website and/or docs
+          - Communication channels ( such as Mailing lists, Slack, IRC )
+          - Social Media Accounts
+          - PyPi, npm, or other App Stores maintainted by the project
     validations:
       required: true
   - type: textarea
