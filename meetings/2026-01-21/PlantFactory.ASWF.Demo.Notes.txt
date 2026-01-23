@@ -1,0 +1,33 @@
+PlantFactory
+
+- We'll start with PlantFactory, so that you can first get an idea how plant models are created and how certain plant species features are then used later in VUE.
+
+0:00-0:10 PlantFactory has an array of nodes for creating geometry. These nodes include geometry generators, selector logic, randomness nodes and input nodes which let you query properties of each plant part to control something else, for example the position or orientation in 3D space of a specific branch or leaf.
+
+All other nodes are shared with VUE.
+
+0:10-0:29 After adding a node, in this case an advanced segment which can be used to create trunks or branches, you can subdivide or unsubdivide the model at any time. To change its shape, we edit its parameters. Using the orange curve allows you to modulate the strength of a parameter along the length of the geometry. For example, you can change the radius of the trunk along its length.
+
+0:29-0:45 Many parameters have a +/- variance field behind them. By adding a value here, PlantFactory will randomly pick between the total range of values. Clicking the dice icon changes the global plant seed and creates a new random variation of the entire model.
+
+0:45-1:14 Once we add a second node for adding some branches, a new tab appears on the parent node where we can setup where the new node grows from, how many children should be generated and how they will be positioned. Children can be blended with their parent geometry using standard blending algorithms, in which case they will remain separate objects, or subdivision surface blending, which merges the geometries of parent and child into one continuous topology.
+
+1:14-1:20 Using the green curve, we can now modulate the length of the branches based on where they grow from the parent, so that branches get shorter the higher they are up on the tree. These rules can also be passed down onto subsequent nodes.
+
+1:20-1:51 A powerful feature is that for every random value, you can setup intricate rules for controlling how often a new value is chosen within the whole model. For example, you can setup rules that all children growing from a specific parent node in the graph will always obtain the same random value. 
+
+It is also possible to set custom probability distributions. Using a curve, you can control with which probability each value within the defined range is chosen. These two features allow for very intricate setups and granular control.
+
+1:51-2:02 You can use gizmo tools to make interactive edits in the viewport to children, for example by editing the axis spline which runs through each segment node, or by scaling, moving and rotating a child.
+
+2:02-2:15 Nodes can be grouped in a sub-graph and saved to your personal library. This creates a collection of components which can be added to any project with a single mouse click or through drawing them in the viewport.
+
+2:15-2:22 Additionally, plant parts can be pruned with the pruning tool. All these manual edits are non-destructive and can be reverted at any time.
+
+2:22-2:34 PlantFactory also supports repeating geometry using a set of iteration-based nodes. Here, we've setup a growth rule which splits branches at their tip. By repeating this rule for a set number of times, we can easily create fractal-like growth patterns with minimal effort.
+
+2:34-2:40 The app also creates a user-definable number of LOD meshes automatically. The resolution simplification and much more can be defined through special nodes and parameters.
+
+2:40-end At any time, you can publish a node parameter to a top level interface. If you are familiar with Substance materials, this is basically the same principle. From this interface, you can then create an arbitrary number of shape presets for various plant stages, including global properties such as season, maturity or health, provided you utilized these features in the node graph.
+
+All of these presets and parameters are also available in VUE and in the PlantFactory integration plugins for other DCC apps.
