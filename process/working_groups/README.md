@@ -40,6 +40,9 @@ Long-term Working Groups are eligible to receive the following benefits:
 * Right to refer to the project as a Long-term Working Group of the Academy Software Foundation and receive the highest priority for participating in events and other collaborative activities sponsored by the Academy Software Foundation.
 * A blog announcement or similar communication announcing the working grouping becoming a Long-term Working Group.
 
+## Current Working Groups
+
+Current Academy Software Foundation Working Groups are listed below.
 
 [TAC member]: /#tac-members
 [servicedesk]: https://servicedesk.aswf.io
