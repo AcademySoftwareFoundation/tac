@@ -1,0 +1,36 @@
+VUE
+
+0:00-0:09 The base workflow in VUE is always the same. You add an object, then you double click it to open the corresponding object editor. In this case, we're editing a heightfield terrain.
+
+0:09-0:17 Each editor has a frontend with common parameters and a set of easy to use tools. For example, we can choose from a list of preset shapes and paint the terrain shape with brushes.
+
+0:17-0:35 For more control, we can either import an external heightmap or create the terrain shapes with nodes. VUE has a large number of fractals and noises for creating terrains, clouds and materials. The finished terrain can be subdivided to add more resolution.
+
+0:35-0:56 Now that we've created a sand-dune-like terrain, we need to apply materials. Here, we'll load a pre-setup material from our personal collection. This is a PBR material consisting of several material layers, similar to Photoshop layers. The presence - and thus the alpha value - of these layers is driven by environmental constraints such as altitude, orientation or slope. This mixes varying sizes of sand ripples and smooth sand.
+
+0:56-1:16 To now scatter some palm trees in the desert, we'll add another layer and change the layer to an EcoSystem layer. This allows us to load objects and procedural plants into a scattering system. We'll use a palm tree species made in PlantFactory, and after selecting the plant, we get access to all the built-in presets in this plant file, just like we saw it before in the PlantFactory demo. Upon loading, VUE creates multiple variations of each preset.
+
+1:16-1:45 Using various settings for density, scaling, orientation and environmental constraints, we can now scatter these palm trees across the landscape. The material editor provides the most common settings for every day use. But, as always, you can go into the layer's node graph and control various properties with nodes such as the distribution density, for example.
+
+1:45-2:06 Let's add another layer and add some grass around the trees. We're cheating a bit with the scaling for this demonstration, so that the grass looks more like bushes. 
+
+2:06-2:21 Now, we can set up an affinity of the grass layer with the palm tree layer, which makes it easy to create realistic biomes and relationships between layers of EcoSystems.
+
+2:21-2:49 Finally, you also have the ability to paint instances into the scene using the Ecopainter. We've added another layer, this time with stones, and will paint the stones with a low brush flow setting onto the terrain.
+
+2:50-2:53 Here is a test render what the scattering looks like.
+
+2:53-3:10 Now we'll make some tweaks to the atmosphere. There are loads of possibilities here, from fog & haze to decay settings, sun positioning, indirect lighting tweaks and so on. For now, let's add some clouds.
+
+Just like in PlantFactory, you can also publish node parameters to a top-level interface for any node-driven asset type in VUE. This allows you to create frontend editors for anything, such as for these cumulus clouds here.
+
+3:10-3:30 Closing the demo, we'd like to quickly point out the integration options with PlantFactory and other apps. First, when you add a PlantFactory plant as a separate plant object in the scene, you get access to all published parameters and its presets. You can also launch PlantFactory from within VUE to make edits to this specific asset only and immediately apply the changes to the asset in the scene.
+
+3:30-3:35 Also, you can apply individual wind gusting to each plant object in addition to a scene-wide breeze .
+
+3:35-end
+
+Second, you can export basically everything using an extensive export central dialog. Here is a demo forest scene exported to Blender as USD. Atmospheres can be rendered into HDRIs. Clouds can be either rendered into the HDRI or exported as OpenVDB files, including animated VDBs.
+
+Third, there are also integration plugins for Maya, 3ds Max and C4D which would be beyond the scope of this demonstration. We hope to expand on our plugin and integration options in the future.
+

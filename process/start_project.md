@@ -31,7 +31,7 @@ Groundbreaking and game-changing projects are a collective effort across organiz
 
 Shared R&D with a broad ecosystem means bringing more contributors and maintainers into your project - including your competitors.
 
-- [LF Staff]{{ site.lf_staff_list_url }}) works with the project to establish open, neutral governance that makes roles clear and paths to leadership available.
+- [LF Staff]({{ site.lf_staff_list_url }}) works with the project to establish open, neutral governance that makes roles clear and paths to leadership available.
 - All projects have a Code of Conduct to ensure collaboration in a safe and welcoming environment.
 - Outreach done through the {{ site.foundation_name }} is done from a neutral perspective, separating product promotion and vendor favoritism and promoting the community's work.
 
@@ -52,7 +52,7 @@ Sustainable projects are those the industry adopts and drive economic value with
 - Conformance programs with community requirements that the {{ site.foundation_name }} Projects manage.
 - Training and certification programs through [LF Training](https://training.linuxfoundation.org/).
 - Badging using [Credly](https://info.credly.com/) to recognize individuals.
-- Events such as Open Source Days and Open Source Forum for the community to connect and collaborate.
+- Events for the community to connect and collaborate.
 
 ### Have world-class tools for measuring project insights and success.
 
@@ -62,11 +62,6 @@ Sustainable projects are those the industry adopts and drive economic value with
 - Ensuring the health and viability of the open-source projects you care about. Leverage data to help validate undertakings for investment and track the activity and growth of projects your organization is already involved in.
 - Showcasing your organization’s leadership and subject matter expertise in the open source community. Leverage affiliations to measure the impact of your employees’ contributions and capture the complete picture of your team’s impact
 
-**LFX Security** is a tool for managing security for your project. Its capabilities include the following:
-
-- Monitoring your entire project for potential vulnerabilities with an aggregated project-level view of your entire software sandwich across source control systems and repositories, with the ability to remediate the found issues.
-- Identifying non-inclusive language and code secrets in your project to prevent embarrassing situations.
-
 ### Leverage the collective experience and expertise of the Linux Foundation.
 
 {{ site.foundation_name }} staff collectively have decades of experience driving open-source projects and ecosystems in various vertical and horizontal industries, bringing the best practices to your project.
@@ -75,23 +70,23 @@ Sustainable projects are those the industry adopts and drive economic value with
 - {{ site.foundation_name }} can leverage the expertise of its parent organization, The Linux Foundation, which hosts other successful projects, including the Linux kernel, Let’s Encrypt, and Node.js. 
 - You will have access to full-time {{ site.foundation_name }} staff eager to assist your project in myriad ways and help make it successful.
 
-## What makes a good project to host at the Academy Software Foundation?
+## What makes a good project to host at the {{ site.foundation_name }}?
 
-Open-source projects hosted at the Academy Software Foundation are ones that benefit the motion picture and visual effects industries. Successful projects bring diverse organizations and participants together; our experiences at the Linux Foundation and in open source tell us that a diverse community drives greater outcomes and innovation. As a vendor-neutral entity, the Academy Software Foundation creates that level playing field to drive leveraged, open collaboration.
+Open-source projects hosted at {{ site.foundation_name }} are ones that benefit the motion picture and visual effects industries. Successful projects bring diverse organizations and participants together; our experiences at the Linux Foundation and in open source tell us that a diverse community drives greater outcomes and innovation. As a vendor-neutral entity, {{ site.foundation_name }} creates that level playing field to drive leveraged, open collaboration.
 
-In evaluating projects to be hosted at the Academy Software Foundation, the TAC generally has these considerations when evaluating a project.
+In evaluating projects to be hosted at the {{ site.foundation_name }}, the TAC generally has these considerations when evaluating a project.
 
 - Does the project address a common problem in the motion picture and visual effects industries that is not solved by other efforts?
 - Does the project have broad adoption across film production studios, software vendors, and related organizations, or is there a clear path to that adoption?
 - Will the project have the potential to gain alignment and participation amongst multiple constituents, including software vendors, studios, and other related organizations, to participate as contributors and maintainers?
 - Is the project's leadership best positioned and capable of growing the project?
-- For a project proposed at the [Incubation Stage](lifecycle#incubation-stage) or a project proposed at [Sandbox Stage](/lifecycle#sandbox-stage) that would grow into an [Incubation Stage](lifecycle#incubation-stage) project, could the TAC invest in helping it succeed?
-- What resources would the project need to be successful, and does the Academy Software Foundation have the ability to attract and retain those resources?
+- For a project proposed at the [Incubation Stage] or a project proposed at [Sandbox Stage] that would grow into an [Incubation Stage] project, could the TAC invest in helping it succeed?
+- What resources would the project need to be successful, and does the {{ site.foundation_name }} have the ability to attract and retain those resources?
 - Will this project divert away resources from existing project(s)?
 - What existing code is coming into the project, and what potential code could come?
 - Does the project currently have the feature set, robustness, and scalability necessary to adequately solve the problem for film production, or else is there (a) a clear roadmap to get to that point and (b) a team assembled with the skills and experience to successfully execute the plan?
 
-Prospective projects are always welcome to engage the TAC to present the work being done to gauge whether the project would be a good fit within the Academy Software Foundation. 
+Prospective projects are always welcome to engage the TAC to present the work being done to gauge whether the project would be a good fit within the {{ site.foundation_name }}. 
 
 ## Preparing to bring your project here
 
@@ -132,7 +127,7 @@ Once the TAC Chairperson reviews the proposal, the LF Staff will follow up with 
 
 Generally, the TAC will schedule project proposals at the following [TAC Meeting](/meetings), provided there is at least one week between the submitted project proposal and the scheduled TAC meeting.
 
-Proposed projects will have a 30-minute presentation timeslot at an upcoming TAC meeting as the schedule allows. The project proposal must include a presentation conforming to the structure below to ensure uniform and complete submissions.
+Proposed projects will have a 20-minute presentation timeslot at an upcoming TAC meeting as the schedule allows. The project proposal must include a presentation conforming to the structure below to ensure uniform and complete submissions.
 
 *   Overview of the project and its purpose
     *  If a project is new, it’s often helpful to share the vision for the project, the anticipated structure, and benefits.
@@ -147,12 +142,12 @@ Proposed projects will have a 30-minute presentation timeslot at an upcoming TAC
 ### Key things to keep in mind for project proposals to the TAC
 
 - The TAC may consider the project for approval at the proposed stage during the meeting it is presented at, provided a quorum of TAC voting members are present. If there is no quorum of TAC voting members present or if the TAC is not ready to consider the project for approval during the meeting, the TAC will either:
-  - Conduct a vote to approve the project via email, or
+  - Conduct a vote to approve the project via LFX Voting, or
   - Continue the discussion via email or Slack, or during a future TAC meeting.
-- Projects accepted at the [Incubation Stage](lifecycle#incubation-stage) are generally mature, stable projects that have existed for many years. Projects that are newly forming or incomplete should propose to join at the [Sandbox Stage](/lifecycle#sandbox-stage).
-- It's rare to see a project accepted at the [Adopted Stage], as even incoming projects that have existed for years require a fair amount of governance and operations changes as they come into the {{ site.foundation_name }}; those projects tend to come in at the Incubation level and move to Adopted within a year.
+- Projects accepted at the [Incubation Stage] are generally mature, stable projects that have existed for many years. Projects that are newly forming or incomplete should propose to join at the [Sandbox Stage].
+- It's rare to see a project accepted at the [Graduated Stage], as even incoming projects that have existed for years require a fair amount of governance and operations changes as they come into the {{ site.foundation_name }}; those projects tend to come in at the Incubation level and move to Adopted within a year.
 - The TAC may ask for the project to go back and address specific questions and/or concerns and then re-propose the project. Any project that the TAC has not approved, or any project that the TAC does not renew, can only re-propose the project with the approval of the TAC.
 
 [Sandbox stage]: /process/lifecycle#sandbox-stage
 [Incubation stage]: /process/lifecycle#incubation-stage
-[Adopted stage]: /process/lifecycle#adopted-stage
+[Graduated stage]: /process/lifecycle#graduated-stage
