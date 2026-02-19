@@ -1,5 +1,6 @@
 title,url,number,scheduled_date,status,last_review_date,meeting_label
-OpenColorIO,https://github.com/AcademySoftwareFoundation/tac/issues/474,474,2026-03-18,Future Meeting Agenda Items,2025-03-19,2-annual-review
+OpenColorIO,https://github.com/AcademySoftwareFoundation/tac/issues/474,474,2026-03-18,Next Meeting Agenda Items,2025-03-19,2-annual-review
+New Project Proposal - MoonRay,https://github.com/AcademySoftwareFoundation/tac/issues/1287,1287,2026-02-18,In Voting,,1-new-project-wg
 Open Path Guiding Library (OpenPGL),https://github.com/AcademySoftwareFoundation/tac/issues/1218,1218,2026-12-09,Future Meeting Agenda Items,,2-annual-review
 Zero Trust Working Group,https://github.com/AcademySoftwareFoundation/tac/issues/621,621,2026-10-28,Future Meeting Agenda Items,2025-10-29,2-annual-review
 OpenTimelineIO,https://github.com/AcademySoftwareFoundation/tac/issues/477,477,2026-11-11,Future Meeting Agenda Items,2025-11-12,2-annual-review
@@ -26,15 +27,12 @@ OpenAPV,https://github.com/AcademySoftwareFoundation/tac/issues/803,803,2026-10-
 Open Review Initiative,https://github.com/AcademySoftwareFoundation/tac/issues/436,436,2026-09-30,Future Meeting Agenda Items,2025-10-01,2-annual-review
 Open Shading Language,https://github.com/AcademySoftwareFoundation/tac/issues/437,437,2026-10-28,Future Meeting Agenda Items,2025-10-29,2-annual-review
 New Project Proposal - OpenTrackIO,https://github.com/AcademySoftwareFoundation/tac/issues/1184,1184,,LF Onboarding,,1-new-project-wg
-Add WG Charters to TAC website,https://github.com/AcademySoftwareFoundation/tac/pull/1266,1266,,Upcoming Meeting Agenda Items,,
-OpenVDB,https://github.com/AcademySoftwareFoundation/tac/issues/480,480,2026-02-18,Upcoming Meeting Agenda Items,2025-02-05,2-annual-review
+Add WG Charters to TAC website,https://github.com/AcademySoftwareFoundation/tac/pull/1266,1266,2026-03-04,Upcoming Meeting Agenda Items,,
+2026 TAC Priorities,https://github.com/AcademySoftwareFoundation/tac/issues/1208,1208,2026-03-04,Upcoming Meeting Agenda Items,,3-tac-meeting-long
+2026 Security Reviews,https://github.com/AcademySoftwareFoundation/tac/issues/1137,1137,2026-03-04,Upcoming Meeting Agenda Items,,4-tac-meeting-short
+AGENDA TOPIC: AI code assistant policy,https://github.com/AcademySoftwareFoundation/tac/issues/1195,1195,2026-03-04,Upcoming Meeting Agenda Items,,4-tac-meeting-short
+ORI follow up on Incubation,https://github.com/AcademySoftwareFoundation/tac/issues/1167,1167,2026-03-04,Upcoming Meeting Agenda Items,,4-tac-meeting-short
+TAC Industry Representative Election,https://github.com/AcademySoftwareFoundation/tac/issues/1291,1291,2026-03-04,Upcoming Meeting Agenda Items,,4-tac-meeting-short
+OpenVDB,https://github.com/AcademySoftwareFoundation/tac/issues/480,480,2027-02-03,Future Meeting Agenda Items,2026-02-18,2-annual-review
 D&I Working Group,https://github.com/AcademySoftwareFoundation/tac/issues/473,473,2027-01-06,Future Meeting Agenda Items,2026-01-21,2-annual-review
-ORI follow up on Incubation,https://github.com/AcademySoftwareFoundation/tac/issues/1167,1167,2026-01-07,Next Meeting Agenda Items,,4-tac-meeting-short
-2026 TAC Priorities,https://github.com/AcademySoftwareFoundation/tac/issues/1208,1208,2026-01-07,Next Meeting Agenda Items,,3-tac-meeting-long
-AGENDA TOPIC: AI code assistant policy,https://github.com/AcademySoftwareFoundation/tac/issues/1195,1195,2026-01-07,Next Meeting Agenda Items,,4-tac-meeting-short
-2026 Security Reviews,https://github.com/AcademySoftwareFoundation/tac/issues/1137,1137,,Next Meeting Agenda Items,,4-tac-meeting-short
-Open Source Forum,https://github.com/AcademySoftwareFoundation/tac/issues/1273,1273,,Upcoming Meeting Agenda Items,,4-tac-meeting-short
-Membership Drive,https://github.com/AcademySoftwareFoundation/tac/issues/1275,1275,,Upcoming Meeting Agenda Items,,4-tac-meeting-short
-New Project Proposal - MoonRay,https://github.com/AcademySoftwareFoundation/tac/issues/1287,1287,2026-02-18,Upcoming Meeting Agenda Items,,1-new-project-wg
 Dev Days 2026,https://github.com/AcademySoftwareFoundation/tac/issues/1288,1288,,Upcoming Meeting Agenda Items,,4-tac-meeting-short
-TAC Industry Representative Election,https://github.com/AcademySoftwareFoundation/tac/issues/1291,1291,2026-03-04,Next Meeting Agenda Items,,4-tac-meeting-short
