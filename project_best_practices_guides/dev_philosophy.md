@@ -1,28 +1,32 @@
-# ASWF Development Philosophy
+# AI-Assisted Development at the ASWF
 
 ## AI, LLMs, and how we’re thinking about technology innovation in software development
 
-This document is being written in the “age of AI” \- a time when how we as software engineers write and interact with code is rapidly changing, and keeping track of these changes is a job in itself. However, the philosophies and best practices laid out in this document are nothing new. They are long-held beliefs and unspoken (read: obvious) parts of being good stewards of our craft, especially in the open source landscape. The decision to put them in writing is our attempt to be clear, forward-thinking thought leaders in our space, and for the Foundation to continue to be a place that developers, companies, and productions trust in their critical creative work.
+This document is being written in the “age of AI” \- a time when how we as software engineers write and interact with code is rapidly changing, and keeping track of these changes is a job in itself. However, the philosophies and best practices laid out in this document are nothing new. They are long-held beliefs and unspoken (read: obvious) parts of being good stewards of our craft, especially in the open source landscape. The decision to put them in writing is our attempt to be clear, forward-thinking thought leaders in our space, and for the ASWF to continue to be a place that developers, companies, and productions trust in their critical creative work.
 
-We write this document in order to help our organization move forward with technology, and equip our maintainers and contributors with the tools and documentation they need to succeed. These policies, for now, focus on code and tooling. We have several projects within the Foundation whose outputs and/or inputs are non-code (assets, data sets, images) \- these may require separate policies and procedures that differ from AI-assisted code.
+We write this document in order to help our organization move forward with technology, and equip our maintainers and contributors with the tools and documentation they need to succeed. These policies, for now, focus on code and tooling. We have several projects within the ASWF whose outputs and/or inputs are non-code (assets, data sets, images) \- these may require separate policies and procedures that differ from AI-assisted code.
 
-Please refer to individual Foundation project repositories for detailed policies and contribution guidelines. 
+Please refer to individual ASWF project repositories for detailed policies and contribution guidelines. 
 
 ### What this document **is not**:
 
 * A stance on AI-generated content not related to code contributed to our projects. We are a small piece in a very big puzzle, and the scope of this document is too.  
 * Finished. This is only the start, and we will adapt, change, and re-write as necessary.   
-* Absolute. This document is a general guideline, a starting place. Projects within our foundation are independent, and may create additional and even contradictory stances to what is written here.
+* Absolute. This document is a general guideline, a starting place. Projects within th ASWF are independent, and may create additional and even contradictory stances to what is written here.
 
 # Author Responsibility
 
-The human submitting a pull request is considered the author and is fully responsible for the code they contribute. Our code contribution policy is quite clear \- you must sign the DCO (Developer Certificate of Origin) with a valid email address and name, and have completed the appropriate version of a Contributor License Agreement (if applicable) before your code will be reviewed and/or merged. By signing and posting a PR, you as the author are stating that the code you submit follows the licensing and authorship rules of the project, the ASWF, and the Linux Foundation. The PR author should understand, be able to converse around, and explain their submission. There is nothing new about this policy, and no exceptions will be made. 
+The human submitting a pull request is considered the author and is fully responsible for the code they contribute. The code contribution and IP policies that ASWF hosted projects have adopted is quite clear \- you must sign the DCO (Developer Certificate of Origin) with a valid email address and name, and have completed the appropriate version of a Contributor License Agreement (if applicable) before your code will be reviewed and/or merged. By signing and posting a PR, you as the author are stating that the code you submit follows the licensing and authorship rules of the project, the ASWF, and the Linux Foundation. The PR author should understand, be able to converse around, and explain their submission. There is nothing new about this policy, and no exceptions will be made. 
 
 # Disclosure
 
-Another aspect of author responsibility is disclosure. It has long been a best practice to disclose the process, inspiration, and research used in your code submission. In the same way, we now require disclosure of tools used, including agentic coding solutions and AI. This can be as simple as “this PR was assisted by X tool to aid in Y and Z”. Maintainers might ask follow up questions, and as noted above, authors should be prepared to defend their solutions. 
+Another aspect of author responsibility is disclosure. It has long been a best practice to disclose the process, inspiration, and research used in your code submission. In the same way, we now require disclosure of tools used, including agentic coding solutions and AI. This disclosure should follow the following format:
 
-This requirement is not meant to dissuade use of AI-assisted tools \- the opposite. We are interested in learning how these new technologies are being used in Foundation projects. This disclosure is therefore useful to us in more ways than one: it encourages good code contribution practices and enables us to track their use. This in turn helps us evolve, stay current and use data to help drive future decisions. 
+```Assisted-by: Tool / Model```
+ 
+ Maintainers might ask follow up questions, and as noted above, authors should be prepared to defend their solutions. 
+
+This requirement is not meant to dissuade use of AI-assisted tools \- the opposite. We are interested in learning how these new technologies are being used in ASWF projects. This disclosure is therefore useful to us in more ways than one: it encourages good code contribution practices and enables us to track their use. This in turn helps us evolve, stay current and use data to help drive future decisions. 
 
 # Respect Maintainers
 
