@@ -12,11 +12,11 @@ Please refer to individual ASWF project repositories for detailed policies and c
 
 * A stance on AI-generated content not related to code contributed to our projects. We are a small piece in a very big puzzle, and the scope of this document is too.  
 * Finished. This is only the start, and we will adapt, change, and re-write as necessary.   
-* Absolute. This document is a general guideline, a starting place. Projects within th ASWF are independent, and may create additional and even contradictory stances to what is written here.
+* Absolute. This document is a general guideline, a starting place. Projects within the ASWF are independent, and may create additional and even contradictory stances to what is written here.
 
 # Author Responsibility
 
-The human submitting a pull request is considered the author and is fully responsible for the code they contribute. The code contribution and IP policies that ASWF hosted projects have adopted is quite clear \- you must sign the DCO (Developer Certificate of Origin) with a valid email address and name, and have completed the appropriate version of a Contributor License Agreement (if applicable) before your code will be reviewed and/or merged. By signing and posting a PR, you as the author are stating that the code you submit follows the licensing and authorship rules of the project, the ASWF, and the Linux Foundation. The PR author should understand, be able to converse around, and explain their submission. There is nothing new about this policy, and no exceptions will be made. 
+The human submitting a pull request is considered the author and is fully responsible for the code they contribute. The code contribution and IP policies that ASWF hosted projects have adopted are quite clear \- you must sign the DCO (Developer Certificate of Origin) with a valid email address and name, and have completed the appropriate version of a Contributor License Agreement (if applicable) before your code will be reviewed and/or merged. By signing and posting a PR, you as the author are stating that the code you submit follows the licensing and authorship rules of the project, the ASWF, and the Linux Foundation. The PR author should understand, be able to converse around, and explain their submission. There is nothing new about this policy, and no exceptions will be made. 
 
 # Disclosure
 
