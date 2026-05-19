@@ -11,7 +11,7 @@ parent: Tools
 
 ## Key mailing lists
 
-The primary mailing list for all technical community discussions is the [TAC Mailing List][]. Each hosted project and working group has its own mailing list as well, which are [listed in the project listing in the TAC repo](/#tac-projects).
+The primary mailing list for all technical community discussions is the [TAC Mailing List][]. Each hosted project and working group has its own mailing list as well, which are [listed in the project listing in the TAC repo](/engagement/#connecting-with-hosted-projects).
 
 ## Moderation and Moderation Guidelines
 

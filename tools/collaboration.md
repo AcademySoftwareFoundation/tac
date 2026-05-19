@@ -9,9 +9,9 @@ parent: Tools
 
 This document outlines the communications tools available for {{ site.foundation_name }} hosted projects and working groups.
 
-{{ site.foundation_name }} leverages the tools provided by the LFX Project Control Center (PCC) to maintain committee member lists, schedule meetings, configure mailing lists, and make community meetings publicly available. 
+{{ site.foundation_name }} leverages the tools provided by the LFX Project Control Center (PCC) to maintain committee member lists, schedule meetings, configure mailing lists, and make community meetings publicly available.
 
-PCC is a tool built and maintained by the Linux Foundation for use by the {{ site.foundation_name }} and its hosted projects and working groups. Access to PCC for hosted projects and working groups, including management of meetings and committees, can be granted by submitting a support request [here][pcc access request instructions]. It is recommended that, at a minimum, the TSC Chairperson have access to PCC; it may also be beneficial to have a second person with access in case the TSC Chairperson is unavailable and the project needs to reschedule a meeting. 
+PCC is a tool built and maintained by the Linux Foundation for use by the {{ site.foundation_name }} and its hosted projects and working groups. Access to PCC for hosted projects and working groups, including management of meetings and committees, can be granted by submitting a support request [here][pcc access request instructions]. It is recommended that, at a minimum, the TSC Chairperson have access to PCC; it may also be beneficial to have a second person with access in case the TSC Chairperson is unavailable and the project needs to reschedule a meeting.
 
 The specific abilities the person with access to PCC has for managing project settings include:
 
@@ -93,7 +93,7 @@ If the meeting is not set to be recorded, you can enable recording on the fly by
 
 Each hosted project and working group has a Public Calendar that can be directly pointed to or embedded in an existing web page. Instructions for getting the link for the hosted project or working group Public Calendar can be found [here][access to public calendar link instructions]. Note that the LF Staff sets up a subdomain forward if the project has a primary domain setup using the format `https://calendar.DOMAINNAME`.
 
-All public meetings for hosted projects and working groups are posted on the [Community Calendar]. 
+All public meetings for hosted projects and working groups are posted on the [Community Calendar].
 
 Meetings that an individual is directly invited to can be found in the 'Meetings' section of that individual's LFX Individual Dashboard; instructions can be found [here][individual dashboard meetings instructions]
 
@@ -106,14 +106,14 @@ To help individuals not be inundated with calendar overload, try to follow these
 - Ensure the meeting description includes an agenda or a link to the agenda.
 
 [Community Calendar]: {{ site.calendar_url }}
-[cancel meeting instructions]: https://docs.linuxfoundation.org/lfx/project-control-center/v2-latest-version/collaborations/meetings#delete-meetings
+[cancel meeting instructions]: https://docs.linuxfoundation.org/lfx/project-control-center/v2-latest-version/collaborations/meetings/delete-meetings
 [access to public calendar link instructions]: https://docs.linuxfoundation.org/lfx/project-control-center/v2-latest-version/collaborations/meetings
 [individual dashboard meetings instructions]: https://docs.linuxfoundation.org/lfx/my-profile/meetings
-[create meeting instructions]: https://docs.linuxfoundation.org/lfx/project-control-center/v2-latest-version/collaborations/meetings#scheduling-a-meeting
-[change meeting instructions]: https://docs.linuxfoundation.org/lfx/project-control-center/v2-latest-version/collaborations/meetings#manage-meetings
+[create meeting instructions]: https://docs.linuxfoundation.org/lfx/project-control-center/v2-latest-version/collaborations/meetings/scheduling-a-meeting
+[change meeting instructions]: https://docs.linuxfoundation.org/lfx/project-control-center/v2-latest-version/collaborations/meetings/manage-meetings
 [pcc access request instructions]: https://jira.linuxfoundation.org/plugins/servlet/desk/portal/4/create/358
-[add individuals to committee instructions]: https://docs.linuxfoundation.org/lfx/project-control-center/v2-latest-version/collaborations/committees#adding-members-to-a-committee
-[remove individuals from committee instructions]: https://docs.linuxfoundation.org/lfx/project-control-center/v2-latest-version/collaborations/committees#deleting-a-member-from-a-committee
+[add individuals to committee instructions]: https://docs.linuxfoundation.org/lfx/project-control-center/v2-latest-version/collaborations/committees/adding-members-to-a-committee
+[remove individuals from committee instructions]: https://docs.linuxfoundation.org/lfx/project-control-center/v2-latest-version/collaborations/committees/deleting-a-member-from-a-committee
 [email meeting participants PCC]: https://docs.linuxfoundation.org/lfx/project-control-center/v2-latest-version/collaborations/meetings
 [zoom meeting recording instructions]: https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0059856
 [find host key]: https://docs.linuxfoundation.org/lfx/my-profile/meetings/find-your-host-key
