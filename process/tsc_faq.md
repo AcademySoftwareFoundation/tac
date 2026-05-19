@@ -20,7 +20,7 @@ The Technical Steering Committee (TSC) is the leadership of the project. This co
 
 Typically, the TSC comprises the primary committers or maintainers in a project. To start, there may be an appointed list, but over time, more individuals may join the TSC according to the policies the TSC set for adding new members. Regardless, TSC meetings are generally open to anyone interested unless there are sensitive issues to discuss, necessitating a private meeting.
 
-[LFX Project Control Center] is a tool for managing project committees and roles within a project. Each project will be set up in that tool with a voting committee named 'Technical Steering Committee (TSC)' notating the project chairperson and all voting members. Project chairpersons, in addition to the Linux Foundation staff supporting the project, will have access to manage this. 
+[LFX Project Control Center] is a tool for managing project committees and roles within a project. Each project will be set up in that tool with a voting committee named 'Technical Steering Committee (TSC)' notating the project chairperson and all voting members. Project chairpersons, in addition to the Linux Foundation staff supporting the project, will have access to manage this.
 
 Additionally, each project has a [GitHub Team][GitHub Teams Docs] set up which will provide ['Maintain' permission]((https://docs.github.com/en/organizations/managing-user-access-to-your-organizations-repositories/managing-repository-roles/repository-roles-for-an-organization#permissions-for-each-role)) for each project maintainer. Generally, the LF staff will have this set up for each project; after that, the project is expected to maintain any changes.
 
@@ -98,11 +98,11 @@ The TSC Chairperson should share an agenda at least 24 hours before the meeting 
 
 ### Q: Is a TSC member required to have their employer be a member of the {{ site.foundation_name }}?
 
-A: No - All technical community work, such as projects and working groups, is open to anyone to participate and not bound by membership in the {{ site.foundation_name }}. 
+A: No - All technical community work, such as projects and working groups, is open to anyone to participate and not bound by membership in the {{ site.foundation_name }}.
 
 ### Q: Does a person lose their membership in a TSC if they leave or change employers?
 
-A: No - TSC membership is bound to an individual, not an organization. If a change of employment for a TSC member results in a key contributing organization lacking TSC representation, the TSC may invite a new TSC member affiliated with that organization, provided that person meets any requirements for TSC membership. 
+A: No - TSC membership is bound to an individual, not an organization. If a change of employment for a TSC member results in a key contributing organization lacking TSC representation, the TSC may invite a new TSC member affiliated with that organization, provided that person meets any requirements for TSC membership.
 
 ### Q: Does an individual serving on the TSC represent themselves, the project, and/or their employer?
 
@@ -134,6 +134,6 @@ Just like TSC Meetings, subgroup meetings must be open to anyone interested in p
 [Technical Leads Mailing List]: https://lists.aswf.io/g/technical-project-leads
 [LFX Project Control Center]: https://projectadmin.lfx.linuxfoundation.org/
 [Service Desk]: https://servicedesk.aswf.io
-[LFX PCC Meeting Management Docs]: https://docs.linuxfoundation.org/lfx/project-control-center-pre-release/it-services-for-a-project/meetings
-[LFX PCC Committee Management Docs]: https://docs.linuxfoundation.org/lfx/project-control-center-pre-release/setup-services-for-a-project/committees-setup-for-a-project
+[LFX PCC Meeting Management Docs]: https://docs.linuxfoundation.org/lfx/project-control-center/v2-latest-version/collaborations/meetings
+[LFX PCC Committee Management Docs]: https://docs.linuxfoundation.org/lfx/project-control-center/v2-latest-version/collaborations/committees
 [GitHub Teams Docs]: https://docs.github.com/en/organizations/organizing-members-into-teams/about-teams

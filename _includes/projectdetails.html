@@ -4,7 +4,7 @@
 {%- for project in site.data.projects -%}
     {%- unless excluded_levels contains project["Level"] -%}
     <tr>
-        <td><img id="{{ project["Name"] }}" src="{{ project["Logo URL"] }}" /></td>
+        <td><img id="{{ project["Name"] }}" src="{{ project["Logo URL"] }}" alt="{{ project["Name"]}} Logo" /></td>
         <td>
             {%- if project["Github Org"] -%}
             Repo: <a href="{{ project["Github Org"] }}">{{ project["Github Org"] }}</a><br />
