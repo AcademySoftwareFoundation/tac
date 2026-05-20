@@ -50,7 +50,7 @@ Generally, the following settings apply to all hosted project repositories and o
 
 ### DCO
 
-By default, all GitHub repositories have both the [GitHub DCO App][] installed and [commit signoffs enabled][GitHub commit signoff policy]. DCO guidelines for hosted projects are outlined in the [contributing guidelines]({% link process/contribution_guidelines.md %}#code-license-identification).
+By default, all GitHub repositories have both the [GitHub DCO App][] installed and [commit signoffs enabled][GitHub commit signoff policy]. DCO guidelines for hosted projects are outlined in the [contributing guidelines]({% link process/contributing.md %}#code-license-identification).
 
 ### CLA
 
