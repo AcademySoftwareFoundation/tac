@@ -85,6 +85,9 @@ Join the meeting at [{{ site.tac_lfx_meeting_url }}]({{ site.tac_lfx_meeting_url
 ### Other Attendees
 
 
+## Meeting Assets
+
+
 ## Antitrust Policy Notice
 
 Linux Foundation meetings involve participation by industry competitors, and it
@@ -149,6 +152,6 @@ the Linux Foundation.
 {{ agenda }}
 </pre>
 
-<a href="{{ site.gh_edit_repository }}/new/main/meetings?filename={{ "now" | date: "%Y-%m-%d" }}.md&value={{ agenda | url_encode }}">Create Pull Request</a> | 
+<a href="{{ site.gh_edit_repository }}/new/main/meetings/{{ "now" | date: "%Y-%m-%d" }}?filename=index.md&value={{ agenda | url_encode }}">Create Pull Request</a> |
 
 

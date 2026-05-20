@@ -38,4 +38,4 @@ Future meeting agenda items can be found [here]({{ site.tac_agenda_url }}).
 
 ## Meeting Notes
 
-Past meeting notes and agendas are posted soons after each meeting, and are listed below.
+Past meeting notes and agendas are posted soon after each meeting, and are listed below.
