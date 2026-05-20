@@ -73,7 +73,7 @@ At the project's [Annual Review](review_cycle), the TAC will vote to either:
 
 * Move the project to the Incubation Stage if it meets the requirements for that stage.
 * Renew the project at the Sandbox Stage if it feels it will move to the Incubation Stage by the next Annual Review.
-* Move the project to the [Archived Stage](#Archived-stage). In this case, the trademark and any other assets will be returned to the project maintainers or an organization they designate.
+* Move the project to the [Archived Stage](#archived-stage). In this case, the trademark and any other assets will be returned to the project maintainers or an organization they designate.
 
 ## Incubation Stage
 
@@ -96,7 +96,7 @@ To be accepted at the Incubation stage, a project must meet the Sandbox requirem
     *   Demonstrate a sustained flow of commits / merged contributions
     *   A healthy number of end-users within the visual effects and motion picture industries have adopted the project and are identified by the project ( using an ADOPTERS file or showcased on the project's website ).
     *   A credible plan for developing a thriving user community, particularly expanding the number of committers and contributors?
-    *   Outline of the plan for the project to complete the requirements for the [Graduated Stage](#Graduated-stage)
+    *   Outline of the plan for the project to complete the requirements for the [Graduated Stage](#graduated-stage)
 * Obtain an affirmative vote of the TAC.
 
 Projects preparing to be considered for the Incubation Stage should prepare a presentation outlining how they have completed the requirements and present it at the TAC meeting where they are being considered.
@@ -118,7 +118,7 @@ During the project's Annual Review, the TAC will assess the progress toward grad
 
 * Move the project to the Graduated Stage if it [meets those requirements](#requirements-2).
 * Renew the project at the Incubation Stage if it feels it will move to the Graduated Stage by the next Annual Review.
-* Move the project to the [Archived Stage](#Archived-stage). In this case, the trademark and any other assets will be returned to the project maintainers or an organization they designate.
+* Move the project to the [Archived Stage](#archived-stage). In this case, the trademark and any other assets will be returned to the project maintainers or an organization they designate.
 
 ## Graduated Stage
 
@@ -162,7 +162,7 @@ Graduated stage projects are eligible to receive the following benefits:
 Graduated Stage projects will have an Annual Review to assess if the project is still meeting the Graduated Stage requirements. At the Annual Review, the TAC will vote to either: 
 
 * Renew the project at the Graduated Stage if it continues to [meet those requirements](#requirements-2).
-* Move the project to the [Archived Stage](#Archived-stage). In this case, the trademark and any other assets will be returned to the project maintainers or an organization they designate.
+* Move the project to the [Archived Stage](#archived-stage). In this case, the trademark and any other assets will be returned to the project maintainers or an organization they designate.
 
 For the first Annual Review after the project reaches the Graduated Stage, it is expected that the project has completed 100% of the OpenSSF Best Practices Badge requirements at the [gold level](https://bestpractices.coreinfrastructure.org/en/criteria/2) with the exception of the requirements listed above.
 

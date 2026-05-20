@@ -61,7 +61,7 @@ You can include this automatically when you commit a change to your local git re
 
 ### DCO and Real Names
 
-The DCO requires the use of a real name that can be used to identify someone in case there is an issue about a contribution they made. 
+The DCO requires the use of a real name that can be used to identify someone in case there is an issue about a contribution they made.
 
 A real name does not require a legal name, nor a birth name, nor any name that appears on an official ID (e.g. a passport). Your real name is the name you convey to people in the community for them to use to identify you as you. The key concern is that your identification is sufficient enough to contact you if an issue were to arise in the future about your contribution.
 
@@ -171,14 +171,14 @@ Q: My Corporate CLA manager says I should be on the approved list, but my PR is 
 A: Confirm that you are selecting the proper company name as there may be multiple corporate entities registered. If you still have issues, please file a [support request][].
 
 [ASF Contributor Agreements]: https://www.apache.org/licenses/contributor-agreements.html
-[{{ site.foundation_name }} 2020 CCLA template]: cla/ccla_template_aswf2020_v2.1.md
-[{{ site.foundation_name }} 2020 ICLA template]: cla/icla_template_aswf2020_v2.1.md
-[Linux Foundation minimal CCLA template]: ccla_template_lfshortform.md
-[Linux Foundation minimal ICLA template]: icla_template_lfshortform.md
+[{{ site.foundation_name }} 2020 CCLA template]: {% link process/cla/ccla_template_aswf2020_v2.1.md %}
+[{{ site.foundation_name }} 2020 ICLA template]: {% link process/cla/icla_template_aswf2020_v2.1.md %}
+[Linux Foundation minimal CCLA template]: {% link process/cla/ccla_template_lfshortform.md %}
+[Linux Foundation minimal ICLA template]: {% link process/cla/icla_template_lfshortform.md %}
 [support request]: https://support.linuxfoundation.org
-[Apache License, Version 2.0]: http://www.apache.org/licenses/LICENSE-2.0
+[Apache License, Version 2.0]: https://www.apache.org/licenses/LICENSE-2.0
 [Community Data License Agreement (CDLA) license]: https://cdla.io/
-[Creative Commons Attribution 4.0 International License]: http://creativecommons.org/licenses/by/4.0/
+[Creative Commons Attribution 4.0 International License]: https://creativecommons.org/licenses/by/4.0/
 [DCO]: https://developercertificate.org/
 [GitHub commit signoff policy]: https://docs.github.com/en/organizations/managing-organization-settings/managing-the-commit-signoff-policy-for-your-organization
 [GitHub DCO App]: https://github.com/apps/dco
