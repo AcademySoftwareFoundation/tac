@@ -50,6 +50,11 @@ jobs:
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
           JEKYLL_ENV: production
+      - name: Cache HTMLProofer
+        uses: actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae # v5.0.5
+        with:
+          path: tmp/.htmlproofer
+          key: htmlproofer
       - name: HTMLProofer
         uses: athackst/htmlproofer-action@465b6433083a1e0526ec5302868dd987ea5fffac # v2.0.0
         continue-on-error: true
