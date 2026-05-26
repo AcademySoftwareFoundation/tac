@@ -1,3 +1,8 @@
+---
+parent: Best Practices
+title: AI Assisted Development
+---
+
 # AI-Assisted Development at the ASWF
 
 ## AI, LLMs, and how we’re thinking about technology innovation in software development
