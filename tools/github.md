@@ -7,7 +7,7 @@ parent: Tools
 * TOC
 {:toc}
 
-{{ site.foundation_name }} projects generally use GitHub for code hosting and issue management. GitHub organizations for hosted projects are owned and administered by the Linux Foundation staff, including the Linux Foundation release engineering team, to ensure the sustainability of the infrastructure. 
+{{ site.foundation_name }} projects generally use GitHub for code hosting and issue management. GitHub organizations for hosted projects are owned and administered by the Linux Foundation staff, including the Linux Foundation release engineering team, to ensure the sustainability of the infrastructure.
 
 This document outlines project policies and procedures using GitHub for code hosting. In addition, the Linux Foundation release engineering team maintains [documentation](https://docs.releng.linuxfoundation.org/en/latest/) on its services, policies, and procedures.
 
@@ -20,8 +20,8 @@ When a new project or repository is to be added, please [submit a request](https
 If adding the new project or repository will include a significant contribution, requesting a code license scan is highly recommended before bringing the code in. This scan will look for and will provide recommendations (or, in some cases, required prior remediation) for:
 
 - The presence of third-party licenses (OSI-approved or otherwise) that might be considered incompatible with the project's license
-- Presence of headers with the project's designated license(s) and preferred copyright notices in project files (refer to the [License Specification in the Contribution Guidelines](/process/contribution_guidelines.md#license-specification) for more information)
-- Any other best practices guidance 
+- Presence of headers with the project's designated license(s) and preferred copyright notices in project files (refer to the [License Specification in the Contribution Guidelines]({% link process/contributing.md %}#license-specification) for more information)
+- Any other best practices guidance
 
 Projects can [submit a request]({{ site.helpdesk_url }}) to facilitate the process. Typically code license scans are a quick turnaround, but that might take longer for more significant code bases.
 
@@ -37,11 +37,11 @@ If a project anticipates having multiple repositories, the {{ site.foundation_na
 
 There are two strategies for migrating the code to a hosted project repository.
 
-- The best practice is for the {{ site.foundation_name }} staff to provision a new repository, where the new code can be contributed to as a pull request. 
-- If preserving the commit history is important, the repository can be transferred using the [GitHub transfer repository](https://docs.github.com/en/github/administering-a-repositoriesitory/transferring-a-repositoriesitory) process. If doing this, before the transfer, you must add a commit to the repositories providing a DCO signoff for all previous commits. The easiest way is to check in a file called `past-dco-signoff.txt` with the contents below...
+- The best practice is for the {{ site.foundation_name }} staff to provision a new repository, where the new code can be contributed to as a pull request.
+- If preserving the commit history is important, the repository can be transferred using the [GitHub transfer repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/transferring-a-repository) process. If doing this, before the transfer, you must add a commit to the repositories providing a DCO signoff for all previous commits. The easiest way is to check in a file called `past-dco-signoff.txt` with the contents below...
 
 ```
-I, <AUTHOR NAME> <<AUTHOR EMAIL>> hereby sign-off-by all of the commits prior to and including <COMMIT_HASH> to this repo subject to the Developer Certificate of Origin (DCO), Version 1.1. 
+I, <AUTHOR NAME> <<AUTHOR EMAIL>> hereby sign-off-by all of the commits prior to and including <COMMIT_HASH> to this repo subject to the Developer Certificate of Origin (DCO), Version 1.1.
 ```
 
 ## Settings
@@ -50,7 +50,7 @@ Generally, the following settings apply to all hosted project repositories and o
 
 ### DCO
 
-By default, all GitHub repositories have both the [GitHub DCO App][] installed and [commit signoffs enabled][GitHub commit signoff policy]. DCO guidelines for hosted projects are outlined in the [contributing guidelines](/process/contributing#Code+License+Identification).
+By default, all GitHub repositories have both the [GitHub DCO App][] installed and [commit signoffs enabled][GitHub commit signoff policy]. DCO guidelines for hosted projects are outlined in the [contributing guidelines]({% link process/contributing.md %}#code-license-identification).
 
 ### CLA
 
@@ -58,7 +58,7 @@ All projects requiring a Contributor License Agreement (CLA) leverage [EasyCLA](
 
 ### Permissions
 
-Projects should define a COMMITTERS.* file for indicating committers that can merge in code to a repository. The list of committers is generally approved by the TSC or the committers, aligning with the requirements described in the project's governance. Permissions are managed using GitHub teams, where the TSC or committers will have a team, and that team will be given ['maintain' permission](https://docs.github.com/en/github/setting-up-and-managing-organizations-and-teams/repositoriesitory-permission-levels-for-an-organization#permission-levels-for-repositoriesitories-owned-by-an-organization) on the repositories.
+Projects should define a COMMITTERS.* file for indicating committers that can merge in code to a repository. The list of committers is generally approved by the TSC or the committers, aligning with the requirements described in the project's governance. Permissions are managed using GitHub teams, where the TSC or committers will have a team, and that team will be given ['maintain' permission](https://docs.github.com/en/organizations/managing-user-access-to-your-organizations-repositories/managing-repository-roles/repository-roles-for-an-organization) on the repositories.
 
 The best process for adding a new committer is to have that committer issue a pull request to add their name to the COMMITTERS.* file, where the required number of TSC members or committers can +1 the request, and the TSC chairperson can merge in it and can add the individual to the team.
 
@@ -66,7 +66,7 @@ The best process for adding a new committer is to have that committer issue a pu
 
 The below branch protection settings on the `master` or `main` branch are enabled by default.
 
-![](./assets/branch_protection.png)
+![Branch Protection Diagram]({% link tools/assets/branch_protection.png %})
 
 ## Issue management
 
@@ -78,13 +78,13 @@ Using an issue or pull template request helps ensure the project maintainers hav
 
 ### CODEOWNERS
 
-Defining a CODEOWNERS makes an automated process for assigning new pull requests to the right committers for review. Read more in the [GitHub CODEOWNERS documentation.](https://docs.github.com/en/github/creating-cloning-and-archiving-repositoriesitories/about-code-owners#about-code-owners)
+Defining a CODEOWNERS makes an automated process for assigning new pull requests to the right committers for review. Read more in the [GitHub CODEOWNERS documentation.](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/about-code-owners#about-code-owners)
 
 ### Project boards
 
 Issue triaging can be complicated and overwhelming, especially when managing a project to a release point. For projects that utilize an organization, having a single view of open issues across repositories is also very helpful in release management.
 
-GitHub has the functionality for doing either a [single repository project board](https://docs.github.com/en/github/managing-your-work-on-github/creating-a-project-board#creating-a-repositoriesitory-project-board) or a [multiple repository project board](https://docs.github.com/en/github/managing-your-work-on-github/creating-a-project-board#creating-an-organization-wide-project-board). Automation capabilities can also be leveraged to aid in using project boards.
+GitHub has the functionality for [project boards for one or more repositories](https://docs.github.com/en/issues/planning-and-tracking-with-projects/creating-projects/creating-a-project). Automation capabilities can also be leveraged to aid in using project boards.
 
 ## Using GitHub
 
@@ -107,7 +107,7 @@ There are also various tools you can use to help you see how your Markdown file 
 These practices will help you improve your GitHub presence to help you attract more users and developers to your project, secure your account, be precise about licensing, and maintain good housekeeping. Please issue a PR to add new recommendations or update existing ones.
 
 * Use the [REPOLINTER](https://github.com/todogroup/repolinter) tool created by the TODO Group to identify common issues in GitHub repositories. 
-* Ensure that every repo includes a LICENSE file. 
+* Ensure that every repo includes a LICENSE file.
 * Add a README file to your repositories welcoming new community members to the project and explaining why the project is useful and how to get started. Follow the guidelines in the [README checklist](https://github.com/ddbeck/readme-checklist) to create an excellent README file.
 * Add a CONTRIBUTING file to your repositories explaining to other developers and your community of users how to contribute to the project. At a high level, the file would explain what types of contributions are needed and how the process works.
 * Add the CODEOWNERS file to define individuals or teams responsible for code in a repository.
@@ -128,7 +128,13 @@ As project communities and members look for the {{ site.foundation_name }} to pr
 
 If there are concerns about this, feel free to [submit a request][].
 
-[submit a request]: {{ site.helpdesk_url }} 
+### How can I get access to GitHub Copilot?
+
+Follow the instructions here: [LF Project Maintainer GitHub Copilot Enterprise Access](https://docs.releng.linuxfoundation.org/en/latest/github-copilot-access.html)
+
+---
+
+[submit a request]: {{ site.helpdesk_url }}
 [Code of Conduct]: /code_of_conduct
 [GitHub commit signoff policy]: https://docs.github.com/en/organizations/managing-organization-settings/managing-the-commit-signoff-policy-for-your-organization
 [GitHub DCO App]: https://github.com/apps/dco
