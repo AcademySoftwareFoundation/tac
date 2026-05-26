@@ -40,7 +40,7 @@ At the core of its mission, the ASWF strives to be a neutral forum where folks c
 
 If you’ve read this far and are thinking “wait, I still don’t know what their policy on AI generated code is” \- that’s technically correct. That is not the purpose of this document. That policy should be decided on a project level, and may change frequently \- just as technology does. While we may add more to this document over time, the basic philosophy should serve as a guiding and testing framework for policy in individual projects and contributors. However, here’s a quick summary:
 
-* Humans are responsible for code contributions \- and they must be able to explain the work.  
+* Humans are responsible for code contributions \- and in addition to being able to attest to the origin of the work, they must be able to explain the work.  
 * Explicitly state if AI assistance was used in a contribution, and for what purpose.  
 * Submit high-quality, tested code. Bot-generated noise or low-effort PRs are a distraction, not a help.  
 * Use new technology to enhance your skills and workflow, not as a shortcut to avoid understanding the code.  
