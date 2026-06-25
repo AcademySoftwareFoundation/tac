@@ -1,11 +1,11 @@
 title,url,number,scheduled_date,status,last_review_date,meeting_label
 Academy Color Encoding System (ACES),https://github.com/AcademySoftwareFoundation/tac/issues/1091,1091,2026-07-08,Next Meeting Agenda Items,2025-07-09,2-annual-review
 USD Working Group,https://github.com/AcademySoftwareFoundation/tac/issues/518,518,2026-07-08,Next Meeting Agenda Items,2025-07-09,2-annual-review
-OpenImageIO,https://github.com/AcademySoftwareFoundation/tac/issues/509,509,2026-06-10,Future Meeting Agenda Items,2025-06-11,2-annual-review
+OpenImageIO,https://github.com/AcademySoftwareFoundation/tac/issues/509,509,2026-08-19,Future Meeting Agenda Items,2025-06-11,2-annual-review
 Dev Days 2026,https://github.com/AcademySoftwareFoundation/tac/issues/1288,1288,,Future Meeting Agenda Items,,4-tac-meeting-short
-RMTC (Rongotai Model Train Club),https://github.com/AcademySoftwareFoundation/tac/issues/1075,1075,2026-06-24,Upcoming Meeting Agenda Items,2025-06-25,2-annual-review
-CI Working Group,https://github.com/AcademySoftwareFoundation/tac/issues/511,511,2026-06-24,Upcoming Meeting Agenda Items,2025-06-25,2-annual-review
-Dailies Notes Assistant (DNA),https://github.com/AcademySoftwareFoundation/tac/issues/1040,1040,2026-05-27,Next Meeting Agenda Items,,2-annual-review
+RMTC (Rongotai Model Train Club),https://github.com/AcademySoftwareFoundation/tac/issues/1075,1075,2027-06-23,Upcoming Meeting Agenda Items,2026-06-24,2-annual-review
+CI Working Group,https://github.com/AcademySoftwareFoundation/tac/issues/511,511,2027-06-23,Upcoming Meeting Agenda Items,2026-06-24,2-annual-review
+Dailies Notes Assistant (DNA),https://github.com/AcademySoftwareFoundation/tac/issues/1040,1040,2026-09-02,Next Meeting Agenda Items,,2-annual-review
 Revamp Annual Review Structure/Template,https://github.com/AcademySoftwareFoundation/tac/issues/1336,1336,,Next Meeting Agenda Items,,3-tac-meeting-long
 AGENDA TOPIC ASWF Project Health & Resource Framework,https://github.com/AcademySoftwareFoundation/tac/issues/1377,1377,,Next Meeting Agenda Items,,3-tac-meeting-long
 OpenCue,https://github.com/AcademySoftwareFoundation/tac/issues/495,495,2027-05-12,Future Meeting Agenda Items,2026-05-13,2-annual-review
@@ -40,3 +40,4 @@ Open RV,https://github.com/AcademySoftwareFoundation/tac/issues/1327,1327,,LF On
 xStudio,https://github.com/AcademySoftwareFoundation/tac/issues/1329,1329,,LF Onboarding,,2-annual-review
 Wayland for Artists Working Group,https://github.com/AcademySoftwareFoundation/tac/issues/1340,1340,,LF Onboarding,,1-new-project-wg
 OSD: Project Fast Forward,https://github.com/AcademySoftwareFoundation/tac/issues/1385,1385,,Upcoming Meeting Agenda Items,,4-tac-meeting-short
+Add Guide,https://github.com/AcademySoftwareFoundation/aswf-landscape/pull/1105,1105,,Upcoming Meeting Agenda Items,,
