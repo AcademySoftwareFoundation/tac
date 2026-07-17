@@ -152,6 +152,6 @@ the Linux Foundation.
 {{ agenda }}
 </pre>
 
-<a href="{{ site.gh_edit_repository }}/new/main/meetings/{{ "now" | date: "%Y-%m-%d" }}?filename=index.md&value={{ agenda | url_encode }}">Create Pull Request</a> |
+[Create Pull Request]({{ site.gh_edit_repository }}/new/main/meetings/{{ "now" | date: "%Y-%m-%d" }}?filename=index.md&value={{ agenda | url_encode }}){: .btn }
 
 
