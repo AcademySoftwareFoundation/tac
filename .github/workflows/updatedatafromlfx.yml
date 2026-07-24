@@ -13,10 +13,10 @@ jobs:
     steps:
       - uses: jmertic/lfx-tac-actions@39633d84d61a95ed47e84827fdc0c3fb7cf869e0 # 20260612
         with:
-          landscape_url: https://landscape.aswf.io 
+          landscape_url: https://landscape.aswf.io
           lfx_tac_committee_url: https://projectadmin.lfx.linuxfoundation.org/project/a09410000182dD2AAI/collaboration/committees/81ed2abc-d041-495b-be89-0dffedf8ce85
-          tac_agenda_gh_project_url: https://github.com/orgs/AcademySoftwareFoundation/projects/19 
+          tac_agenda_gh_project_url: https://github.com/orgs/AcademySoftwareFoundation/projects/19
         env:
-          token: ${{ secrets.PAT }} 
+          token: ${{ secrets.PAT }}
           repository: ${{ github.repository }}
           ref: ${{ github.ref }}

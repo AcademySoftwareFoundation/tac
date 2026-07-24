@@ -1,0 +1,48 @@
+name: Weekly HTMLProofer Link Check
+
+on:
+  schedule:
+    # Every Monday at 09:00 UTC
+    - cron: '0 9 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  check-links:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332 # v4.1.7
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@a3330f81a703d16aa2a170f3f2252a16d5598fa2 # v1.180.1
+        with:
+          ruby-version: '3.2.3'
+          bundler-cache: true
+
+      - name: Build site with Jekyll
+        run: bundle exec jekyll build
+        env:
+          JEKYLL_ENV: production
+
+      - name: Run HTMLProofer
+        id: htmlproofer
+        continue-on-error: true
+        run: |
+          gem install html-proofer -v 5.0.8
+          htmlproofer ./_site \
+            --check-html \
+            --check-external-hash \
+            --ignore-empty-alt \
+            > htmlproofer.log 2>&1
+
+      - name: Create GitHub Issue on failure
+        if: steps.htmlproofer.outcome == 'failure'
+        uses: peter-evans/create-issue-from-file@43c7d1ee0b3ac5b37b20de0a26397d37a4563a56 # v5.0.0
+        with:
+          title: "🚨 Weekly Link Check Report: Broken Links Detected"
+          content-filepath: ./htmlproofer.log
+          labels: automated-report, bug
