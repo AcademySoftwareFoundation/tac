@@ -36,10 +36,10 @@ jobs:
             HTMLProofer.check_directory("./_site", {
               swap_urls: {
                 # Convert full site URLs with subpath into local relative paths
-                %r{^https?://tac\.aswf\.org/pages/academysoftwarefoundation/tac/} => "/",
+                %r{^https?://tac\.aswf\.org/pages/AcademySoftwareFoundation/tac/} => "/",
                 %r{^https?://tac\.aswf\.org/} => "/",
                 # Convert root-relative subpaths into local relative paths
-                %r{^/pages/academysoftwarefoundation/tac/} => "/"
+                %r{^/pages/AcademySoftwareFoundation/tac/} => "/"
               },
               enforce_https: false,
               ignore_status_codes: [403, 429, 0],
