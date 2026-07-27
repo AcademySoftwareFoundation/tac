@@ -20,7 +20,6 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@003a5c4d8d6321bd302e38f6f0ec593f77f06600 # v1.180.1
         with:
-          ruby-version: '3.2.3'
           bundler-cache: true
 
       - name: Build site with Jekyll
@@ -32,16 +31,14 @@ jobs:
         id: htmlproofer
         continue-on-error: true
         run: |
-          gem install html-proofer -v 5.0.8
+          gem install html-proofer
           htmlproofer ./_site \
-            --check-html \
             --check-external-hash \
             --ignore-empty-alt \
             > htmlproofer.log 2>&1
-
       - name: Create GitHub Issue on failure
         if: steps.htmlproofer.outcome == 'failure'
-        uses: peter-evans/create-issue-from-file@43c7d1ee0b3ac5b37b20de0a26397d37a4563a56 # v5.0.0
+        uses: peter-evans/create-issue-from-file@fca9117c27cdc29c6c4db3b86c48e4115a786710 # v6.0.0
         with:
           title: "🚨 Weekly Link Check Report: Broken Links Detected"
           content-filepath: ./htmlproofer.log
