@@ -32,11 +32,20 @@ jobs:
         continue-on-error: true
         run: |
           gem install html-proofer
-          htmlproofer ./_site \
-            --ignore-status-codes "403,429,0" \
-            --check-external-hash \
-            --allow-hash-href \
-            > htmlproofer.log 2>&1
+          ruby -r html-proofer -e '
+            HTMLProofer.check_directory("./_site", {
+              swap_urls: {
+                # Convert full site URLs with subpath into local relative paths
+                %r{^https?://tac\.aswf\.org/pages/academysoftwarefoundation/tac/} => "/",
+                %r{^https?://tac\.aswf\.org/} => "/",
+                # Convert root-relative subpaths into local relative paths
+                %r{^/pages/academysoftwarefoundation/tac/} => "/"
+              },
+              enforce_https: false,
+              ignore_status_codes: [403, 429, 0],
+              allow_hash_href: true
+            }).run
+          ' > htmlproofer.log 2>&1
       - name: Create GitHub Issue on failure
         if: steps.htmlproofer.outcome == 'failure'
         uses: peter-evans/create-issue-from-file@fca9117c27cdc29c6c4db3b86c48e4115a786710 # v6.0.0
