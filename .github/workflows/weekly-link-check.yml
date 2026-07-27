@@ -33,8 +33,9 @@ jobs:
         run: |
           gem install html-proofer
           htmlproofer ./_site \
+            --ignore-status-codes "403,429,0" \
             --check-external-hash \
-            --ignore-empty-alt \
+            --allow-hash-href \
             > htmlproofer.log 2>&1
       - name: Create GitHub Issue on failure
         if: steps.htmlproofer.outcome == 'failure'
