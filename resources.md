@@ -16,8 +16,6 @@ If you are new to open source, or have some experience in open source and lookin
         - [Antitrust Laws and Open Source Software Project Management and Participation (LFC105)](https://training.linuxfoundation.org/training/antitrust-laws-and-open-source-software-project-management-and-participation-lfc105/)
         - [Open Source Licensing Basics for Software Developers (LFC191)](https://training.linuxfoundation.org/training/open-source-licensing-basics-for-software-developers/)
     - Security
-        - [Secure Software Development: Requirements, Design, and Reuse (LFD104x)](https://training.linuxfoundation.org/training/secure-software-development-requirements-design-and-reuse-lfd104/)
-        - [Secure Software Development: Implementation (LFD105x)](https://training.linuxfoundation.org/training/secure-software-development-implementation-lfd105/)
         - [Developing Secure Software (LFD121)](https://training.linuxfoundation.org/training/developing-secure-software-lfd121/)
         - [Understanding the OWASP® Top 10 Security Threats (SKF100)](https://training.linuxfoundation.org/training/owasp-top-ten-security-threats-skf100/)
         - [OpenSSF Guide to implementing a coordinated vulnerability disclosure process for open source projects

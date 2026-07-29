@@ -22,7 +22,7 @@ Typically, the TSC comprises the primary committers or maintainers in a project.
 
 [LFX Project Control Center] is a tool for managing project committees and roles within a project. Each project will be set up in that tool with a voting committee named 'Technical Steering Committee (TSC)' notating the project chairperson and all voting members. Project chairpersons, in addition to the Linux Foundation staff supporting the project, will have access to manage this.
 
-Additionally, each project has a [GitHub Team][GitHub Teams Docs] set up which will provide ['Maintain' permission]((https://docs.github.com/en/organizations/managing-user-access-to-your-organizations-repositories/managing-repository-roles/repository-roles-for-an-organization#permissions-for-each-role)) for each project maintainer. Generally, the LF staff will have this set up for each project; after that, the project is expected to maintain any changes.
+Additionally, each project has a [GitHub Team][GitHub Teams Docs] set up which will provide ['Maintain' permission](https://docs.github.com/en/organizations/managing-user-access-to-your-organizations-repositories/managing-repository-roles/repository-roles-for-an-organization#permissions-for-each-role) for each project maintainer. Generally, the LF staff will have this set up for each project; after that, the project is expected to maintain any changes.
 
 More details on using LFX Project Control Center for committee management can be found [in the LFX documentation][LFX PCC Committee Management Docs].
 
