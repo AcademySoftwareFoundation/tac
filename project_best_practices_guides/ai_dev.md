@@ -27,13 +27,20 @@ The human submitting a pull request is considered the author and is fully respon
 
 Another aspect of author responsibility is disclosure. It has long been a best practice to disclose the process, inspiration, and research used in your code submission. In the same way, we now require disclosure of tools used, including agentic coding solutions and AI. This disclosure should follow the following format:
 
-```Assisted-by Tool / Model```
+```Assisted-by: Tool / Model```
  
  Maintainers might ask follow up questions, and as noted above, authors should be prepared to defend their solutions. 
 
 This requirement is not meant to dissuade use of AI-assisted tools \- the opposite. We are interested in learning how these new technologies are being used in ASWF projects. This disclosure is therefore useful to us in more ways than one: it encourages good code contribution practices and enables us to track their use. This in turn helps us evolve, stay current and use data to help drive future decisions. 
 
-Note: Make sure a disclosure line appears in your PR message as well as in the commit message. When forming a PR description from a commit, GitHub strips trailing paragraphs when all lines are of the form ``Key: Value``. When you add an ``Assisted-by:`` line containing a ``:`` to a commit description, be sure it is not the last line in the message, and make sure a blank line separates it from the last line, lest it not appear in the PR. Or better yet, omit the colon altogether.
+Note: Make sure a disclosure line appears in your PR message as well
+as in the commit message. When forming a PR description from a commit,
+GitHub strips trailing paragraphs when all lines are of the form
+``Key: Value`` (why the ``Signed-off-by`` lines don't appear). When
+you add an ``Assisted-by:`` line containing a ``:`` to a commit
+description, make sure it is not the last line in the message, and make
+sure a blank line separates it from the last line, lest it not appear
+in the PR.
 
 # Respect Maintainers
 
