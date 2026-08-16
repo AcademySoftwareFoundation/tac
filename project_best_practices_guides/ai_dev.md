@@ -33,6 +33,15 @@ Another aspect of author responsibility is disclosure. It has long been a best p
 
 This requirement is not meant to dissuade use of AI-assisted tools \- the opposite. We are interested in learning how these new technologies are being used in ASWF projects. This disclosure is therefore useful to us in more ways than one: it encourages good code contribution practices and enables us to track their use. This in turn helps us evolve, stay current and use data to help drive future decisions. 
 
+Note: Make sure a disclosure line appears in your PR message as well
+as in the commit message. When forming a PR description from a commit,
+GitHub strips trailing paragraphs when all lines are of the form
+``Key: Value`` (why the ``Signed-off-by`` lines don't appear). When
+you add an ``Assisted-by:`` line containing a ``:`` to a commit
+description, make sure it is not the last line in the message, and make
+sure a blank line separates it from the last line, lest it not appear
+in the PR.
+
 # Respect Maintainers
 
 Being a maintainer of an open-source software repository is often a thankless job. The folks that do it are passionate and knowledgeable about their craft.  The standard for submissions to ASWF projects is high, and will only continue to grow as the tools and technology aiding developers get better. We expect contributors to be considerate, thoughtful, and communicative. Any contributions with evidence of exploitive or extractive elements will not be tolerated. This includes but is not limited to: lack of testing, understanding, or explanation of the contribution, using bots or other automated tooling to communicate in place of a human author, or work obviously not in the process or style of the project. A goal of a great contribution should be to make a maintainer’s life easier, not harder.
