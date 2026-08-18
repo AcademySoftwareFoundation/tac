@@ -103,7 +103,7 @@ The following commits were made pursuant to the Developer Certificate of Origin,
 
 Each user who has made the past commits should have their own <code>Signed-off-by:</code> line in the commit message.
 
-This process can be automated using the [DCO Org Check script](https://github.com/jmertic/dco-org-check).
+This process can be automated using the [Contribution Checker script](https://github.com/jmertic/contrib_check).
 
 ### Handling DCO errors using GitHub website commits.
 
