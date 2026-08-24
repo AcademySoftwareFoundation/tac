@@ -32,7 +32,7 @@ Voting is only required in these cases:
 
 ## Voting Process
 
-Voting can occur either within a regular TAC meeting or electronically using the [LFX PCC Voting Tool](https://docs.linuxfoundation.org/lfx/project-control-center/v2-latest-version/collaborations/voting).
+Voting can occur either within a regular TAC meeting or electronically using the [LFX PCC Voting Tool].
 
 ### In meeting voting
 
@@ -48,6 +48,8 @@ First, ask for those who support the vote. Individuals can vote by saying "Aye" 
 
 ### Electronic voting
 
-If a quorum is not achieved during a regular TAC meeting, or if after discussions outside of a regular TAC meeting, the TAC Chairperson determines it is appropriate to conduct a vote, the vote will be conducted via the [LFX PCC Voting Tool](https://docs.linuxfoundation.org/lfx/project-control-center/v2-latest-version/collaborations/voting). Votes can be case for, against, or as abstentions.
+If a quorum is not achieved during a regular TAC meeting, or if after discussions outside of a regular TAC meeting, the TAC Chairperson determines it is appropriate to conduct a vote, the vote will be conducted via the [LFX PCC Voting Tool]. Votes can be case for, against, or as abstentions.
 
 If opposing votes are present, the TAC Chairperson may determine whether suspending the vote is appropriate and continue the discussion in a regular TAC meeting.
+
+[LFX PCC Voting Tool]: https://docs.linuxfoundation.org/lfx/project-control-center/v2-latest-version/collaborations/voting-feature
