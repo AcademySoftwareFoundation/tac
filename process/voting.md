@@ -10,10 +10,10 @@ parent: Processes
 While the {{ site.foundation_name }} aims to drive decision-making by consensus; from time to time, voting is needed to ratify key actions or resolve decisions where there is contention. This document outlines when voting is required and the process for doing so.
 
 {: .note }
-The TAC Chairperson's role is to determine consensus based on their good faith consideration of several factors, including the dominant view of the TAC Voting Representatives and the nature of support and objections. The Chairperson will document evidence of consensus in accordance with these requirements. 
+The TAC Chairperson's role is to determine consensus based on their good faith consideration of several factors, including the dominant view of the TAC Voting Representatives and the nature of support and objections. The Chairperson will document evidence of consensus in accordance with these requirements.
 
 {: .note }
-This voting process applies specifically to the TAC, but TSCs should use it as inspiration for their own processes. The document is also meant to clarify any stipulations listed in the [{{ site.foundation_name }} Directed Fund Charter]({{ site.directed_fund_charter_url }}). 
+This voting process applies specifically to the TAC, but TSCs should use it as inspiration for their own processes. The document is also meant to clarify any stipulations listed in the [{{ site.foundation_name }} Directed Fund Charter]({{ site.directed_fund_charter_url }}).
 
 {: .note }
 The LF Staff will assist as needed to resolve any voting concerns and questions and facilitate voting.
