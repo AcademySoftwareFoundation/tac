@@ -20,7 +20,8 @@ The specific abilities the person with access to PCC has for managing project se
 - Add/change meetings.
 - Create polls and surveys.
 
-Note that PCC is not publicly viewable; projects should use their public calendar for sharing project meetings ( link available for each project [here]({% link engagement/README.md %}) ).
+{: .note }
+LFX PCC is not publicly viewable; projects should use their public calendar for sharing project meetings ( link available for each project [here]({% link engagement/README.md %}) ).
 
 More information about PCC and it's capabilities can be found [here](https://docs.linuxfoundation.org/lfx/project-control-center).
 
