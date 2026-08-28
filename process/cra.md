@@ -23,15 +23,12 @@ Under the CRA, OSS Stewards (foundations and entities governing open source proj
 
     ```
     CRA stewardship: This project is supported under the Linux Foundation CRA stewardship framework.
-    Our project CRA steward is [STEWARD LEGAL ENTITY] and its policy is available at
+    Our project CRA steward is LF Projects, LLC and its policy is available at
     https://www.linuxfoundation.org/security. Security vulnerabilities should be reported through
     [PROJECT SECURITY REPORTING MECHANISM] which we will coordinate with our CRA steward. For actively
     exploited vulnerabilities or other security matters that may require CRA escalation, please use the
     project's security [EMERGENCY REPORTING MECHANISM] as appropriate.
     ```
-
-    {: .note }
-    The LF legal steward is the “Legal Parent” listed in LFX PCC (see Operations > Project Definition > Legal Details, or ask the [support desk]).
 
 3. Know the escalation rule: if you learn of an actively exploited vulnerability or a severe incident (for example, compromise of your release process), notify your LF steward's CRA contact immediately ( which can be found at [linuxfoundation.org/security](https://linuxfoundation.org/security)), while you fix the problem, never instead of fixing it.
 
