@@ -96,7 +96,7 @@ Thanks for making ASWF meetings work great!
 [documentation on how to use thier moderation tools]: https://support.zoom.us/hc/en-us/articles/201362603-Host-Controls-in-a-Meeting
 [documentation on how to use thier screen sharing feature]: https://support.zoom.us/hc/en-us/articles/201362153-How-Do-I-Share-My-Screen
 [many things can go wrong]: https://www.youtube.com/watch?v=JMOOG7rWTPg
-[Blue Yeti]: https://www.bluedesigns.com/products/yeti/
+[Blue Yeti]: https://www.logitechg.com/en-us/shop/p/yeti-premium-usb-microphone.988-000100
 [pop filter]: https://en.wikipedia.org/wiki/Pop_filter
 [Join on muted audio and video]: https://support.zoom.us/hc/en-us/articles/203024649-Video-Or-Microphone-Off-By-Attendee
 [LFX Project Control Center]: https://projectadmin.lfx.linuxfoundation.org

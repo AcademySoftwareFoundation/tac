@@ -8,7 +8,7 @@ layout: minimal
 {%- for project in site.data.projects -%}
 {%- if project['Level'] != 'working-group' -%}
   <div>
-  <dt><img src="{{ project['Logo URL'] }}" ></dt>
+  <dt><img src="{{ project['Logo URL'] }}" alt="{{ project['Name']}}" ></dt>
   <dd><p>Contributed By</p><p>{{ project['Contributed By'] }}</p></dd>
   <dd><p>Chairperson(s)</p><p>{{ project['Chair'] }}</p></dd>
   </div>

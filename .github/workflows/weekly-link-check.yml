@@ -1,0 +1,55 @@
+name: Weekly HTMLProofer Link Check
+
+on:
+  schedule:
+    # Every Monday at 09:00 UTC
+    - cron: '0 9 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  check-links:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@95ef2b042f9d7a56d8268cba8559e2842e2ad01b # v1.180.1
+        with:
+          bundler-cache: true
+
+      - name: Build site with Jekyll
+        run: bundle exec jekyll build
+        env:
+          JEKYLL_ENV: production
+
+      - name: Run HTMLProofer
+        id: htmlproofer
+        continue-on-error: true
+        run: |
+          gem install html-proofer
+          ruby -r html-proofer -e '
+            HTMLProofer.check_directory("./_site", {
+              swap_urls: {
+                # Convert full site URLs with subpath into local relative paths
+                %r{^https?://tac\.aswf\.io/pages/AcademySoftwareFoundation/tac/} => "/",
+                %r{^https?://tac\.aswf\.io/} => "/",
+                # Convert root-relative subpaths into local relative paths
+                %r{^/pages/AcademySoftwareFoundation/tac/} => "/"
+              },
+              enforce_https: false,
+              ignore_status_codes: [403, 429, 0],
+              allow_hash_href: true
+            }).run
+          ' > htmlproofer.log 2>&1
+      - name: Create GitHub Issue on failure
+        if: steps.htmlproofer.outcome == 'failure'
+        uses: peter-evans/create-issue-from-file@fca9117c27cdc29c6c4db3b86c48e4115a786710 # v6.0.0
+        with:
+          title: "🚨 Weekly Link Check Report: Broken Links Detected"
+          content-filepath: ./htmlproofer.log
+          labels: automated-report, bug

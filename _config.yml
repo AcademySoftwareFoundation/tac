@@ -3,14 +3,15 @@ description: Materials and processes for the Academy Software Foundation TAC
 logo: "https://artwork.aswf.io/other/aswf/logo/aqua/aswf-logo-aqua.svg"
 theme: just-the-docs
 repository: AcademySoftwareFoundation/tac
+url: "https://tac.aswf.io"
 
 exclude: [
   "README.md",
   "completed.md",
   "dco-signoffs/",
-  "Gemfile", 
-  "Gemfile.lock", 
-  "package.json", 
+  "Gemfile",
+  "Gemfile.lock",
+  "package.json",
   "package-lock.json",
   "CODE_OF_CONDUCT.md",
   "LICENSE",
@@ -59,7 +60,7 @@ membership_top_tier: 'Premier'
 vote_of_tac_committee_title: "Industry Representatives"
 vote_of_tac_committee_count: 3
 archived_lifecycle_stage: "Archived"
-tac_projects: 
+tac_projects:
   - "Graduated Stage Projects"
   - "Long Term Working Groups"
 project_types:
@@ -70,8 +71,8 @@ project_types:
 
 aux_links:
   "Need help or have a question? Contact us here":
-    - "//servicedesk.aswf.io"
-footer_content: Copyright &copy; The Linux Foundation&reg;. All rights reserved. The Linux Foundation has registered trademarks and uses trademarks. For a list of trademarks of The Linux Foundation, please see our <a href="https://www.linuxfoundation.org/trademark-usage">Trademark Usage</a> page. Linux is a registered trademark of Linus Torvalds. <a href="http://www.linuxfoundation.org/privacy">Privacy Policy</a> and <a href="http://www.linuxfoundation.org/terms">Terms of Use</a>.
+    - "https://servicedesk.aswf.io"
+footer_content: Copyright &copy; The Linux Foundation&reg;. All rights reserved. The Linux Foundation has registered trademarks and uses trademarks. For a list of trademarks of The Linux Foundation, please see our <a href="https://www.linuxfoundation.org/trademark-usage">Trademark Usage</a> page. Linux is a registered trademark of Linus Torvalds. <a href="https://www.linuxfoundation.org/privacy">Privacy Policy</a> and <a href="https://www.linuxfoundation.org/terms">Terms of Use</a>.
 
 readme_index:
   with_frontmatter: true
@@ -101,7 +102,7 @@ callouts:
 
 defaults:
   -
-    scope: 
+    scope:
       path: "meetings/*/README.md"
       type: "pages"
     values:

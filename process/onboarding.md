@@ -11,6 +11,8 @@ nav_order: 30
 
 Once the {{ site.foundation_name }} TAC approves a project, the LF Staff will work with the project to onboard on to the tools and service provided and support a marketing launch. The onboarding process is outlined in an email that will be sent to the project shortly after the project is accepted by the TAC, and is also outlined below so new projects know what to expect.
 
+{: .note } Projects are expected to complete all the project onboarding requirements within six months of the TAC approval. If a project is unable to complete the requirements in that timeframe, the TAC may request that the project reapply when they can focus on completing the requirements.
+
 ## Collaboration Tools
 
 {{ site.foundation_name }} has several standard collaboration tools for projects to use.
@@ -25,7 +27,7 @@ The project may use other collaboration tools, but the LF Staff will not support
 LFX provides numerous tools for projects that reduce operational overhead and provide insights into the projects' activities. The LF Staff will automatically onboard projects to these tools.
 
 - [LFX Project Control Center](https://projectadmin.lfx.linuxfoundation.org/) for managing committees and meetings for the project. The LF Staff will provide the initial setup, and projects can refer to the [collaboration tools guidance]({% link tools/collaboration.md %}) on how to use this tool.
-- [LFX Insights](https://insights.lfx.linuxfoundation.org/) to better understand project contributions and velocity. 
+- [LFX Insights](https://insights.lfx.linuxfoundation.org/) to better understand project contributions and velocity.
 - [LFX EasyCLA](https://easycla.lfx.linuxfoundation.org/) if a project uses a Contributor License Agreement (CLA) as a part of its IP Policy.
 
 ## Kickoff TSC meeting
@@ -52,7 +54,7 @@ The {{ site.foundation_name }} Marketing team partners with each new project to 
 - Adding the project to the [{{ site.foundation_name }} landscape]({{ site.landscape_url }}).
   - Projects can request changes made to their landscape entry at any time by making a [helpdesk request]({{ site.helpdesk_url }}).
 - Including a slide on the project in the {{ site.foundation_name }} overview deck.
-  - The LF Staff will contact the project periodically to validate the information presented.   
+  - The LF Staff will contact the project periodically to validate the information presented.
 
 All marketing requests can be made [here]({{ site.helpdesk_url }}).
 
