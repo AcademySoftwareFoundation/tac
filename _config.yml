@@ -29,6 +29,7 @@ gh_edit_view_mode: "tree"
 
 # Various URLs used across the site
 landscape_url: 'https://landscape.aswf.io'
+landscape_project_embed_uri: 'embed/embed.html?base-path=&classify=category&key=aswf-projects&headers=true&category-header=false&category-in-subcategory=false&title-uppercase=false&title-alignment=left&title-font-family=sans-serif&title-font-size=24&style=clean&bg-color=%23ffffff&fg-color=%23000000&item-modal=false&item-name=false&size=lg&items-alignment=left&items-spacing=0&iframe-resizer=true'
 calendar_url: 'https://zoom-lfx.platform.linuxfoundation.org/meetings/aswf'
 slack_url: 'https://slack.aswf.io'
 directed_fund_charter_url: 'https://charter.aswf.io'
@@ -55,6 +56,7 @@ election_guidelines_url: 'https://github.com/AcademySoftwareFoundation/foundatio
 
 # Foundation Settings
 foundation_name: "Academy Software Foundation"
+foundation_benefits: "motion picture and visual effects industries"
 clotributor_name: aswf
 membership_top_tier: 'Premier'
 vote_of_tac_committee_title: "Industry Representatives"

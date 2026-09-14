@@ -34,6 +34,6 @@ list of channels for each project.
 All Slack channels referenced below are part of the [{{ site.foundation_name }}
 Slack organization][slack] unless otherwise noted.
 
-{%- include projectdetails.html -%}
+{%- include projectdetails.html excluded_levels="emeritus,sig" -%}
 
 [slack]: {{ site.slack_url }}

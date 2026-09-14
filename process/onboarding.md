@@ -27,7 +27,7 @@ The project may use other collaboration tools, but the LF Staff will not support
 LFX provides numerous tools for projects that reduce operational overhead and provide insights into the projects' activities. The LF Staff will automatically onboard projects to these tools.
 
 - [LFX Project Control Center](https://projectadmin.lfx.linuxfoundation.org/) for managing committees and meetings for the project. The LF Staff will provide the initial setup, and projects can refer to the [collaboration tools guidance]({% link tools/collaboration.md %}) on how to use this tool.
-- [LFX Insights](https://insights.lfx.linuxfoundation.org/) to better understand project contributions and velocity.
+- [LFX Insights](https://insights.linuxfoundation.org/) to better understand project contributions and velocity.
 - [LFX EasyCLA](https://easycla.lfx.linuxfoundation.org/) if a project uses a Contributor License Agreement (CLA) as a part of its IP Policy.
 
 ## Kickoff TSC meeting

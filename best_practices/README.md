@@ -1,12 +1,12 @@
 ---
 title: Best Practices
 nav_order: 55
+has_children: true
 ---
 
-ASWF Project Best Practices -- Overview
-=======================================
+# {{ site.foundation_name }} Best Practices -- Overview
 
-The contents of this directory contain best practices guides for ASWF
+The contents of this directory contain best practices guides for {{ site.foundation_name }}
 projects. Nothing here is mandatory (at least, not simply by virtue of being
 documented here). But this area is meant to provide what we believe is the
 best current advice for projects.
@@ -26,5 +26,4 @@ Some suggested best practices for the best practices guides:
   needs (such as projects having different requirements for the minimum number
   of reviewers approving a PR).
 - When projects approach something differently, it's helpful to point out
-  briefly how different projects do it: "OpenEXR did X, MaterialX did Y,
-  and OpenVDB did Z."
+  briefly how different projects do it
