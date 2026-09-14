@@ -9,7 +9,7 @@ nav_order: 1
 * TOC
 {:toc}
 
-{{ site.foundation_name }} hosts open-source projects and open-collaboration working groups to benefit the motion picture and visual effects industries. Anyone can bring a new project or start a new project at {{ site.foundation_name }}.
+{{ site.foundation_name }} hosts open-source projects and open-collaboration working groups to benefit the {{ site.foundation_benefits }}. Anyone can bring a new project or start a new project at {{ site.foundation_name }}.
 
 This document outlines why you should host your project at the {{ site.foundation_name }}, what makes a good {{ site.foundation_name }} hosted project, and the steps for bringing a project to the {{ site.foundation_name }}.
 
@@ -72,11 +72,11 @@ Sustainable projects are those the industry adopts and drive economic value with
 
 ## What makes a good project to host at the {{ site.foundation_name }}?
 
-Open-source projects hosted at {{ site.foundation_name }} are ones that benefit the motion picture and visual effects industries. Successful projects bring diverse organizations and participants together; our experiences at the Linux Foundation and in open source tell us that a diverse community drives greater outcomes and innovation. As a vendor-neutral entity, {{ site.foundation_name }} creates that level playing field to drive leveraged, open collaboration.
+Open-source projects hosted at {{ site.foundation_name }} are ones that benefit the {{ site.foundation_benefits }}. Successful projects bring diverse organizations and participants together; our experiences at the Linux Foundation and in open source tell us that a diverse community drives greater outcomes and innovation. As a vendor-neutral entity, {{ site.foundation_name }} creates that level playing field to drive leveraged, open collaboration.
 
 In evaluating projects to be hosted at the {{ site.foundation_name }}, the TAC generally has these considerations when evaluating a project.
 
-- Does the project address a common problem in the motion picture and visual effects industries that is not solved by other efforts?
+- Does the project address a common problem in the {{ site.foundation_benefits }} that is not solved by other efforts?
 - Does the project have broad adoption across film production studios, software vendors, and related organizations, or is there a clear path to that adoption?
 - Will the project have the potential to gain alignment and participation amongst multiple constituents, including software vendors, studios, and other related organizations, to participate as contributors and maintainers?
 - Is the project's leadership best positioned and capable of growing the project?
@@ -131,7 +131,7 @@ Proposed projects will have a 20-minute presentation timeslot at an upcoming TAC
 
 *   Overview of the project and its purpose
     *  If a project is new, it’s often helpful to share the vision for the project, the anticipated structure, and benefits.
-    *  If the project is an existing open-source project proposed to join ASWF, it is often helpful to schedule a project walkthrough for the community to understand better the project, including the architecture, structure, and how to get started using the project. This often helps review progress more efficiently.
+    *  If the project is an existing open-source project proposed to join {{ site.foundation_name }}, it is often helpful to schedule a project walkthrough for the community to understand better the project, including the architecture, structure, and how to get started using the project. This often helps review progress more efficiently.
 *   How does this submission support the [{{ site.foundation_name }} Mission and Vision statements]( {{ site.mission_statement_url }})?
 *   Does the project have any users?
     *   How do you plan to attract users if accepted?
@@ -144,8 +144,8 @@ Proposed projects will have a 20-minute presentation timeslot at an upcoming TAC
 - The TAC may consider the project for approval at the proposed stage during the meeting it is presented at, provided a quorum of TAC voting members are present. If there is no quorum of TAC voting members present or if the TAC is not ready to consider the project for approval during the meeting, the TAC will either:
   - Conduct a vote to approve the project via LFX Voting, or
   - Continue the discussion via email or Slack, or during a future TAC meeting.
-- Projects accepted at the [Incubation Stage] are generally mature, stable projects that have existed for many years. Projects that are newly forming or incomplete should propose to join at the [Sandbox Stage].
-- It's rare to see a project accepted at the [Graduated Stage], as even incoming projects that have existed for years require a fair amount of governance and operations changes as they come into the {{ site.foundation_name }}; those projects tend to come in at the Incubation level and move to Adopted within a year.
+- Projects accepted at the [Incubation stage] are generally mature, stable projects that have existed for many years. Projects that are newly forming or incomplete should propose to join at the [Sandbox stage].
+- It's rare to see a project accepted at the [Graduated stage], as even incoming projects that have existed for years require a fair amount of governance and operations changes as they come into the {{ site.foundation_name }}; those projects tend to come in at the [Incubation stage] and move to the [Graduated stage] within a year.
 - The TAC may ask for the project to go back and address specific questions and/or concerns and then re-propose the project. Any project that the TAC has not approved, or any project that the TAC does not renew, can only re-propose the project with the approval of the TAC.
 
 [Sandbox stage]: /process/lifecycle#sandbox-stage

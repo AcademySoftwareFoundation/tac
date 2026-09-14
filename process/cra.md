@@ -19,22 +19,23 @@ Under the CRA, OSS Stewards (foundations and entities governing open source proj
 ## What do {{ site.foundation_name }} hosted projects need to do
 
 1. Document whether your software is ultimately intended for commercial activities (most widely-used LF open source software projects are). If your project does not publish software, the CRA is not relevant to your project.
-2. Add a short CRA stewardship statement to your `SECURITY.md` or similar public-facing security process document, identifying your foundation and LF steward. A template to use is below.
+2. Add a short CRA stewardship statement to your `SECURITY.md` or similar public-facing security process document. A template to use is below.
 
     ```
-    CRA stewardship: This project is supported under the Linux Foundation CRA stewardship framework.
-    Our project CRA steward is LF Projects, LLC and its policy is available at
-    https://www.linuxfoundation.org/security. Security vulnerabilities should be reported through
-    [PROJECT SECURITY REPORTING MECHANISM] which we will coordinate with our CRA steward. For actively
-    exploited vulnerabilities or other security matters that may require CRA escalation, please use the
-    project's security [EMERGENCY REPORTING MECHANISM] as appropriate.
+    CRA stewardship: This project is supported under the Linux Foundation CRA
+    stewardship framework, as described at https://www.linuxfoundation.org/security.
+    Security vulnerabilities should be reported through the mechanisms described
+    below, which we will coordinate with our CRA steward. For actively exploited
+    vulnerabilities and severe incidents that may require CRA escalation, please use
+    the project’s emergency security reporting mechanisms as appropriate.
     ```
 
-3. Know the escalation rule: if you learn of an actively exploited vulnerability or a severe incident (for example, compromise of your release process), notify your LF steward's CRA contact immediately ( which can be found at [linuxfoundation.org/security](https://linuxfoundation.org/security)), while you fix the problem, never instead of fixing it.
+3. Know the escalation rule: if you learn of an actively exploited vulnerability or a severe incident (for example, compromise of your release process), notify your LF steward's CRA contact immediately ( <steward@linuxfoundation.org> ), while you fix the problem, never instead of fixing it.
 
 ## Resources
 
 * [Understanding the EU Cyber Resilience Act (CRA) (LFEL1001) - Linux Foundation - Education](https://training.linuxfoundation.org/express-learning/understanding-the-eu-cyber-resilience-act-cra-lfel1001/), which is a free course that provides an in-depth look at the various roles and requirements for CRA compliance.
+* [LF-Supported Projects and CRA Readiness one page overview.](https://cra-lf-readiness.openssf.org/)
 
 Thank you for helping keep open source software secure and compliant.
 

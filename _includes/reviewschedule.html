@@ -25,7 +25,7 @@
         {%- for agendaitem in agendaitems -%}
         {%- if agendaitem['title'] == project['Name'] %}
         <td>{{ agendaitem["last_review_date"] | replace: "^", "" | date: "%F" }}</td>
-        <td>{{ agendaitem["scheduled_date"] | replace: "^", "" | date: "%F" }}</td>
+        <td>{{ agendaitem["scheduled_date"] | replace: "^", "" | date: "%F" }}{%- if agendaitem['meeting_label'] contains '-sig' -%}&nbsp;SIG{%- endif -%}</td>
         {% assign found = true %}
         {% break %}
         {%- endif -%}
