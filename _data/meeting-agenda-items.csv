@@ -1,8 +1,8 @@
 title,url,number,scheduled_date,status,last_review_date,meeting_label
+rawtoaces,https://github.com/AcademySoftwareFoundation/tac/issues/475,475,2026-09-02,Future Meeting Agenda Items,2025-09-03,2-annual-review
+Dailies Notes Assistant (DNA),https://github.com/AcademySoftwareFoundation/tac/issues/1040,1040,2026-09-16,Upcoming Meeting Agenda Items,,2-annual-review
 AGENDA TOPIC: GitHub Security Manager role,https://github.com/AcademySoftwareFoundation/tac/issues/1434,1434,,Next Meeting Agenda Items,,4-tac-meeting-short
 OpenImageIO,https://github.com/AcademySoftwareFoundation/tac/issues/509,509,2026-08-19,Future Meeting Agenda Items,2025-06-11,2-annual-review
-rawtoaces,https://github.com/AcademySoftwareFoundation/tac/issues/475,475,2026-09-02,Upcoming Meeting Agenda Items,2025-09-03,2-annual-review
-Dailies Notes Assistant (DNA),https://github.com/AcademySoftwareFoundation/tac/issues/1040,1040,2026-09-16,Next Meeting Agenda Items,,2-annual-review
 Vulnerapocalypse,https://github.com/AcademySoftwareFoundation/tac/issues/1403,1403,,Next Meeting Agenda Items,,4-tac-meeting-short
 OpenQMC,https://github.com/AcademySoftwareFoundation/tac/issues/434,434,2027-08-04,Future Meeting Agenda Items,2026-08-05,2-annual-review
 USD Working Group,https://github.com/AcademySoftwareFoundation/tac/issues/518,518,2027-08-04,Future Meeting Agenda Items,2026-08-05,2-annual-review
@@ -45,3 +45,4 @@ Dev Days 2026 - Sept 17th,https://github.com/AcademySoftwareFoundation/tac/issue
 New Project Proposal - libsmpte2094-50,https://github.com/AcademySoftwareFoundation/tac/issues/1460,1460,,LF Onboarding,,1-new-project-wg
 AGENDA TOPIC: agent skills repo,https://github.com/AcademySoftwareFoundation/tac/issues/1467,1467,,Upcoming Meeting Agenda Items,,4-tac-meeting-short
 ⚡rez crawling and classifying,https://github.com/AcademySoftwareFoundation/tac/issues/1362,1362,,On Hold,,
+AGENDA TOPIC Open Discussion / Q&A,https://github.com/AcademySoftwareFoundation/tac/issues/1474,1474,,Upcoming Meeting Agenda Items,,4-tac-meeting-short
