@@ -53,3 +53,4 @@ jobs:
           title: "🚨 Weekly Link Check Report: Broken Links Detected"
           content-filepath: ./htmlproofer.log
           labels: automated-report, bug
+          assignees: jmertic
