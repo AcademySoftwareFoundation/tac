@@ -11,12 +11,17 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/create-github-app-token@bcd2ba49218906704ab6c1aa796996da409d3eb1 # v3.2.0
+        id: app-token
+        with:
+          client-id: ${{ vars.APP_CLIENT_ID }}
+          private-key: ${{ secrets.APP_PRIVATE_KEY }}
       - uses: jmertic/lfx-tac-actions@3cc53bcc460908d9a414290e83e8104357b0d652 # 20260908
         with:
           landscape_url: https://landscape.aswf.io
           lfx_tac_committee_url: https://projectadmin.lfx.linuxfoundation.org/project/a09410000182dD2AAI/collaboration/committees/81ed2abc-d041-495b-be89-0dffedf8ce85
           tac_agenda_gh_project_url: https://github.com/orgs/AcademySoftwareFoundation/projects/19
         env:
-          token: ${{ secrets.PAT }}
+          token: ${{ steps.app-token.outputs.token }}
           repository: ${{ github.repository }}
           ref: ${{ github.ref }}
