@@ -20,9 +20,10 @@ jobs:
         with:
           github-token: ${{ steps.app-token.outputs.token }}
           script: |
+            script: |
             const ORG = context.repo.owner;
             const DATE_FIELD_NAME = "Scheduled Date";
-            const PROJECT_NUMBER = 19;
+            const PROJECT_NUMBER = 19; // Updated to match your project number
 
             // Target Status Column Names
             const STATUS_UPCOMING = "Upcoming Meeting Agenda Items";
@@ -40,7 +41,7 @@ jobs:
             fourWeeksOut.setHours(23, 59, 59, 999);
 
             const query = `
-              query(\(org: String!,\)projectNumber: Int!) {
+              query getProjectData(\(org: String!,\)projectNumber: Int!) {
                 organization(login: $org) {
                   projectV2(number: $projectNumber) {
                     id
@@ -107,7 +108,7 @@ jobs:
             }
 
             const updateStatusMutation = `
-              mutation(\(projectId: ID!,\)itemId: ID!, \(fieldId: ID!,\)optionId: String!) {
+              mutation updateStatus(\(projectId: ID!,\)itemId: ID!, \(fieldId: ID!,\)optionId: String!) {
                 updateProjectV2ItemFieldValue(
                   input: {
                     projectId: $projectId
