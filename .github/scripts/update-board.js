@@ -18,7 +18,7 @@ module.exports = async ({ github, context }) => {
   const fourWeeksOut = new Date(today.getTime() + 28 * DAY_IN_MS);
   fourWeeksOut.setHours(23, 59, 59, 999);
 
-  // Inlined Query (Bypasses Octokit interpolation issues)
+  // Inlined Query with Item Title added
   const query = `
     query getProjectData {
       organization(login: "${organizationName}") {
@@ -43,6 +43,17 @@ module.exports = async ({ github, context }) => {
           items(first: 100) {
             nodes {
               id
+              content {
+                ... on Issue {
+                  title
+                }
+                ... on PullRequest {
+                  title
+                }
+                ... on DraftIssue {
+                  title
+                }
+              }
               fieldValues(first: 20) {
                 nodes {
                   ... on ProjectV2ItemFieldValueCommon {
@@ -88,6 +99,7 @@ module.exports = async ({ github, context }) => {
   for (const item of project.items.nodes) {
     let scheduledDate = null;
     let currentStatus = null;
+    const itemTitle = item.content?.title || "Untitled Item";
 
     for (const val of item.fieldValues.nodes) {
       if (val.field?.name === DATE_FIELD_NAME) {
@@ -115,9 +127,11 @@ module.exports = async ({ github, context }) => {
     // Apply status change if item needs to move
     if (targetOption && currentStatus !== targetStatusName) {
       const formattedDate = scheduledDate.toISOString().split("T")[0];
-      console.log(`Moving Item ID ${item.id} -> '\({targetStatusName}' (Scheduled:\){formattedDate})`);
+      console.log(
+        `Moving "\({itemTitle}" (\){item.id}) -> '\({targetStatusName}' (Scheduled:\){formattedDate})`
+      );
 
-      // Inlined Mutation (Avoids Octokit GraphQL variable parsing bug)
+      // Inlined Mutation
       const updateStatusMutation = `
         mutation updateStatus {
           updateProjectV2ItemFieldValue(
