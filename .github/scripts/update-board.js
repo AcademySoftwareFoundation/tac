@@ -1,13 +1,13 @@
 module.exports = async ({ github, context }) => {
   const organizationName = context.repo.owner;
   const DATE_FIELD_NAME = "Scheduled Date";
-  const PROJECT_NUMBER = 19; // AcademySoftwareFoundation project number
+  const PROJECT_NUMBER = 19;
 
   // Target Status Column Names
   const STATUS_UPCOMING = "Upcoming Meeting Agenda Items";
   const STATUS_NEXT = "Next Meeting Agenda Items";
 
-  // Define time windows (in milliseconds)
+  // Define time windows
   const DAY_IN_MS = 24 * 60 * 60 * 1000;
   const today = new Date();
   today.setHours(0, 0, 0, 0);
@@ -18,11 +18,11 @@ module.exports = async ({ github, context }) => {
   const fourWeeksOut = new Date(today.getTime() + 28 * DAY_IN_MS);
   fourWeeksOut.setHours(23, 59, 59, 999);
 
-  // Raw GraphQL string without template variable syntax collisions
+  // Hardcode the variables directly in the GraphQL query signature to bypass Octokit string interpolation
   const query = `
-    query getProjectData(\(loginName: String!,\)projectNum: Int!) {
-      organization(login: $loginName) {
-        projectV2(number: $projectNum) {
+    query getProjectData {
+      organization(login: "${organizationName}") {
+        projectV2(number: ${PROJECT_NUMBER}) {
           id
           fields(first: 20) {
             nodes {
@@ -67,10 +67,7 @@ module.exports = async ({ github, context }) => {
     }
   `;
 
-  const result = await github.graphql(query, {
-    loginName: organizationName,
-    projectNum: PROJECT_NUMBER,
-  });
+  const result = await github.graphql(query);
 
   const project = result.organization?.projectV2 || result.user?.projectV2;
   if (!project) {
@@ -89,13 +86,13 @@ module.exports = async ({ github, context }) => {
   }
 
   const updateStatusMutation = `
-    mutation updateStatus(\(projId: ID!,\)itemId: ID!, \(fieldId: ID!,\)optId: String!) {
+    mutation updateStatus(\(projectIdVal: ID!,\)itemIdVal: ID!, \(fieldIdVal: ID!,\)optionIdVal: String!) {
       updateProjectV2ItemFieldValue(
         input: {
-          projectId: $projId
-          itemId: $itemId
-          fieldId: $fieldId
-          value: { singleSelectOptionId: $optId }
+          projectId: $projectIdVal
+          itemId: $itemIdVal
+          fieldId: $fieldIdVal
+          value: { singleSelectOptionId: $optionIdVal }
         }
       ) {
         projectV2Item {
@@ -141,10 +138,10 @@ module.exports = async ({ github, context }) => {
       );
 
       await github.graphql(updateStatusMutation, {
-        projId: project.id,
-        itemId: item.id,
-        fieldId: statusField.id,
-        optId: targetOption.id,
+        projectIdVal: project.id,
+        itemIdVal: item.id,
+        fieldIdVal: statusField.id,
+        optionIdVal: targetOption.id,
       });
     }
   }
