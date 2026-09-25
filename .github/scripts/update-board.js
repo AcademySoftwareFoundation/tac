@@ -82,7 +82,7 @@ module.exports = async ({ github, context }) => {
 
   const project = result.organization?.projectV2 || result.user?.projectV2;
   if (!project) {
-    throw new Error(`Project #\({PROJECT_NUMBER} not found under owner '\){organizationName}'.`);
+    throw new Error("Project #" + PROJECT_NUMBER + " not found under owner '" + organizationName + "'.");
   }
 
   // Locate Status field and target option IDs
@@ -92,7 +92,7 @@ module.exports = async ({ github, context }) => {
 
   if (!statusField || !upcomingOption || !nextOption) {
     throw new Error(
-      `Could not locate Status field or target options ('\({STATUS_UPCOMING}', '\){STATUS_NEXT}')`
+      "Could not locate Status field or target options ('" + STATUS_UPCOMING + "', '" + STATUS_NEXT + "')"
     );
   }
 
@@ -127,9 +127,9 @@ module.exports = async ({ github, context }) => {
     // Apply status change if item needs to move
     if (targetOption && currentStatus !== targetStatusName) {
       const formattedDate = scheduledDate.toISOString().split("T")[0];
-      console.log(
-        `Moving "\({itemTitle}" (\){item.id}) -> '\({targetStatusName}' (Scheduled:\){formattedDate})`
-      );
+
+      // Using explicit string concatenation (+) to avoid template literal escaping issues
+      console.log('Moving "' + itemTitle + '" (' + item.id + ") -> '" + targetStatusName + "' (Scheduled: " + formattedDate + ")");
 
       // Inlined Mutation
       const updateStatusMutation = `
