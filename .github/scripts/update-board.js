@@ -18,7 +18,7 @@ module.exports = async ({ github, context }) => {
   const fourWeeksOut = new Date(today.getTime() + 28 * DAY_IN_MS);
   fourWeeksOut.setHours(23, 59, 59, 999);
 
-  // Hardcode the variables directly in the GraphQL query signature to bypass Octokit string interpolation
+  // Inlined Query (Bypasses Octokit interpolation issues)
   const query = `
     query getProjectData {
       organization(login: "${organizationName}") {
@@ -85,23 +85,6 @@ module.exports = async ({ github, context }) => {
     );
   }
 
-  const updateStatusMutation = `
-    mutation updateStatus(\(projectIdVal: ID!,\)itemIdVal: ID!, \(fieldIdVal: ID!,\)optionIdVal: String!) {
-      updateProjectV2ItemFieldValue(
-        input: {
-          projectId: $projectIdVal
-          itemId: $itemIdVal
-          fieldId: $fieldIdVal
-          value: { singleSelectOptionId: $optionIdVal }
-        }
-      ) {
-        projectV2Item {
-          id
-        }
-      }
-    }
-  `;
-
   for (const item of project.items.nodes) {
     let scheduledDate = null;
     let currentStatus = null;
@@ -131,18 +114,28 @@ module.exports = async ({ github, context }) => {
 
     // Apply status change if item needs to move
     if (targetOption && currentStatus !== targetStatusName) {
-      console.log(
-        `Moving Item ID ${item.id} -> '\({targetStatusName}' (Scheduled:\){
-          scheduledDate.toISOString().split("T")[0]
-        })`
-      );
+      const formattedDate = scheduledDate.toISOString().split("T")[0];
+      console.log(`Moving Item ID ${item.id} -> '\({targetStatusName}' (Scheduled:\){formattedDate})`);
 
-      await github.graphql(updateStatusMutation, {
-        projectIdVal: project.id,
-        itemIdVal: item.id,
-        fieldIdVal: statusField.id,
-        optionIdVal: targetOption.id,
-      });
+      // Inlined Mutation (Avoids Octokit GraphQL variable parsing bug)
+      const updateStatusMutation = `
+        mutation updateStatus {
+          updateProjectV2ItemFieldValue(
+            input: {
+              projectId: "${project.id}"
+              itemId: "${item.id}"
+              fieldId: "${statusField.id}"
+              value: { singleSelectOptionId: "${targetOption.id}" }
+            }
+          ) {
+            projectV2Item {
+              id
+            }
+          }
+        }
+      `;
+
+      await github.graphql(updateStatusMutation);
     }
   }
 };
