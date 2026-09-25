@@ -1,5 +1,5 @@
 module.exports = async ({ github, context }) => {
-  const ORG = context.repo.owner;
+  const organizationName = context.repo.owner;
   const DATE_FIELD_NAME = "Scheduled Date";
   const PROJECT_NUMBER = 19; // AcademySoftwareFoundation project number
 
@@ -18,10 +18,11 @@ module.exports = async ({ github, context }) => {
   const fourWeeksOut = new Date(today.getTime() + 28 * DAY_IN_MS);
   fourWeeksOut.setHours(23, 59, 59, 999);
 
+  // Raw GraphQL string without template variable syntax collisions
   const query = `
-    query getProjectData(\(org: String!,\)projectNumber: Int!) {
-      organization(login: $org) {
-        projectV2(number: $projectNumber) {
+    query getProjectData(\(loginName: String!,\)projectNum: Int!) {
+      organization(login: $loginName) {
+        projectV2(number: $projectNum) {
           id
           fields(first: 20) {
             nodes {
@@ -67,13 +68,13 @@ module.exports = async ({ github, context }) => {
   `;
 
   const result = await github.graphql(query, {
-    org: ORG,
-    projectNumber: PROJECT_NUMBER,
+    loginName: organizationName,
+    projectNum: PROJECT_NUMBER,
   });
 
   const project = result.organization?.projectV2 || result.user?.projectV2;
   if (!project) {
-    throw new Error(`Project #\({PROJECT_NUMBER} not found under owner '\){ORG}'.`);
+    throw new Error(`Project #\({PROJECT_NUMBER} not found under owner '\){organizationName}'.`);
   }
 
   // Locate Status field and target option IDs
@@ -88,13 +89,13 @@ module.exports = async ({ github, context }) => {
   }
 
   const updateStatusMutation = `
-    mutation updateStatus(\(projectId: ID!,\)itemId: ID!, \(fieldId: ID!,\)optionId: String!) {
+    mutation updateStatus(\(projId: ID!,\)itemId: ID!, \(fieldId: ID!,\)optId: String!) {
       updateProjectV2ItemFieldValue(
         input: {
-          projectId: $projectId
+          projectId: $projId
           itemId: $itemId
           fieldId: $fieldId
-          value: { singleSelectOptionId: $optionId }
+          value: { singleSelectOptionId: $optId }
         }
       ) {
         projectV2Item {
@@ -140,10 +141,10 @@ module.exports = async ({ github, context }) => {
       );
 
       await github.graphql(updateStatusMutation, {
-        projectId: project.id,
+        projId: project.id,
         itemId: item.id,
         fieldId: statusField.id,
-        optionId: targetOption.id,
+        optId: targetOption.id,
       });
     }
   }
