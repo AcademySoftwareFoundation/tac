@@ -127,6 +127,7 @@ module.exports = async ({ github, context }) => {
     // Apply status change if item needs to move
     if (targetOption && currentStatus !== targetStatusName) {
       const formattedDate = scheduledDate.toISOString().split("T")[0];
+      
       console.log(
         `Moving "\({itemTitle}" (\){item.id}) -> '\({targetStatusName}' (Scheduled:\){formattedDate})`
       );
