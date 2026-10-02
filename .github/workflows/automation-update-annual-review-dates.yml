@@ -72,7 +72,7 @@ jobs:
                         }
                         fieldValues(first: 20) {
                           nodes {
-                            ... on ProjectV2ItemFieldValueDate {
+                            ... on ProjectV2ItemFieldDateValue {
                               date
                               field {
                                 ... on ProjectV2Field {
