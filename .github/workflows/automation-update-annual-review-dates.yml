@@ -42,7 +42,6 @@ jobs:
             
             const issueNodeId = issue.node_id;
             
-            // Updated query querying union/interface types for project fields
             const query = `
               query($issueId: ID!) {
                 node(id: $issueId) {
@@ -101,17 +100,12 @@ jobs:
               const projectItemId = item.id;
               const fields = item.project.fields.nodes;
             
-              // PRINT ALL FIELDS TO ACTIONS LOG FOR DEBUGGING
-              console.log(`Available fields on project ${projectId}:`);
-              fields.forEach(f => console.log(` - "${f.name}"`));
-            
-              // Case-insensitive & trimmed search for safety
+              // Case-insensitive matching against fields
               const lastReviewField = fields.find(f => f.name && f.name.trim().toLowerCase() === 'last review date');
-              const scheduledDateField = fields.find(f => f.name && f.name.trim().toLowerCase() === 'scheduled date');
               const statusField = fields.find(f => f.name && f.name.trim().toLowerCase() === 'status' && f.options);
             
               if (!lastReviewField) {
-                console.log(`CRITICAL: Could not match 'Last Review date' on project ${projectId}. Check logged names above.`);
+                console.log(`Could not find 'Last Review Date' field on project ${projectId}`);
                 continue;
               }
             
@@ -141,7 +135,7 @@ jobs:
             
               const nextReviewDateStr = finalReviewDate.toISOString().split('T')[0];
             
-              // Update 'Last Review date'
+              // Corrected GraphQL Mutation String
               const updateDateMutation = `
                 mutation(\(projectId: ID!,\)itemId: ID!, \(fieldId: ID!,\)value: Date!) {
                   updateProjectV2ItemFieldValue(
@@ -164,7 +158,7 @@ jobs:
                 value: nextReviewDateStr
               });
             
-              // Update 'Status'
+              // Update Status column if option exists
               if (statusField) {
                 const targetOption = statusField.options.find(
                   opt => opt.name && opt.name.trim().toLowerCase() === 'future meeting agenda items'
