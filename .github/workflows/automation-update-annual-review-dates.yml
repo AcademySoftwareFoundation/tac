@@ -135,7 +135,7 @@ jobs:
 
               const nextScheduledDateStr = finalReviewDate.toISOString().split('T')[0];
 
-              // Set Last Review Date to the current Scheduled Date
+              // Set Last Review Date to current Scheduled Date
               const updateLastReviewMutation = `
                 mutation {
                   updateProjectV2ItemFieldValue(
@@ -153,7 +153,7 @@ jobs:
 
               await github.graphql(updateLastReviewMutation);
 
-              // Set Scheduled Date to the new date 1 year out
+              // Set Scheduled Date to new date 1 year out
               const updateScheduledDateMutation = `
                 mutation {
                   updateProjectV2ItemFieldValue(
@@ -197,9 +197,11 @@ jobs:
                 }
               }
 
-              // Update Comment Body
-              const updatedBody = comment.body + 
-                "\n\n---\n**Annual Review Updated**\n" +
+              // Remove '\annualreviewcompleted' command and append summary details
+              const cleanedCommentBody = comment.body.replace(/\\annualreviewcompleted/gi, '').trim();
+
+              const updatedBody = (cleanedCommentBody ? cleanedCommentBody + "\n\n" : "") +
+                "---\n**Annual Review Updated**\n" +
                 "- **Last Review Date:** " + completedDateStr + "\n" +
                 "- **Next Scheduled Date:** " + nextScheduledDateStr + "\n" +
                 "- **Status:** Moved to *Future Meeting Agenda Items*";
