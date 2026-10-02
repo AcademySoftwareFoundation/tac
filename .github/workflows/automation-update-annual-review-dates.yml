@@ -44,7 +44,7 @@ jobs:
 
             const query = `
               query {
-                node(id: "${issueNodeId}") {
+                node(id: "` + issueNodeId + `") {
                   ... on Issue {
                     projectItems(first: 10) {
                       nodes {
@@ -101,10 +101,11 @@ jobs:
               const fields = item.project.fields.nodes;
 
               const lastReviewField = fields.find(f => f.name && f.name.trim().toLowerCase() === 'last review date');
+              const scheduledDateField = fields.find(f => f.name && f.name.trim().toLowerCase() === 'scheduled date');
               const statusField = fields.find(f => f.name && f.name.trim().toLowerCase() === 'status' && f.options);
 
-              if (!lastReviewField) {
-                console.log(`Could not find 'Last Review Date' on project ${projectId}`);
+              if (!lastReviewField || !scheduledDateField) {
+                console.log("Could not find 'Last Review Date' or 'Scheduled Date' fields on project " + projectId);
                 continue;
               }
 
@@ -117,14 +118,14 @@ jobs:
                 continue;
               }
 
-              const scheduledDate = new Date(scheduledDateVal.date);
               const completedDateStr = scheduledDateVal.date;
+              const completedDate = new Date(completedDateStr);
 
-              const targetDate = new Date(scheduledDate);
+              const targetDate = new Date(completedDate);
               targetDate.setFullYear(targetDate.getFullYear() + 1);
 
               const TWO_WEEKS_MS = 14 * 24 * 60 * 60 * 1000;
-              const diffMs = targetDate.getTime() - scheduledDate.getTime();
+              const diffMs = targetDate.getTime() - completedDate.getTime();
               const remainder = diffMs % TWO_WEEKS_MS;
 
               let finalReviewDate = new Date(targetDate);
@@ -132,17 +133,17 @@ jobs:
                 finalReviewDate = new Date(targetDate.getTime() + (TWO_WEEKS_MS - remainder));
               }
 
-              const nextReviewDateStr = finalReviewDate.toISOString().split('T')[0];
+              const nextScheduledDateStr = finalReviewDate.toISOString().split('T')[0];
 
-              // Update 'Last Review Date' without $ variable syntax in query signature
-              const updateDateMutation = `
+              // Set Last Review Date to the current Scheduled Date
+              const updateLastReviewMutation = `
                 mutation {
                   updateProjectV2ItemFieldValue(
                     input: {
-                      projectId: "${projectId}"
-                      itemId: "${projectItemId}"
-                      fieldId: "${lastReviewField.id}"
-                      value: { date: "${nextReviewDateStr}" }
+                      projectId: "` + projectId + `"
+                      itemId: "` + projectItemId + `"
+                      fieldId: "` + lastReviewField.id + `"
+                      value: { date: "` + completedDateStr + `" }
                     }
                   ) {
                     projectV2Item { id }
@@ -150,9 +151,27 @@ jobs:
                 }
               `;
 
-              await github.graphql(updateDateMutation);
+              await github.graphql(updateLastReviewMutation);
 
-              // Update 'Status'
+              // Set Scheduled Date to the new date 1 year out
+              const updateScheduledDateMutation = `
+                mutation {
+                  updateProjectV2ItemFieldValue(
+                    input: {
+                      projectId: "` + projectId + `"
+                      itemId: "` + projectItemId + `"
+                      fieldId: "` + scheduledDateField.id + `"
+                      value: { date: "` + nextScheduledDateStr + `" }
+                    }
+                  ) {
+                    projectV2Item { id }
+                  }
+                }
+              `;
+
+              await github.graphql(updateScheduledDateMutation);
+
+              // Update Status
               if (statusField) {
                 const targetOption = statusField.options.find(
                   opt => opt.name && opt.name.trim().toLowerCase() === 'future meeting agenda items'
@@ -163,10 +182,10 @@ jobs:
                     mutation {
                       updateProjectV2ItemFieldValue(
                         input: {
-                          projectId: "${projectId}"
-                          itemId: "${projectItemId}"
-                          fieldId: "${statusField.id}"
-                          value: { singleSelectOptionId: "${targetOption.id}" }
+                          projectId: "` + projectId + `"
+                          itemId: "` + projectItemId + `"
+                          fieldId: "` + statusField.id + `"
+                          value: { singleSelectOptionId: "` + targetOption.id + `" }
                         }
                       ) {
                         projectV2Item { id }
@@ -178,8 +197,12 @@ jobs:
                 }
               }
 
-              // Update Comment
-              const updatedBody = `\({comment.body}\n\n---\n**Annual Review Updated**\n- **Completed Review Date:**\){completedDateStr}\n- **Next Scheduled Review Date:** ${nextReviewDateStr}\n- **Status:** Moved to *Future Meeting Agenda Items*`;
+              // Update Comment Body
+              const updatedBody = comment.body + 
+                "\n\n---\n**Annual Review Updated**\n" +
+                "- **Last Review Date:** " + completedDateStr + "\n" +
+                "- **Next Scheduled Date:** " + nextScheduledDateStr + "\n" +
+                "- **Status:** Moved to *Future Meeting Agenda Items*";
 
               await github.rest.issues.updateComment({
                 owner: context.repo.owner,
