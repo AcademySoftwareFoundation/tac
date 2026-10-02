@@ -31,19 +31,18 @@ jobs:
             const issue = context.payload.issue;
             const comment = context.payload.comment;
             
-            // Verify the issue has a label starting with '2-annual-review'
             const hasReviewLabel = issue.labels.some(label => 
               label.name.startsWith('2-annual-review')
             );
-
+            
             if (!hasReviewLabel) {
               console.log("Issue does not have a '2-annual-review*' label. Skipping.");
               return;
             }
-
+            
             const issueNodeId = issue.node_id;
-
-            // Fetch Issue Project Items and Field Definitions
+            
+            // Updated query querying union/interface types for project fields
             const query = `
               query($issueId: ID!) {
                 node(id: $issueId) {
@@ -53,9 +52,9 @@ jobs:
                         id
                         project {
                           id
-                          fields(first: 30) {
+                          fields(first: 50) {
                             nodes {
-                              ... on ProjectV2Field {
+                              ... on ProjectV2FieldCommon {
                                 id
                                 name
                               }
@@ -70,12 +69,12 @@ jobs:
                             }
                           }
                         }
-                        fieldValues(first: 20) {
+                        fieldValues(first: 50) {
                           nodes {
                             ... on ProjectV2ItemFieldDateValue {
                               date
                               field {
-                                ... on ProjectV2Field {
+                                ... on ProjectV2FieldCommon {
                                   name
                                 }
                               }
@@ -88,55 +87,61 @@ jobs:
                 }
               }
             `;
-
+            
             const res = await github.graphql(query, { issueId: issueNodeId });
             const projectItems = res.node.projectItems.nodes;
-
+            
             if (!projectItems || projectItems.length === 0) {
               console.log("Issue is not associated with any GitHub Project.");
               return;
             }
-
+            
             for (const item of projectItems) {
               const projectId = item.project.id;
               const projectItemId = item.id;
               const fields = item.project.fields.nodes;
-
-              const lastReviewField = fields.find(f => f.name === 'Last Review date');
-              const statusField = fields.find(f => f.name === 'Status' && f.options);
-
+            
+              // PRINT ALL FIELDS TO ACTIONS LOG FOR DEBUGGING
+              console.log(`Available fields on project ${projectId}:`);
+              fields.forEach(f => console.log(` - "${f.name}"`));
+            
+              // Case-insensitive & trimmed search for safety
+              const lastReviewField = fields.find(f => f.name && f.name.trim().toLowerCase() === 'last review date');
+              const scheduledDateField = fields.find(f => f.name && f.name.trim().toLowerCase() === 'scheduled date');
+              const statusField = fields.find(f => f.name && f.name.trim().toLowerCase() === 'status' && f.options);
+            
               if (!lastReviewField) {
-                console.log(`'Last Review date' field not found on project ${projectId}`);
+                console.log(`CRITICAL: Could not match 'Last Review date' on project ${projectId}. Check logged names above.`);
                 continue;
               }
-
+            
               const scheduledDateVal = item.fieldValues.nodes.find(
-                fv => fv.field && fv.field.name === 'Scheduled Date'
+                fv => fv.field && fv.field.name && fv.field.name.trim().toLowerCase() === 'scheduled date'
               );
-
+            
               if (!scheduledDateVal || !scheduledDateVal.date) {
-                console.log("No 'Scheduled Date' found on this project item.");
+                console.log("No 'Scheduled Date' value found on this project item.");
                 continue;
               }
-
+            
               const scheduledDate = new Date(scheduledDateVal.date);
               const completedDateStr = scheduledDateVal.date;
-
+            
               const targetDate = new Date(scheduledDate);
               targetDate.setFullYear(targetDate.getFullYear() + 1);
-
+            
               const TWO_WEEKS_MS = 14 * 24 * 60 * 60 * 1000;
               const diffMs = targetDate.getTime() - scheduledDate.getTime();
               const remainder = diffMs % TWO_WEEKS_MS;
-
+            
               let finalReviewDate = new Date(targetDate);
               if (remainder > 0) {
                 finalReviewDate = new Date(targetDate.getTime() + (TWO_WEEKS_MS - remainder));
               }
-
+            
               const nextReviewDateStr = finalReviewDate.toISOString().split('T')[0];
-
-              // Update 'Last Review date' Field
+            
+              // Update 'Last Review date'
               const updateDateMutation = `
                 mutation(\(projectId: ID!,\)itemId: ID!, \(fieldId: ID!,\)value: Date!) {
                   updateProjectV2ItemFieldValue(
@@ -151,20 +156,20 @@ jobs:
                   }
                 }
               `;
-
+            
               await github.graphql(updateDateMutation, {
                 projectId: projectId,
                 itemId: projectItemId,
                 fieldId: lastReviewField.id,
                 value: nextReviewDateStr
               });
-
-              // Update 'Status' Field
+            
+              // Update 'Status'
               if (statusField) {
                 const targetOption = statusField.options.find(
-                  opt => opt.name === 'Future Meeting Agenda Items'
+                  opt => opt.name && opt.name.trim().toLowerCase() === 'future meeting agenda items'
                 );
-
+            
                 if (targetOption) {
                   const updateStatusMutation = `
                     mutation(\(projectId: ID!,\)itemId: ID!, \(fieldId: ID!,\)singleSelectOptionId: String!) {
@@ -180,7 +185,7 @@ jobs:
                       }
                     }
                   `;
-
+            
                   await github.graphql(updateStatusMutation, {
                     projectId: projectId,
                     itemId: projectItemId,
@@ -189,10 +194,10 @@ jobs:
                   });
                 }
               }
-
-              // Append confirmation details to the triggering comment
+            
+              // Update Comment
               const updatedBody = `\({comment.body}\n\n---\n**Annual Review Updated**\n- **Completed Review Date:**\){completedDateStr}\n- **Next Scheduled Review Date:** ${nextReviewDateStr}\n- **Status:** Moved to *Future Meeting Agenda Items*`;
-
+            
               await github.rest.issues.updateComment({
                 owner: context.repo.owner,
                 repo: context.repo.repo,
