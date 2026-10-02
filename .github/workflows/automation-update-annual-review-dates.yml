@@ -43,8 +43,8 @@ jobs:
             const issueNodeId = issue.node_id;
 
             const query = `
-              query getIssueProjects($issueId: ID!) {
-                node(id: $issueId) {
+              query {
+                node(id: "${issueNodeId}") {
                   ... on Issue {
                     projectItems(first: 10) {
                       nodes {
@@ -87,7 +87,7 @@ jobs:
               }
             `;
 
-            const res = await github.graphql(query, { issueId: issueNodeId });
+            const res = await github.graphql(query);
             const projectItems = res.node.projectItems.nodes;
 
             if (!projectItems || projectItems.length === 0) {
@@ -134,15 +134,15 @@ jobs:
 
               const nextReviewDateStr = finalReviewDate.toISOString().split('T')[0];
 
-              // Clean GraphQL Mutation with strict variable signatures
+              // Update 'Last Review Date' without $ variable syntax in query signature
               const updateDateMutation = `
-                mutation updateDate(\(projectId: ID!,\)itemId: ID!, \(fieldId: ID!,\)value: Date!) {
+                mutation {
                   updateProjectV2ItemFieldValue(
                     input: {
-                      projectId: $projectId
-                      itemId: $itemId
-                      fieldId: $fieldId
-                      value: { date: $value }
+                      projectId: "${projectId}"
+                      itemId: "${projectItemId}"
+                      fieldId: "${lastReviewField.id}"
+                      value: { date: "${nextReviewDateStr}" }
                     }
                   ) {
                     projectV2Item { id }
@@ -150,13 +150,9 @@ jobs:
                 }
               `;
 
-              await github.graphql(updateDateMutation, {
-                projectId: projectId,
-                itemId: projectItemId,
-                fieldId: lastReviewField.id,
-                value: nextReviewDateStr
-              });
+              await github.graphql(updateDateMutation);
 
+              // Update 'Status'
               if (statusField) {
                 const targetOption = statusField.options.find(
                   opt => opt.name && opt.name.trim().toLowerCase() === 'future meeting agenda items'
@@ -164,13 +160,13 @@ jobs:
 
                 if (targetOption) {
                   const updateStatusMutation = `
-                    mutation updateStatus(\(projectId: ID!,\)itemId: ID!, \(fieldId: ID!,\)singleSelectOptionId: String!) {
+                    mutation {
                       updateProjectV2ItemFieldValue(
                         input: {
-                          projectId: $projectId
-                          itemId: $itemId
-                          fieldId: $fieldId
-                          value: { singleSelectOptionId: $singleSelectOptionId }
+                          projectId: "${projectId}"
+                          itemId: "${projectItemId}"
+                          fieldId: "${statusField.id}"
+                          value: { singleSelectOptionId: "${targetOption.id}" }
                         }
                       ) {
                         projectV2Item { id }
@@ -178,15 +174,11 @@ jobs:
                     }
                   `;
 
-                  await github.graphql(updateStatusMutation, {
-                    projectId: projectId,
-                    itemId: projectItemId,
-                    fieldId: statusField.id,
-                    singleSelectOptionId: targetOption.id
-                  });
+                  await github.graphql(updateStatusMutation);
                 }
               }
 
+              // Update Comment
               const updatedBody = `\({comment.body}\n\n---\n**Annual Review Updated**\n- **Completed Review Date:**\){completedDateStr}\n- **Next Scheduled Review Date:** ${nextReviewDateStr}\n- **Status:** Moved to *Future Meeting Agenda Items*`;
 
               await github.rest.issues.updateComment({
