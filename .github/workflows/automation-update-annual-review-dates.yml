@@ -128,10 +128,8 @@ jobs:
               const diffMs = targetDate.getTime() - completedDate.getTime();
               const remainder = diffMs % TWO_WEEKS_MS;
 
-              let finalReviewDate = new Date(targetDate);
-              if (remainder > 0) {
-                finalReviewDate = new Date(targetDate.getTime() + (TWO_WEEKS_MS - remainder));
-              }
+              // Snap to the TAC meeting on or before 1 year out
+              let finalReviewDate = new Date(targetDate.getTime() - remainder);
 
               const nextScheduledDateStr = finalReviewDate.toISOString().split('T')[0];
 
@@ -153,7 +151,7 @@ jobs:
 
               await github.graphql(updateLastReviewMutation);
 
-              // Set Scheduled Date to new date 1 year out
+              // Set Scheduled Date to new date 1 year out (snapped prior)
               const updateScheduledDateMutation = `
                 mutation {
                   updateProjectV2ItemFieldValue(
