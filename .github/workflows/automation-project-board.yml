@@ -23,16 +23,26 @@ jobs:
           github-token: ${{ steps.app-token.outputs.token }}
           script: |
             const fs = require('fs');
+            const path = require('path');
 
             // --- CONFIGURATION ---
             const ORG_NAME = "AcademySoftwareFoundation"; // Replace with your Org/User login
             const PROJECT_NUMBER = 19;         // Replace with your Project V2 number
 
-            // Load comment templates from repository files
-            const msgLfOnboarding = fs.readFileSync('.github/workflows/messages/lf-onboarding-welcome.md', 'utf8');
-            const msgAgenda = fs.readFileSync('messages/.github/workflows/agenda-transition.md', 'utf8');
-            const msgScheduledDate = fs.readFileSync('.github/workflows/messages/scheduled-date-set.md', 'utf8');
-            const msgInVoting = fs.readFileSync('.github/workflows/messages/in-voting.md', 'utf8');
+            // Helper function to safely read template files relative to repo root
+            function loadTemplate(filePath) {
+              const fullPath = path.join(process.env.GITHUB_WORKSPACE, filePath);
+              if (!fs.existsSync(fullPath)) {
+                throw new Error(`Template file missing at path: ${filePath}`);
+              }
+              return fs.readFileSync(fullPath, 'utf8');
+            }
+
+            // Load comment templates from .github/workflows/messages directory
+            const msgLfOnboarding = loadTemplate('.github/workflows/messages/lf-onboarding-welcome.md');
+            const msgAgenda = loadTemplate('.github/workflows/messages/agenda-transition.md');
+            const msgScheduledDate = loadTemplate('.github/workflows/messages/scheduled-date-set.md');
+            const msgInVoting = loadTemplate('.github/workflows/messages/in-voting.md');
 
             const agendaColumns = [
               "Upcoming Meeting Agenda Items",
@@ -42,7 +52,7 @@ jobs:
 
             // --- GRAPHQL QUERY ---
             const query = `
-              query($org: String!, $number: Int!) {
+              query getProjectItems($org: String!, $number: Int!) {
                 organization(login: $org) {
                   projectV2(number: $number) {
                     items(first: 50) {
@@ -65,7 +75,7 @@ jobs:
                             labels(first: 50) {
                               nodes { name }
                             }
-                            comments(last: 30) {
+                            comments(last: 50) {
                               nodes { body }
                             }
                           }
@@ -81,14 +91,15 @@ jobs:
 
             for (const item of items) {
               const issue = item.content;
-              if (!issue || !issue.number) continue; // Skip draft items or PRs
+              // Skip if not an issue, or if status is not set at all
+              if (!issue || !issue.number || !item.status || !item.status.name) continue;
 
-              const currentStatus = item.status?.name || "";
+              const currentStatus = item.status.name.trim();
               const scheduledDateValue = item.scheduledDate?.date || null;
               const hasScheduledDate = Boolean(scheduledDateValue);
               const labels = issue.labels.nodes.map(l => l.name);
-              const hasTargetLabel = labels.includes('1-new-project-wg');
-              const existingComments = issue.comments.nodes.map(c => c.body);
+              const isNewProjectWG = labels.includes('1-new-project-wg');
+              const existingComments = issue.comments.nodes.map(c => c.body.trim());
 
               const owner = issue.repository.owner.login;
               const repo = issue.repository.name;
@@ -96,9 +107,11 @@ jobs:
 
               // Helper function to post comment if not already present
               async function ensureComment(commentText) {
-                const alreadyPosted = existingComments.some(b => b.trim() === commentText.trim());
+                const targetText = commentText.trim();
+                const alreadyPosted = existingComments.some(body => body === targetText || body.includes(targetText.substring(0, 30)));
+                
                 if (!alreadyPosted) {
-                  console.log(`Posting comment to ${owner}/${repo}#${issue_number}`);
+                  console.log(`Posting comment to ${owner}/${repo}#${issue_number} - Status: ${currentStatus}`);
                   await github.rest.issues.createComment({
                     owner,
                     repo,
@@ -108,24 +121,24 @@ jobs:
                 }
               }
 
-              // --- RULE 1: Moved into 'LF Onboarding' ---
-              if (currentStatus === 'LF Onboarding') {
+              // --- RULE 1: Moved into 'LF Onboarding' for label '1-new-project-wg' ---
+              if (isNewProjectWG && currentStatus === 'LF Onboarding') {
                 await ensureComment(msgLfOnboarding);
               }
 
-              // --- RULE 2: Moved into Agenda columns ---
-              if (agendaColumns.includes(currentStatus)) {
+              // --- RULE 2: Moved into Agenda columns for label '1-new-project-wg' ---
+              if (isNewProjectWG && agendaColumns.includes(currentStatus)) {
                 await ensureComment(msgAgenda);
               }
 
               // --- RULE 3: Scheduled Date set for label '1-new-project-wg' ---
-              if (hasTargetLabel && hasScheduledDate) {
+              if (isNewProjectWG && hasScheduledDate) {
                 const formattedComment = msgScheduledDate.replace('{{SCHEDULED_DATE}}', scheduledDateValue);
                 await ensureComment(formattedComment);
               }
 
-              // --- RULE 4: Moved into 'In Voting' for label '1-new-project-wg' ---
-              if (hasTargetLabel && currentStatus === 'In Voting') {
+              // --- RULE 4: Moved into 'In Voting' ---
+              if (currentStatus === 'In Voting') {
                 await ensureComment(msgInVoting);
               }
             }
