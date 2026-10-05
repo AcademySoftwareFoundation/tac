@@ -29,10 +29,10 @@ jobs:
             const PROJECT_NUMBER = 19;         // Replace with your Project V2 number
 
             // Load comment templates from repository files
-            const msgLfOnboarding = fs.readFileSync('messages/lf-onboarding-welcome.md', 'utf8');
-            const msgAgenda = fs.readFileSync('messages/agenda-transition.md', 'utf8');
-            const msgScheduledDate = fs.readFileSync('messages/scheduled-date-set.md', 'utf8');
-            const msgInVoting = fs.readFileSync('messages/in-voting.md', 'utf8');
+            const msgLfOnboarding = fs.readFileSync('.github/workflows/messages/lf-onboarding-welcome.md', 'utf8');
+            const msgAgenda = fs.readFileSync('messages/.github/workflows/agenda-transition.md', 'utf8');
+            const msgScheduledDate = fs.readFileSync('.github/workflows/messages/scheduled-date-set.md', 'utf8');
+            const msgInVoting = fs.readFileSync('.github/workflows/messages/in-voting.md', 'utf8');
 
             const agendaColumns = [
               "Upcoming Meeting Agenda Items",
