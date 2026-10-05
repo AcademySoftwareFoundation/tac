@@ -1,0 +1,62 @@
+name: Automation - New Project Proposal
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  comment:
+    runs-on: ubuntu-latest
+    if: contains(github.event.issue.labels.*.name, '1-new-project-wg')
+    steps:
+      - uses: actions/create-github-app-token@bcd2ba49218906704ab6c1aa796996da409d3eb1 # v3.2.0
+        id: app-token
+        with:
+          client-id: ${{ vars.APP_CLIENT_ID }}
+          private-key: ${{ secrets.APP_PRIVATE_KEY }}
+
+      - name: Add thank you comment and next steps
+        uses: peter-evans/create-or-update-comment@e8674b075228eee787fea43ef493e45ece1004c9 # v5.0.0
+        with:
+          token: ${{ steps.app-token.outputs.token }}
+          issue-number: ${{ github.event.issue.number }}
+          body: |
+            Thank you for submitting this project proposal. The Academy Software Foundation TAC Leadership and staff will review
+            this submission within the next few days, and will respond with any questions and next steps. If you do not hear anything from the Academy Software Foundation staff in two business days, please contact us
+            at support@aswf.io.
+
+            In the meantime, please refer to https://tac.aswf.io/process/start_project.html#what-happens-next
+            for more information on the next steps in the project proposal process.
+
+            Thank you again for your interest in bringing your project to Academy Software Foundation!
+          reactions: '+1'
+
+      - name: Extract new title from issue body
+        id: get_title
+        run: |
+          echo "Parsing issue body..."
+          BODY="${{ github.event.issue.body }}"
+
+          # This assumes the field label is `### Project Name`
+          TITLE=$(echo "$BODY" | awk '/### Project Name/{getline; print}' | xargs)
+
+          if [[ -z "$TITLE" ]]; then
+            echo "No title found in template field. Skipping rename."
+            echo "should_update=false" >> $GITHUB_OUTPUT
+          else
+            echo "Extracted title: $TITLE"
+            echo "new_title=$TITLE" >> $GITHUB_OUTPUT
+            echo "should_update=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Update the issue title
+        if: steps.get_title.outputs.should_update == 'true'
+        uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3 # v9.0.0
+        with:
+          script: |
+            github.rest.issues.update({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `New Project Proposal - ${{ steps.get_title.outputs.new_title }}`
+            })

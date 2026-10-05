@@ -1,0 +1,131 @@
+name: Automation - Project Board
+
+on:
+  schedule:
+    # Runs every 15 minutes
+    - cron: '*/15 * * * *'
+  workflow_dispatch: # Allows manual trigger from the GitHub Actions tab
+
+jobs:
+  process_project_board:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/create-github-app-token@bcd2ba49218906704ab6c1aa796996da409d3eb1 # v3.2.0
+        id: app-token
+        with:
+          client-id: ${{ vars.APP_CLIENT_ID }}
+          private-key: ${{ secrets.APP_PRIVATE_KEY }}
+      - name: Process Project Board Items
+        uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3 # v9.0.0
+        with:
+          github-token: ${{ steps.app-token.outputs.token }}
+          script: |
+            const fs = require('fs');
+
+            // --- CONFIGURATION ---
+            const ORG_NAME = "AcademySoftwareFoundation"; // Replace with your Org/User login
+            const PROJECT_NUMBER = 19;         // Replace with your Project V2 number
+
+            // Load comment templates from repository files
+            const msgLfOnboarding = fs.readFileSync('messages/lf-onboarding-welcome.md', 'utf8');
+            const msgAgenda = fs.readFileSync('messages/agenda-transition.md', 'utf8');
+            const msgScheduledDate = fs.readFileSync('messages/scheduled-date-set.md', 'utf8');
+            const msgInVoting = fs.readFileSync('messages/in-voting.md', 'utf8');
+
+            const agendaColumns = [
+              "Upcoming Meeting Agenda Items",
+              "Next Meeting Agenda Items",
+              "Future Meeting Agenda Items"
+            ];
+
+            // --- GRAPHQL QUERY ---
+            const query = `
+              query($org: String!, $number: Int!) {
+                organization(login: $org) {
+                  projectV2(number: $number) {
+                    items(first: 50) {
+                      nodes {
+                        id
+                        updatedAt
+                        status: fieldValueByName(name: "Status") {
+                          ... on ProjectV2ItemFieldSingleSelectValue { name }
+                        }
+                        scheduledDate: fieldValueByName(name: "Scheduled Date") {
+                          ... on ProjectV2ItemFieldDateValue { date }
+                        }
+                        content {
+                          ... on Issue {
+                            number
+                            repository {
+                              name
+                              owner { login }
+                            }
+                            labels(first: 50) {
+                              nodes { name }
+                            }
+                            comments(last: 30) {
+                              nodes { body }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }`;
+
+            const res = await github.graphql(query, { org: ORG_NAME, number: PROJECT_NUMBER });
+            const items = res.organization?.projectV2?.items?.nodes || [];
+
+            for (const item of items) {
+              const issue = item.content;
+              if (!issue || !issue.number) continue; // Skip draft items or PRs
+
+              const currentStatus = item.status?.name || "";
+              const scheduledDateValue = item.scheduledDate?.date || null;
+              const hasScheduledDate = Boolean(scheduledDateValue);
+              const labels = issue.labels.nodes.map(l => l.name);
+              const hasTargetLabel = labels.includes('1-new-project-wg');
+              const existingComments = issue.comments.nodes.map(c => c.body);
+
+              const owner = issue.repository.owner.login;
+              const repo = issue.repository.name;
+              const issue_number = issue.number;
+
+              // Helper function to post comment if not already present
+              async function ensureComment(commentText) {
+                const alreadyPosted = existingComments.some(b => b.trim() === commentText.trim());
+                if (!alreadyPosted) {
+                  console.log(`Posting comment to ${owner}/${repo}#${issue_number}`);
+                  await github.rest.issues.createComment({
+                    owner,
+                    repo,
+                    issue_number,
+                    body: commentText
+                  });
+                }
+              }
+
+              // --- RULE 1: Moved into 'LF Onboarding' ---
+              if (currentStatus === 'LF Onboarding') {
+                await ensureComment(msgLfOnboarding);
+              }
+
+              // --- RULE 2: Moved into Agenda columns ---
+              if (agendaColumns.includes(currentStatus)) {
+                await ensureComment(msgAgenda);
+              }
+
+              // --- RULE 3: Scheduled Date set for label '1-new-project-wg' ---
+              if (hasTargetLabel && hasScheduledDate) {
+                const formattedComment = msgScheduledDate.replace('{{SCHEDULED_DATE}}', scheduledDateValue);
+                await ensureComment(formattedComment);
+              }
+
+              // --- RULE 4: Moved into 'In Voting' for label '1-new-project-wg' ---
+              if (hasTargetLabel && currentStatus === 'In Voting') {
+                await ensureComment(msgInVoting);
+              }
+            }

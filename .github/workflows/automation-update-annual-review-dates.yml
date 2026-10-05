@@ -22,7 +22,7 @@ jobs:
         with:
           client-id: ${{ vars.APP_CLIENT_ID }}
           private-key: ${{ secrets.APP_PRIVATE_KEY }}
-      
+
       - name: Calculate, Update Dates, and Move Status
         uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3 # v9.0.0
         with:
@@ -31,7 +31,7 @@ jobs:
             const issue = context.payload.issue;
             const comment = context.payload.comment;
 
-            const hasReviewLabel = issue.labels.some(label => 
+            const hasReviewLabel = issue.labels.some(label =>
               label.name.startsWith('2-annual-review')
             );
 
