@@ -6,6 +6,7 @@ module.exports = async ({ github, context }) => {
   // Target Status Column Names
   const STATUS_UPCOMING = "Upcoming Meeting Agenda Items";
   const STATUS_NEXT = "Next Meeting Agenda Items";
+  const STATUS_FUTURE = "Future Meeting Agenda Items";
 
   // Define time windows
   const DAY_IN_MS = 24 * 60 * 60 * 1000;
@@ -89,6 +90,7 @@ module.exports = async ({ github, context }) => {
   const statusField = project.fields.nodes.find((f) => f.name === "Status");
   const upcomingOption = statusField?.options?.find((o) => o.name === STATUS_UPCOMING);
   const nextOption = statusField?.options?.find((o) => o.name === STATUS_NEXT);
+  const futureOption = statusField?.options?.find((o) => o.name === STATUS_FUTURE);
 
   if (!statusField || !upcomingOption || !nextOption) {
     throw new Error(
@@ -122,6 +124,9 @@ module.exports = async ({ github, context }) => {
     } else if (scheduledDate > twoWeeksOut && scheduledDate <= fourWeeksOut) {
       targetOption = nextOption;
       targetStatusName = STATUS_NEXT;
+    } else {
+      targetOption = futureOption;
+      targetStatusName = STATUS_FUTURE;
     }
 
     // Apply status change if item needs to move
