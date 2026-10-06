@@ -2,7 +2,7 @@
 # Triggers when \annualreviewcompleted is posted on a 2-annual-review issue.
 # Calculates 1 year out aligned to a bi-weekly TAC meeting slot and updates GitHub Projects.
 
-name: "Update Annual Review & Schedule Next TAC Date"
+name: "TAC Issues Automation - Update Annual Review & Schedule Next TAC Date"
 
 on:
   issue_comment:

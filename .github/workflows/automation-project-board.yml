@@ -1,4 +1,4 @@
-name: Automation - Project Board
+name: TAC Issues Automation - Add comments when items are moved on TAC Issues project board
 
 on:
   schedule:
@@ -109,7 +109,7 @@ jobs:
               async function ensureComment(commentText) {
                 const targetText = commentText.trim();
                 const alreadyPosted = existingComments.some(body => body === targetText || body.includes(targetText.substring(0, 30)));
-                
+
                 if (!alreadyPosted) {
                   console.log(`Posting comment to ${owner}/${repo}#${issue_number} - Status: ${currentStatus}`);
                   await github.rest.issues.createComment({
