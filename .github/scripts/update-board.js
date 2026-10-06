@@ -13,13 +13,17 @@ module.exports = async ({ github, context }) => {
   const today = new Date();
   today.setHours(0, 0, 0, 0);
 
-  const twoWeeksOut = new Date(today.getTime() + 14 * DAY_IN_MS);
-  twoWeeksOut.setHours(23, 59, 59, 999);
+  const nextMeeting = new Date(today.getTime() + 14 * DAY_IN_MS);
+  nextMeeting.setHours(23, 59, 59, 999);
 
-  const fourWeeksOut = new Date(today.getTime() + 28 * DAY_IN_MS);
-  fourWeeksOut.setHours(23, 59, 59, 999);
+  const followingMeeting = new Date(today.getTime() + 28 * DAY_IN_MS);
+  followingMeeting.setHours(23, 59, 59, 999);
 
-  // Inlined Query with Item Title added
+  console.log("Calculated TAC Meeting Schedule:");
+  console.log("  -> Upcoming Meeting Date:", nextMeeting.toISOString().split("T")[0]);
+  console.log("  -> Next Meeting Date:    ", followingMeeting.toISOString().split("T")[0]);
+
+  // Inlined Query
   const query = `
     query getProjectData {
       organization(login: "${organizationName}") {
@@ -92,9 +96,15 @@ module.exports = async ({ github, context }) => {
   const nextOption = statusField?.options?.find((o) => o.name === STATUS_NEXT);
   const futureOption = statusField?.options?.find((o) => o.name === STATUS_FUTURE);
 
-  if (!statusField || !upcomingOption || !nextOption) {
+  if (!statusField || !upcomingOption || !nextOption || !futureOption) {
     throw new Error(
-      "Could not locate Status field or target options ('" + STATUS_UPCOMING + "', '" + STATUS_NEXT + "')"
+      "Could not locate Status field or target options ('" +
+        STATUS_UPCOMING +
+        "', '" +
+        STATUS_NEXT +
+        "', '" +
+        STATUS_FUTURE +
+        "')"
     );
   }
 
@@ -114,17 +124,17 @@ module.exports = async ({ github, context }) => {
 
     if (!scheduledDate) continue;
 
-    // Target resolution based on date threshold
+    // Target resolution based on TAC meeting schedule
     let targetOption = null;
     let targetStatusName = null;
 
-    if (scheduledDate >= today && scheduledDate <= twoWeeksOut) {
+    if (scheduledDate >= today && scheduledDate <= nextMeeting) {
       targetOption = upcomingOption;
       targetStatusName = STATUS_UPCOMING;
-    } else if (scheduledDate > twoWeeksOut && scheduledDate <= fourWeeksOut) {
+    } else if (scheduledDate > nextMeeting && scheduledDate <= followingMeeting) {
       targetOption = nextOption;
       targetStatusName = STATUS_NEXT;
-    } else {
+    } else if (scheduledDate > followingMeeting) {
       targetOption = futureOption;
       targetStatusName = STATUS_FUTURE;
     }
@@ -133,7 +143,6 @@ module.exports = async ({ github, context }) => {
     if (targetOption && currentStatus !== targetStatusName) {
       const formattedDate = scheduledDate.toISOString().split("T")[0];
 
-      // Using explicit string concatenation (+) to avoid template literal escaping issues
       console.log('Moving "' + itemTitle + '" (' + item.id + ") -> '" + targetStatusName + "' (Scheduled: " + formattedDate + ")");
 
       // Inlined Mutation
