@@ -1,4 +1,4 @@
-name: Move Scheduled Issues to Meeting Agenda Columns
+name: TAC Issues Automation - Move Scheduled Issues to Meeting Agenda Columns
 
 on:
   schedule:

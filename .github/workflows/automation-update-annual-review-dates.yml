@@ -1,0 +1,213 @@
+# JOB DESCRIPTION:
+# Triggers when \annualreviewcompleted is posted on a 2-annual-review issue.
+# Calculates 1 year out aligned to a bi-weekly TAC meeting slot and updates GitHub Projects.
+
+name: "TAC Issues Automation - Update Annual Review & Schedule Next TAC Date"
+
+on:
+  issue_comment:
+    types: [created]
+
+jobs:
+  update-project:
+    name: "Update Annual Review Dates & Move to Future Meeting Agenda"
+    if: >
+      !github.event.issue.pull_request &&
+      contains(github.event.comment.body, '\annualreviewcompleted')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate GitHub App Token
+        uses: actions/create-github-app-token@bcd2ba49218906704ab6c1aa796996da409d3eb1 # v3.2.0
+        id: app-token
+        with:
+          client-id: ${{ vars.APP_CLIENT_ID }}
+          private-key: ${{ secrets.APP_PRIVATE_KEY }}
+
+      - name: Calculate, Update Dates, and Move Status
+        uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3 # v9.0.0
+        with:
+          github-token: ${{ steps.app-token.outputs.token }}
+          script: |
+            const issue = context.payload.issue;
+            const comment = context.payload.comment;
+
+            const hasReviewLabel = issue.labels.some(label =>
+              label.name.startsWith('2-annual-review')
+            );
+
+            if (!hasReviewLabel) {
+              console.log("Issue does not have a '2-annual-review*' label. Skipping.");
+              return;
+            }
+
+            const issueNodeId = issue.node_id;
+
+            const query = `
+              query {
+                node(id: "` + issueNodeId + `") {
+                  ... on Issue {
+                    projectItems(first: 10) {
+                      nodes {
+                        id
+                        project {
+                          id
+                          fields(first: 50) {
+                            nodes {
+                              ... on ProjectV2FieldCommon {
+                                id
+                                name
+                              }
+                              ... on ProjectV2SingleSelectField {
+                                id
+                                name
+                                options {
+                                  id
+                                  name
+                                }
+                              }
+                            }
+                          }
+                        }
+                        fieldValues(first: 50) {
+                          nodes {
+                            ... on ProjectV2ItemFieldDateValue {
+                              date
+                              field {
+                                ... on ProjectV2FieldCommon {
+                                  name
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            `;
+
+            const res = await github.graphql(query);
+            const projectItems = res.node.projectItems.nodes;
+
+            if (!projectItems || projectItems.length === 0) {
+              console.log("Issue is not associated with any GitHub Project.");
+              return;
+            }
+
+            for (const item of projectItems) {
+              const projectId = item.project.id;
+              const projectItemId = item.id;
+              const fields = item.project.fields.nodes;
+
+              const lastReviewField = fields.find(f => f.name && f.name.trim().toLowerCase() === 'last review date');
+              const scheduledDateField = fields.find(f => f.name && f.name.trim().toLowerCase() === 'scheduled date');
+              const statusField = fields.find(f => f.name && f.name.trim().toLowerCase() === 'status' && f.options);
+
+              if (!lastReviewField || !scheduledDateField) {
+                console.log("Could not find 'Last Review Date' or 'Scheduled Date' fields on project " + projectId);
+                continue;
+              }
+
+              const scheduledDateVal = item.fieldValues.nodes.find(
+                fv => fv.field && fv.field.name && fv.field.name.trim().toLowerCase() === 'scheduled date'
+              );
+
+              if (!scheduledDateVal || !scheduledDateVal.date) {
+                console.log("No 'Scheduled Date' value found on this project item.");
+                continue;
+              }
+
+              const completedDateStr = scheduledDateVal.date;
+              const completedDate = new Date(completedDateStr);
+
+              const targetDate = new Date(completedDate);
+              targetDate.setFullYear(targetDate.getFullYear() + 1);
+
+              const TWO_WEEKS_MS = 14 * 24 * 60 * 60 * 1000;
+              const diffMs = targetDate.getTime() - completedDate.getTime();
+              const remainder = diffMs % TWO_WEEKS_MS;
+
+              // Snap to the TAC meeting on or before 1 year out
+              let finalReviewDate = new Date(targetDate.getTime() - remainder);
+
+              const nextScheduledDateStr = finalReviewDate.toISOString().split('T')[0];
+
+              // Set Last Review Date to current Scheduled Date
+              const updateLastReviewMutation = `
+                mutation {
+                  updateProjectV2ItemFieldValue(
+                    input: {
+                      projectId: "` + projectId + `"
+                      itemId: "` + projectItemId + `"
+                      fieldId: "` + lastReviewField.id + `"
+                      value: { date: "` + completedDateStr + `" }
+                    }
+                  ) {
+                    projectV2Item { id }
+                  }
+                }
+              `;
+
+              await github.graphql(updateLastReviewMutation);
+
+              // Set Scheduled Date to new date 1 year out (snapped prior)
+              const updateScheduledDateMutation = `
+                mutation {
+                  updateProjectV2ItemFieldValue(
+                    input: {
+                      projectId: "` + projectId + `"
+                      itemId: "` + projectItemId + `"
+                      fieldId: "` + scheduledDateField.id + `"
+                      value: { date: "` + nextScheduledDateStr + `" }
+                    }
+                  ) {
+                    projectV2Item { id }
+                  }
+                }
+              `;
+
+              await github.graphql(updateScheduledDateMutation);
+
+              // Update Status
+              if (statusField) {
+                const targetOption = statusField.options.find(
+                  opt => opt.name && opt.name.trim().toLowerCase() === 'future meeting agenda items'
+                );
+
+                if (targetOption) {
+                  const updateStatusMutation = `
+                    mutation {
+                      updateProjectV2ItemFieldValue(
+                        input: {
+                          projectId: "` + projectId + `"
+                          itemId: "` + projectItemId + `"
+                          fieldId: "` + statusField.id + `"
+                          value: { singleSelectOptionId: "` + targetOption.id + `" }
+                        }
+                      ) {
+                        projectV2Item { id }
+                      }
+                    }
+                  `;
+
+                  await github.graphql(updateStatusMutation);
+                }
+              }
+
+              // Remove '\annualreviewcompleted' command and append summary details
+              const cleanedCommentBody = comment.body.replace(/\\annualreviewcompleted/gi, '').trim();
+
+              const updatedBody = (cleanedCommentBody ? cleanedCommentBody + "\n\n" : "") +
+                "---\n**Annual Review Updated**\n" +
+                "- **Last Review Date:** " + completedDateStr + "\n" +
+                "- **Next Scheduled Date:** " + nextScheduledDateStr + "\n" +
+                "- **Status:** Moved to *Future Meeting Agenda Items*";
+
+              await github.rest.issues.updateComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                comment_id: comment.id,
+                body: updatedBody
+              });
+            }

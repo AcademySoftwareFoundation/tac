@@ -11,7 +11,7 @@ nav_order: 30
 
 Once the {{ site.foundation_name }} TAC approves a project, the LF Staff will work with the project to onboard on to the tools and service provided and support a marketing launch. The onboarding process is outlined in an email that will be sent to the project shortly after the project is accepted by the TAC, and is also outlined below so new projects know what to expect.
 
-{: .note } 
+{: .note }
 > Projects are expected to complete all the project onboarding requirements within six months of the TAC approval. If a project is unable to complete the requirements in that timeframe, the TAC may request that the project reapply when they can focus on completing the requirements.
 
 ## Collaboration Tools
