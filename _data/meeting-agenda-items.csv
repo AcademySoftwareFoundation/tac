@@ -1,6 +1,12 @@
 title,url,number,scheduled_date,status,last_review_date,meeting_label
+Open Shading Language,https://github.com/AcademySoftwareFoundation/tac/issues/437,437,2026-10-28,Upcoming Meeting Agenda Items,2025-10-29,2-annual-review
+Zero Trust Working Group,https://github.com/AcademySoftwareFoundation/tac/issues/621,621,2026-10-28,Upcoming Meeting Agenda Items,2025-10-29,2-annual-review
+New Project Proposal - OpenTrackIO,https://github.com/AcademySoftwareFoundation/tac/issues/1184,1184,,LF Onboarding,,1-new-project-wg
+OpenTimelineIO,https://github.com/AcademySoftwareFoundation/tac/issues/477,477,2026-11-11,Future Meeting Agenda Items,2025-11-12,2-annual-review
+Dailies Notes Assistant (DNA),https://github.com/AcademySoftwareFoundation/tac/issues/1040,1040,2026-11-11,Future Meeting Agenda Items,,2-annual-review
+Revamp Annual Review Structure/Template,https://github.com/AcademySoftwareFoundation/tac/issues/1336,1336,,Upcoming Meeting Agenda Items,,3-tac-meeting-long
 OpenAssetIO,https://github.com/AcademySoftwareFoundation/tac/issues/516,516,2027-02-17,Future Meeting Agenda Items,2025-09-17,2-annual-review
-OpenFX,https://github.com/AcademySoftwareFoundation/tac/issues/514,514,2026-10-14,Upcoming Meeting Agenda Items,2025-07-23,2-annual-review
+OpenFX,https://github.com/AcademySoftwareFoundation/tac/issues/514,514,2027-10-13,Future Meeting Agenda Items,2026-10-14,2-annual-review
 AGENDA TOPIC: agent skills repo,https://github.com/AcademySoftwareFoundation/tac/issues/1467,1467,,Next Meeting Agenda Items,,4-tac-meeting-short
 Add Guide,https://github.com/AcademySoftwareFoundation/aswf-landscape/pull/1105,1105,,Next Meeting Agenda Items,,
 2026 TAC Priorities,https://github.com/AcademySoftwareFoundation/tac/issues/1208,1208,2026-03-04,Future Meeting Agenda Items,,3-tac-meeting-long
@@ -9,7 +15,6 @@ New Project Proposal - SPK/SPFS,https://github.com/AcademySoftwareFoundation/tac
 New Project Proposal - libsmpte2094-50,https://github.com/AcademySoftwareFoundation/tac/issues/1460,1460,,On Hold,,1-new-project-wg
 Open Review Initiative,https://github.com/AcademySoftwareFoundation/tac/issues/436,436,2026-12-09,Future Meeting Agenda Items,2025-10-01,2-annual-review
 OpenAPV,https://github.com/AcademySoftwareFoundation/tac/issues/803,803,2027-09-29,Future Meeting Agenda Items,2026-09-30,2-annual-review
-Dailies Notes Assistant (DNA),https://github.com/AcademySoftwareFoundation/tac/issues/1040,1040,2026-11-11,Next Meeting Agenda Items,,2-annual-review
 DPEL,https://github.com/AcademySoftwareFoundation/tac/issues/472,472,2027-09-15,Future Meeting Agenda Items,2026-09-16,2-annual-review
 rawtoaces,https://github.com/AcademySoftwareFoundation/tac/issues/475,475,2027-09-01,Future Meeting Agenda Items,2026-09-02,2-annual-review
 AGENDA TOPIC: GitHub Security Manager role,https://github.com/AcademySoftwareFoundation/tac/issues/1434,1434,,Next Meeting Agenda Items,,4-tac-meeting-short
@@ -21,19 +26,14 @@ OpenEXR,https://github.com/AcademySoftwareFoundation/tac/issues/483,483,2027-07-
 Academy Color Encoding System (ACES),https://github.com/AcademySoftwareFoundation/tac/issues/1091,1091,2027-07-07,Future Meeting Agenda Items,2026-07-08,2-annual-review
 CI Working Group,https://github.com/AcademySoftwareFoundation/tac/issues/511,511,2027-06-23,Future Meeting Agenda Items,2026-06-24,2-annual-review
 RMTC (Rongotai Model Train Club),https://github.com/AcademySoftwareFoundation/tac/issues/1075,1075,2027-06-23,Future Meeting Agenda Items,2026-06-24,2-annual-review
-Revamp Annual Review Structure/Template,https://github.com/AcademySoftwareFoundation/tac/issues/1336,1336,,Next Meeting Agenda Items,,3-tac-meeting-long
 AGENDA TOPIC ASWF Project Health & Resource Framework,https://github.com/AcademySoftwareFoundation/tac/issues/1377,1377,,Next Meeting Agenda Items,,3-tac-meeting-long
 OpenCue,https://github.com/AcademySoftwareFoundation/tac/issues/495,495,2027-05-12,Future Meeting Agenda Items,2026-05-13,2-annual-review
 Machine Learning WG,https://github.com/AcademySoftwareFoundation/tac/issues/1029,1029,2027-04-28,Future Meeting Agenda Items,2026-04-29,2-annual-review
 Rez,https://github.com/AcademySoftwareFoundation/tac/issues/492,492,2027-04-28,Future Meeting Agenda Items,2026-04-29,2-annual-review
 MoonRay,https://github.com/AcademySoftwareFoundation/tac/issues/1287,1287,2027-02-17,Future Meeting Agenda Items,,2-annual-review
 Open Path Guiding Library (OpenPGL),https://github.com/AcademySoftwareFoundation/tac/issues/1218,1218,2026-12-09,Future Meeting Agenda Items,,2-annual-review
-Zero Trust Working Group,https://github.com/AcademySoftwareFoundation/tac/issues/621,621,2026-10-28,Upcoming Meeting Agenda Items,2025-10-29,2-annual-review
-OpenTimelineIO,https://github.com/AcademySoftwareFoundation/tac/issues/477,477,2026-11-11,Next Meeting Agenda Items,2025-11-12,2-annual-review
 LFX Insights review for projects,https://github.com/AcademySoftwareFoundation/tac/issues/920,920,,On Hold,,4-tac-meeting-short
 MaterialX,https://github.com/AcademySoftwareFoundation/tac/issues/486,486,2027-02-03,Future Meeting Agenda Items,2026-02-04,2-annual-review
-Open Shading Language,https://github.com/AcademySoftwareFoundation/tac/issues/437,437,2026-10-28,Upcoming Meeting Agenda Items,2025-10-29,2-annual-review
-New Project Proposal - OpenTrackIO,https://github.com/AcademySoftwareFoundation/tac/issues/1184,1184,,LF Onboarding,,1-new-project-wg
 OpenColorIO,https://github.com/AcademySoftwareFoundation/tac/issues/474,474,2027-01-13,Future Meeting Agenda Items,2026-03-18,2-annual-review
 OpenVDB,https://github.com/AcademySoftwareFoundation/tac/issues/480,480,2027-02-03,Future Meeting Agenda Items,2026-02-18,2-annual-review
 D&I Working Group,https://github.com/AcademySoftwareFoundation/tac/issues/473,473,2027-01-06,Future Meeting Agenda Items,2026-01-21,2-annual-review
