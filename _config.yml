@@ -37,7 +37,7 @@ tac_issues_url: 'https://github.com/AcademySoftwareFoundation/tac/issues/new?tem
 helpdesk_url: "https://servicedesk.aswf.io"
 mailing_list_url: "https://lists.aswf.io"
 wiki_url: "https://wiki.aswf.io"
-lfx_insights_url: "https://insights.lfx.linuxfoundation.org/foundation/aswf"
+lfx_insights_url: "https://insights.linuxfoundation.org/collection/details/academy-software-foundation"
 tac_mailing_list_url: "https://lists.aswf.io/g/tac"
 tac_mailing_list_email: tac@lists.aswf.io
 tac_private_mailing_list_email: tac-private@lists.aswf.io
