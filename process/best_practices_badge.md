@@ -82,11 +82,7 @@ We recommended having this in a ```LICENSE``` file in each repository ( [more de
 ### It is SUGGESTED that projects be maximally strict with warnings in the software produced by the project, where practical.
 ### The project MUST have at least one primary developer who knows how to design secure software.
 
-A great starting point for all projects is the [Concise Guide for Developing More Secure Software](https://github.com/ossf/wg-best-practices-os-developers/blob/main/docs/Concise-Guide-for-Developing-More-Secure-Software.md) maintained by OpenSSF. Past there, having a primary developer take the three courses outlined below ( all free to audit ) would be sufficient:
-
-- [Secure Software Development: Requirements, Design, and Reuse (LFD104x) - Linux Foundation - Training](https://training.linuxfoundation.org/training/secure-software-development-requirements-design-and-reuse-lfd104/) 
-- [Secure Software Development: Implementation (LFD105x) - Linux Foundation - Training](https://training.linuxfoundation.org/training/secure-software-development-implementation-lfd105/) 
-- [Secure Software Development: Verification and More Specialized Topics (LFD106x) - Linux Foundation - Training](https://training.linuxfoundation.org/training/secure-software-development-verification-and-more-specialized-topics-lfd106/)
+A great starting point for all projects is the [Concise Guide for Developing More Secure Software](https://github.com/ossf/wg-best-practices-os-developers/blob/main/docs/Concise-Guide-for-Developing-More-Secure-Software.md) maintained by OpenSSF. Past there, having a primary developer take the LF Education [Developing Secure Software (LFD121)](https://training.linuxfoundation.org/training/developing-secure-software-lfd121/) course ( free to audit ) would be sufficient
 
 There are many [additional resources maintained by OpenSSF](https://github.com/ossf/wg-best-practices-os-developers/blob/main/docs/Existing%20Guidelines%20for%20Developing%20and%20Distributing%20Secure%20Software.md) that projects should reference as it pertains to language or domain-specific security topics.
 
@@ -212,7 +208,7 @@ A good practice is to put this in the SECURITY.md.
 
 ### The project MUST have a documented process for responding to vulnerability reports.
 
-GitHub does have [features for security vulnerability management](https://docs.github.com/en/code-security/security-advisories/guidance-on-reporting-and-writing), which as a best practice should be used, but in addition, a project should have SECURITY file in the primary code repository to outline this process ( [OpenEXR](https://github.com/AcademySoftwareFoundation/openexr/blob/main/SECURITY.md) is a great example of this ).
+GitHub does have [features for security vulnerability management](https://docs.github.com/en/code-security/getting-started/github-security-features), which as a best practice should be used, but in addition, a project should have SECURITY file in the primary code repository to outline this process ( [OpenEXR](https://github.com/AcademySoftwareFoundation/openexr/blob/main/SECURITY.md) is a great example of this ).
 
 ### The project MUST identify the specific coding style guides for the primary languages it uses, and require that contributions generally comply with it.
 
