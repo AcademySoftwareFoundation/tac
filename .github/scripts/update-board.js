@@ -8,20 +8,35 @@ module.exports = async ({ github, context }) => {
   const STATUS_NEXT = "Next Meeting Agenda Items";
   const STATUS_FUTURE = "Future Meeting Agenda Items";
 
-  // Define time windows
   const DAY_IN_MS = 24 * 60 * 60 * 1000;
+  
+  // Set reference time to start of today (UTC or local runner date)
   const today = new Date();
   today.setHours(0, 0, 0, 0);
 
-  const nextMeeting = new Date(today.getTime() + 14 * DAY_IN_MS);
-  nextMeeting.setHours(23, 59, 59, 999);
+  const currentDayOfWeek = today.getDay(); // 0 = Sun, 3 = Wed, 4 = Thu
+  const WEDNESDAY = 3;
 
-  const followingMeeting = new Date(today.getTime() + 28 * DAY_IN_MS);
-  followingMeeting.setHours(23, 59, 59, 999);
+  // If today is Wednesday, the target upcoming meeting IS today.
+  // If today is Thursday or later, the upcoming meeting is the NEXT Wednesday.
+  let daysUntilUpcomingWed;
+  if (currentDayOfWeek === WEDNESDAY) {
+    daysUntilUpcomingWed = 0; // Today is Wednesday: Keep today as the "Upcoming" boundary
+  } else {
+    daysUntilUpcomingWed = (WEDNESDAY - currentDayOfWeek + 7) % 7;
+  }
+
+  const upcomingMeetingDate = new Date(today.getTime() + daysUntilUpcomingWed * DAY_IN_MS);
+  upcomingMeetingDate.setHours(23, 59, 59, 999);
+
+  // Next meeting is 14 days after the active upcoming meeting date
+  const nextMeetingDate = new Date(upcomingMeetingDate.getTime() + 14 * DAY_IN_MS);
+  nextMeetingDate.setHours(23, 59, 59, 999);
 
   console.log("Calculated TAC Meeting Schedule:");
-  console.log("  -> Upcoming Meeting Date:", nextMeeting.toISOString().split("T")[0]);
-  console.log("  -> Next Meeting Date:    ", followingMeeting.toISOString().split("T")[0]);
+  console.log("  -> Current Run Date:         ", today.toISOString().split("T")[0]);
+  console.log("  -> Active Upcoming Target:   ", upcomingMeetingDate.toISOString().split("T")[0]);
+  console.log("  -> Active Next Target:       ", nextMeetingDate.toISOString().split("T")[0]);
 
   // Inlined Query
   const query = `
@@ -124,17 +139,16 @@ module.exports = async ({ github, context }) => {
 
     if (!scheduledDate) continue;
 
-    // Target resolution based on TAC meeting schedule
     let targetOption = null;
     let targetStatusName = null;
 
-    if (scheduledDate >= today && scheduledDate <= nextMeeting) {
+    if (scheduledDate >= today && scheduledDate <= upcomingMeetingDate) {
       targetOption = upcomingOption;
       targetStatusName = STATUS_UPCOMING;
-    } else if (scheduledDate > nextMeeting && scheduledDate <= followingMeeting) {
+    } else if (scheduledDate > upcomingMeetingDate && scheduledDate <= nextMeetingDate) {
       targetOption = nextOption;
       targetStatusName = STATUS_NEXT;
-    } else if (scheduledDate > followingMeeting) {
+    } else if (scheduledDate > nextMeetingDate) {
       targetOption = futureOption;
       targetStatusName = STATUS_FUTURE;
     }
