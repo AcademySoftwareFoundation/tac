@@ -16,7 +16,7 @@ jobs:
         with:
           client-id: ${{ vars.APP_CLIENT_ID }}
           private-key: ${{ secrets.APP_PRIVATE_KEY }}
-      - uses: jmertic/lfx-tac-actions@3cc53bcc460908d9a414290e83e8104357b0d652 # 20260908
+      - uses: jmertic/lfx-tac-actions@60c5cb28ac5ea2f02d8919573662900d9e23828f # 20261030
         with:
           landscape_url: https://landscape.aswf.io
           lfx_tac_committee_url: https://projectadmin.lfx.linuxfoundation.org/project/a09410000182dD2AAI/collaboration/committees/81ed2abc-d041-495b-be89-0dffedf8ce85
