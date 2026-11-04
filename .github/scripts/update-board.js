@@ -9,27 +9,36 @@ module.exports = async ({ github, context }) => {
   const STATUS_FUTURE = "Future Meeting Agenda Items";
 
   const DAY_IN_MS = 24 * 60 * 60 * 1000;
-  
+
   // Set reference time to start of today (UTC or local runner date)
   const today = new Date();
   today.setHours(0, 0, 0, 0);
 
-  const currentDayOfWeek = today.getDay(); // 0 = Sun, 3 = Wed, 4 = Thu
+  // Anchor date: set this to any known true TAC meeting Wednesday
+  const KNOWN_MEETING_ANCHOR = new Date("2026-01-07T00:00:00Z");
+
   const WEDNESDAY = 3;
+  const currentDayOfWeek = today.getDay(); // 0 = Sun, 3 = Wed, 4 = Thu
 
-  // If today is Wednesday, the target upcoming meeting IS today.
-  // If today is Thursday or later, the upcoming meeting is the NEXT Wednesday.
-  let daysUntilUpcomingWed;
-  if (currentDayOfWeek === WEDNESDAY) {
-    daysUntilUpcomingWed = 0; // Today is Wednesday: Keep today as the "Upcoming" boundary
+  // 1. Find the nearest upcoming Wednesday (0 if today is Wednesday)
+  const daysUntilNextWed = (WEDNESDAY - currentDayOfWeek + 7) % 7;
+  const targetWed = new Date(today.getTime() + daysUntilNextWed * DAY_IN_MS);
+  targetWed.setHours(0, 0, 0, 0);
+
+  // 2. Determine if targetWed falls on the bi-weekly schedule
+  const diffDays = Math.round((targetWed.getTime() - KNOWN_MEETING_ANCHOR.getTime()) / DAY_IN_MS);
+  const isMeetingWeek = Math.abs(diffDays) % 14 === 0;
+
+  let upcomingMeetingDate;
+  if (isMeetingWeek) {
+    upcomingMeetingDate = new Date(targetWed.getTime());
   } else {
-    daysUntilUpcomingWed = (WEDNESDAY - currentDayOfWeek + 7) % 7;
+    // If targetWed is the Wednesday in-between, the upcoming meeting is next week
+    upcomingMeetingDate = new Date(targetWed.getTime() + 7 * DAY_IN_MS);
   }
-
-  const upcomingMeetingDate = new Date(today.getTime() + daysUntilUpcomingWed * DAY_IN_MS);
   upcomingMeetingDate.setHours(23, 59, 59, 999);
 
-  // Next meeting is 14 days after the active upcoming meeting date
+  // The meeting after that is 14 days following the upcoming one
   const nextMeetingDate = new Date(upcomingMeetingDate.getTime() + 14 * DAY_IN_MS);
   nextMeetingDate.setHours(23, 59, 59, 999);
 
@@ -159,7 +168,6 @@ module.exports = async ({ github, context }) => {
 
       console.log('Moving "' + itemTitle + '" (' + item.id + ") -> '" + targetStatusName + "' (Scheduled: " + formattedDate + ")");
 
-      // Inlined Mutation
       const updateStatusMutation = `
         mutation updateStatus {
           updateProjectV2ItemFieldValue(
