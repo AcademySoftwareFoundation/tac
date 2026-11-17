@@ -57,7 +57,7 @@ Changes and updates to the Charter require supermajority approval in a joint ses
 This WG communicates on the following channels:
 
 * Mailing list: [https://lists.aswf.io/g/diversity](https://lists.aswf.io/g/diversity)
-* Slack channel: #diversity at [slack.aswf.io](slack.aswf.io)
+* Slack channel: #diversity at [slack.aswf.io](https://slack.aswf.io)
 
 ## Meetings
 
