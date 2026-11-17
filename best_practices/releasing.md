@@ -37,7 +37,7 @@ Generally making announcements of releases to project users is a best practice f
 projects. If you use GitHub Releases, there is some nice automation you can 
 leverage to make this easier.
 
-- [Slack Release Notifer](https://github.com/jmertic/slack-release-notifier) action
+- [Slack Release Notifer](https://github.com/linuxfoundation/slack-release-notifier) action
   can be included in GitHub Action release workflow to automatically publish release
   notifications and notes to Slack channels.
 - GitHub Releases are made available in an RSS feed; format is `https://github.com/:owner/:repo/releases.atom`
